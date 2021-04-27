@@ -26,7 +26,7 @@ Although you won't be using it directly, it is required for namespace and class 
 Those are the DLLs you are required to reference in your module project.
 
 ## Namespace and Class Documentation
-For namespace and class definitions and code documentation, please refer to [here](https://oasys.zone/SDKDocumentation).
+For namespace and class definitions and code documentation, please refer to [here](https://oasys-zone.github.io/Oasys.SDK/).
 
 ## Creating A Module
 To begin, create a blank .NET Framework Class Library project and add the DLLs you have downloaded earlier as references.  
