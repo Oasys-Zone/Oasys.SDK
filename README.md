@@ -110,6 +110,7 @@ namespace SampleModule
 }
 ```
 
-
+## Compiling
+Compile as normal, and then rename the built .dll library extension to .omod in order for the loader to load the module.
 
 
