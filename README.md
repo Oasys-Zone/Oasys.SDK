@@ -77,14 +77,18 @@ namespace SampleModule
         {
             GameEvents.OnGameLoadComplete += GameEvents_OnGameLoadComplete;
             GameEvents.OnGameMatchComplete += GameEvents_OnGameMatchComplete;
-            CoreEvents.OnCoreMainTick += CoreEvents_OnCoreMainTick;
-            CoreEvents.OnCoreMainInput += CoreEvents_OnCoreMainInput;
-            CoreEvents.OnCoreRender += CoreEvents_OnCoreRender;
         }
 
         private static void GameEvents_OnGameLoadComplete()
         {
             //This is where you want to initialize your stuffs.
+
+            if(UnitManager.MyChampion.ModelName == "ChampionName")
+            {
+                CoreEvents.OnCoreMainTick += CoreEvents_OnCoreMainTick;
+                CoreEvents.OnCoreMainInput += CoreEvents_OnCoreMainInput;
+                CoreEvents.OnCoreRender += CoreEvents_OnCoreRender;
+            }
         }
 
         private static void GameEvents_OnGameMatchComplete()

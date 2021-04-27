@@ -32,6 +32,15 @@ namespace Oasys.SDK.Events
         }
 
         /// <summary>
+        /// This event is raised whenever the main input(space key for default) is released.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.CoreEventTemplate OnCoreMainInputRelease
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreMainInputRelease += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreMainInputRelease -= value;
+        }
+
+        /// <summary>
         /// This event is raised whenever the rendering occurs. If you want to draw, this is the event you want to subscribe to.
         /// </summary>
         public static event Common.EventsProvider.CoreEvents.CoreEventTemplate OnCoreRender
