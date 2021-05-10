@@ -24,6 +24,66 @@ namespace Oasys.SDK.SpellCasting
         }
 
         /// <summary>
+        /// Casts a spell at/towards the position of the mouse.
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="castTime"></param>
+        public static void CastSpell(CastSlot slot, float castTime)
+        {
+            SpellBook.CastSpell((SpellCastSlot)slot, castTime);
+        }
+
+        /// <summary>
+        /// Start charging spell
+        /// </summary>
+        /// <param name="slot"></param>
+        public static void StartChargeSpell(SpellCastSlot slot)
+        {
+            SpellBook.StartChargeSpell(slot);
+        }
+
+        /// <summary>
+        /// Release charged spell
+        /// </summary>
+        /// <param name="slot"></param>
+        public static void ReleaseChargeSpell(SpellCastSlot slot)
+        {
+            SpellBook.ReleaseChargeSpell(slot);
+        }
+
+        /// <summary>
+        /// Release charged spell that has cast time
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="castTime"></param>
+        public static void ReleaseChargeSpell(SpellCastSlot slot, float castTime)
+        {
+            SpellBook.ReleaseChargeSpell(slot, castTime);
+        }
+
+        /// <summary>
+        /// Release charged spell that has cast time
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="objectPosition"></param>
+        /// <param name="castTime"></param>
+        public static void ReleaseChargeSpell(SpellCastSlot slot, Vector3 objectPosition, float castTime)
+        {
+            SpellBook.ReleaseChargeSpell(slot, objectPosition, castTime);
+        }
+
+        /// <summary>
+        /// Release charged spell that has cast time
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="screenPosition"></param>
+        /// <param name="castTime"></param>
+        public static void ReleaseChargeSpell(SpellCastSlot slot, Vector2 screenPosition, float castTime)
+        {
+            SpellBook.ReleaseChargeSpell(slot, screenPosition, castTime);
+        }
+
+        /// <summary>
         /// Casts a spell at/towards the given vector3 position parameter
         /// </summary>
         /// <param name="slot"></param>
@@ -41,6 +101,28 @@ namespace Oasys.SDK.SpellCasting
         public static void CastSpell(CastSlot slot, Vector2 screenPosition)
         {
             SpellBook.CastSpell((SpellCastSlot)slot, screenPosition);
+        }
+
+        /// <summary>
+        /// Casts a spell at/towards the given vector3 position parameter
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="objectPosition"></param>
+        /// <param name="castTime"></param>
+        public static void CastSpell(CastSlot slot, Vector3 objectPosition, float castTime)
+        {
+            SpellBook.CastSpell((SpellCastSlot)slot, objectPosition, castTime);
+        }
+
+        /// <summary>
+        /// Casts a spell at/towards the given vector2 position parameter.
+        /// </summary>
+        /// <param name="slot"></param>
+        /// <param name="screenPosition"></param>
+        /// <param name="castTime"></param>
+        public static void CastSpell(CastSlot slot, Vector2 screenPosition, float castTime)
+        {
+            SpellBook.CastSpell((SpellCastSlot)slot, screenPosition, castTime);
         }
 
         /// <summary>

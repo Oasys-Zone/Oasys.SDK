@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Oasys.Common.EventsProvider;
-
+﻿
 namespace Oasys.SDK.Events
 {
     /// <summary>
@@ -23,21 +17,39 @@ namespace Oasys.SDK.Events
         }
 
         /// <summary>
-        /// This event is raised whenever the main input(space key for default) is registered.
-        /// </summary>
-        public static event Common.EventsProvider.CoreEvents.CoreEventTemplate OnCoreMainInput
-        {
-            add => Common.EventsProvider.CoreEvents.OnCoreMainInput += value;
-            remove => Common.EventsProvider.CoreEvents.OnCoreMainInput -= value;
-        }
-
-        /// <summary>
         /// This event is raised whenever the main input(space key for default) is released.
         /// </summary>
         public static event Common.EventsProvider.CoreEvents.CoreEventTemplate OnCoreMainInputRelease
         {
             add => Common.EventsProvider.CoreEvents.OnCoreMainInputRelease += value;
             remove => Common.EventsProvider.CoreEvents.OnCoreMainInputRelease -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever the main input(space key for default) is pressed.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreMainInputAsync
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreMainInputAsync += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreMainInputAsync -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever the laneclear input(v key for default) is pressed.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreLaneclearInputAsync
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreLaneclearInputAsync += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreLaneclearInputAsync -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever the laasthit input(c key for default) is pressed.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreLasthitInputAsync
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreLasthitInputAsync += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreLasthitInputAsync -= value;
         }
 
         /// <summary>

@@ -82,7 +82,7 @@ namespace Oasys.SDK.InputProviders
         /// <param name="left"></param>
         /// <param name="callback">what to do instead of a right click in case we need a key press or something</param>
         /// <returns>has clicked</returns>
-        public static bool ClickAndBounce(int x, int y, int delay = 8, bool left = false, Action callback = null) => Mouse.ClickAndBounce(x, y, delay, left, callback);
+        public static bool ClickAndBounce(int x, int y, bool left = false, Action callback = null) => Mouse.ClickAndBounce(x, y, left, callback) < float.MaxValue;
 
         /// <summary>
         /// Clicks on target position, and after [delay]ms bounces back to origin location.
@@ -92,6 +92,6 @@ namespace Oasys.SDK.InputProviders
         /// <param name="left"></param>
         /// <param name="callback">what to do instead of a right click in case we need a key press or something</param>
         /// <returns>has clicked</returns>
-        public static bool ClickAndBounce(Pos p, int delay, bool left = false, Action callback = null) => ClickAndBounce(p.X, p.Y, delay, left, callback);
+        public static bool ClickAndBounce(Pos p, bool left = false, Action callback = null) => ClickAndBounce(p.X, p.Y, left, callback);
     }
 }

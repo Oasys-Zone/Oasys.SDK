@@ -46,5 +46,12 @@ namespace Oasys.SDK
         /// <param name="target"></param>
         /// <returns></returns>
         public static bool IsInRange(GameObjectBase target) => Common.Logic.TargetSelector.IsInRange(target);
+        
+        /// <summary>
+        /// Checks whether if the target is in the player's base(attackable) range.
+        /// </summary>
+        /// <param name="minion"></param>
+        /// <returns></returns>
+        public static bool ShouldAttackMinion(GameObjectBase minion) => Common.Logic.TargetSelector.ShouldAttackMinion(minion);
     }
 }
