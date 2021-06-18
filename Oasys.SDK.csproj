@@ -64,6 +64,7 @@
     <Compile Include="Events\GameEvents.cs" />
     <Compile Include="InputProviders\KeyboardProvider.cs" />
     <Compile Include="InputProviders\MouseProvider.cs" />
+    <Compile Include="Menu\MenuManager.cs" />
     <Compile Include="OasysModuleEntryPoint.cs" />
     <Compile Include="Orbwalker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
