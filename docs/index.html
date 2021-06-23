@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Welcome! | Oasys SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Welcome! | Oasys SDK ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="welcome">Welcome!</h1>
+
+<p>Welcome to the OASYS SDK Guide.</p>
+<h2 id="about">About</h2>
+<p>OASYS SDK allows you to develop modules(scripts as we refer to) with our api equipped with vast amount of features. Our SDK is written in C#, and therefor you will be writing the modules in C#.<br>
+Please follow the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions">C# Language and Coding Convention</a>.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Your brain</li>
+<li>At minimum, foundation level of knowledge in C#</li>
+<li>An IDE (Strongly recommend Visual Studio)</li>
+<li>.NET Framework 4.7.2 Runtime</li>
+<li>.NET Framework 4.7.2 Developer Pack</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Head over to the <a href="https://github.com/Oasys-Zone/Oasys.SDK/releases">releases tab</a> and download the latest release build.<br>
+After unpacking the zip file, You will see a set of DLLs:</p>
+<ul>
+<li><strong>Oasys.SDK.dll</strong>: is our primary API and module development library. This is what you will be using mainly.</li>
+<li><strong>Oasys.Common.dll</strong>: is our bridging API library between the SDK and our Core.<br>
+Although you won't be using it directly, it is required for namespace and class references.</li>
+<li><strong>SharpDX.dll</strong>: is our primary third-party rendering library.</li>
+<li><strong>SharpDX.Direct3D9.dll</strong>: same purpose as SharpDX.dll.</li>
+<li><strong>SharpDX.Mathematics.dll</strong>: is our third-party maths library used in rendering and object positions.</li>
+<li><strong>Newtonsoft.Json.dll</strong>: is our third-party serialization library.</li>
+</ul>
+<p>Those are the DLLs you are required to reference in your module project.</p>
+<h2 id="namespace-and-class-documentation">Namespace and Class Documentation</h2>
+<p>For namespace and class definitions and code documentation, please refer to <a href="api/Oasys.SDK.html">here</a>.</p>
+<h2 id="creating-a-module">Creating A Module</h2>
+<p>To begin, create a blank .NET Framework Class Library project and add the DLLs you have downloaded earlier as references.</p>
+<p>Next, create a class named &quot;Main&quot; and reference the needed namespaces:</p>
+<pre><code class="lang-csharp">/*Default .NET BCL references here and above*/
+using Oasys.SDK;
+using Oasys.SDK.Events;
+
+namespace SampleModule
+{
+    class Main
+    {
+    }
+}
+</code></pre>
+<p>Create a public static method &quot;Execute&quot; and attach OasysModuleEntryPoint attribute to the method.</p>
+<pre><code class="lang-csharp">namespace SampleModule
+{
+    class Main
+    {
+        [OasysModuleEntryPoint]
+        public static void Execute()
+        {
+        }
+    }
+}
+</code></pre>
+<p>Inside this method, you will need to subscribe to the required events:</p>
+<ul>
+<li><strong>GameEvents.OnGameLoadComplete</strong>: this event is raised when the loading of the game finishes, where a user is inside the lobby. If the game has already started, then it is raised immediately after the core has initialized.</li>
+<li><strong>GameEvents.OnGameMatchComplete</strong>: this event is raised when a game match finishes.</li>
+<li><strong>CoreEvents.OnCoreMainTick</strong>: this event is raised multiple times per second. To be specific, it is raised every 10ms. This event is useful for custom caching and calculations executing every each of tick.</li>
+<li><strong>CoreEvents.OnCoreMainInput</strong>: this event is raised whenever the main input(space key for default) is registered.</li>
+<li><strong>CoreEvents.OnCoreRender</strong>: this event is raised whenever the rendering occurs. If you want to draw, this is the event you want to subscribe to.</li>
+</ul>
+<pre><code class="lang-csharp">namespace SampleModule
+{
+    class Main
+    {
+        [OasysModuleEntryPoint]
+        public static void Execute()
+        {
+            GameEvents.OnGameLoadComplete += GameEvents_OnGameLoadComplete;
+            GameEvents.OnGameMatchComplete += GameEvents_OnGameMatchComplete;
+        }
+
+        private static void GameEvents_OnGameLoadComplete()
+        {
+            //This is where you want to initialize your stuffs.
+
+            if(UnitManager.MyChampion.ModelName == &quot;ChampionName&quot;)
+            {
+                CoreEvents.OnCoreMainTick += CoreEvents_OnCoreMainTick;
+                CoreEvents.OnCoreMainInput += CoreEvents_OnCoreMainInput;
+                CoreEvents.OnCoreRender += CoreEvents_OnCoreRender;
+            }
+        }
+
+        private static void GameEvents_OnGameMatchComplete()
+        {
+            //This is where you want to dispose and unload your stuffs.
+        }
+
+        private static void CoreEvents_OnCoreMainTick()
+        {
+            //This is where you want to cache and calculate your stuffs.
+        }
+
+        private static void CoreEvents_OnCoreMainInput()
+        {
+            //This is where you can do stuffs whenever the main input is registered.
+        }
+
+        private static void CoreEvents_OnCoreRender()
+        {
+            //This is where you want to draw your stuffs.
+        }
+    }
+}
+</code></pre>
+<h2 id="compiling">Compiling</h2>
+<p>Compile as normal, and then rename the built .dll library extension to .omod in order for the loader to load the module.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

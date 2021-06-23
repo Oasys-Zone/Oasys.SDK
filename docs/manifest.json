@@ -1,0 +1,1713 @@
+{
+  "homepages": [],
+  "source_base_path": "H:/Developments/PVC/Oasys/Oasys.Core/Oasys.Core/Oasys.SDK/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EngineManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EngineManager.html",
+          "hash": "Lk7eeJ2K8D8bjxk3gs9svbxLT/XSxY0L/5dCUsY+t7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.BuffType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.BuffType.html",
+          "hash": "TM5LK6qYkAmDEV2FQMaz4CHXMMhvWf3poOFyKFvGGVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CastType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.CastType.html",
+          "hash": "VGqNHdnro0r5yCTbqPDAXjE32hSgbXFYa3fYAR+5uQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionFlags.html",
+          "hash": "FXMcD7NVDyOhYckErZSruNP/ZENzqh13TVuCkCzIulk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionableObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionableObjects.html",
+          "hash": "H6h1yE1YdmljVLto1SorIcxaveVml2h1JiEr5N3FgOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CombatTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.CombatTypes.html",
+          "hash": "Ai6n1HDw2yv2X5iPIreZi/olCUW3GEw6hPGfyi1HxYk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.GameStatusFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.GameStatusFlag.html",
+          "hash": "4gNjPmz8MDzs4Uu77/d86090MPtkw3QvI5R4jCW4eNw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.GameTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.GameTypes.html",
+          "hash": "f7zenow8Duc8F+8zrQGaEGjPUpCl1HhI3TcTzY7lhz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.GapcloserType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.GapcloserType.html",
+          "hash": "pH2HUjw9+6vT79GZrWKHGf7eZGYY4KqnX0qLjeQ355s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.ItemID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.ItemID.html",
+          "hash": "RcntLbUGikn5v3Y12qyPCM7P2X7uZQ/E0XQ/q/aHoKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.ItemSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.ItemSlot.html",
+          "hash": "7gJMTLT3GGTT1cPrWXC5eVKEBM+Nso8afBrHuyFWxbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.MapIDFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.MapIDFlag.html",
+          "hash": "1gDERppRBjYvG0bPEBr9jv6MYhNOb60RubC+sGKrysA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.ObjectTypeFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.ObjectTypeFlag.html",
+          "hash": "5AqwboqkN51J1uUB9YkpFuNhof9/oE0uvmxID1kA8no="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SkillshotDetectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SkillshotDetectionType.html",
+          "hash": "pSfNPn70tQYeZ8IHFHpFAGBfgFE1pFaU/4ruwfhiRXY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SkillshotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SkillshotType.html",
+          "hash": "sBegU+zCUXTlwjGiJNuYIyI9tZfkgWffbzG6Mkhk7z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SpellCastSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellCastSlot.html",
+          "hash": "PajI5M3Q1jtoOKZl7O9P6qFV/kPRK8qqBrj5pqbYqxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SpellSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellSlot.html",
+          "hash": "W0c2lX+HxH9aLIQS116pL/LZ63irdaAWFnpIrx4GoNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SpellTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellTags.html",
+          "hash": "pEQpADatcTTDkpxKFpgRJkB971ypf3+WNEFwY5mUezM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SpellType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellType.html",
+          "hash": "zE2c1dFRn/TNEUkp7S3mYHs6cK2jw5Hu3+ZAl8cQhOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.TeamFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.TeamFlag.html",
+          "hash": "egPcbBS07iCiNkUY5TSx3MZRvHhIbSeYYtnLPr8rlZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.TurretType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.TurretType.html",
+          "hash": "q3ouP80BQMb8Xv3GX5yEBzZsTVJ8T9oSle1BaBD+q+Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Enums.GameEnums.html",
+          "hash": "HbcYRxTaIv/m+VUcM3bf4GrCiDSv/uwi5q76pYNgDWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.AsyncEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.AsyncEventHandler.html",
+          "hash": "alGWZIkA2XRNDTeZW9Kw2v1NevG6bmdDSyZ/rP9/VtI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.CoreEventTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.CoreEventTemplate.html",
+          "hash": "XxNcgJ5XZU22RO3BzdSdfC8gWvCA2HBSWy/XUbb2Aok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.InputRegisterTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.InputRegisterTemplate.html",
+          "hash": "flih24BXOvvFWYyeqtfIocxt6Rqo8A5YYB66UURkUug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.CoreEvents.html",
+          "hash": "3IkaM+/Rftt5x0UqQUM8a9V+BlrG38qmTytN0jMu9qw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.GameEvents.GameEventTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.GameEvents.GameEventTemplate.html",
+          "hash": "b1NwUHAZpdOBbHKM4km5DslH032YsPJMcGr6afnuWg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.GameEvents.SpellEventTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.GameEvents.SpellEventTemplate.html",
+          "hash": "NjghWqCWEOpv8lh7Bf2C2MaTmAM2mP7/lwAdA2yQS0I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.GameEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.GameEvents.html",
+          "hash": "dHYvbR/lWSmHWqshNz0FH+05a4fVXMUPbLJV1WCV2yk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.EventsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.EventsProvider.html",
+          "hash": "4JjgTAjgeodjfBxL6G7G6TOIXCv7P79KcOtz+xuZyBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Extensions.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Extensions.Extensions.html",
+          "hash": "uzwsCTyxgHeGXJpZVGwcRGFtoPhlBXOmOOAI1fFKkEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Extensions.IntersectionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Extensions.IntersectionResult.html",
+          "hash": "+Ur5Dw+O+AGODNj1sVQEcAfrXo5ch1aCTHflxl/Hwq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Extensions.MovementCollisionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Extensions.MovementCollisionInfo.html",
+          "hash": "BHcqNP8u0Zvl/ek7UJmfBdXFZq8WSwaQZfaWGjkznzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Extensions.ProjectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Extensions.ProjectionInfo.html",
+          "hash": "RDn3GIKf3WcOswlqSFrEifbq9jDxXVJ95wvQrEi7ETg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Extensions.html",
+          "hash": "JZAovUnzZJET3pJRpsFnCoJ2gBH2zlsrBy4LqYBcxTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameInstances.ChatClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameInstances.ChatClient.html",
+          "hash": "CQGfvkBl1Q/Nh/kVN3F2gUon/Szg9uZSTQn8l77hR3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameInstances.MinimapInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameInstances.MinimapInfo.html",
+          "hash": "iyQiQPVPzZQf9fS1l0zhYGrKX6Zd4IsgpBBaiutpsRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameInstances.MissionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameInstances.MissionInfo.html",
+          "hash": "I/0h+sLxc/qbrAo0z7XqFWp88RFjqv217FfZcvwv618="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameInstances.html",
+          "hash": "QLb3czQ4D08O7yKwExHB+W+U0ROYNcD/4NpWpxKi1bE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.html",
+          "hash": "1c0wBtx8JhfdC7tcnZSlVfmXxVHNl0B1JNkreydUqj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.html",
+          "hash": "bHSTIl4IXU7lu46L6w9uKjSfgSmVUoUSS/a2XuOTVxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.AIMinionClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.AIMinionClient.html",
+          "hash": "ubq5SQH2L1+aGmxx+SwfxzAH/fO9MDRyRA3x7mNAPZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.html",
+          "hash": "unpcJLIhoXI2LPwYcWlmrCrjQxH5IwOZfi+WfO1wj7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html",
+          "hash": "g6m4yqKtxfr4mrpFC1u6Gq75ay7w5hb9EOk8s1zOhzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html",
+          "hash": "hv0LU58880NQJ6/9IMU4WQZruWnGHvsIz66SGB4f5uU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html",
+          "hash": "dlXDLREcXYkEEAHztTKyDxhMNcniTr1/4gWMQ9dRTUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.html",
+          "hash": "ObqJbUZrvRJcojjVgnvSpCTsaEh50Z9L953bLkdrdKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html",
+          "hash": "fBwAYIT/XY0Q73NoLoa4JOhgu67W7XQym26cKftwj/Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellBook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellBook.html",
+          "hash": "l8PMGeyXDmEXCd8iogWwv/VQSA5yzz2s4dL6mQx5+m0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html",
+          "hash": "kdqdE7Ufu4XQJ03hEnqp3UojVAMLyLhaakR4vPCiFss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html",
+          "hash": "Ufs05Y+Q3qstdusk5QjhdQDsMdzQXUoIAcPKsWn6V8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.html",
+          "hash": "AFp6WZoNO3/nNR1XaI53lbaVrKZvKgpuyDSttt6mssE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitComponentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitComponentInfo.html",
+          "hash": "JMG1vHPlynv7tvr7e52FpCJxvHsG4m89uVAcpipSonM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html",
+          "hash": "vMjbLWRJ2eHX89FdjzdbTSIYnyutL+ScR/8jrqciB9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.html",
+          "hash": "GW27dMeiTIvxOvKyLLxPUIXqDOxGROaY7vZ9ZUctQBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.Clients.html",
+          "hash": "6IfAYVWvJxMkhGCrA8ypeOuVqgi/CAeMMSVhGBtPR90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.html",
+          "hash": "WrxOC5htmPoQUlalvwcP/AnRSOKtBu8txLnaaf1961A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.GameObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.html",
+          "hash": "tBbKA3/A+l7MKvjpMqy7CMTvYSwsH5WEX3/H6IbeCeI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.html",
+          "hash": "LKpO1tRAyZSfUAS2zqiPuHpCN/rBb7HL+sucqnOSWCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.Inhibitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html",
+          "hash": "G0lHyKB+nWOCR3EDp7mpQnNyjhyv15eYDGjH47tWEn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.JungleMob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.JungleMob.html",
+          "hash": "hKJp0lXR9eeMq0nWQH9ExoeiUSRNHQTO6GUvFavud94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.html",
+          "hash": "6ru1yVD0X9oXGdp2Uz5wCe1j+GPtUsRB8ONkDBte8ko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.MissileClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.MissileClient.html",
+          "hash": "ShDom7T2cPDYy8OodhMgXw5I3yacYLLCJEB2qrrwoP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.html",
+          "hash": "pQd8uMrVOqaqY7TNOlUUfT/k9DAe/Go1QTHwWdS3cZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.ObjectClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.ObjectClass.html",
+          "hash": "7+ykzfG8WNQj7DnpIflIbFiTAz5d7N9MuJ8D9l1/rYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.GameObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.GameObject.html",
+          "hash": "ZGITcCW/5WP4Gs7XAx4Rcm/2MEAEoorVhk+10Nqb1h4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.LeagueNativeRendererManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.LeagueNativeRendererManager.html",
+          "hash": "Wxk4FWHRcxv6XN3/FFND4oK2JlxLLe7Iq9SIX2o0d20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.DamageCalculator.BasicAttackDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.DamageCalculator.BasicAttackDamage.html",
+          "hash": "gLuyjPVJ/52u2H0xgNtjkhuyANvH4jIbmRYTAKTE9d8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.DamageCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.DamageCalculator.html",
+          "hash": "oGGFwrklKdxVejYEsL6ZHfbdTwMppmApNgMicl43TRk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.DamageType.html",
+          "hash": "5dlMzeTnWEKN7FerGPbwkWPR/HeOXJ7SLriolMn0X+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.html",
+          "hash": "eiHyADElApcXY5vMbEw96Vr6TXtrWnKN6pLTy594gQo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Orbwalker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Orbwalker.html",
+          "hash": "xQfnfJE9BPfZealcmHD9zbJYI/EwOElNVT1j0NS5INg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.OrbwalkingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.OrbwalkingMode.html",
+          "hash": "bueqbiUntYPGR7K2QGFYcZe3qUB5fo1z/CZrrq/Nopw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.TargetSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.TargetSelector.html",
+          "hash": "T6j9mQ7s3R8HCMCmA0xy4Ipt5h4BYbGu5pfvDpl4oIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.html",
+          "hash": "EZu/jhcQpv4i9RSAfIYkfOFiSp23KX7c1FkGZYK/ZMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.html",
+          "hash": "C5FYIPJ9M7BUR24sKNJcgvbQgNyaT5Tx6OhfO06F/64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.InfoDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.InfoDisplay.html",
+          "hash": "p2uqhT4WN2txmebfRZzbqHFjcgZoHPgqdgMxiHKaLy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.html",
+          "hash": "Ji7YWdFYqeFTy5W/JbjvAvHg6AaF+lBz/lDKn0faj5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.Switch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.Switch.html",
+          "hash": "crE7TK8iLEP+of9VguAPr70CFClbV6R3Ow2sa4GSRBE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.html",
+          "hash": "StbacKkLWn5BhfNxs2SVjYKbARCs3Q7qfuzXMBDTsCU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.MenuManagerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.MenuManagerProvider.html",
+          "hash": "noCH62pxlmwJ1MVhaZBXHb79ERBa5p+3Scb2/9oFhyI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.Tab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.Tab.html",
+          "hash": "poAptWcqPLq6IKRZVXRM/PP/M0MZWAN1vs/wzFCCt+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.TabItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.TabItem.html",
+          "hash": "GxuP6q6jjSgQE+3ixSGjraKu+irYtwKPjd/VFG9QupU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.html",
+          "hash": "bRfeb+KfI7jDaSwHFfvUMvbY45xAfk4VHSRBZip8v6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.OasysModuleEntryPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.OasysModuleEntryPoint.html",
+          "hash": "P1ZWYSW6cWE1EKhs+C+eQphtyj0HU/p49feWVinZhQI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.ObjectManagerExport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.ObjectManagerExport.html",
+          "hash": "sBkzoXpb3aCtf/2BEbUwyPZF26SCqS4W12o/FLSnZCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.RenderFactoryProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.RenderFactoryProvider.html",
+          "hash": "Vv+VV9vK7AP0o0j/lWz2X+iRSEN4Il995NysEf/GOMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html",
+          "hash": "bFDckTVlDkDJDrSoyPMzDu2YEJcP8Iyd6cpNAvxqsls="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.OnKeyPressCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.OnKeyPressCallback.html",
+          "hash": "rfqWZvM/j8ETtYk4DGvr7etNfAyvtLNAqVWK2D7kRVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.PressState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.PressState.html",
+          "hash": "7jk0EqKqzc9whRnNCDfLv1aM9De2SWG+tvz7451X9hs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.VirtualKeyCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.VirtualKeyCodes.html",
+          "hash": "Tt2bU5Q1rhxKhpiD2Z6Nm933joQWZ/WrEGucb9pKbPQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.html",
+          "hash": "ZXzL/SF6sRDvClYPzyDSM8Dt4qMVsCbXtQ4xCNot/2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.Mouse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.Mouse.html",
+          "hash": "P5nF9+AbGqRRJS4FFC3Be2cNxxHLzXnQhvmS6PQTM7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Devices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Devices.html",
+          "hash": "QyWm1glSZOQtUu1kz1iIqDd5xQjpxBna10nm8j2i1vo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Pos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Pos.html",
+          "hash": "M08g5VdH9Paq6yYzBnUhWf3mefTUXfW9PhxjxbB0H20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.StaticChampionInfo.ChampionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.StaticChampionInfo.ChampionInfo.html",
+          "hash": "gIzabucPDTss+DAcYuDwGq6xS9BxWUWyXeAcYbF1YVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.StaticChampionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.StaticChampionInfo.html",
+          "hash": "UZ9wfdqR9SgcodtofhAnQ+pBWfc6ONuxCUevG0SWtrs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Storage-2.FindCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Storage-2.FindCallback.html",
+          "hash": "beEfmxdvzlXjpzE21jmQYZX2Udm/F0pQPEedMd3N7iI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Storage-2.IterationItemCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Storage-2.IterationItemCallback.html",
+          "hash": "SpbSonuY4p/b4Cvo6Giy5eaFzV1gsVBjyw0XXWPAFEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Storage-2.IterationKeyValueCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Storage-2.IterationKeyValueCallback.html",
+          "hash": "V4whf7eDOEu5TJ4y7qvgGoPgwSWioEbQ0yOI7DKQABM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Storage-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Storage-2.html",
+          "hash": "op4tOjXryJxqfyqjoa3xQpeSk5QHCZ2HfMJYtAp4AAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.html",
+          "hash": "o6kGSIiqR7BzNLw1dQ2IlprxNeGlSGl17Gj24TjdZfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.html",
+          "hash": "vzW7k2A6l9Hmhc0PBAek6UvTB3hEFYKrUSfZ9Hdn1Qw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.DamageCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.DamageCalculator.html",
+          "hash": "hKUtvKiTv3dhI+QOdIsQUQmvtw6OPAxDaSRJ5XifwaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Events.CoreEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Events.CoreEvents.html",
+          "hash": "GC7w616R+f7ALkwpzu28/DwhLGTlffpG0ocVtu6bfpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Events.GameEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Events.GameEvents.html",
+          "hash": "3cVk/esEe9o6iv1bJtuX77SNyHpqj7CXRBsDzLShq5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Events.html",
+          "hash": "IYUefxcfKY80+rFFacMNNBBMaoAPlAuur73OnF+eyUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.GameEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.GameEngine.html",
+          "hash": "pIMfu5VksnFTUf7S5nxxA5hX49Tv5B4QD2zXQBAWl1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.InputProviders.KeyboardProvider.KeyBoardScanCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.InputProviders.KeyboardProvider.KeyBoardScanCodes.html",
+          "hash": "RWf+frY4URrq52JQaRRfIxDCv9i07U2/E5FWo2q4GfI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.InputProviders.KeyboardProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.InputProviders.KeyboardProvider.html",
+          "hash": "3QAJiMjnZBt8IXC+MUxvjmM/ivDkbiw8aTBTCpQYJQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.InputProviders.MouseProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.InputProviders.MouseProvider.html",
+          "hash": "Cbe2XArHvepRWDmehCIoy5RhAGMGfdPVqWQ55mabGUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.InputProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.InputProviders.html",
+          "hash": "DWG2mbRDjS6XX8ZvT+X1xNGSHCKS1vl0ruvnZ9iEpRE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Menu.MenuManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Menu.MenuManager.html",
+          "hash": "gacObnmw1HXpaasH0JVPYJF1clIwdaPnCH3eN60IIfQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Menu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Menu.html",
+          "hash": "bBqiP1aKm1pmB60vZHeF/ed2BUU3iGvSFbyNb1FTsgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.OasysModuleEntryPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.OasysModuleEntryPoint.html",
+          "hash": "8DGvlljsLhXytsKpj0oP6yCMv+oQd06OuncOlGXQ7u4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Orbwalker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Orbwalker.html",
+          "hash": "T1DZHRan8rrVot5t73qcuNdk9/E66DroRfwDSTxnoRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Rendering.RenderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Rendering.RenderFactory.html",
+          "hash": "TBY+R9IroAx7tmPueLJ4TtHJ06JBPd3N00Oq0DZS7xk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Rendering.html",
+          "hash": "Lbh6WW/inAjDnHC3CQpJvieYfMnfPzT64iYZ1tzsAc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.CastSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.CastSlot.html",
+          "hash": "B8Hjpq7gQjQQhJuGOSPL8scGEgcsVsYSfI7YE6LxtKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.ItemCastProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.ItemCastProvider.html",
+          "hash": "VD2kNYKSqDhsmm6305DuPijwxUzDgGvMtBWSnSJbXq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.SpellCastProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.SpellCastProvider.html",
+          "hash": "N2GHbX3flcl46PIF7//gexfXHu1ZYI5fyZ3qDcBv7BQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellSlot.html",
+          "hash": "nT5zPPf1MiVgz7zkmd4faPPFM/PTUQ+oNl0Y4hj+gUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellsEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellsEnum.html",
+          "hash": "RGz49cDCvJDfVPDOaXKqbaAuLSqjqcS2xk1Rq1KLscs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.SummonerSpellsProvider.html",
+          "hash": "/fCb+9r2ZRemn/RxisukUi8xxxXLNxXmmIEYBOhNM2U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SpellCasting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SpellCasting.html",
+          "hash": "NvqJg41wFXUHAy/zY6kikeIcDvQ2qeC9ZN9OGB1V4dE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.TargetSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.TargetSelector.html",
+          "hash": "+wNMdjrrao4/d5vKOodHtWtmLjIv3DWPewucj5UyzmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Tools.LogSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Tools.LogSeverity.html",
+          "hash": "465kyUHrL05OOGYFbCXlQgpm+wHoaGLOV8z1NfMrR5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Tools.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Tools.Logger.html",
+          "hash": "42rQ5Cks2oh+jlc/qceS88LK2dVVJs+cx/dBKsTz5bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Tools.html",
+          "hash": "sxg4uxClJydVVELCm0FvjK1OXLD14jbvAtdWtvyPa/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.UnitManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.UnitManager.html",
+          "hash": "q55Z8+1ah0q3/VXpqmxYUr2Hcp/LMH2rN5S1eW/U4VA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.html",
+          "hash": "qUpNSBdj2pHp4bDkj3LNa5LAcqwnuUdnUVIG4LkeOgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "UCxiqUeLx1DRtFvrWhuB96G4MloIkxxIQfTe3EqnN2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Do1MR8cEHIjVgxQhUrlE341qpe7GXImoOjsWiQmg19w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "blog/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "blog/index.html",
+          "hash": "IRlOQIWe9JIoWiy+/KvGW2O2DDOUfNgmQwoo+Mas4iQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "blog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "blog/toc.html",
+          "hash": "UMlYz4SpSjxD/u7EvCDXr/q6GX+6/AuVmbUaa9k5h8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "eQ1K6Y0r8gtUaqCFksL9T4DiLI0s+xUqJPcbO+OKTMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Si7zB4yytI8I7G5jX6fNgj39xTKmvUXnQhHOEWGAU/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 131,
+          "skipped_file_count": 131
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

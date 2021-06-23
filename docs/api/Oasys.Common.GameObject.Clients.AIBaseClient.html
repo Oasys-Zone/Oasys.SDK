@@ -1,0 +1,1396 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AIBaseClient
+   | Oasys SDK </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AIBaseClient
+   | Oasys SDK ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient">
+  
+  
+  <h1 id="Oasys_Common_GameObject_Clients_AIBaseClient" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient" class="text-break">Class AIBaseClient
+  </h1>
+  <div class="markdown level0 summary"><p>Client specifically for all base objects.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></div>
+    <div class="level2"><span class="xref">AIBaseClient</span></div>
+      <div class="level3"><a class="xref" href="Oasys.Common.GameObject.Clients.AIHeroClient.html">AIHeroClient</a></div>
+      <div class="level3"><a class="xref" href="Oasys.Common.GameObject.Clients.AIMinionClient.html">AIMinionClient</a></div>
+      <div class="level3"><a class="xref" href="Oasys.Common.GameObject.ObjectClass.Inhibitor.html">Inhibitor</a></div>
+      <div class="level3"><a class="xref" href="Oasys.Common.GameObject.ObjectClass.Turret.html">Turret</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_OnProcessSpellCast">GameObjectBase.OnProcessSpellCast</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_InvokeOnProcessSpellCast_Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_">GameObjectBase.InvokeOnProcessSpellCast(SpellActiveEntry)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_ToString">GameObjectBase.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Log">GameObjectBase.Log()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsMe">GameObjectBase.IsMe</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_OnMyTeam">GameObjectBase.OnMyTeam</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsEnemy">GameObjectBase.IsEnemy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsNeutral">GameObjectBase.IsNeutral</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsJungle">GameObjectBase.IsJungle</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsObject_Oasys_Common_Enums_GameEnums_ObjectTypeFlag_">GameObjectBase.IsObject(ObjectTypeFlag)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.GameObject.Clients.html">Oasys.Common.GameObject.Clients</a></h6>
+  <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
+  <h5 id="Oasys_Common_GameObject_Clients_AIBaseClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AIBaseClient : GameObjectBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient__ctor_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.#ctor*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient__ctor_System_Int32_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.#ctor(System.Int32)">AIBaseClient(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AIBaseClient(int handlePointer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">handlePointer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_AIManager_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.AIManager*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_AIManager" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.AIManager">AIManager</h4>
+  <div class="markdown level1 summary"><p>Gets the navigation manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override AIManager AIManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.html">AIManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AIManager">GameObjectBase.AIManager</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Armor_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Armor*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Armor" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Armor">Armor</h4>
+  <div class="markdown level1 summary"><p>Gets the armor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Armor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Armor">GameObjectBase.Armor</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_AttackRange_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.AttackRange*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_AttackRange" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.AttackRange">AttackRange</h4>
+  <div class="markdown level1 summary"><p>Gets the attack range in 100th teemos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float AttackRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackRange">GameObjectBase.AttackRange</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_BasicAttackInfo_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BasicAttackInfo*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_BasicAttackInfo" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BasicAttackInfo">BasicAttackInfo</h4>
+  <div class="markdown level1 summary"><p>Gets the information about the basic attack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SpellClassData BasicAttackInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html">SpellClassData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_BasicAttackInfo">GameObjectBase.BasicAttackInfo</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_BuffManager_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BuffManager*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_BuffManager" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BuffManager">BuffManager</h4>
+  <div class="markdown level1 summary"><p>Gets the manager for the buffs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override BuffManager BuffManager { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html">BuffManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_BuffManager">GameObjectBase.BuffManager</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_CombatType_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.CombatType*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_CombatType" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.CombatType">CombatType</h4>
+  <div class="markdown level1 summary"><p>Gets the combat type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override CombatTypes CombatType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Enums.GameEnums.CombatTypes.html">CombatTypes</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_CombatType">GameObjectBase.CombatType</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Direction_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Direction*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Direction" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Direction">Direction</h4>
+  <div class="markdown level1 summary"><p>Gets the direction it is facing towards/at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 Direction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Direction">GameObjectBase.Direction</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Distance_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Distance*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Distance" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Distance">Distance</h4>
+  <div class="markdown level1 summary"><p>Gets the distance between the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Distance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Distance">GameObjectBase.Distance</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_EffectiveArmorHealth_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EffectiveArmorHealth*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_EffectiveArmorHealth" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EffectiveArmorHealth">EffectiveArmorHealth</h4>
+  <div class="markdown level1 summary"><p>Gets the health with armor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float EffectiveArmorHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_EffectiveArmorHealth">GameObjectBase.EffectiveArmorHealth</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_EffectiveMagicHealth_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EffectiveMagicHealth*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_EffectiveMagicHealth" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EffectiveMagicHealth">EffectiveMagicHealth</h4>
+  <div class="markdown level1 summary"><p>Gets the health with magic resist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float EffectiveMagicHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_EffectiveMagicHealth">GameObjectBase.EffectiveMagicHealth</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_EncryptedID_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EncryptedID*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_EncryptedID" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.EncryptedID">EncryptedID</h4>
+  <div class="markdown level1 summary"><p>Gets the encryped server Object ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int EncryptedID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_EncryptedID">GameObjectBase.EncryptedID</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Gold_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Gold*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Gold" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Gold">Gold</h4>
+  <div class="markdown level1 summary"><p>Gets the amount of gold it has.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Gold { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Gold">GameObjectBase.Gold</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Health_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Health*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Health" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Health">Health</h4>
+  <div class="markdown level1 summary"><p>Gets the health.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Health { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Health">GameObjectBase.Health</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_HealthBarScreenPosition_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.HealthBarScreenPosition*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_HealthBarScreenPosition" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.HealthBarScreenPosition">HealthBarScreenPosition</h4>
+  <div class="markdown level1 summary"><p>Gets the position of the health on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 HealthBarScreenPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_HealthBarScreenPosition">GameObjectBase.HealthBarScreenPosition</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Index_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Index*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Index" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Index">Index</h4>
+  <div class="markdown level1 summary"><p>Gets the index within the object manager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ushort Index { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Index">GameObjectBase.Index</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsAlive_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsAlive*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsAlive" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsAlive">IsAlive</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it is alive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAlive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsAlive">GameObjectBase.IsAlive</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsCastingSpell_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsCastingSpell*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsCastingSpell" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsCastingSpell">IsCastingSpell</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it is casting a spell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsCastingSpell { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsCastingSpell">GameObjectBase.IsCastingSpell</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsTargetable_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsTargetable*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsTargetable" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsTargetable">IsTargetable</h4>
+  <div class="markdown level1 summary"><p>Checks whether if is targetable by the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsTargetable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsTargetable">GameObjectBase.IsTargetable</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsVisible_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsVisible*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsVisible" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsVisible">IsVisible</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it is visible to the player's sight in-game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsVisible { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsVisible">GameObjectBase.IsVisible</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Level_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Level*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Level" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Level">Level</h4>
+  <div class="markdown level1 summary"><p>Gets the current level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Level">GameObjectBase.Level</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Mana_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Mana*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Mana" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Mana">Mana</h4>
+  <div class="markdown level1 summary"><p>Gets the mana.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float Mana { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Mana">GameObjectBase.Mana</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_MaxHealth_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.MaxHealth*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_MaxHealth" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.MaxHealth">MaxHealth</h4>
+  <div class="markdown level1 summary"><p>GEts the max health.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float MaxHealth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MaxHealth">GameObjectBase.MaxHealth</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_MaxMana_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.MaxMana*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_MaxMana" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.MaxMana">MaxMana</h4>
+  <div class="markdown level1 summary"><p>Gets the max mana.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float MaxMana { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MaxMana">GameObjectBase.MaxMana</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_ModelName_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.ModelName*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_ModelName" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.ModelName">ModelName</h4>
+  <div class="markdown level1 summary"><p>Gets the character model name. For champions, it is the champion name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ModelName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_ModelName">GameObjectBase.ModelName</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Name_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Name*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Name" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the object's name. For player, it is their username.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Name">GameObjectBase.Name</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_NetworkID_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.NetworkID*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_NetworkID" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.NetworkID">NetworkID</h4>
+  <div class="markdown level1 summary"><p>Gets the ID on the network stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ushort NetworkID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_NetworkID">GameObjectBase.NetworkID</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Position_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Position*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Position" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets the current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector3 Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Position">GameObjectBase.Position</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_Team_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Team*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_Team" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.Team">Team</h4>
+  <div class="markdown level1 summary"><p>Gets the current team.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TeamFlag Team { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Enums.GameEnums.TeamFlag.html">TeamFlag</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Team">GameObjectBase.Team</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_TrueAttackRange_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TrueAttackRange*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_TrueAttackRange" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TrueAttackRange">TrueAttackRange</h4>
+  <div class="markdown level1 summary"><p>Gets true attack range including bounding radius(hitbox radius) in 100th teemos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float TrueAttackRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TrueAttackRange">GameObjectBase.TrueAttackRange</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag">TypeFlag</h4>
+  <div class="markdown level1 summary"><p>Gets the object's type flag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ushort TypeFlag { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TypeFlag">GameObjectBase.TypeFlag</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitComponentInfo_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitComponentInfo*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitComponentInfo" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitComponentInfo">UnitComponentInfo</h4>
+  <div class="markdown level1 summary"><p>Gets the unit's component information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override UnitComponentInfo UnitComponentInfo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.UnitComponentInfo.html">UnitComponentInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_UnitComponentInfo">GameObjectBase.UnitComponentInfo</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitStats_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitStats*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitStats" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitStats">UnitStats</h4>
+  <div class="markdown level1 summary"><p>Gets the statistical information about the unit. Statistical values shown next to the champion icon at the bottom.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override UnitStats UnitStats { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html">UnitStats</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_UnitStats">GameObjectBase.UnitStats</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_W2S_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.W2S*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_W2S" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.W2S">W2S</h4>
+  <div class="markdown level1 summary"><p>Get the transformed WorldToScreen position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 W2S { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_W2S">GameObjectBase.W2S</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_WorldToMap_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.WorldToMap*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_WorldToMap" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.WorldToMap">WorldToMap</h4>
+  <div class="markdown level1 summary"><p>Gets the current position in map on screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Vector2 WorldToMap { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_WorldToMap">GameObjectBase.WorldToMap</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_DistanceTo_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.DistanceTo*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_DistanceTo_SharpDX_Vector3_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.DistanceTo(SharpDX.Vector3)">DistanceTo(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets the distance between the given vector3 in-game position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float DistanceTo(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_DistanceTo_SharpDX_Vector3_">GameObjectBase.DistanceTo(Vector3)</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_GetAttackCastDelay_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetAttackCastDelay*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetAttackCastDelay" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetAttackCastDelay">GetAttackCastDelay()</h4>
+  <div class="markdown level1 summary"><p>Gets the time between cast animation and the actual cast of the basic attack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetAttackCastDelay()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetAttackCastDelay">GameObjectBase.GetAttackCastDelay()</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_GetAttackDelay_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetAttackDelay*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetAttackDelay" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetAttackDelay">GetAttackDelay()</h4>
+  <div class="markdown level1 summary"><p>Gets the time delay between basic attacks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetAttackDelay()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetAttackDelay">GameObjectBase.GetAttackDelay()</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_GetCurrentCastingSpell_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetCurrentCastingSpell*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetCurrentCastingSpell" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetCurrentCastingSpell">GetCurrentCastingSpell()</h4>
+  <div class="markdown level1 summary"><p>Gets the currently casting spell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SpellActiveEntry GetCurrentCastingSpell()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html">SpellActiveEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetCurrentCastingSpell">GameObjectBase.GetCurrentCastingSpell()</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_GetSpellBook_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetSpellBook*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetSpellBook" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetSpellBook">GetSpellBook()</h4>
+  <div class="markdown level1 summary"><p>Gets the spellbook.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SpellBook GetSpellBook()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellBook.html">SpellBook</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetSpellBook">GameObjectBase.GetSpellBook()</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsCombatType_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsCombatType*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsCombatType_Oasys_Common_Enums_GameEnums_CombatTypes_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsCombatType(Oasys.Common.Enums.GameEnums.CombatTypes)">IsCombatType(CombatTypes)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if combat type matches the one given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCombatType(CombatTypes CType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Enums.GameEnums.CombatTypes.html">CombatTypes</a></td>
+        <td><span class="parametername">CType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_IsTeam_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsTeam*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_IsTeam_Oasys_Common_Enums_GameEnums_TeamFlag_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.IsTeam(Oasys.Common.Enums.GameEnums.TeamFlag)">IsTeam(TeamFlag)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it is on team flag given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTeam(TeamFlag tFlag)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Enums.GameEnums.TeamFlag.html">TeamFlag</a></td>
+        <td><span class="parametername">tFlag</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Distance_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_">Extensions.Distance(GameObjectBase, GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Distance_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector3_">Extensions.Distance(GameObjectBase, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Distance_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector2_">Extensions.Distance(GameObjectBase, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_DistanceSquared_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_">Extensions.DistanceSquared(GameObjectBase, GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_DistanceSquared_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector3_">Extensions.DistanceSquared(GameObjectBase, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_DistanceSquared_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector2_">Extensions.DistanceSquared(GameObjectBase, Vector2)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_DistanceToPlayer_Oasys_Common_GameObject_GameObjectBase_">Extensions.DistanceToPlayer(GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsBothFacing_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_">Extensions.IsBothFacing(GameObjectBase, GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsFacing_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_">Extensions.IsFacing(GameObjectBase, GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsMelee_Oasys_Common_GameObject_GameObjectBase_">Extensions.IsMelee(GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsValidTarget_Oasys_Common_GameObject_GameObjectBase_System_Single_System_Boolean_SharpDX_Vector3_">Extensions.IsValidTarget(GameObjectBase, Single, Boolean, Vector3)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
