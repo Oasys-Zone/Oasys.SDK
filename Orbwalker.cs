@@ -1,4 +1,6 @@
 ﻿
+using System;
+using System.Linq;
 using Oasys.Common.GameObject;
 
 namespace Oasys.SDK
@@ -88,11 +90,53 @@ namespace Oasys.SDK
         /// <summary>
         /// Orbwalking mode
         /// </summary>
-        public static Common.Logic.OrbwalkingMode OrbwalkingMode
+        public static OrbWalkingModeType OrbwalkingMode
         {
-            get => Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode;
-            set => Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode = value;
+            get => (OrbWalkingModeType)Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode;
+            set => Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode = (Common.Logic.OrbwalkingMode)value;
         }
 
+        public enum OrbWalkingModeType
+        {
+            /// <summary>
+            ///     The orbwalker will only last hit minions.
+            /// </summary>
+            LastHit = Common.Logic.OrbwalkingMode.LastHit,
+
+            /// <summary>
+            ///     The orbwalker will alternate between last hitting and auto attacking champions.
+            /// </summary>
+            Mixed = Common.Logic.OrbwalkingMode.Mixed,
+
+            /// <summary>
+            ///     The orbwalker will clear the lane of minions as fast as possible while attempting to get the last hit. But also targetting champions, monsters, turrrets, etc...
+            /// </summary>
+            LaneClear = Common.Logic.OrbwalkingMode.LaneClear,
+
+            /// <summary>
+            ///     The orbwalker will only attack champions.
+            /// </summary>
+            Combo = Common.Logic.OrbwalkingMode.Combo,
+
+            /// <summary>
+            ///     The orbwalker will only last hit minions as late as possible.
+            /// </summary>
+            Freeze = Common.Logic.OrbwalkingMode.Freeze,
+
+            /// <summary>
+            ///     The orbwalker will only move.
+            /// </summary>
+            Move = Common.Logic.OrbwalkingMode.Move,
+
+            /// <summary>
+            ///     The orbwalker does nothing.
+            /// </summary>
+            None = Common.Logic.OrbwalkingMode.None,
+
+            /// <summary>
+            ///     The orbwalker will not attack while evading.
+            /// </summary>
+            Evade = Common.Logic.OrbwalkingMode.Evade
+        }
     }
 }

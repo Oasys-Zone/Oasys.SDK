@@ -169,5 +169,15 @@ namespace Oasys.SDK.Rendering
         {
             DrawBox(pos.X - width, pos.Y - height, width * 2, height * 2, color);
         }
+
+        /// <summary>
+        /// Draws a native circle relative to the game position and viewmatrix.
+        /// </summary>
+        /// <param name="position"></param>
+        /// <param name="radius"></param>
+        /// <param name="color"></param>
+        /// <param name="thickness"></param>
+        /// <param name="filled"></param>
+        public static void DrawNativeCircle(Vector3 position, float radius, Color color, float thickness, bool filled = false) => Common.RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
     }
 }

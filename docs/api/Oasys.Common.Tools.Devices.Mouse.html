@@ -354,13 +354,30 @@ public class Mouse</code></pre>
     <pre><code class="lang-csharp hljs">public static void LeftClick()</code></pre>
   </div>
   <a id="Oasys_Common_Tools_Devices_Mouse_RightClick_" data-uid="Oasys.Common.Tools.Devices.Mouse.RightClick*"></a>
-  <h4 id="Oasys_Common_Tools_Devices_Mouse_RightClick" data-uid="Oasys.Common.Tools.Devices.Mouse.RightClick">RightClick()</h4>
+  <h4 id="Oasys_Common_Tools_Devices_Mouse_RightClick_System_Int32_" data-uid="Oasys.Common.Tools.Devices.Mouse.RightClick(System.Int32)">RightClick(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RightClick()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RightClick(int delay = 8)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_Tools_Devices_Mouse_SetCursor_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetCursor*"></a>
   <h4 id="Oasys_Common_Tools_Devices_Mouse_SetCursor_Oasys_Common_Tools_Pos_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetCursor(Oasys.Common.Tools.Pos)">SetCursor(Pos)</h4>
   <div class="markdown level1 summary"></div>
@@ -471,6 +488,84 @@ Note that using SetCursor over SetPosition will not send any input stream events
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">yOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Tools_Devices_Mouse_SetMouseClickBlockState_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState*"></a>
+  <h4 id="Oasys_Common_Tools_Devices_Mouse_SetMouseClickBlockState_System_Boolean_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState(System.Boolean)">SetMouseClickBlockState(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets a state whether to block the clicks of the mouse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMouseClickBlockState(bool mClickState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mClickState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Tools_Devices_Mouse_SetMouseInputBlockState_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState*"></a>
+  <h4 id="Oasys_Common_Tools_Devices_Mouse_SetMouseInputBlockState_System_Boolean_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState(System.Boolean)">SetMouseInputBlockState(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets a state whether to block the input of the mouse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMouseInputBlockState(bool mInputBlockState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mInputBlockState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Tools_Devices_Mouse_SetMouseMovementBlockState_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState*"></a>
+  <h4 id="Oasys_Common_Tools_Devices_Mouse_SetMouseMovementBlockState_System_Boolean_" data-uid="Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState(System.Boolean)">SetMouseMovementBlockState(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets a state whether to block the movement of the mouse.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMouseMovementBlockState(bool mState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">mState</span></td>
         <td></td>
       </tr>
     </tbody>

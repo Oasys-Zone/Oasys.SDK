@@ -267,6 +267,30 @@ It will return last cached game object if no object is found.</p>
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_GameEngine_MaxZoomValue_" data-uid="Oasys.SDK.GameEngine.MaxZoomValue*"></a>
+  <h4 id="Oasys_SDK_GameEngine_MaxZoomValue" data-uid="Oasys.SDK.GameEngine.MaxZoomValue">MaxZoomValue</h4>
+  <div class="markdown level1 summary"><p>Maz zoomable value in game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MaxZoomValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_GameEngine_Minimap_" data-uid="Oasys.SDK.GameEngine.Minimap*"></a>
   <h4 id="Oasys_SDK_GameEngine_Minimap" data-uid="Oasys.SDK.GameEngine.Minimap">Minimap</h4>
   <div class="markdown level1 summary"><p>Gets information about the minimap.</p>
@@ -287,6 +311,183 @@ It will return last cached game object if no object is found.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="Oasys.Common.GameInstances.MinimapInfo.html">MinimapInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_GameEngine_ScreenMousePosition_" data-uid="Oasys.SDK.GameEngine.ScreenMousePosition*"></a>
+  <h4 id="Oasys_SDK_GameEngine_ScreenMousePosition" data-uid="Oasys.SDK.GameEngine.ScreenMousePosition">ScreenMousePosition</h4>
+  <div class="markdown level1 summary"><p>Position of the cursor in screen projection relative to the world position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ScreenMousePosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_GameEngine_WorldMousePosition_" data-uid="Oasys.SDK.GameEngine.WorldMousePosition*"></a>
+  <h4 id="Oasys_SDK_GameEngine_WorldMousePosition" data-uid="Oasys.SDK.GameEngine.WorldMousePosition">WorldMousePosition</h4>
+  <div class="markdown level1 summary"><p>Position of the cursor in game world projection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 WorldMousePosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_GameEngine_ZoomValue_" data-uid="Oasys.SDK.GameEngine.ZoomValue*"></a>
+  <h4 id="Oasys_SDK_GameEngine_ZoomValue" data-uid="Oasys.SDK.GameEngine.ZoomValue">ZoomValue</h4>
+  <div class="markdown level1 summary"><p>Current zoom value in game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float ZoomValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Oasys_SDK_GameEngine_IssueOrder_" data-uid="Oasys.SDK.GameEngine.IssueOrder*"></a>
+  <h4 id="Oasys_SDK_GameEngine_IssueOrder_Oasys_SDK_GameEngine_OrderType_SharpDX_Vector2_" data-uid="Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector2)">IssueOrder(GameEngine.OrderType, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Issue an order for the player(me) act on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IssueOrder(GameEngine.OrderType issuedOrder, Vector2 positionOrdered)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.SDK.GameEngine.OrderType.html">GameEngine.OrderType</a></td>
+        <td><span class="parametername">issuedOrder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td><span class="parametername">positionOrdered</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_GameEngine_IssueOrder_" data-uid="Oasys.SDK.GameEngine.IssueOrder*"></a>
+  <h4 id="Oasys_SDK_GameEngine_IssueOrder_Oasys_SDK_GameEngine_OrderType_SharpDX_Vector3_" data-uid="Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector3)">IssueOrder(GameEngine.OrderType, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Issue an order for the player(me) act on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void IssueOrder(GameEngine.OrderType issuedOrder, Vector3 positionOrdered)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.SDK.GameEngine.OrderType.html">GameEngine.OrderType</a></td>
+        <td><span class="parametername">issuedOrder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td><span class="parametername">positionOrdered</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_GameEngine_IsWall_" data-uid="Oasys.SDK.GameEngine.IsWall*"></a>
+  <h4 id="Oasys_SDK_GameEngine_IsWall_SharpDX_Vector3_" data-uid="Oasys.SDK.GameEngine.IsWall(SharpDX.Vector3)">IsWall(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the given vector3 position is a wall.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWall(Vector3 vec3Pos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td><span class="parametername">vec3Pos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

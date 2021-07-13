@@ -78,6 +78,51 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.EngineManager.GameVersion
   nameWithType: EngineManager.GameVersion
+- uid: Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType,SharpDX.Vector2)
+  name: IssueOrder(EngineManager.OrderType, Vector2)
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_IssueOrder_Oasys_Common_EngineManager_OrderType_SharpDX_Vector2_
+  commentId: M:Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType,SharpDX.Vector2)
+  fullName: Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType, SharpDX.Vector2)
+  nameWithType: EngineManager.IssueOrder(EngineManager.OrderType, Vector2)
+- uid: Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType,SharpDX.Vector3)
+  name: IssueOrder(EngineManager.OrderType, Vector3)
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_IssueOrder_Oasys_Common_EngineManager_OrderType_SharpDX_Vector3_
+  commentId: M:Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType,SharpDX.Vector3)
+  fullName: Oasys.Common.EngineManager.IssueOrder(Oasys.Common.EngineManager.OrderType, SharpDX.Vector3)
+  nameWithType: EngineManager.IssueOrder(EngineManager.OrderType, Vector3)
+- uid: Oasys.Common.EngineManager.IssueOrder*
+  name: IssueOrder
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_IssueOrder_
+  commentId: Overload:Oasys.Common.EngineManager.IssueOrder
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.IssueOrder
+  nameWithType: EngineManager.IssueOrder
+- uid: Oasys.Common.EngineManager.IsWall(SharpDX.Vector3)
+  name: IsWall(Vector3)
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_IsWall_SharpDX_Vector3_
+  commentId: M:Oasys.Common.EngineManager.IsWall(SharpDX.Vector3)
+  fullName: Oasys.Common.EngineManager.IsWall(SharpDX.Vector3)
+  nameWithType: EngineManager.IsWall(Vector3)
+- uid: Oasys.Common.EngineManager.IsWall*
+  name: IsWall
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_IsWall_
+  commentId: Overload:Oasys.Common.EngineManager.IsWall
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.IsWall
+  nameWithType: EngineManager.IsWall
+- uid: Oasys.Common.EngineManager.MaxZoomValue
+  name: MaxZoomValue
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_MaxZoomValue
+  commentId: P:Oasys.Common.EngineManager.MaxZoomValue
+  fullName: Oasys.Common.EngineManager.MaxZoomValue
+  nameWithType: EngineManager.MaxZoomValue
+- uid: Oasys.Common.EngineManager.MaxZoomValue*
+  name: MaxZoomValue
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_MaxZoomValue_
+  commentId: Overload:Oasys.Common.EngineManager.MaxZoomValue
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.MaxZoomValue
+  nameWithType: EngineManager.MaxZoomValue
 - uid: Oasys.Common.EngineManager.MinimapInfo
   name: MinimapInfo
   href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_MinimapInfo
@@ -117,6 +162,63 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.EngineManager.ObjectUnderMouse
   nameWithType: EngineManager.ObjectUnderMouse
+- uid: Oasys.Common.EngineManager.OrderType
+  name: EngineManager.OrderType
+  href: api/Oasys.Common.EngineManager.OrderType.html
+  commentId: T:Oasys.Common.EngineManager.OrderType
+  fullName: Oasys.Common.EngineManager.OrderType
+  nameWithType: EngineManager.OrderType
+- uid: Oasys.Common.EngineManager.OrderType.MoveTo
+  name: MoveTo
+  href: api/Oasys.Common.EngineManager.OrderType.html#Oasys_Common_EngineManager_OrderType_MoveTo
+  commentId: F:Oasys.Common.EngineManager.OrderType.MoveTo
+  fullName: Oasys.Common.EngineManager.OrderType.MoveTo
+  nameWithType: EngineManager.OrderType.MoveTo
+- uid: Oasys.Common.EngineManager.OrderType.Stop
+  name: Stop
+  href: api/Oasys.Common.EngineManager.OrderType.html#Oasys_Common_EngineManager_OrderType_Stop
+  commentId: F:Oasys.Common.EngineManager.OrderType.Stop
+  fullName: Oasys.Common.EngineManager.OrderType.Stop
+  nameWithType: EngineManager.OrderType.Stop
+- uid: Oasys.Common.EngineManager.ScreenMousePosition
+  name: ScreenMousePosition
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_ScreenMousePosition
+  commentId: P:Oasys.Common.EngineManager.ScreenMousePosition
+  fullName: Oasys.Common.EngineManager.ScreenMousePosition
+  nameWithType: EngineManager.ScreenMousePosition
+- uid: Oasys.Common.EngineManager.ScreenMousePosition*
+  name: ScreenMousePosition
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_ScreenMousePosition_
+  commentId: Overload:Oasys.Common.EngineManager.ScreenMousePosition
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.ScreenMousePosition
+  nameWithType: EngineManager.ScreenMousePosition
+- uid: Oasys.Common.EngineManager.WorldMousePosition
+  name: WorldMousePosition
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_WorldMousePosition
+  commentId: P:Oasys.Common.EngineManager.WorldMousePosition
+  fullName: Oasys.Common.EngineManager.WorldMousePosition
+  nameWithType: EngineManager.WorldMousePosition
+- uid: Oasys.Common.EngineManager.WorldMousePosition*
+  name: WorldMousePosition
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_WorldMousePosition_
+  commentId: Overload:Oasys.Common.EngineManager.WorldMousePosition
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.WorldMousePosition
+  nameWithType: EngineManager.WorldMousePosition
+- uid: Oasys.Common.EngineManager.ZoomValue
+  name: ZoomValue
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_ZoomValue
+  commentId: P:Oasys.Common.EngineManager.ZoomValue
+  fullName: Oasys.Common.EngineManager.ZoomValue
+  nameWithType: EngineManager.ZoomValue
+- uid: Oasys.Common.EngineManager.ZoomValue*
+  name: ZoomValue
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_ZoomValue_
+  commentId: Overload:Oasys.Common.EngineManager.ZoomValue
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.ZoomValue
+  nameWithType: EngineManager.ZoomValue
 - uid: Oasys.Common.Enums.GameEnums
   name: Oasys.Common.Enums.GameEnums
   href: api/Oasys.Common.Enums.GameEnums.html
@@ -2751,6 +2853,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ObjectTypeFlag.DeadObjectIdentifier
   fullName: Oasys.Common.Enums.GameEnums.ObjectTypeFlag.DeadObjectIdentifier
   nameWithType: ObjectTypeFlag.DeadObjectIdentifier
+- uid: Oasys.Common.Enums.GameEnums.ObjectTypeFlag.InvalidObject
+  name: InvalidObject
+  href: api/Oasys.Common.Enums.GameEnums.ObjectTypeFlag.html#Oasys_Common_Enums_GameEnums_ObjectTypeFlag_InvalidObject
+  commentId: F:Oasys.Common.Enums.GameEnums.ObjectTypeFlag.InvalidObject
+  fullName: Oasys.Common.Enums.GameEnums.ObjectTypeFlag.InvalidObject
+  nameWithType: ObjectTypeFlag.InvalidObject
 - uid: Oasys.Common.Enums.GameEnums.ObjectTypeFlag.NeutralCampClient
   name: NeutralCampClient
   href: api/Oasys.Common.Enums.GameEnums.ObjectTypeFlag.html#Oasys_Common_Enums_GameEnums_ObjectTypeFlag_NeutralCampClient
@@ -3369,6 +3477,24 @@ references:
   commentId: T:Oasys.Common.EventsProvider.GameEvents.GameEventTemplate
   fullName: Oasys.Common.EventsProvider.GameEvents.GameEventTemplate
   nameWithType: GameEvents.GameEventTemplate
+- uid: Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
+  name: GameEvents.ObjectManagerCallbackDelegate
+  href: api/Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate.html
+  commentId: T:Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
+  fullName: Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
+  nameWithType: GameEvents.ObjectManagerCallbackDelegate
+- uid: Oasys.Common.EventsProvider.GameEvents.OnCreateObject
+  name: OnCreateObject
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnCreateObject
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnCreateObject
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnCreateObject
+  nameWithType: GameEvents.OnCreateObject
+- uid: Oasys.Common.EventsProvider.GameEvents.OnDeleteObject
+  name: OnDeleteObject
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnDeleteObject
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnDeleteObject
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnDeleteObject
+  nameWithType: GameEvents.OnDeleteObject
 - uid: Oasys.Common.EventsProvider.GameEvents.OnGameLoadComplete
   name: OnGameLoadComplete
   href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameLoadComplete
@@ -4740,6 +4866,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.AttackRange
   nameWithType: AIBaseClient.AttackRange
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated
+  name: BaseObjectTypesAssociated
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_BaseObjectTypesAssociated
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated
+  nameWithType: AIBaseClient.BaseObjectTypesAssociated
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated*
+  name: BaseObjectTypesAssociated
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_BaseObjectTypesAssociated_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated
+  nameWithType: AIBaseClient.BaseObjectTypesAssociated
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.BasicAttackInfo
   name: BasicAttackInfo
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_BasicAttackInfo
@@ -5169,19 +5308,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.TrueAttackRange
   nameWithType: AIBaseClient.TrueAttackRange
-- uid: Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag
-  name: TypeFlag
-  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag
-  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag
-  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag
-  nameWithType: AIBaseClient.TypeFlag
-- uid: Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag*
-  name: TypeFlag
-  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag_
-  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag
-  nameWithType: AIBaseClient.TypeFlag
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.UnitComponentInfo
   name: UnitComponentInfo
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_UnitComponentInfo
@@ -5337,6 +5463,116 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIMinionClient.AIMinionClient
   nameWithType: AIMinionClient.AIMinionClient
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient
+  name: AIMissileClient
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html
+  commentId: T:Oasys.Common.GameObject.Clients.AIMissileClient
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient
+  nameWithType: AIMissileClient
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.#ctor(System.Int32)
+  name: AIMissileClient(Int32)
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.Clients.AIMissileClient.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.AIMissileClient(System.Int32)
+  nameWithType: AIMissileClient.AIMissileClient(Int32)
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.#ctor*
+  name: AIMissileClient
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient__ctor_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.AIMissileClient
+  nameWithType: AIMissileClient.AIMissileClient
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition
+  name: EndPosition
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_EndPosition
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition
+  nameWithType: AIMissileClient.EndPosition
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition*
+  name: EndPosition
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_EndPosition_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.EndPosition
+  nameWithType: AIMissileClient.EndPosition
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.Level
+  name: Level
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_Level
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.Level
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.Level
+  nameWithType: AIMissileClient.Level
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.Level*
+  name: Level
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_Level_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.Level
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.Level
+  nameWithType: AIMissileClient.Level
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.Slot
+  name: Slot
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_Slot
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.Slot
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.Slot
+  nameWithType: AIMissileClient.Slot
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.Slot*
+  name: Slot
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_Slot_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.Slot
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.Slot
+  nameWithType: AIMissileClient.Slot
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex
+  name: SourceIndex
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_SourceIndex
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex
+  nameWithType: AIMissileClient.SourceIndex
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex*
+  name: SourceIndex
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_SourceIndex_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.SourceIndex
+  nameWithType: AIMissileClient.SourceIndex
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.SpellData
+  name: SpellData
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_SpellData
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.SpellData
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.SpellData
+  nameWithType: AIMissileClient.SpellData
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.SpellData*
+  name: SpellData
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_SpellData_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.SpellData
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.SpellData
+  nameWithType: AIMissileClient.SpellData
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition
+  name: StartPosition
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_StartPosition
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition
+  nameWithType: AIMissileClient.StartPosition
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition*
+  name: StartPosition
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_StartPosition_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.StartPosition
+  nameWithType: AIMissileClient.StartPosition
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
+  name: TargetIndex
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_TargetIndex
+  commentId: P:Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
+  nameWithType: AIMissileClient.TargetIndex
+- uid: Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex*
+  name: TargetIndex
+  href: api/Oasys.Common.GameObject.Clients.AIMissileClient.html#Oasys_Common_GameObject_Clients_AIMissileClient_TargetIndex_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
+  nameWithType: AIMissileClient.TargetIndex
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances
   name: Oasys.Common.GameObject.Clients.ExtendedInstances
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.html
@@ -5466,6 +5702,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.NavTargetPosition
   nameWithType: AIManager.NavTargetPosition
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount
+  name: ProcessedNavPointCount
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_AIManager_ProcessedNavPointCount
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount
+  nameWithType: AIManager.ProcessedNavPointCount
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount*
+  name: ProcessedNavPointCount
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_AIManager_ProcessedNavPointCount_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ProcessedNavPointCount
+  nameWithType: AIManager.ProcessedNavPointCount
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.ServerPosition
   name: ServerPosition
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.AIManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_AIManager_ServerPosition
@@ -6401,19 +6650,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCost
   nameWithType: SpellClassData.ResourceCost
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton
-  name: SpellDuraton
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDuraton
-  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton
-  nameWithType: SpellClassData.SpellDuraton
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton*
-  name: SpellDuraton
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDuraton_
-  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
+  name: SpellDuration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDuration
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
+  nameWithType: SpellClassData.SpellDuration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration*
+  name: SpellDuration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDuration_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
   isSpec: "True"
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuraton
-  nameWithType: SpellClassData.SpellDuraton
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
+  nameWithType: SpellClassData.SpellDuration
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellName
   name: SpellName
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellName
@@ -7809,19 +8058,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.TrueAttackRange
   nameWithType: GameObjectBase.TrueAttackRange
-- uid: Oasys.Common.GameObject.GameObjectBase.TypeFlag
-  name: TypeFlag
-  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TypeFlag
-  commentId: P:Oasys.Common.GameObject.GameObjectBase.TypeFlag
-  fullName: Oasys.Common.GameObject.GameObjectBase.TypeFlag
-  nameWithType: GameObjectBase.TypeFlag
-- uid: Oasys.Common.GameObject.GameObjectBase.TypeFlag*
-  name: TypeFlag
-  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TypeFlag_
-  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.TypeFlag
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.GameObjectBase.TypeFlag
-  nameWithType: GameObjectBase.TypeFlag
 - uid: Oasys.Common.GameObject.GameObjectBase.UnitComponentInfo
   name: UnitComponentInfo
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_UnitComponentInfo
@@ -8260,19 +8496,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.SelectedTarget
   nameWithType: Orbwalker.OrbSettings.SelectedTarget
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-  name: ShouldWaitForBasicAttack
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_ShouldWaitForBasicAttack
-  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-  nameWithType: Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack*
-  name: ShouldWaitForBasicAttack
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_ShouldWaitForBasicAttack_
-  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-  isSpec: "True"
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ShouldWaitForBasicAttack
-  nameWithType: Orbwalker.OrbSettings.ShouldWaitForBasicAttack
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.TargetChampionsOnly
   name: TargetChampionsOnly
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_TargetChampionsOnly
@@ -8385,6 +8608,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget
   nameWithType: TargetSelector.GetBestHeroTarget
+- uid: Oasys.Common.Logic.TargetSelector.Initialize
+  name: Initialize()
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_Initialize
+  commentId: M:Oasys.Common.Logic.TargetSelector.Initialize
+  fullName: Oasys.Common.Logic.TargetSelector.Initialize()
+  nameWithType: TargetSelector.Initialize()
+- uid: Oasys.Common.Logic.TargetSelector.Initialize*
+  name: Initialize
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_Initialize_
+  commentId: Overload:Oasys.Common.Logic.TargetSelector.Initialize
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.TargetSelector.Initialize
+  nameWithType: TargetSelector.Initialize
 - uid: Oasys.Common.Logic.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean)
   name: IsAttackable(GameObjectBase, Boolean)
   href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_System_Boolean_
@@ -8775,6 +9011,19 @@ references:
   commentId: F:Oasys.Common.RenderFactoryProvider.D3D
   fullName: Oasys.Common.RenderFactoryProvider.D3D
   nameWithType: RenderFactoryProvider.D3D
+- uid: Oasys.Common.RenderFactoryProvider.DrawCircle(SharpDX.Vector3,System.Single,SharpDX.Color,System.Single,System.Boolean)
+  name: DrawCircle(Vector3, Single, Color, Single, Boolean)
+  href: api/Oasys.Common.RenderFactoryProvider.html#Oasys_Common_RenderFactoryProvider_DrawCircle_SharpDX_Vector3_System_Single_SharpDX_Color_System_Single_System_Boolean_
+  commentId: M:Oasys.Common.RenderFactoryProvider.DrawCircle(SharpDX.Vector3,System.Single,SharpDX.Color,System.Single,System.Boolean)
+  fullName: Oasys.Common.RenderFactoryProvider.DrawCircle(SharpDX.Vector3, System.Single, SharpDX.Color, System.Single, System.Boolean)
+  nameWithType: RenderFactoryProvider.DrawCircle(Vector3, Single, Color, Single, Boolean)
+- uid: Oasys.Common.RenderFactoryProvider.DrawCircle*
+  name: DrawCircle
+  href: api/Oasys.Common.RenderFactoryProvider.html#Oasys_Common_RenderFactoryProvider_DrawCircle_
+  commentId: Overload:Oasys.Common.RenderFactoryProvider.DrawCircle
+  isSpec: "True"
+  fullName: Oasys.Common.RenderFactoryProvider.DrawCircle
+  nameWithType: RenderFactoryProvider.DrawCircle
 - uid: Oasys.Common.RenderFactoryProvider.RenderDevice
   name: RenderDevice
   href: api/Oasys.Common.RenderFactoryProvider.html#Oasys_Common_RenderFactoryProvider_RenderDevice
@@ -8844,12 +9093,6 @@ references:
   commentId: T:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes
   nameWithType: Keyboard.KeyBoardScanCodes
-- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.ESC
-  name: ESC
-  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_ESC
-  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.ESC
-  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.ESC
-  nameWithType: Keyboard.KeyBoardScanCodes.ESC
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_0
   name: KEY_0
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_0
@@ -8916,18 +9159,60 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_A
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_A
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_A
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ALT
+  name: KEY_ALT
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_ALT
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ALT
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ALT
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_ALT
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_APOSTROF
+  name: KEY_APOSTROF
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_APOSTROF
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_APOSTROF
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_APOSTROF
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_APOSTROF
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_B
+  name: KEY_B
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_B
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_B
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_B
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_B
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSLASH
+  name: KEY_BACKSLASH
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_BACKSLASH
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSLASH
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSLASH
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_BACKSLASH
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSPACE
   name: KEY_BACKSPACE
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_BACKSPACE
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSPACE
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_BACKSPACE
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_BACKSPACE
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_C
+  name: KEY_C
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_C
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_C
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_C
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_C
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CAPS
+  name: KEY_CAPS
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_CAPS
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CAPS
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CAPS
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_CAPS
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CLOSENING_BRACKETS
   name: KEY_CLOSENING_BRACKETS
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_CLOSENING_BRACKETS
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CLOSENING_BRACKETS
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CLOSENING_BRACKETS
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_CLOSENING_BRACKETS
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_COMMA
+  name: KEY_COMMA
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_COMMA
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_COMMA
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_COMMA
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_COMMA
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_CONTROL
   name: KEY_CONTROL
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_CONTROL
@@ -8940,6 +9225,12 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_D
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_D
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_D
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_DIACRITIC
+  name: KEY_DIACRITIC
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_DIACRITIC
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_DIACRITIC
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_DIACRITIC
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_DIACRITIC
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_E
   name: KEY_E
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_E
@@ -8958,12 +9249,78 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_EQUAL
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_EQUAL
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_EQUAL
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ESC
+  name: KEY_ESC
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_ESC
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ESC
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_ESC
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_ESC
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F
   name: KEY_F
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_F
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F1
+  name: KEY_F1
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F1
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F1
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F1
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F1
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F10
+  name: KEY_F10
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F10
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F10
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F10
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F10
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F2
+  name: KEY_F2
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F2
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F2
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F2
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F2
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F3
+  name: KEY_F3
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F3
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F3
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F3
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F3
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F4
+  name: KEY_F4
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F4
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F4
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F4
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F4
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F5
+  name: KEY_F5
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F5
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F5
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F5
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F5
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F6
+  name: KEY_F6
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F6
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F6
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F6
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F6
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F7
+  name: KEY_F7
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F7
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F7
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F7
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F7
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F8
+  name: KEY_F8
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F8
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F8
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F8
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F8
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F9
+  name: KEY_F9
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_F9
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F9
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_F9
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_F9
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_G
   name: KEY_G
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_G
@@ -9000,12 +9357,36 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_L
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_L
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_L
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_LSHIFT
+  name: KEY_LSHIFT
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_LSHIFT
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_LSHIFT
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_LSHIFT
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_LSHIFT
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_M
+  name: KEY_M
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_M
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_M
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_M
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_M
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_MINUS
   name: KEY_MINUS
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_MINUS
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_MINUS
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_MINUS
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_MINUS
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_N
+  name: KEY_N
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_N
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_N
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_N
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_N
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_NUM
+  name: KEY_NUM
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_NUM
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_NUM
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_NUM
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_NUM
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_NUMPAD0
   name: KEY_NUMPAD0
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_NUMPAD0
@@ -9084,6 +9465,24 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_P
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_P
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_P
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PERIOD
+  name: KEY_PERIOD
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_PERIOD
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PERIOD
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PERIOD
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_PERIOD
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PLUS
+  name: KEY_PLUS
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_PLUS
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PLUS
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PLUS
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_PLUS
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PRINTSCREEN
+  name: KEY_PRINTSCREEN
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_PRINTSCREEN
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PRINTSCREEN
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_PRINTSCREEN
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_PRINTSCREEN
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Q
   name: KEY_Q
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_Q
@@ -9096,12 +9495,42 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_R
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_R
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_R
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_RSHIFT
+  name: KEY_RSHIFT
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_RSHIFT
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_RSHIFT
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_RSHIFT
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_RSHIFT
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_S
   name: KEY_S
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_S
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_S
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_S
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_S
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SCROLL
+  name: KEY_SCROLL
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_SCROLL
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SCROLL
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SCROLL
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_SCROLL
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SEMICOLON
+  name: KEY_SEMICOLON
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_SEMICOLON
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SEMICOLON
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SEMICOLON
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_SEMICOLON
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SLASH
+  name: KEY_SLASH
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_SLASH
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SLASH
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SLASH
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_SLASH
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SPACE
+  name: KEY_SPACE
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_SPACE
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SPACE
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_SPACE
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_SPACE
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_T
   name: KEY_T
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_T
@@ -9120,18 +9549,54 @@ references:
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_U
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_U
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_U
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_V
+  name: KEY_V
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_V
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_V
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_V
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_V
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_W
   name: KEY_W
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_W
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_W
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_W
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_W
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_X
+  name: KEY_X
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_X
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_X
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_X
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_X
 - uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Y
   name: KEY_Y
   href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_Y
   commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Y
   fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Y
   nameWithType: Keyboard.KeyBoardScanCodes.KEY_Y
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Z
+  name: KEY_Z
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html#Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_KEY_Z
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Z
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.KEY_Z
+  nameWithType: Keyboard.KeyBoardScanCodes.KEY_Z
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyPressState
+  name: Keyboard.KeyPressState
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyPressState.html
+  commentId: T:Oasys.Common.Tools.Devices.Keyboard.KeyPressState
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyPressState
+  nameWithType: Keyboard.KeyPressState
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Down
+  name: Down
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyPressState.html#Oasys_Common_Tools_Devices_Keyboard_KeyPressState_Down
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Down
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Down
+  nameWithType: Keyboard.KeyPressState.Down
+- uid: Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Up
+  name: Up
+  href: api/Oasys.Common.Tools.Devices.Keyboard.KeyPressState.html#Oasys_Common_Tools_Devices_Keyboard_KeyPressState_Up
+  commentId: F:Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Up
+  fullName: Oasys.Common.Tools.Devices.Keyboard.KeyPressState.Up
+  nameWithType: Keyboard.KeyPressState.Up
 - uid: Oasys.Common.Tools.Devices.Keyboard.OnKeyPress
   name: OnKeyPress
   href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_OnKeyPress
@@ -9144,24 +9609,12 @@ references:
   commentId: T:Oasys.Common.Tools.Devices.Keyboard.OnKeyPressCallback
   fullName: Oasys.Common.Tools.Devices.Keyboard.OnKeyPressCallback
   nameWithType: Keyboard.OnKeyPressCallback
-- uid: Oasys.Common.Tools.Devices.Keyboard.PressState
-  name: Keyboard.PressState
-  href: api/Oasys.Common.Tools.Devices.Keyboard.PressState.html
-  commentId: T:Oasys.Common.Tools.Devices.Keyboard.PressState
-  fullName: Oasys.Common.Tools.Devices.Keyboard.PressState
-  nameWithType: Keyboard.PressState
-- uid: Oasys.Common.Tools.Devices.Keyboard.PressState.Down
-  name: Down
-  href: api/Oasys.Common.Tools.Devices.Keyboard.PressState.html#Oasys_Common_Tools_Devices_Keyboard_PressState_Down
-  commentId: F:Oasys.Common.Tools.Devices.Keyboard.PressState.Down
-  fullName: Oasys.Common.Tools.Devices.Keyboard.PressState.Down
-  nameWithType: Keyboard.PressState.Down
-- uid: Oasys.Common.Tools.Devices.Keyboard.PressState.Up
-  name: Up
-  href: api/Oasys.Common.Tools.Devices.Keyboard.PressState.html#Oasys_Common_Tools_Devices_Keyboard_PressState_Up
-  commentId: F:Oasys.Common.Tools.Devices.Keyboard.PressState.Up
-  fullName: Oasys.Common.Tools.Devices.Keyboard.PressState.Up
-  nameWithType: Keyboard.PressState.Up
+- uid: Oasys.Common.Tools.Devices.Keyboard.SendKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  name: SendKey(Keyboard.KeyBoardScanCodes)
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_SendKey_Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_
+  commentId: M:Oasys.Common.Tools.Devices.Keyboard.SendKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  fullName: Oasys.Common.Tools.Devices.Keyboard.SendKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  nameWithType: Keyboard.SendKey(Keyboard.KeyBoardScanCodes)
 - uid: Oasys.Common.Tools.Devices.Keyboard.SendKey(System.Int16)
   name: SendKey(Int16)
   href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_SendKey_System_Int16_
@@ -10327,12 +10780,12 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Tools.Devices.Mouse.Resolution
   nameWithType: Mouse.Resolution
-- uid: Oasys.Common.Tools.Devices.Mouse.RightClick
-  name: RightClick()
-  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_RightClick
-  commentId: M:Oasys.Common.Tools.Devices.Mouse.RightClick
-  fullName: Oasys.Common.Tools.Devices.Mouse.RightClick()
-  nameWithType: Mouse.RightClick()
+- uid: Oasys.Common.Tools.Devices.Mouse.RightClick(System.Int32)
+  name: RightClick(Int32)
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_RightClick_System_Int32_
+  commentId: M:Oasys.Common.Tools.Devices.Mouse.RightClick(System.Int32)
+  fullName: Oasys.Common.Tools.Devices.Mouse.RightClick(System.Int32)
+  nameWithType: Mouse.RightClick(Int32)
 - uid: Oasys.Common.Tools.Devices.Mouse.RightClick*
   name: RightClick
   href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_RightClick_
@@ -10378,6 +10831,45 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Tools.Devices.Mouse.SetCursorRelative
   nameWithType: Mouse.SetCursorRelative
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState(System.Boolean)
+  name: SetMouseClickBlockState(Boolean)
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseClickBlockState_System_Boolean_
+  commentId: M:Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState(System.Boolean)
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState(System.Boolean)
+  nameWithType: Mouse.SetMouseClickBlockState(Boolean)
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState*
+  name: SetMouseClickBlockState
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseClickBlockState_
+  commentId: Overload:Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseClickBlockState
+  nameWithType: Mouse.SetMouseClickBlockState
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState(System.Boolean)
+  name: SetMouseInputBlockState(Boolean)
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseInputBlockState_System_Boolean_
+  commentId: M:Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState(System.Boolean)
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState(System.Boolean)
+  nameWithType: Mouse.SetMouseInputBlockState(Boolean)
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState*
+  name: SetMouseInputBlockState
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseInputBlockState_
+  commentId: Overload:Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseInputBlockState
+  nameWithType: Mouse.SetMouseInputBlockState
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState(System.Boolean)
+  name: SetMouseMovementBlockState(Boolean)
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseMovementBlockState_System_Boolean_
+  commentId: M:Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState(System.Boolean)
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState(System.Boolean)
+  nameWithType: Mouse.SetMouseMovementBlockState(Boolean)
+- uid: Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState*
+  name: SetMouseMovementBlockState
+  href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetMouseMovementBlockState_
+  commentId: Overload:Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Mouse.SetMouseMovementBlockState
+  nameWithType: Mouse.SetMouseMovementBlockState
 - uid: Oasys.Common.Tools.Devices.Mouse.SetPosition(Oasys.Common.Tools.Pos)
   name: SetPosition(Pos)
   href: api/Oasys.Common.Tools.Devices.Mouse.html#Oasys_Common_Tools_Devices_Mouse_SetPosition_Oasys_Common_Tools_Pos_
@@ -11223,6 +11715,51 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.GameEngine.InGameInfo
   nameWithType: GameEngine.InGameInfo
+- uid: Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector2)
+  name: IssueOrder(GameEngine.OrderType, Vector2)
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_IssueOrder_Oasys_SDK_GameEngine_OrderType_SharpDX_Vector2_
+  commentId: M:Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector2)
+  fullName: Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType, SharpDX.Vector2)
+  nameWithType: GameEngine.IssueOrder(GameEngine.OrderType, Vector2)
+- uid: Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector3)
+  name: IssueOrder(GameEngine.OrderType, Vector3)
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_IssueOrder_Oasys_SDK_GameEngine_OrderType_SharpDX_Vector3_
+  commentId: M:Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType,SharpDX.Vector3)
+  fullName: Oasys.SDK.GameEngine.IssueOrder(Oasys.SDK.GameEngine.OrderType, SharpDX.Vector3)
+  nameWithType: GameEngine.IssueOrder(GameEngine.OrderType, Vector3)
+- uid: Oasys.SDK.GameEngine.IssueOrder*
+  name: IssueOrder
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_IssueOrder_
+  commentId: Overload:Oasys.SDK.GameEngine.IssueOrder
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.IssueOrder
+  nameWithType: GameEngine.IssueOrder
+- uid: Oasys.SDK.GameEngine.IsWall(SharpDX.Vector3)
+  name: IsWall(Vector3)
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_IsWall_SharpDX_Vector3_
+  commentId: M:Oasys.SDK.GameEngine.IsWall(SharpDX.Vector3)
+  fullName: Oasys.SDK.GameEngine.IsWall(SharpDX.Vector3)
+  nameWithType: GameEngine.IsWall(Vector3)
+- uid: Oasys.SDK.GameEngine.IsWall*
+  name: IsWall
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_IsWall_
+  commentId: Overload:Oasys.SDK.GameEngine.IsWall
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.IsWall
+  nameWithType: GameEngine.IsWall
+- uid: Oasys.SDK.GameEngine.MaxZoomValue
+  name: MaxZoomValue
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_MaxZoomValue
+  commentId: P:Oasys.SDK.GameEngine.MaxZoomValue
+  fullName: Oasys.SDK.GameEngine.MaxZoomValue
+  nameWithType: GameEngine.MaxZoomValue
+- uid: Oasys.SDK.GameEngine.MaxZoomValue*
+  name: MaxZoomValue
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_MaxZoomValue_
+  commentId: Overload:Oasys.SDK.GameEngine.MaxZoomValue
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.MaxZoomValue
+  nameWithType: GameEngine.MaxZoomValue
 - uid: Oasys.SDK.GameEngine.Minimap
   name: Minimap
   href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_Minimap
@@ -11236,6 +11773,63 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.GameEngine.Minimap
   nameWithType: GameEngine.Minimap
+- uid: Oasys.SDK.GameEngine.OrderType
+  name: GameEngine.OrderType
+  href: api/Oasys.SDK.GameEngine.OrderType.html
+  commentId: T:Oasys.SDK.GameEngine.OrderType
+  fullName: Oasys.SDK.GameEngine.OrderType
+  nameWithType: GameEngine.OrderType
+- uid: Oasys.SDK.GameEngine.OrderType.MoveTo
+  name: MoveTo
+  href: api/Oasys.SDK.GameEngine.OrderType.html#Oasys_SDK_GameEngine_OrderType_MoveTo
+  commentId: F:Oasys.SDK.GameEngine.OrderType.MoveTo
+  fullName: Oasys.SDK.GameEngine.OrderType.MoveTo
+  nameWithType: GameEngine.OrderType.MoveTo
+- uid: Oasys.SDK.GameEngine.OrderType.Stop
+  name: Stop
+  href: api/Oasys.SDK.GameEngine.OrderType.html#Oasys_SDK_GameEngine_OrderType_Stop
+  commentId: F:Oasys.SDK.GameEngine.OrderType.Stop
+  fullName: Oasys.SDK.GameEngine.OrderType.Stop
+  nameWithType: GameEngine.OrderType.Stop
+- uid: Oasys.SDK.GameEngine.ScreenMousePosition
+  name: ScreenMousePosition
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_ScreenMousePosition
+  commentId: P:Oasys.SDK.GameEngine.ScreenMousePosition
+  fullName: Oasys.SDK.GameEngine.ScreenMousePosition
+  nameWithType: GameEngine.ScreenMousePosition
+- uid: Oasys.SDK.GameEngine.ScreenMousePosition*
+  name: ScreenMousePosition
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_ScreenMousePosition_
+  commentId: Overload:Oasys.SDK.GameEngine.ScreenMousePosition
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.ScreenMousePosition
+  nameWithType: GameEngine.ScreenMousePosition
+- uid: Oasys.SDK.GameEngine.WorldMousePosition
+  name: WorldMousePosition
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_WorldMousePosition
+  commentId: P:Oasys.SDK.GameEngine.WorldMousePosition
+  fullName: Oasys.SDK.GameEngine.WorldMousePosition
+  nameWithType: GameEngine.WorldMousePosition
+- uid: Oasys.SDK.GameEngine.WorldMousePosition*
+  name: WorldMousePosition
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_WorldMousePosition_
+  commentId: Overload:Oasys.SDK.GameEngine.WorldMousePosition
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.WorldMousePosition
+  nameWithType: GameEngine.WorldMousePosition
+- uid: Oasys.SDK.GameEngine.ZoomValue
+  name: ZoomValue
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_ZoomValue
+  commentId: P:Oasys.SDK.GameEngine.ZoomValue
+  fullName: Oasys.SDK.GameEngine.ZoomValue
+  nameWithType: GameEngine.ZoomValue
+- uid: Oasys.SDK.GameEngine.ZoomValue*
+  name: ZoomValue
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_ZoomValue_
+  commentId: Overload:Oasys.SDK.GameEngine.ZoomValue
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.ZoomValue
+  nameWithType: GameEngine.ZoomValue
 - uid: Oasys.SDK.InputProviders
   name: Oasys.SDK.InputProviders
   href: api/Oasys.SDK.InputProviders.html
@@ -11906,6 +12500,60 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Orbwalker.OrbwalkingMode
   nameWithType: Orbwalker.OrbwalkingMode
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType
+  name: Orbwalker.OrbWalkingModeType
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html
+  commentId: T:Oasys.SDK.Orbwalker.OrbWalkingModeType
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType
+  nameWithType: Orbwalker.OrbWalkingModeType
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.Combo
+  name: Combo
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_Combo
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.Combo
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.Combo
+  nameWithType: Orbwalker.OrbWalkingModeType.Combo
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.Evade
+  name: Evade
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_Evade
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.Evade
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.Evade
+  nameWithType: Orbwalker.OrbWalkingModeType.Evade
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.Freeze
+  name: Freeze
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_Freeze
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.Freeze
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.Freeze
+  nameWithType: Orbwalker.OrbWalkingModeType.Freeze
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.LaneClear
+  name: LaneClear
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_LaneClear
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.LaneClear
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.LaneClear
+  nameWithType: Orbwalker.OrbWalkingModeType.LaneClear
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.LastHit
+  name: LastHit
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_LastHit
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.LastHit
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.LastHit
+  nameWithType: Orbwalker.OrbWalkingModeType.LastHit
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.Mixed
+  name: Mixed
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_Mixed
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.Mixed
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.Mixed
+  nameWithType: Orbwalker.OrbWalkingModeType.Mixed
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.Move
+  name: Move
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_Move
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.Move
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.Move
+  nameWithType: Orbwalker.OrbWalkingModeType.Move
+- uid: Oasys.SDK.Orbwalker.OrbWalkingModeType.None
+  name: None
+  href: api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html#Oasys_SDK_Orbwalker_OrbWalkingModeType_None
+  commentId: F:Oasys.SDK.Orbwalker.OrbWalkingModeType.None
+  fullName: Oasys.SDK.Orbwalker.OrbWalkingModeType.None
+  nameWithType: Orbwalker.OrbWalkingModeType.None
 - uid: Oasys.SDK.Orbwalker.PreviousMinion
   name: PreviousMinion
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_PreviousMinion
@@ -12040,6 +12688,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Rendering.RenderFactory.DrawLine
   nameWithType: RenderFactory.DrawLine
+- uid: Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle(SharpDX.Vector3,System.Single,SharpDX.Color,System.Single,System.Boolean)
+  name: DrawNativeCircle(Vector3, Single, Color, Single, Boolean)
+  href: api/Oasys.SDK.Rendering.RenderFactory.html#Oasys_SDK_Rendering_RenderFactory_DrawNativeCircle_SharpDX_Vector3_System_Single_SharpDX_Color_System_Single_System_Boolean_
+  commentId: M:Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle(SharpDX.Vector3,System.Single,SharpDX.Color,System.Single,System.Boolean)
+  fullName: Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle(SharpDX.Vector3, System.Single, SharpDX.Color, System.Single, System.Boolean)
+  nameWithType: RenderFactory.DrawNativeCircle(Vector3, Single, Color, Single, Boolean)
+- uid: Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle*
+  name: DrawNativeCircle
+  href: api/Oasys.SDK.Rendering.RenderFactory.html#Oasys_SDK_Rendering_RenderFactory_DrawNativeCircle_
+  commentId: Overload:Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle
+  isSpec: "True"
+  fullName: Oasys.SDK.Rendering.RenderFactory.DrawNativeCircle
+  nameWithType: RenderFactory.DrawNativeCircle
 - uid: Oasys.SDK.Rendering.RenderFactory.DrawSpellBoxedLine(SharpDX.Vector2,SharpDX.Vector2,System.Single,SharpDX.Color)
   name: DrawSpellBoxedLine(Vector2, Vector2, Single, Color)
   href: api/Oasys.SDK.Rendering.RenderFactory.html#Oasys_SDK_Rendering_RenderFactory_DrawSpellBoxedLine_SharpDX_Vector2_SharpDX_Vector2_System_Single_SharpDX_Color_

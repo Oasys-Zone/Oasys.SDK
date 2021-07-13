@@ -92,6 +92,7 @@
     <div class="level2"><span class="xref">AIBaseClient</span></div>
       <div class="level3"><a class="xref" href="Oasys.Common.GameObject.Clients.AIHeroClient.html">AIHeroClient</a></div>
       <div class="level3"><a class="xref" href="Oasys.Common.GameObject.Clients.AIMinionClient.html">AIMinionClient</a></div>
+      <div class="level3"><a class="xref" href="Oasys.Common.GameObject.Clients.AIMissileClient.html">AIMissileClient</a></div>
       <div class="level3"><a class="xref" href="Oasys.Common.GameObject.ObjectClass.Inhibitor.html">Inhibitor</a></div>
       <div class="level3"><a class="xref" href="Oasys.Common.GameObject.ObjectClass.Turret.html">Turret</a></div>
   </div>
@@ -110,6 +111,9 @@
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Log">GameObjectBase.Log()</a>
     </div>
     <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsObject_Oasys_Common_Enums_GameEnums_ObjectTypeFlag_">GameObjectBase.IsObject(ObjectTypeFlag)</a>
+    </div>
+    <div>
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsMe">GameObjectBase.IsMe</a>
     </div>
     <div>
@@ -123,9 +127,6 @@
     </div>
     <div>
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsJungle">GameObjectBase.IsJungle</a>
-    </div>
-    <div>
-      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsObject_Oasys_Common_Enums_GameEnums_ObjectTypeFlag_">GameObjectBase.IsObject(ObjectTypeFlag)</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -259,6 +260,30 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackRange">GameObjectBase.AttackRange</a></div>
+  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_BaseObjectTypesAssociated_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_BaseObjectTypesAssociated" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BaseObjectTypesAssociated">BaseObjectTypesAssociated</h4>
+  <div class="markdown level1 summary"><p>Gets the base object types the object is associated with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ObjectTypeFlag&gt; BaseObjectTypesAssociated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Oasys.Common.Enums.GameEnums.ObjectTypeFlag.html">ObjectTypeFlag</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_GameObject_Clients_AIBaseClient_BasicAttackInfo_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BasicAttackInfo*"></a>
   <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_BasicAttackInfo" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.BasicAttackInfo">BasicAttackInfo</h4>
   <div class="markdown level1 summary"><p>Gets the information about the basic attack.</p>
@@ -552,7 +577,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ushort Index { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override short Index { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -564,7 +589,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="xref">System.Int16</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -838,7 +863,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ushort NetworkID { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override uint NetworkID { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -850,7 +875,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="xref">System.UInt32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -935,32 +960,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TrueAttackRange">GameObjectBase.TrueAttackRange</a></div>
-  <a id="Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag*"></a>
-  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_TypeFlag" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.TypeFlag">TypeFlag</h4>
-  <div class="markdown level1 summary"><p>Gets the object's type flag.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override ushort TypeFlag { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UInt16</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_TypeFlag">GameObjectBase.TypeFlag</a></div>
   <a id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitComponentInfo_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitComponentInfo*"></a>
   <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_UnitComponentInfo" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.UnitComponentInfo">UnitComponentInfo</h4>
   <div class="markdown level1 summary"><p>Gets the unit's component information.</p>

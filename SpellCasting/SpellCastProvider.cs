@@ -18,9 +18,9 @@ namespace Oasys.SDK.SpellCasting
         /// Casts a spell at/towards the position of the mouse.
         /// </summary>
         /// <param name="slot"></param>
-        public static void CastSpell(CastSlot slot)
+        public static bool CastSpell(CastSlot slot)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot);
+            return SpellBook.CastSpell((SpellCastSlot)slot);
         }
 
         /// <summary>
@@ -28,27 +28,27 @@ namespace Oasys.SDK.SpellCasting
         /// </summary>
         /// <param name="slot"></param>
         /// <param name="castTime"></param>
-        public static void CastSpell(CastSlot slot, float castTime)
+        public static bool CastSpell(CastSlot slot, float castTime)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot, castTime);
+            return SpellBook.CastSpell((SpellCastSlot)slot, castTime);
         }
 
         /// <summary>
         /// Start charging spell
         /// </summary>
         /// <param name="slot"></param>
-        public static void StartChargeSpell(SpellCastSlot slot)
+        public static bool StartChargeSpell(SpellCastSlot slot)
         {
-            SpellBook.StartChargeSpell(slot);
+            return SpellBook.StartChargeSpell(slot);
         }
 
         /// <summary>
         /// Release charged spell
         /// </summary>
         /// <param name="slot"></param>
-        public static void ReleaseChargeSpell(SpellCastSlot slot)
+        public static bool ReleaseChargeSpell(SpellCastSlot slot)
         {
-            SpellBook.ReleaseChargeSpell(slot);
+            return SpellBook.ReleaseChargeSpell(slot);
         }
 
         /// <summary>
@@ -56,9 +56,9 @@ namespace Oasys.SDK.SpellCasting
         /// </summary>
         /// <param name="slot"></param>
         /// <param name="castTime"></param>
-        public static void ReleaseChargeSpell(SpellCastSlot slot, float castTime)
+        public static bool ReleaseChargeSpell(SpellCastSlot slot, float castTime)
         {
-            SpellBook.ReleaseChargeSpell(slot, castTime);
+            return SpellBook.ReleaseChargeSpell(slot, castTime);
         }
 
         /// <summary>
@@ -67,9 +67,9 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="slot"></param>
         /// <param name="objectPosition"></param>
         /// <param name="castTime"></param>
-        public static void ReleaseChargeSpell(SpellCastSlot slot, Vector3 objectPosition, float castTime)
+        public static bool ReleaseChargeSpell(SpellCastSlot slot, Vector3 objectPosition, float castTime)
         {
-            SpellBook.ReleaseChargeSpell(slot, objectPosition, castTime);
+            return SpellBook.ReleaseChargeSpell(slot, objectPosition, castTime);
         }
 
         /// <summary>
@@ -78,9 +78,9 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="slot"></param>
         /// <param name="screenPosition"></param>
         /// <param name="castTime"></param>
-        public static void ReleaseChargeSpell(SpellCastSlot slot, Vector2 screenPosition, float castTime)
+        public static bool ReleaseChargeSpell(SpellCastSlot slot, Vector2 screenPosition, float castTime)
         {
-            SpellBook.ReleaseChargeSpell(slot, screenPosition, castTime);
+            return SpellBook.ReleaseChargeSpell(slot, screenPosition, castTime);
         }
 
         /// <summary>
@@ -88,9 +88,9 @@ namespace Oasys.SDK.SpellCasting
         /// </summary>
         /// <param name="slot"></param>
         /// <param name="objectPosition"></param>
-        public static void CastSpell(CastSlot slot, Vector3 objectPosition)
+        public static bool CastSpell(CastSlot slot, Vector3 objectPosition)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot, objectPosition);
+            return SpellBook.CastSpell((SpellCastSlot)slot, objectPosition);
         }
 
         /// <summary>
@@ -98,9 +98,9 @@ namespace Oasys.SDK.SpellCasting
         /// </summary>
         /// <param name="slot"></param>
         /// <param name="screenPosition"></param>
-        public static void CastSpell(CastSlot slot, Vector2 screenPosition)
+        public static bool CastSpell(CastSlot slot, Vector2 screenPosition)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot, screenPosition);
+            return SpellBook.CastSpell((SpellCastSlot)slot, screenPosition);
         }
 
         /// <summary>
@@ -109,9 +109,9 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="slot"></param>
         /// <param name="objectPosition"></param>
         /// <param name="castTime"></param>
-        public static void CastSpell(CastSlot slot, Vector3 objectPosition, float castTime)
+        public static bool CastSpell(CastSlot slot, Vector3 objectPosition, float castTime)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot, objectPosition, castTime);
+            return SpellBook.CastSpell((SpellCastSlot)slot, objectPosition, castTime);
         }
 
         /// <summary>
@@ -120,9 +120,9 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="slot"></param>
         /// <param name="screenPosition"></param>
         /// <param name="castTime"></param>
-        public static void CastSpell(CastSlot slot, Vector2 screenPosition, float castTime)
+        public static bool CastSpell(CastSlot slot, Vector2 screenPosition, float castTime)
         {
-            SpellBook.CastSpell((SpellCastSlot)slot, screenPosition, castTime);
+            return SpellBook.CastSpell((SpellCastSlot)slot, screenPosition, castTime);
         }
 
         /// <summary>

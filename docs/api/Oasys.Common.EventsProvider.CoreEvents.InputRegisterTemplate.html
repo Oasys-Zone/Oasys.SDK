@@ -88,7 +88,7 @@
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
   <h5 id="Oasys_Common_EventsProvider_CoreEvents_InputRegisterTemplate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void InputRegisterTemplate(Keys keyBeingPressed, string pressState);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate Task InputRegisterTemplate(Keys keyBeingPressed, Keyboard.KeyPressState pressState);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -106,8 +106,23 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Oasys.Common.Tools.Devices.Keyboard.KeyPressState.html">Keyboard.KeyPressState</a></td>
         <td><span class="parametername">pressState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
       </tr>
     </tbody>
