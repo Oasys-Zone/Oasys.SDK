@@ -9,8 +9,8 @@ Please follow the [C# Language and Coding Convention](https://docs.microsoft.com
 - Your brain
 - At minimum, foundation level of knowledge in C# 
 - An IDE (Strongly recommend Visual Studio)
-- .NET Framework 4.7.2 Runtime 
-- .NET Framework 4.7.2 Developer Pack
+- .NET 5.0 Runtime
+- .NET 5.0 SDK
 
 ## Installation
 Head over to the [releases tab](https://github.com/Oasys-Zone/Oasys.SDK/releases) and download the latest release build.  
@@ -29,7 +29,7 @@ Those are the DLLs you are required to reference in your module project.
 For namespace and class definitions and code documentation, please refer to [here](https://oasys-zone.github.io/Oasys.SDK/).
 
 ## Creating A Module
-To begin, create a blank .NET Framework Class Library project and add the DLLs you have downloaded earlier as references.  
+To begin, create a blank .NET Class Library project and add the DLLs you have downloaded earlier as references.  
 
 Next, create a class named "Main" and reference the needed namespaces:  
 ```csharp
@@ -64,7 +64,7 @@ Inside this method, you will need to subscribe to the required events:
 - **GameEvents.OnGameLoadComplete**: this event is raised when the loading of the game finishes, where a user is inside the lobby. If the game has already started, then it is raised immediately after the core has initialized.
 - **GameEvents.OnGameMatchComplete**: this event is raised when a game match finishes.
 - **CoreEvents.OnCoreMainTick**: this event is raised multiple times per second. To be specific, it is raised every 10ms. This event is useful for custom caching and calculations executing every each of tick.
-- **CoreEvents.OnCoreMainInput**: this event is raised whenever the main input(space key for default) is registered.
+- **CoreEvents.OnCoreMainInputAsync**: this event is raised whenever the main input(space key for default) is registered.
 - **CoreEvents.OnCoreRender**: this event is raised whenever the rendering occurs. If you want to draw, this is the event you want to subscribe to.  
 
 ```csharp
@@ -79,29 +79,29 @@ namespace SampleModule
             GameEvents.OnGameMatchComplete += GameEvents_OnGameMatchComplete;
         }
 
-        private static void GameEvents_OnGameLoadComplete()
+        private static Task GameEvents_OnGameLoadComplete()
         {
             //This is where you want to initialize your stuffs.
 
             if(UnitManager.MyChampion.ModelName == "ChampionName")
             {
                 CoreEvents.OnCoreMainTick += CoreEvents_OnCoreMainTick;
-                CoreEvents.OnCoreMainInput += CoreEvents_OnCoreMainInput;
+                CoreEvents.OnCoreMainInputAsync += CoreEvents_OnCoreMainInputAsync;
                 CoreEvents.OnCoreRender += CoreEvents_OnCoreRender;
             }
         }
 
-        private static void GameEvents_OnGameMatchComplete()
+        private static Task GameEvents_OnGameMatchComplete()
         {
             //This is where you want to dispose and unload your stuffs.
         }
 
-        private static void CoreEvents_OnCoreMainTick()
+        private static Task CoreEvents_OnCoreMainTick()
         {
             //This is where you want to cache and calculate your stuffs.
         }
 
-        private static void CoreEvents_OnCoreMainInput()
+        private static Task CoreEvents_OnCoreMainInputAsync()
         {
             //This is where you can do stuffs whenever the main input is registered.
         }
@@ -116,5 +116,4 @@ namespace SampleModule
 
 ## Compiling
 Compile as normal, and then rename the built .dll library extension to .omod in order for the loader to load the module.
-
 

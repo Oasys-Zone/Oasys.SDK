@@ -2883,6 +2883,96 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ObjectTypeFlag.UnknownClient_3
   fullName: Oasys.Common.Enums.GameEnums.ObjectTypeFlag.UnknownClient_3
   nameWithType: ObjectTypeFlag.UnknownClient_3
+- uid: Oasys.Common.Enums.GameEnums.ResourceType
+  name: ResourceType
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html
+  commentId: T:Oasys.Common.Enums.GameEnums.ResourceType
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType
+  nameWithType: ResourceType
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.BloodThirst
+  name: BloodThirst
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_BloodThirst
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.BloodThirst
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.BloodThirst
+  nameWithType: ResourceType.BloodThirst
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.BloodWell
+  name: BloodWell
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_BloodWell
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.BloodWell
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.BloodWell
+  nameWithType: ResourceType.BloodWell
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Courage
+  name: Courage
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Courage
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Courage
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Courage
+  nameWithType: ResourceType.Courage
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Energy
+  name: Energy
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Energy
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Energy
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Energy
+  nameWithType: ResourceType.Energy
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Ferocity
+  name: Ferocity
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Ferocity
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Ferocity
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Ferocity
+  nameWithType: ResourceType.Ferocity
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Flow
+  name: Flow
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Flow
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Flow
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Flow
+  nameWithType: ResourceType.Flow
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Fury
+  name: Fury
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Fury
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Fury
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Fury
+  nameWithType: ResourceType.Fury
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Grit
+  name: Grit
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Grit
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Grit
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Grit
+  nameWithType: ResourceType.Grit
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Heat
+  name: Heat
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Heat
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Heat
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Heat
+  nameWithType: ResourceType.Heat
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Mana
+  name: Mana
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Mana
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Mana
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Mana
+  nameWithType: ResourceType.Mana
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.None
+  name: None
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_None
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.None
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.None
+  nameWithType: ResourceType.None
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Rage
+  name: Rage
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Rage
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Rage
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Rage
+  nameWithType: ResourceType.Rage
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.Shield
+  name: Shield
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_Shield
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Shield
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.Shield
+  nameWithType: ResourceType.Shield
+- uid: Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
+  name: SoulUnbound
+  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_SoulUnbound
+  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
+  fullName: Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
+  nameWithType: ResourceType.SoulUnbound
 - uid: Oasys.Common.Enums.GameEnums.SkillshotDetectionType
   name: SkillshotDetectionType
   href: api/Oasys.Common.Enums.GameEnums.SkillshotDetectionType.html
@@ -3465,6 +3555,12 @@ references:
   commentId: E:Oasys.Common.EventsProvider.CoreEvents.OnCoreRender
   fullName: Oasys.Common.EventsProvider.CoreEvents.OnCoreRender
   nameWithType: CoreEvents.OnCoreRender
+- uid: Oasys.Common.EventsProvider.CoreEvents.RenderEventTemplate
+  name: CoreEvents.RenderEventTemplate
+  href: api/Oasys.Common.EventsProvider.CoreEvents.RenderEventTemplate.html
+  commentId: T:Oasys.Common.EventsProvider.CoreEvents.RenderEventTemplate
+  fullName: Oasys.Common.EventsProvider.CoreEvents.RenderEventTemplate
+  nameWithType: CoreEvents.RenderEventTemplate
 - uid: Oasys.Common.EventsProvider.GameEvents
   name: GameEvents
   href: api/Oasys.Common.EventsProvider.GameEvents.html
@@ -3507,12 +3603,24 @@ references:
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameMatchComplete
   fullName: Oasys.Common.EventsProvider.GameEvents.OnGameMatchComplete
   nameWithType: GameEvents.OnGameMatchComplete
+- uid: Oasys.Common.EventsProvider.GameEvents.OnGameProcessRecall
+  name: OnGameProcessRecall
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameProcessRecall
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameProcessRecall
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnGameProcessRecall
+  nameWithType: GameEvents.OnGameProcessRecall
 - uid: Oasys.Common.EventsProvider.GameEvents.OnGameProcessSpell
   name: OnGameProcessSpell
   href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameProcessSpell
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameProcessSpell
   fullName: Oasys.Common.EventsProvider.GameEvents.OnGameProcessSpell
   nameWithType: GameEvents.OnGameProcessSpell
+- uid: Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate
+  name: GameEvents.RecallEventTemplate
+  href: api/Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate.html
+  commentId: T:Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate
+  fullName: Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate
+  nameWithType: GameEvents.RecallEventTemplate
 - uid: Oasys.Common.EventsProvider.GameEvents.SpellEventTemplate
   name: GameEvents.SpellEventTemplate
   href: api/Oasys.Common.EventsProvider.GameEvents.SpellEventTemplate.html
@@ -4034,6 +4142,25 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Extensions.Extensions.IsMelee
   nameWithType: Extensions.IsMelee
+- uid: Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector2,System.Single)
+  name: IsOnScreen(Vector2, Single)
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsOnScreen_SharpDX_Vector2_System_Single_
+  commentId: M:Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector2,System.Single)
+  fullName: Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector2, System.Single)
+  nameWithType: Extensions.IsOnScreen(Vector2, Single)
+- uid: Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector3,System.Single)
+  name: IsOnScreen(Vector3, Single)
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsOnScreen_SharpDX_Vector3_System_Single_
+  commentId: M:Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector3,System.Single)
+  fullName: Oasys.Common.Extensions.Extensions.IsOnScreen(SharpDX.Vector3, System.Single)
+  nameWithType: Extensions.IsOnScreen(Vector3, Single)
+- uid: Oasys.Common.Extensions.Extensions.IsOnScreen*
+  name: IsOnScreen
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsOnScreen_
+  commentId: Overload:Oasys.Common.Extensions.Extensions.IsOnScreen
+  isSpec: "True"
+  fullName: Oasys.Common.Extensions.Extensions.IsOnScreen
+  nameWithType: Extensions.IsOnScreen
 - uid: Oasys.Common.Extensions.Extensions.IsOrthogonal(SharpDX.Vector2,SharpDX.Vector2)
   name: IsOrthogonal(Vector2, Vector2)
   href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsOrthogonal_SharpDX_Vector2_SharpDX_Vector2_
@@ -4323,6 +4450,25 @@ references:
   fullName.vb: Oasys.Common.Extensions.Extensions.SetFlags(Of T)(T, T, System.Boolean)
   nameWithType: Extensions.SetFlags<T>(T, T, Boolean)
   nameWithType.vb: Extensions.SetFlags(Of T)(T, T, Boolean)
+- uid: Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector2,SharpDX.Vector2,System.Single)
+  name: Shorten(Vector2, Vector2, Single)
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Shorten_SharpDX_Vector2_SharpDX_Vector2_System_Single_
+  commentId: M:Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector2,SharpDX.Vector2,System.Single)
+  fullName: Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector2, SharpDX.Vector2, System.Single)
+  nameWithType: Extensions.Shorten(Vector2, Vector2, Single)
+- uid: Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector3,SharpDX.Vector3,System.Single)
+  name: Shorten(Vector3, Vector3, Single)
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Shorten_SharpDX_Vector3_SharpDX_Vector3_System_Single_
+  commentId: M:Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector3,SharpDX.Vector3,System.Single)
+  fullName: Oasys.Common.Extensions.Extensions.Shorten(SharpDX.Vector3, SharpDX.Vector3, System.Single)
+  nameWithType: Extensions.Shorten(Vector3, Vector3, Single)
+- uid: Oasys.Common.Extensions.Extensions.Shorten*
+  name: Shorten
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_Shorten_
+  commentId: Overload:Oasys.Common.Extensions.Extensions.Shorten
+  isSpec: "True"
+  fullName: Oasys.Common.Extensions.Extensions.Shorten
+  nameWithType: Extensions.Shorten
 - uid: Oasys.Common.Extensions.Extensions.StandardDeviation(System.Collections.Generic.IEnumerable{System.Int32})
   name: StandardDeviation(IEnumerable<Int32>)
   href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_StandardDeviation_System_Collections_Generic_IEnumerable_System_Int32__
@@ -5431,6 +5577,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIHeroClient.IsRecalling
   nameWithType: AIHeroClient.IsRecalling
+- uid: Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType
+  name: ResourceType
+  href: api/Oasys.Common.GameObject.Clients.AIHeroClient.html#Oasys_Common_GameObject_Clients_AIHeroClient_ResourceType
+  commentId: P:Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType
+  fullName: Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType
+  nameWithType: AIHeroClient.ResourceType
+- uid: Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType*
+  name: ResourceType
+  href: api/Oasys.Common.GameObject.Clients.AIHeroClient.html#Oasys_Common_GameObject_Clients_AIHeroClient_ResourceType_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIHeroClient.ResourceType
+  nameWithType: AIHeroClient.ResourceType
 - uid: Oasys.Common.GameObject.Clients.AIHeroClient.SpellUpgradePoints
   name: SpellUpgradePoints
   href: api/Oasys.Common.GameObject.Clients.AIHeroClient.html#Oasys_Common_GameObject_Clients_AIHeroClient_SpellUpgradePoints
@@ -5573,6 +5732,25 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIMissileClient.TargetIndex
   nameWithType: AIMissileClient.TargetIndex
+- uid: Oasys.Common.GameObject.Clients.AIPlacementClient
+  name: AIPlacementClient
+  href: api/Oasys.Common.GameObject.Clients.AIPlacementClient.html
+  commentId: T:Oasys.Common.GameObject.Clients.AIPlacementClient
+  fullName: Oasys.Common.GameObject.Clients.AIPlacementClient
+  nameWithType: AIPlacementClient
+- uid: Oasys.Common.GameObject.Clients.AIPlacementClient.#ctor(System.Int32)
+  name: AIPlacementClient(Int32)
+  href: api/Oasys.Common.GameObject.Clients.AIPlacementClient.html#Oasys_Common_GameObject_Clients_AIPlacementClient__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.Clients.AIPlacementClient.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.Clients.AIPlacementClient.AIPlacementClient(System.Int32)
+  nameWithType: AIPlacementClient.AIPlacementClient(Int32)
+- uid: Oasys.Common.GameObject.Clients.AIPlacementClient.#ctor*
+  name: AIPlacementClient
+  href: api/Oasys.Common.GameObject.Clients.AIPlacementClient.html#Oasys_Common_GameObject_Clients_AIPlacementClient__ctor_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIPlacementClient.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIPlacementClient.AIPlacementClient
+  nameWithType: AIPlacementClient.AIPlacementClient
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances
   name: Oasys.Common.GameObject.Clients.ExtendedInstances
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.html
@@ -8165,18 +8343,54 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.ObjectClass.MissileClient.MissileClient
   nameWithType: MissileClient.MissileClient
+- uid: Oasys.Common.GameObject.ObjectClass.Trap
+  name: Trap
+  href: api/Oasys.Common.GameObject.ObjectClass.Trap.html
+  commentId: T:Oasys.Common.GameObject.ObjectClass.Trap
+  fullName: Oasys.Common.GameObject.ObjectClass.Trap
+  nameWithType: Trap
 - uid: Oasys.Common.GameObject.ObjectClass.Turret
   name: Turret
   href: api/Oasys.Common.GameObject.ObjectClass.Turret.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.Turret
   fullName: Oasys.Common.GameObject.ObjectClass.Turret
   nameWithType: Turret
+- uid: Oasys.Common.GameObject.ObjectClass.Ward
+  name: Ward
+  href: api/Oasys.Common.GameObject.ObjectClass.Ward.html
+  commentId: T:Oasys.Common.GameObject.ObjectClass.Ward
+  fullName: Oasys.Common.GameObject.ObjectClass.Ward
+  nameWithType: Ward
 - uid: Oasys.Common.LeagueNativeRendererManager
   name: LeagueNativeRendererManager
   href: api/Oasys.Common.LeagueNativeRendererManager.html
   commentId: T:Oasys.Common.LeagueNativeRendererManager
   fullName: Oasys.Common.LeagueNativeRendererManager
   nameWithType: LeagueNativeRendererManager
+- uid: Oasys.Common.LeagueNativeRendererManager.WindowState
+  name: LeagueNativeRendererManager.WindowState
+  href: api/Oasys.Common.LeagueNativeRendererManager.WindowState.html
+  commentId: T:Oasys.Common.LeagueNativeRendererManager.WindowState
+  fullName: Oasys.Common.LeagueNativeRendererManager.WindowState
+  nameWithType: LeagueNativeRendererManager.WindowState
+- uid: Oasys.Common.LeagueNativeRendererManager.WindowState.Borderless
+  name: Borderless
+  href: api/Oasys.Common.LeagueNativeRendererManager.WindowState.html#Oasys_Common_LeagueNativeRendererManager_WindowState_Borderless
+  commentId: F:Oasys.Common.LeagueNativeRendererManager.WindowState.Borderless
+  fullName: Oasys.Common.LeagueNativeRendererManager.WindowState.Borderless
+  nameWithType: LeagueNativeRendererManager.WindowState.Borderless
+- uid: Oasys.Common.LeagueNativeRendererManager.WindowState.FullScreen
+  name: FullScreen
+  href: api/Oasys.Common.LeagueNativeRendererManager.WindowState.html#Oasys_Common_LeagueNativeRendererManager_WindowState_FullScreen
+  commentId: F:Oasys.Common.LeagueNativeRendererManager.WindowState.FullScreen
+  fullName: Oasys.Common.LeagueNativeRendererManager.WindowState.FullScreen
+  nameWithType: LeagueNativeRendererManager.WindowState.FullScreen
+- uid: Oasys.Common.LeagueNativeRendererManager.WindowState.Windowed
+  name: Windowed
+  href: api/Oasys.Common.LeagueNativeRendererManager.WindowState.html#Oasys_Common_LeagueNativeRendererManager_WindowState_Windowed
+  commentId: F:Oasys.Common.LeagueNativeRendererManager.WindowState.Windowed
+  fullName: Oasys.Common.LeagueNativeRendererManager.WindowState.Windowed
+  nameWithType: LeagueNativeRendererManager.WindowState.Windowed
 - uid: Oasys.Common.LeagueNativeRendererManager.WorldToScreen(SharpDX.Vector3)
   name: WorldToScreen(Vector3)
   href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_WorldToScreen_SharpDX_Vector3_
@@ -8328,6 +8542,31 @@ references:
   commentId: F:Oasys.Common.Logic.DamageType.True
   fullName: Oasys.Common.Logic.DamageType.True
   nameWithType: DamageType.True
+- uid: Oasys.Common.Logic.Helpers
+  name: Oasys.Common.Logic.Helpers
+  href: api/Oasys.Common.Logic.Helpers.html
+  commentId: N:Oasys.Common.Logic.Helpers
+  fullName: Oasys.Common.Logic.Helpers
+  nameWithType: Oasys.Common.Logic.Helpers
+- uid: Oasys.Common.Logic.Helpers.RiotAPIHelper
+  name: RiotAPIHelper
+  href: api/Oasys.Common.Logic.Helpers.RiotAPIHelper.html
+  commentId: T:Oasys.Common.Logic.Helpers.RiotAPIHelper
+  fullName: Oasys.Common.Logic.Helpers.RiotAPIHelper
+  nameWithType: RiotAPIHelper
+- uid: Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent
+  name: RaiseAPIHelperEvent()
+  href: api/Oasys.Common.Logic.Helpers.RiotAPIHelper.html#Oasys_Common_Logic_Helpers_RiotAPIHelper_RaiseAPIHelperEvent
+  commentId: M:Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent
+  fullName: Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent()
+  nameWithType: RiotAPIHelper.RaiseAPIHelperEvent()
+- uid: Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent*
+  name: RaiseAPIHelperEvent
+  href: api/Oasys.Common.Logic.Helpers.RiotAPIHelper.html#Oasys_Common_Logic_Helpers_RiotAPIHelper_RaiseAPIHelperEvent_
+  commentId: Overload:Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Helpers.RiotAPIHelper.RaiseAPIHelperEvent
+  nameWithType: RiotAPIHelper.RaiseAPIHelperEvent
 - uid: Oasys.Common.Logic.Orbwalker
   name: Orbwalker
   href: api/Oasys.Common.Logic.Orbwalker.html
@@ -8963,6 +9202,12 @@ references:
   commentId: T:Oasys.Common.ObjectManagerExport
   fullName: Oasys.Common.ObjectManagerExport
   nameWithType: ObjectManagerExport
+- uid: Oasys.Common.ObjectManagerExport.CollectedNativeObjects
+  name: CollectedNativeObjects
+  href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_CollectedNativeObjects
+  commentId: F:Oasys.Common.ObjectManagerExport.CollectedNativeObjects
+  fullName: Oasys.Common.ObjectManagerExport.CollectedNativeObjects
+  nameWithType: ObjectManagerExport.CollectedNativeObjects
 - uid: Oasys.Common.ObjectManagerExport.HeroCollection
   name: HeroCollection
   href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_HeroCollection
@@ -8993,6 +9238,12 @@ references:
   commentId: F:Oasys.Common.ObjectManagerExport.MinionCollection
   fullName: Oasys.Common.ObjectManagerExport.MinionCollection
   nameWithType: ObjectManagerExport.MinionCollection
+- uid: Oasys.Common.ObjectManagerExport.PlacementCollection
+  name: PlacementCollection
+  href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_PlacementCollection
+  commentId: F:Oasys.Common.ObjectManagerExport.PlacementCollection
+  fullName: Oasys.Common.ObjectManagerExport.PlacementCollection
+  nameWithType: ObjectManagerExport.PlacementCollection
 - uid: Oasys.Common.ObjectManagerExport.TurretCollection
   name: TurretCollection
   href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_TurretCollection
@@ -9030,12 +9281,554 @@ references:
   commentId: F:Oasys.Common.RenderFactoryProvider.RenderDevice
   fullName: Oasys.Common.RenderFactoryProvider.RenderDevice
   nameWithType: RenderFactoryProvider.RenderDevice
+- uid: Oasys.Common.Settings
+  name: Oasys.Common.Settings
+  href: api/Oasys.Common.Settings.html
+  commentId: N:Oasys.Common.Settings
+  fullName: Oasys.Common.Settings
+  nameWithType: Oasys.Common.Settings
+- uid: Oasys.Common.Settings.Core
+  name: Core
+  href: api/Oasys.Common.Settings.Core.html
+  commentId: T:Oasys.Common.Settings.Core
+  fullName: Oasys.Common.Settings.Core
+  nameWithType: Core
+- uid: Oasys.Common.Settings.Core.UseBlockInput
+  name: UseBlockInput
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseBlockInput
+  commentId: P:Oasys.Common.Settings.Core.UseBlockInput
+  fullName: Oasys.Common.Settings.Core.UseBlockInput
+  nameWithType: Core.UseBlockInput
+- uid: Oasys.Common.Settings.Core.UseBlockInput*
+  name: UseBlockInput
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseBlockInput_
+  commentId: Overload:Oasys.Common.Settings.Core.UseBlockInput
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Core.UseBlockInput
+  nameWithType: Core.UseBlockInput
+- uid: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
+  name: UseNativeObjectManagerCaching
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseNativeObjectManagerCaching
+  commentId: P:Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
+  fullName: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
+  nameWithType: Core.UseNativeObjectManagerCaching
+- uid: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching*
+  name: UseNativeObjectManagerCaching
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseNativeObjectManagerCaching_
+  commentId: Overload:Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
+  nameWithType: Core.UseNativeObjectManagerCaching
+- uid: Oasys.Common.Settings.Drawings
+  name: Drawings
+  href: api/Oasys.Common.Settings.Drawings.html
+  commentId: T:Oasys.Common.Settings.Drawings
+  fullName: Oasys.Common.Settings.Drawings
+  nameWithType: Drawings
+- uid: Oasys.Common.Settings.Drawings.ChampionHUD
+  name: ChampionHUD
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUD
+  commentId: P:Oasys.Common.Settings.Drawings.ChampionHUD
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUD
+  nameWithType: Drawings.ChampionHUD
+- uid: Oasys.Common.Settings.Drawings.ChampionHUD*
+  name: ChampionHUD
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUD_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ChampionHUD
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUD
+  nameWithType: Drawings.ChampionHUD
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDDirection
+  name: ChampionHUDDirection
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDDirection
+  commentId: P:Oasys.Common.Settings.Drawings.ChampionHUDDirection
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDDirection
+  nameWithType: Drawings.ChampionHUDDirection
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDDirection*
+  name: ChampionHUDDirection
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDDirection_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ChampionHUDDirection
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDDirection
+  nameWithType: Drawings.ChampionHUDDirection
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDScale
+  name: ChampionHUDScale
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDScale
+  commentId: P:Oasys.Common.Settings.Drawings.ChampionHUDScale
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDScale
+  nameWithType: Drawings.ChampionHUDScale
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDScale*
+  name: ChampionHUDScale
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDScale_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ChampionHUDScale
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDScale
+  nameWithType: Drawings.ChampionHUDScale
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDX
+  name: ChampionHUDX
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDX
+  commentId: P:Oasys.Common.Settings.Drawings.ChampionHUDX
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDX
+  nameWithType: Drawings.ChampionHUDX
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDX*
+  name: ChampionHUDX
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDX_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ChampionHUDX
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDX
+  nameWithType: Drawings.ChampionHUDX
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDY
+  name: ChampionHUDY
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDY
+  commentId: P:Oasys.Common.Settings.Drawings.ChampionHUDY
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDY
+  nameWithType: Drawings.ChampionHUDY
+- uid: Oasys.Common.Settings.Drawings.ChampionHUDY*
+  name: ChampionHUDY
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ChampionHUDY_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ChampionHUDY
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.ChampionHUDY
+  nameWithType: Drawings.ChampionHUDY
+- uid: Oasys.Common.Settings.Drawings.Cooldowns
+  name: Cooldowns
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Cooldowns
+  commentId: P:Oasys.Common.Settings.Drawings.Cooldowns
+  fullName: Oasys.Common.Settings.Drawings.Cooldowns
+  nameWithType: Drawings.Cooldowns
+- uid: Oasys.Common.Settings.Drawings.Cooldowns*
+  name: Cooldowns
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Cooldowns_
+  commentId: Overload:Oasys.Common.Settings.Drawings.Cooldowns
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.Cooldowns
+  nameWithType: Drawings.Cooldowns
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode
+  name: Drawings.CoolDownsDisplayMode
+  href: api/Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.html
+  commentId: T:Oasys.Common.Settings.Drawings.CoolDownsDisplayMode
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode
+  nameWithType: Drawings.CoolDownsDisplayMode
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Image
+  name: Image
+  href: api/Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayMode_Image
+  commentId: F:Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Image
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Image
+  nameWithType: Drawings.CoolDownsDisplayMode.Image
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Mixed
+  name: Mixed
+  href: api/Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayMode_Mixed
+  commentId: F:Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Mixed
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Mixed
+  nameWithType: Drawings.CoolDownsDisplayMode.Mixed
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.None
+  name: None
+  href: api/Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayMode_None
+  commentId: F:Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.None
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.None
+  nameWithType: Drawings.CoolDownsDisplayMode.None
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Text
+  name: Text
+  href: api/Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayMode_Text
+  commentId: F:Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Text
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayMode.Text
+  nameWithType: Drawings.CoolDownsDisplayMode.Text
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected
+  name: CoolDownsDisplayModeSelected
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayModeSelected
+  commentId: P:Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected
+  nameWithType: Drawings.CoolDownsDisplayModeSelected
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected*
+  name: CoolDownsDisplayModeSelected
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_CoolDownsDisplayModeSelected_
+  commentId: Overload:Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDisplayModeSelected
+  nameWithType: Drawings.CoolDownsDisplayModeSelected
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDrawingMode
+  name: CoolDownsDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_CoolDownsDrawingMode
+  commentId: P:Oasys.Common.Settings.Drawings.CoolDownsDrawingMode
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDrawingMode
+  nameWithType: Drawings.CoolDownsDrawingMode
+- uid: Oasys.Common.Settings.Drawings.CoolDownsDrawingMode*
+  name: CoolDownsDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_CoolDownsDrawingMode_
+  commentId: Overload:Oasys.Common.Settings.Drawings.CoolDownsDrawingMode
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.CoolDownsDrawingMode
+  nameWithType: Drawings.CoolDownsDrawingMode
+- uid: Oasys.Common.Settings.Drawings.DrawingMode
+  name: Drawings.DrawingMode
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html
+  commentId: T:Oasys.Common.Settings.Drawings.DrawingMode
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode
+  nameWithType: Drawings.DrawingMode
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.BottomLeft
+  name: BottomLeft
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_BottomLeft
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.BottomLeft
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.BottomLeft
+  nameWithType: Drawings.DrawingMode.BottomLeft
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.BottomRight
+  name: BottomRight
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_BottomRight
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.BottomRight
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.BottomRight
+  nameWithType: Drawings.DrawingMode.BottomRight
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.Left
+  name: Left
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_Left
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.Left
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.Left
+  nameWithType: Drawings.DrawingMode.Left
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.Right
+  name: Right
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_Right
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.Right
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.Right
+  nameWithType: Drawings.DrawingMode.Right
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.TopLeft
+  name: TopLeft
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_TopLeft
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.TopLeft
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.TopLeft
+  nameWithType: Drawings.DrawingMode.TopLeft
+- uid: Oasys.Common.Settings.Drawings.DrawingMode.TopRight
+  name: TopRight
+  href: api/Oasys.Common.Settings.Drawings.DrawingMode.html#Oasys_Common_Settings_Drawings_DrawingMode_TopRight
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingMode.TopRight
+  fullName: Oasys.Common.Settings.Drawings.DrawingMode.TopRight
+  nameWithType: Drawings.DrawingMode.TopRight
+- uid: Oasys.Common.Settings.Drawings.DrawingsEnabled
+  name: DrawingsEnabled
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_DrawingsEnabled
+  commentId: P:Oasys.Common.Settings.Drawings.DrawingsEnabled
+  fullName: Oasys.Common.Settings.Drawings.DrawingsEnabled
+  nameWithType: Drawings.DrawingsEnabled
+- uid: Oasys.Common.Settings.Drawings.DrawingsEnabled*
+  name: DrawingsEnabled
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_DrawingsEnabled_
+  commentId: Overload:Oasys.Common.Settings.Drawings.DrawingsEnabled
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.DrawingsEnabled
+  nameWithType: Drawings.DrawingsEnabled
+- uid: Oasys.Common.Settings.Drawings.DrawingTeamMode
+  name: Drawings.DrawingTeamMode
+  href: api/Oasys.Common.Settings.Drawings.DrawingTeamMode.html
+  commentId: T:Oasys.Common.Settings.Drawings.DrawingTeamMode
+  fullName: Oasys.Common.Settings.Drawings.DrawingTeamMode
+  nameWithType: Drawings.DrawingTeamMode
+- uid: Oasys.Common.Settings.Drawings.DrawingTeamMode.Both
+  name: Both
+  href: api/Oasys.Common.Settings.Drawings.DrawingTeamMode.html#Oasys_Common_Settings_Drawings_DrawingTeamMode_Both
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingTeamMode.Both
+  fullName: Oasys.Common.Settings.Drawings.DrawingTeamMode.Both
+  nameWithType: Drawings.DrawingTeamMode.Both
+- uid: Oasys.Common.Settings.Drawings.DrawingTeamMode.EnemyTeam
+  name: EnemyTeam
+  href: api/Oasys.Common.Settings.Drawings.DrawingTeamMode.html#Oasys_Common_Settings_Drawings_DrawingTeamMode_EnemyTeam
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingTeamMode.EnemyTeam
+  fullName: Oasys.Common.Settings.Drawings.DrawingTeamMode.EnemyTeam
+  nameWithType: Drawings.DrawingTeamMode.EnemyTeam
+- uid: Oasys.Common.Settings.Drawings.DrawingTeamMode.MyTeam
+  name: MyTeam
+  href: api/Oasys.Common.Settings.Drawings.DrawingTeamMode.html#Oasys_Common_Settings_Drawings_DrawingTeamMode_MyTeam
+  commentId: F:Oasys.Common.Settings.Drawings.DrawingTeamMode.MyTeam
+  fullName: Oasys.Common.Settings.Drawings.DrawingTeamMode.MyTeam
+  nameWithType: Drawings.DrawingTeamMode.MyTeam
+- uid: Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor
+  name: GetAllyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetAllyHeroRangeColor
+  commentId: P:Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor
+  fullName: Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor
+  nameWithType: Drawings.GetAllyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor*
+  name: GetAllyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetAllyHeroRangeColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.GetAllyHeroRangeColor
+  nameWithType: Drawings.GetAllyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor
+  name: GetAllyTurretRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetAllyTurretRangeColor
+  commentId: P:Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor
+  fullName: Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor
+  nameWithType: Drawings.GetAllyTurretRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor*
+  name: GetAllyTurretRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetAllyTurretRangeColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.GetAllyTurretRangeColor
+  nameWithType: Drawings.GetAllyTurretRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor
+  name: GetEnemyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetEnemyHeroRangeColor
+  commentId: P:Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor
+  fullName: Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor
+  nameWithType: Drawings.GetEnemyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor*
+  name: GetEnemyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetEnemyHeroRangeColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.GetEnemyHeroRangeColor
+  nameWithType: Drawings.GetEnemyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor
+  name: GetEnemyTurretRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetEnemyTurretRangeColor
+  commentId: P:Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor
+  fullName: Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor
+  nameWithType: Drawings.GetEnemyTurretRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor*
+  name: GetEnemyTurretRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetEnemyTurretRangeColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.GetEnemyTurretRangeColor
+  nameWithType: Drawings.GetEnemyTurretRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetMyHeroRangeColor
+  name: GetMyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetMyHeroRangeColor
+  commentId: P:Oasys.Common.Settings.Drawings.GetMyHeroRangeColor
+  fullName: Oasys.Common.Settings.Drawings.GetMyHeroRangeColor
+  nameWithType: Drawings.GetMyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.GetMyHeroRangeColor*
+  name: GetMyHeroRangeColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_GetMyHeroRangeColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.GetMyHeroRangeColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.GetMyHeroRangeColor
+  nameWithType: Drawings.GetMyHeroRangeColor
+- uid: Oasys.Common.Settings.Drawings.HeroRanges
+  name: HeroRanges
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_HeroRanges
+  commentId: P:Oasys.Common.Settings.Drawings.HeroRanges
+  fullName: Oasys.Common.Settings.Drawings.HeroRanges
+  nameWithType: Drawings.HeroRanges
+- uid: Oasys.Common.Settings.Drawings.HeroRanges*
+  name: HeroRanges
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_HeroRanges_
+  commentId: Overload:Oasys.Common.Settings.Drawings.HeroRanges
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.HeroRanges
+  nameWithType: Drawings.HeroRanges
+- uid: Oasys.Common.Settings.Drawings.HeroRangesDrawingMode
+  name: HeroRangesDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_HeroRangesDrawingMode
+  commentId: P:Oasys.Common.Settings.Drawings.HeroRangesDrawingMode
+  fullName: Oasys.Common.Settings.Drawings.HeroRangesDrawingMode
+  nameWithType: Drawings.HeroRangesDrawingMode
+- uid: Oasys.Common.Settings.Drawings.HeroRangesDrawingMode*
+  name: HeroRangesDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_HeroRangesDrawingMode_
+  commentId: Overload:Oasys.Common.Settings.Drawings.HeroRangesDrawingMode
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.HeroRangesDrawingMode
+  nameWithType: Drawings.HeroRangesDrawingMode
+- uid: Oasys.Common.Settings.Drawings.LocalRangeOasysColor
+  name: LocalRangeOasysColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_LocalRangeOasysColor
+  commentId: P:Oasys.Common.Settings.Drawings.LocalRangeOasysColor
+  fullName: Oasys.Common.Settings.Drawings.LocalRangeOasysColor
+  nameWithType: Drawings.LocalRangeOasysColor
+- uid: Oasys.Common.Settings.Drawings.LocalRangeOasysColor*
+  name: LocalRangeOasysColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_LocalRangeOasysColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.LocalRangeOasysColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.LocalRangeOasysColor
+  nameWithType: Drawings.LocalRangeOasysColor
+- uid: Oasys.Common.Settings.Drawings.MyRange
+  name: MyRange
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_MyRange
+  commentId: P:Oasys.Common.Settings.Drawings.MyRange
+  fullName: Oasys.Common.Settings.Drawings.MyRange
+  nameWithType: Drawings.MyRange
+- uid: Oasys.Common.Settings.Drawings.MyRange*
+  name: MyRange
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_MyRange_
+  commentId: Overload:Oasys.Common.Settings.Drawings.MyRange
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.MyRange
+  nameWithType: Drawings.MyRange
+- uid: Oasys.Common.Settings.Drawings.Recalls
+  name: Recalls
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Recalls
+  commentId: P:Oasys.Common.Settings.Drawings.Recalls
+  fullName: Oasys.Common.Settings.Drawings.Recalls
+  nameWithType: Drawings.Recalls
+- uid: Oasys.Common.Settings.Drawings.Recalls*
+  name: Recalls
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Recalls_
+  commentId: Overload:Oasys.Common.Settings.Drawings.Recalls
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.Recalls
+  nameWithType: Drawings.Recalls
+- uid: Oasys.Common.Settings.Drawings.RecallsDrawingMode
+  name: RecallsDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_RecallsDrawingMode
+  commentId: P:Oasys.Common.Settings.Drawings.RecallsDrawingMode
+  fullName: Oasys.Common.Settings.Drawings.RecallsDrawingMode
+  nameWithType: Drawings.RecallsDrawingMode
+- uid: Oasys.Common.Settings.Drawings.RecallsDrawingMode*
+  name: RecallsDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_RecallsDrawingMode_
+  commentId: Overload:Oasys.Common.Settings.Drawings.RecallsDrawingMode
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.RecallsDrawingMode
+  nameWithType: Drawings.RecallsDrawingMode
+- uid: Oasys.Common.Settings.Drawings.Spells
+  name: Spells
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Spells
+  commentId: P:Oasys.Common.Settings.Drawings.Spells
+  fullName: Oasys.Common.Settings.Drawings.Spells
+  nameWithType: Drawings.Spells
+- uid: Oasys.Common.Settings.Drawings.Spells*
+  name: Spells
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Spells_
+  commentId: Overload:Oasys.Common.Settings.Drawings.Spells
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.Spells
+  nameWithType: Drawings.Spells
+- uid: Oasys.Common.Settings.Drawings.SpellsDangerColor
+  name: SpellsDangerColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsDangerColor
+  commentId: P:Oasys.Common.Settings.Drawings.SpellsDangerColor
+  fullName: Oasys.Common.Settings.Drawings.SpellsDangerColor
+  nameWithType: Drawings.SpellsDangerColor
+- uid: Oasys.Common.Settings.Drawings.SpellsDangerColor*
+  name: SpellsDangerColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsDangerColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.SpellsDangerColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.SpellsDangerColor
+  nameWithType: Drawings.SpellsDangerColor
+- uid: Oasys.Common.Settings.Drawings.SpellsIndicationColor
+  name: SpellsIndicationColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsIndicationColor
+  commentId: P:Oasys.Common.Settings.Drawings.SpellsIndicationColor
+  fullName: Oasys.Common.Settings.Drawings.SpellsIndicationColor
+  nameWithType: Drawings.SpellsIndicationColor
+- uid: Oasys.Common.Settings.Drawings.SpellsIndicationColor*
+  name: SpellsIndicationColor
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsIndicationColor_
+  commentId: Overload:Oasys.Common.Settings.Drawings.SpellsIndicationColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.SpellsIndicationColor
+  nameWithType: Drawings.SpellsIndicationColor
+- uid: Oasys.Common.Settings.Drawings.Traps
+  name: Traps
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Traps
+  commentId: P:Oasys.Common.Settings.Drawings.Traps
+  fullName: Oasys.Common.Settings.Drawings.Traps
+  nameWithType: Drawings.Traps
+- uid: Oasys.Common.Settings.Drawings.Traps*
+  name: Traps
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Traps_
+  commentId: Overload:Oasys.Common.Settings.Drawings.Traps
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.Traps
+  nameWithType: Drawings.Traps
+- uid: Oasys.Common.Settings.Drawings.TurretRanges
+  name: TurretRanges
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_TurretRanges
+  commentId: P:Oasys.Common.Settings.Drawings.TurretRanges
+  fullName: Oasys.Common.Settings.Drawings.TurretRanges
+  nameWithType: Drawings.TurretRanges
+- uid: Oasys.Common.Settings.Drawings.TurretRanges*
+  name: TurretRanges
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_TurretRanges_
+  commentId: Overload:Oasys.Common.Settings.Drawings.TurretRanges
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.TurretRanges
+  nameWithType: Drawings.TurretRanges
+- uid: Oasys.Common.Settings.Drawings.TurretRangesDrawingMode
+  name: TurretRangesDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_TurretRangesDrawingMode
+  commentId: P:Oasys.Common.Settings.Drawings.TurretRangesDrawingMode
+  fullName: Oasys.Common.Settings.Drawings.TurretRangesDrawingMode
+  nameWithType: Drawings.TurretRangesDrawingMode
+- uid: Oasys.Common.Settings.Drawings.TurretRangesDrawingMode*
+  name: TurretRangesDrawingMode
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_TurretRangesDrawingMode_
+  commentId: Overload:Oasys.Common.Settings.Drawings.TurretRangesDrawingMode
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.TurretRangesDrawingMode
+  nameWithType: Drawings.TurretRangesDrawingMode
+- uid: Oasys.Common.Settings.Drawings.Wards
+  name: Wards
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Wards
+  commentId: P:Oasys.Common.Settings.Drawings.Wards
+  fullName: Oasys.Common.Settings.Drawings.Wards
+  nameWithType: Drawings.Wards
+- uid: Oasys.Common.Settings.Drawings.Wards*
+  name: Wards
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Wards_
+  commentId: Overload:Oasys.Common.Settings.Drawings.Wards
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Drawings.Wards
+  nameWithType: Drawings.Wards
 - uid: Oasys.Common.Tools
   name: Oasys.Common.Tools
   href: api/Oasys.Common.Tools.html
   commentId: N:Oasys.Common.Tools
   fullName: Oasys.Common.Tools
   nameWithType: Oasys.Common.Tools
+- uid: Oasys.Common.Tools.ColorConverter
+  name: ColorConverter
+  href: api/Oasys.Common.Tools.ColorConverter.html
+  commentId: T:Oasys.Common.Tools.ColorConverter
+  fullName: Oasys.Common.Tools.ColorConverter
+  nameWithType: ColorConverter
+- uid: Oasys.Common.Tools.ColorConverter.GetColor(System.String)
+  name: GetColor(String)
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColor_System_String_
+  commentId: M:Oasys.Common.Tools.ColorConverter.GetColor(System.String)
+  fullName: Oasys.Common.Tools.ColorConverter.GetColor(System.String)
+  nameWithType: ColorConverter.GetColor(String)
+- uid: Oasys.Common.Tools.ColorConverter.GetColor(System.String,System.Int32)
+  name: GetColor(String, Int32)
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColor_System_String_System_Int32_
+  commentId: M:Oasys.Common.Tools.ColorConverter.GetColor(System.String,System.Int32)
+  fullName: Oasys.Common.Tools.ColorConverter.GetColor(System.String, System.Int32)
+  nameWithType: ColorConverter.GetColor(String, Int32)
+- uid: Oasys.Common.Tools.ColorConverter.GetColor*
+  name: GetColor
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColor_
+  commentId: Overload:Oasys.Common.Tools.ColorConverter.GetColor
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.ColorConverter.GetColor
+  nameWithType: ColorConverter.GetColor
+- uid: Oasys.Common.Tools.ColorConverter.GetColors
+  name: GetColors()
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColors
+  commentId: M:Oasys.Common.Tools.ColorConverter.GetColors
+  fullName: Oasys.Common.Tools.ColorConverter.GetColors()
+  nameWithType: ColorConverter.GetColors()
+- uid: Oasys.Common.Tools.ColorConverter.GetColors*
+  name: GetColors
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColors_
+  commentId: Overload:Oasys.Common.Tools.ColorConverter.GetColors
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.ColorConverter.GetColors
+  nameWithType: ColorConverter.GetColors
+- uid: Oasys.Common.Tools.ColorConverter.GetColorWithAlpha(SharpDX.Color,System.Int32)
+  name: GetColorWithAlpha(Color, Int32)
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColorWithAlpha_SharpDX_Color_System_Int32_
+  commentId: M:Oasys.Common.Tools.ColorConverter.GetColorWithAlpha(SharpDX.Color,System.Int32)
+  fullName: Oasys.Common.Tools.ColorConverter.GetColorWithAlpha(SharpDX.Color, System.Int32)
+  nameWithType: ColorConverter.GetColorWithAlpha(Color, Int32)
+- uid: Oasys.Common.Tools.ColorConverter.GetColorWithAlpha*
+  name: GetColorWithAlpha
+  href: api/Oasys.Common.Tools.ColorConverter.html#Oasys_Common_Tools_ColorConverter_GetColorWithAlpha_
+  commentId: Overload:Oasys.Common.Tools.ColorConverter.GetColorWithAlpha
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.ColorConverter.GetColorWithAlpha
+  nameWithType: ColorConverter.GetColorWithAlpha
 - uid: Oasys.Common.Tools.Devices
   name: Oasys.Common.Tools.Devices
   href: api/Oasys.Common.Tools.Devices.html
@@ -11244,14 +12037,7 @@ references:
 - uid: Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
   name: CurrentChampionInfo
   href: api/Oasys.Common.Tools.StaticChampionInfo.html#Oasys_Common_Tools_StaticChampionInfo_CurrentChampionInfo
-  commentId: P:Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
-  fullName: Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
-  nameWithType: StaticChampionInfo.CurrentChampionInfo
-- uid: Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo*
-  name: CurrentChampionInfo
-  href: api/Oasys.Common.Tools.StaticChampionInfo.html#Oasys_Common_Tools_StaticChampionInfo_CurrentChampionInfo_
-  commentId: Overload:Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
-  isSpec: "True"
+  commentId: F:Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
   fullName: Oasys.Common.Tools.StaticChampionInfo.CurrentChampionInfo
   nameWithType: StaticChampionInfo.CurrentChampionInfo
 - uid: Oasys.Common.Tools.StaticChampionInfo.JhinAttackSpeed
@@ -11527,6 +12313,12 @@ references:
   commentId: N:Oasys.SDK
   fullName: Oasys.SDK
   nameWithType: Oasys.SDK
+- uid: Oasys.SDK.ColorConverter
+  name: ColorConverter
+  href: api/Oasys.SDK.ColorConverter.html
+  commentId: T:Oasys.SDK.ColorConverter
+  fullName: Oasys.SDK.ColorConverter
+  nameWithType: ColorConverter
 - uid: Oasys.SDK.DamageCalculator
   name: DamageCalculator
   href: api/Oasys.SDK.DamageCalculator.html
@@ -11613,6 +12405,18 @@ references:
   commentId: T:Oasys.SDK.Events.GameEvents
   fullName: Oasys.SDK.Events.GameEvents
   nameWithType: GameEvents
+- uid: Oasys.SDK.Events.GameEvents.OnCreateObject
+  name: OnCreateObject
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnCreateObject
+  commentId: E:Oasys.SDK.Events.GameEvents.OnCreateObject
+  fullName: Oasys.SDK.Events.GameEvents.OnCreateObject
+  nameWithType: GameEvents.OnCreateObject
+- uid: Oasys.SDK.Events.GameEvents.OnDeleteObject
+  name: OnDeleteObject
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnDeleteObject
+  commentId: E:Oasys.SDK.Events.GameEvents.OnDeleteObject
+  fullName: Oasys.SDK.Events.GameEvents.OnDeleteObject
+  nameWithType: GameEvents.OnDeleteObject
 - uid: Oasys.SDK.Events.GameEvents.OnGameLoadComplete
   name: OnGameLoadComplete
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnGameLoadComplete
@@ -11625,6 +12429,12 @@ references:
   commentId: E:Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   fullName: Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   nameWithType: GameEvents.OnGameMatchComplete
+- uid: Oasys.SDK.Events.GameEvents.OnProcessRecall
+  name: OnProcessRecall
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnProcessRecall
+  commentId: E:Oasys.SDK.Events.GameEvents.OnProcessRecall
+  fullName: Oasys.SDK.Events.GameEvents.OnProcessRecall
+  nameWithType: GameEvents.OnProcessRecall
 - uid: Oasys.SDK.Events.GameEvents.OnProcessSpell
   name: OnProcessSpell
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnProcessSpell
@@ -12714,6 +13524,12 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Rendering.RenderFactory.DrawSpellBoxedLine
   nameWithType: RenderFactory.DrawSpellBoxedLine
+- uid: Oasys.SDK.Rendering.RenderFactory.DrawText(SharpDX.Direct3D9.Font,System.String,System.Int32,SharpDX.Vector2,SharpDX.Color,System.Boolean)
+  name: DrawText(Font, String, Int32, Vector2, Color, Boolean)
+  href: api/Oasys.SDK.Rendering.RenderFactory.html#Oasys_SDK_Rendering_RenderFactory_DrawText_SharpDX_Direct3D9_Font_System_String_System_Int32_SharpDX_Vector2_SharpDX_Color_System_Boolean_
+  commentId: M:Oasys.SDK.Rendering.RenderFactory.DrawText(SharpDX.Direct3D9.Font,System.String,System.Int32,SharpDX.Vector2,SharpDX.Color,System.Boolean)
+  fullName: Oasys.SDK.Rendering.RenderFactory.DrawText(SharpDX.Direct3D9.Font, System.String, System.Int32, SharpDX.Vector2, SharpDX.Color, System.Boolean)
+  nameWithType: RenderFactory.DrawText(Font, String, Int32, Vector2, Color, Boolean)
 - uid: Oasys.SDK.Rendering.RenderFactory.DrawText(System.String,System.Int32,SharpDX.Vector2,SharpDX.Color,System.Boolean)
   name: DrawText(String, Int32, Vector2, Color, Boolean)
   href: api/Oasys.SDK.Rendering.RenderFactory.html#Oasys_SDK_Rendering_RenderFactory_DrawText_System_String_System_Int32_SharpDX_Vector2_SharpDX_Color_System_Boolean_
@@ -13250,6 +14066,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.UnitManager.Allies
   nameWithType: UnitManager.Allies
+- uid: Oasys.SDK.UnitManager.AllObjects
+  name: AllObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllObjects
+  commentId: P:Oasys.SDK.UnitManager.AllObjects
+  fullName: Oasys.SDK.UnitManager.AllObjects
+  nameWithType: UnitManager.AllObjects
+- uid: Oasys.SDK.UnitManager.AllObjects*
+  name: AllObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllObjects_
+  commentId: Overload:Oasys.SDK.UnitManager.AllObjects
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.AllObjects
+  nameWithType: UnitManager.AllObjects
 - uid: Oasys.SDK.UnitManager.AllyChampions
   name: AllyChampions
   href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllyChampions
@@ -13399,3 +14228,29 @@ references:
   commentId: F:Oasys.SDK.UnitManager.MyChampion
   fullName: Oasys.SDK.UnitManager.MyChampion
   nameWithType: UnitManager.MyChampion
+- uid: Oasys.SDK.UnitManager.PlacementObjects
+  name: PlacementObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_PlacementObjects
+  commentId: P:Oasys.SDK.UnitManager.PlacementObjects
+  fullName: Oasys.SDK.UnitManager.PlacementObjects
+  nameWithType: UnitManager.PlacementObjects
+- uid: Oasys.SDK.UnitManager.PlacementObjects*
+  name: PlacementObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_PlacementObjects_
+  commentId: Overload:Oasys.SDK.UnitManager.PlacementObjects
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.PlacementObjects
+  nameWithType: UnitManager.PlacementObjects
+- uid: Oasys.SDK.UnitManager.Wards
+  name: Wards
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_Wards
+  commentId: P:Oasys.SDK.UnitManager.Wards
+  fullName: Oasys.SDK.UnitManager.Wards
+  nameWithType: UnitManager.Wards
+- uid: Oasys.SDK.UnitManager.Wards*
+  name: Wards
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_Wards_
+  commentId: Overload:Oasys.SDK.UnitManager.Wards
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.Wards
+  nameWithType: UnitManager.Wards

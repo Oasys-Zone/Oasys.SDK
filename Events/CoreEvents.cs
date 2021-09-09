@@ -55,7 +55,7 @@ namespace Oasys.SDK.Events
         /// <summary>
         /// This event is raised whenever the rendering occurs. If you want to draw, this is the event you want to subscribe to.
         /// </summary>
-        public static event Common.EventsProvider.CoreEvents.CoreEventTemplate OnCoreRender
+        public static event Common.EventsProvider.CoreEvents.RenderEventTemplate OnCoreRender
         {
             add => Common.EventsProvider.CoreEvents.OnCoreRender += value;
             remove => Common.EventsProvider.CoreEvents.OnCoreRender -= value;

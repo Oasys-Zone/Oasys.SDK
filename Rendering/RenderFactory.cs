@@ -81,6 +81,21 @@ namespace Oasys.SDK.Rendering
         }
 
         /// <summary>
+        /// Draws a text on the screen.
+        /// </summary>
+        /// <param name="providedFont"></param>
+        /// <param name="text"></param>
+        /// <param name="FontSize"></param>
+        /// <param name="position"></param>
+        /// <param name="color"></param>
+        /// <param name="centered"></param>
+        public static void DrawText(Font providedFont, string text, int FontSize, Vector2 position, Color color, bool centered = true)
+        {
+            var fontDimension = providedFont.MeasureText(null, text, new Rectangle((int)position.X, (int)position.Y, 0, 0), centered ? (FontDrawFlags.Center | FontDrawFlags.VerticalCenter) : FontDrawFlags.Left);
+            providedFont.DrawText(null, text, fontDimension, FontDrawFlags.Center | FontDrawFlags.VerticalCenter, color);
+        }
+
+        /// <summary>
         /// Draws a line on the screen.
         /// </summary>
         /// <param name="x1"></param>

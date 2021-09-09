@@ -20,6 +20,8 @@ namespace Oasys.SDK
         /// </summary>
         public static AIHeroClient MyChampion = ObjectManagerExport.LocalPlayer;
 
+        public static List<AIBaseClient> AllObjects => ObjectManagerExport.CollectedNativeObjects.Select(x => x.Value).ToList();
+
         /// <summary>
         /// Gets all the enemy game objects. This includes champions, minions, jungle mobs, towers and inhibitors.
         /// </summary>
@@ -55,6 +57,17 @@ namespace Oasys.SDK
                 return aibCliList;
             }
         }
+
+
+        public static List<AIPlacementClient> PlacementObjects => ObjectManagerExport.PlacementCollection.Values.ToList();
+
+        /// <summary>
+        /// Gets all the wards present in game.
+        /// </summary>
+        public static List<AIPlacementClient> Wards => PlacementObjects
+                                                  .Where(x => x.Health < 10 && x.MaxHealth < 10 && !x.UnitComponentInfo.SkinName.ToLower().Contains("minion") &&
+                                                             (x.Name.Equals("SightWard") || x.Name.Equals("JammerDevice")))
+                                                  .ToList();
 
         /// <summary>
         /// Gets all the enemy champions.

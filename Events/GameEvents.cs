@@ -38,5 +38,34 @@ namespace Oasys.SDK.Events
             add => Common.EventsProvider.GameEvents.OnGameProcessSpell += value;
             remove => Common.EventsProvider.GameEvents.OnGameProcessSpell -= value;
         }
+
+        /// <summary>
+        /// This event is raised whenever enemy champion recalls.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.RecallEventTemplate OnProcessRecall
+        {
+            add => Common.EventsProvider.GameEvents.OnGameProcessRecall += value;
+            remove => Common.EventsProvider.GameEvents.OnGameProcessRecall -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever there is an object that is created by the game.
+        /// To activate this event, please refer to Common.Settings.Core.UseNativeObjectManagerCaching (It is disabled by default)
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate OnCreateObject
+        {
+            add => Common.EventsProvider.GameEvents.OnCreateObject += value;
+            remove => Common.EventsProvider.GameEvents.OnCreateObject -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever there is an object that is deleted by the game.
+        /// To activate this event, please refer to Common.Settings.Core.UseNativeObjectManagerCaching (It is disabled by default)
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate OnDeleteObject
+        {
+            add => Common.EventsProvider.GameEvents.OnDeleteObject += value;
+            remove => Common.EventsProvider.GameEvents.OnDeleteObject -= value;
+        }
     }
 }

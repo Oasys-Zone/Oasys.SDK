@@ -1,93 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC066154-12B1-4267-AA68-D85B2C5D0752}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Oasys.SDK</RootNamespace>
-    <AssemblyName>Oasys.SDK</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <TargetFramework>net5.0-windows7.0</TargetFramework>
+    <Configurations>Debug;Release;Stage</Configurations>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <DebugSymbols>true</DebugSymbols>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\OasysDebug_Build\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
     <DocumentationFile>..\OasysDebug_Build\Oasys.SDK.xml</DocumentationFile>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\OasysRelease_Build\</OutputPath>
-    <DefineConstants>TRACE;RELEASE</DefineConstants>
-    <Optimize>false</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
     <DocumentationFile>..\OasysRelease_Build\Oasys.SDK.xml</DocumentationFile>
+    <Optimize>false</Optimize>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Stage|AnyCPU'">
+    <OutputPath>..\OasysStage_Build\</OutputPath>
+    <DocumentationFile>..\OasysStage_Build\Oasys.SDK.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharpDX.4.2.0\lib\net45\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D9, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharpDX.Direct3D9.4.2.0\lib\net45\SharpDX.Direct3D9.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="SharpDX.Mathematics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharpDX.Mathematics.4.2.0\lib\net45\SharpDX.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\Oasys.Common\Oasys.Common.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="GameEngine.cs" />
-    <Compile Include="DamageCalculator.cs" />
-    <Compile Include="Events\CoreEvents.cs" />
-    <Compile Include="Events\GameEvents.cs" />
-    <Compile Include="InputProviders\KeyboardProvider.cs" />
-    <Compile Include="InputProviders\MouseProvider.cs" />
-    <Compile Include="Menu\MenuManager.cs" />
-    <Compile Include="OasysModuleEntryPoint.cs" />
-    <Compile Include="Orbwalker.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rendering\RenderFactory.cs" />
-    <Compile Include="SpellCasting\ItemCastProvider.cs" />
-    <Compile Include="SpellCasting\SpellCastProvider.cs" />
-    <Compile Include="SpellCasting\SummonerSpellsProvider.cs" />
-    <Compile Include="TargetSelector.cs" />
-    <Compile Include="Tools\Common.cs" />
-    <Compile Include="Tools\Logger.cs" />
-    <Compile Include="UnitManager.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Oasys.Common\Oasys.Common.csproj">
-      <Project>{117271df-68ed-449b-841a-b1e7f1e31192}</Project>
-      <Name>Oasys.Common</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if $(ConfigurationName) == Release copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)&#xD;&#xA;&#xD;&#xA;if $(ConfigurationName) == Stage copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)" />
+  </Target>
+
 </Project>

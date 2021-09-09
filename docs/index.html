@@ -80,8 +80,8 @@ Please follow the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/progra
 <li>Your brain</li>
 <li>At minimum, foundation level of knowledge in C#</li>
 <li>An IDE (Strongly recommend Visual Studio)</li>
-<li>.NET Framework 4.7.2 Runtime</li>
-<li>.NET Framework 4.7.2 Developer Pack</li>
+<li>.NET 5.0 Runtime</li>
+<li>.NET 5.0 SDK</li>
 </ul>
 <h2 id="installation">Installation</h2>
 <p>Head over to the <a href="https://github.com/Oasys-Zone/Oasys.SDK/releases">releases tab</a> and download the latest release build.<br>
@@ -99,7 +99,7 @@ Although you won't be using it directly, it is required for namespace and class 
 <h2 id="namespace-and-class-documentation">Namespace and Class Documentation</h2>
 <p>For namespace and class definitions and code documentation, please refer to <a href="api/Oasys.SDK.html">here</a>.</p>
 <h2 id="creating-a-module">Creating A Module</h2>
-<p>To begin, create a blank .NET Framework Class Library project and add the DLLs you have downloaded earlier as references.</p>
+<p>To begin, create a blank .NET Class Library project and add the DLLs you have downloaded earlier as references.</p>
 <p>Next, create a class named &quot;Main&quot; and reference the needed namespaces:</p>
 <pre><code class="lang-csharp">/*Default .NET BCL references here and above*/
 using Oasys.SDK;
@@ -129,7 +129,7 @@ namespace SampleModule
 <li><strong>GameEvents.OnGameLoadComplete</strong>: this event is raised when the loading of the game finishes, where a user is inside the lobby. If the game has already started, then it is raised immediately after the core has initialized.</li>
 <li><strong>GameEvents.OnGameMatchComplete</strong>: this event is raised when a game match finishes.</li>
 <li><strong>CoreEvents.OnCoreMainTick</strong>: this event is raised multiple times per second. To be specific, it is raised every 10ms. This event is useful for custom caching and calculations executing every each of tick.</li>
-<li><strong>CoreEvents.OnCoreMainInput</strong>: this event is raised whenever the main input(space key for default) is registered.</li>
+<li><strong>CoreEvents.OnCoreMainInputAsync</strong>: this event is raised whenever the main input(space key for default) is registered.</li>
 <li><strong>CoreEvents.OnCoreRender</strong>: this event is raised whenever the rendering occurs. If you want to draw, this is the event you want to subscribe to.</li>
 </ul>
 <pre><code class="lang-csharp">namespace SampleModule
@@ -143,29 +143,29 @@ namespace SampleModule
             GameEvents.OnGameMatchComplete += GameEvents_OnGameMatchComplete;
         }
 
-        private static void GameEvents_OnGameLoadComplete()
+        private static Task GameEvents_OnGameLoadComplete()
         {
             //This is where you want to initialize your stuffs.
 
             if(UnitManager.MyChampion.ModelName == &quot;ChampionName&quot;)
             {
                 CoreEvents.OnCoreMainTick += CoreEvents_OnCoreMainTick;
-                CoreEvents.OnCoreMainInput += CoreEvents_OnCoreMainInput;
+                CoreEvents.OnCoreMainInputAsync += CoreEvents_OnCoreMainInputAsync;
                 CoreEvents.OnCoreRender += CoreEvents_OnCoreRender;
             }
         }
 
-        private static void GameEvents_OnGameMatchComplete()
+        private static Task GameEvents_OnGameMatchComplete()
         {
             //This is where you want to dispose and unload your stuffs.
         }
 
-        private static void CoreEvents_OnCoreMainTick()
+        private static Task CoreEvents_OnCoreMainTick()
         {
             //This is where you want to cache and calculate your stuffs.
         }
 
-        private static void CoreEvents_OnCoreMainInput()
+        private static Task CoreEvents_OnCoreMainInputAsync()
         {
             //This is where you can do stuffs whenever the main input is registered.
         }
