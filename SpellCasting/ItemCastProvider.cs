@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using Oasys.Common.Enums.GameEnums;
+﻿using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameObject;
 using Oasys.SDK.InputProviders;
 using SharpDX;
+using System.Threading;
 
 namespace Oasys.SDK.SpellCasting
 {
@@ -31,31 +26,52 @@ namespace Oasys.SDK.SpellCasting
                 {
                     case ItemSlot.One:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item1).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_1);
+                        }
+
                         break;
                     case ItemSlot.Two:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item2).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_2);
+                        }
+
                         break;
                     case ItemSlot.Three:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item3).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_3);
+                        }
+
                         break;
                     case ItemSlot.Trinket:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Trinket).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_4);
+                        }
+
                         break;
                     case ItemSlot.Five:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item4).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_5);
+                        }
+
                         break;
                     case ItemSlot.Six:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item5).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_6);
+                        }
+
                         break;
                     case ItemSlot.Seven:
                         if (playerSpellbook.GetSpellClass(SpellSlot.Item6).IsSpellReady)
+                        {
                             KeyboardProvider.PressKey(KeyboardProvider.KeyBoardScanCodes.KEY_7);
+                        }
+
                         break;
                 }
             }

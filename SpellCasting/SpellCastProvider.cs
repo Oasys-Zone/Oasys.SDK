@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameObject.Clients.ExtendedInstances.Spells;
-using Oasys.Common.Enums.GameEnums;
 using SharpDX;
+using System;
+using System.Collections.Generic;
 
 namespace Oasys.SDK.SpellCasting
 {
@@ -131,10 +128,12 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="slotArray"></param>
         public static void CastMultiSpell(CastSlot[] slotArray)
         {
-            List<SpellCastSlot> convSCSArray = new List<SpellCastSlot>();
+            var convSCSArray = new List<SpellCastSlot>();
 
             foreach (var slot in slotArray)
+            {
                 convSCSArray.Add((SpellCastSlot)slot);
+            }
 
             SpellBook.CastMultiSpell(convSCSArray.ToArray());
         }
@@ -146,10 +145,12 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="objectPosition"></param>
         public static void CastMultiSpell(CastSlot[] slotArray, Vector3 objectPosition)
         {
-            List<SpellCastSlot> convSCSArray = new List<SpellCastSlot>();
+            var convSCSArray = new List<SpellCastSlot>();
 
             foreach (var slot in slotArray)
+            {
                 convSCSArray.Add((SpellCastSlot)slot);
+            }
 
             SpellBook.CastMultiSpell(convSCSArray.ToArray(), objectPosition);
         }
@@ -161,10 +162,12 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="screenPosition"></param>
         public static void CastMultiSpell(CastSlot[] slotArray, Vector2 screenPosition)
         {
-            List<SpellCastSlot> convSCSArray = new List<SpellCastSlot>();
+            var convSCSArray = new List<SpellCastSlot>();
 
             foreach (var slot in slotArray)
+            {
                 convSCSArray.Add((SpellCastSlot)slot);
+            }
 
             SpellBook.CastMultiSpell(convSCSArray.ToArray(), screenPosition);
         }
@@ -175,10 +178,12 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="respectiveSpells"></param>
         public static void CastMultiSpell(Tuple<CastSlot, Vector3>[] respectiveSpells)
         {
-            List<Tuple<SpellCastSlot, Vector3>> convRespSpellArray = new List<Tuple<SpellCastSlot, Vector3>>();
+            var convRespSpellArray = new List<Tuple<SpellCastSlot, Vector3>>();
 
             foreach (var sp in respectiveSpells)
+            {
                 convRespSpellArray.Add(new Tuple<SpellCastSlot, Vector3>((SpellCastSlot)sp.Item1, sp.Item2));
+            }
 
             SpellBook.CastMultiSpell(convRespSpellArray.ToArray());
         }
@@ -189,10 +194,12 @@ namespace Oasys.SDK.SpellCasting
         /// <param name="respectiveSpells"></param>
         public static void CastMultiSpell(Tuple<CastSlot, Vector2>[] respectiveSpells)
         {
-            List<Tuple<SpellCastSlot, Vector2>> convRespSpellArray = new List<Tuple<SpellCastSlot, Vector2>>();
+            var convRespSpellArray = new List<Tuple<SpellCastSlot, Vector2>>();
 
             foreach (var sp in respectiveSpells)
+            {
                 convRespSpellArray.Add(new Tuple<SpellCastSlot, Vector2>((SpellCastSlot)sp.Item1, sp.Item2));
+            }
 
             SpellBook.CastMultiSpell(convRespSpellArray.ToArray());
         }

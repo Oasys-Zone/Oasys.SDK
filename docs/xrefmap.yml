@@ -174,6 +174,12 @@ references:
   commentId: F:Oasys.Common.EngineManager.OrderType.MoveTo
   fullName: Oasys.Common.EngineManager.OrderType.MoveTo
   nameWithType: EngineManager.OrderType.MoveTo
+- uid: Oasys.Common.EngineManager.OrderType.Recall
+  name: Recall
+  href: api/Oasys.Common.EngineManager.OrderType.html#Oasys_Common_EngineManager_OrderType_Recall
+  commentId: F:Oasys.Common.EngineManager.OrderType.Recall
+  fullName: Oasys.Common.EngineManager.OrderType.Recall
+  nameWithType: EngineManager.OrderType.Recall
 - uid: Oasys.Common.EngineManager.OrderType.Stop
   name: Stop
   href: api/Oasys.Common.EngineManager.OrderType.html#Oasys_Common_EngineManager_OrderType_Stop
@@ -7678,6 +7684,22 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.Armor
   nameWithType: GameObjectBase.Armor
+- uid: Oasys.Common.GameObject.GameObjectBase.As*
+  name: As
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_As_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.As
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.As
+  nameWithType: GameObjectBase.As
+- uid: Oasys.Common.GameObject.GameObjectBase.As``1
+  name: As<T>()
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_As__1
+  commentId: M:Oasys.Common.GameObject.GameObjectBase.As``1
+  name.vb: As(Of T)()
+  fullName: Oasys.Common.GameObject.GameObjectBase.As<T>()
+  fullName.vb: Oasys.Common.GameObject.GameObjectBase.As(Of T)()
+  nameWithType: GameObjectBase.As<T>()
+  nameWithType.vb: GameObjectBase.As(Of T)()
 - uid: Oasys.Common.GameObject.GameObjectBase.AttackRange
   name: AttackRange
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackRange
@@ -7808,25 +7830,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.EncryptedID
   nameWithType: GameObjectBase.EncryptedID
-- uid: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs
-  name: GameObjectBase.GameObjectProcessSpellCastEventArgs
-  href: api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.html
-  commentId: T:Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs
-  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs
-  nameWithType: GameObjectBase.GameObjectProcessSpellCastEventArgs
-- uid: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-  name: Spell
-  href: api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.html#Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs_Spell
-  commentId: P:Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-  nameWithType: GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-- uid: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell*
-  name: Spell
-  href: api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.html#Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs_Spell_
-  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
-  nameWithType: GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell
 - uid: Oasys.Common.GameObject.GameObjectBase.GetAttackCastDelay
   name: GetAttackCastDelay()
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetAttackCastDelay
@@ -7931,19 +7934,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.Index
   nameWithType: GameObjectBase.Index
-- uid: Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast(Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry)
-  name: InvokeOnProcessSpellCast(SpellActiveEntry)
-  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_InvokeOnProcessSpellCast_Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_
-  commentId: M:Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast(Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry)
-  fullName: Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast(Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry)
-  nameWithType: GameObjectBase.InvokeOnProcessSpellCast(SpellActiveEntry)
-- uid: Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast*
-  name: InvokeOnProcessSpellCast
-  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_InvokeOnProcessSpellCast_
-  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.GameObjectBase.InvokeOnProcessSpellCast
-  nameWithType: GameObjectBase.InvokeOnProcessSpellCast
 - uid: Oasys.Common.GameObject.GameObjectBase.IsAlive
   name: IsAlive
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsAlive
@@ -8178,12 +8168,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.OnMyTeam
   nameWithType: GameObjectBase.OnMyTeam
-- uid: Oasys.Common.GameObject.GameObjectBase.OnProcessSpellCast
-  name: OnProcessSpellCast
-  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_OnProcessSpellCast
-  commentId: E:Oasys.Common.GameObject.GameObjectBase.OnProcessSpellCast
-  fullName: Oasys.Common.GameObject.GameObjectBase.OnProcessSpellCast
-  nameWithType: GameObjectBase.OnProcessSpellCast
 - uid: Oasys.Common.GameObject.GameObjectBase.Position
   name: Position
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Position
@@ -8300,36 +8284,82 @@ references:
   commentId: T:Oasys.Common.GameObject.ObjectClass.Hero
   fullName: Oasys.Common.GameObject.ObjectClass.Hero
   nameWithType: Hero
+- uid: Oasys.Common.GameObject.ObjectClass.Hero.#ctor(System.Int32)
+  name: Hero(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Hero.html#Oasys_Common_GameObject_ObjectClass_Hero__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Hero.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Hero.Hero(System.Int32)
+  nameWithType: Hero.Hero(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Hero.#ctor*
+  name: Hero
+  href: api/Oasys.Common.GameObject.ObjectClass.Hero.html#Oasys_Common_GameObject_ObjectClass_Hero__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Hero.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Hero.Hero
+  nameWithType: Hero.Hero
 - uid: Oasys.Common.GameObject.ObjectClass.Inhibitor
   name: Inhibitor
   href: api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.Inhibitor
   fullName: Oasys.Common.GameObject.ObjectClass.Inhibitor
   nameWithType: Inhibitor
+- uid: Oasys.Common.GameObject.ObjectClass.Inhibitor.#ctor(System.Int32)
+  name: Inhibitor(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html#Oasys_Common_GameObject_ObjectClass_Inhibitor__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Inhibitor.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Inhibitor.Inhibitor(System.Int32)
+  nameWithType: Inhibitor.Inhibitor(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Inhibitor.#ctor*
+  name: Inhibitor
+  href: api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html#Oasys_Common_GameObject_ObjectClass_Inhibitor__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Inhibitor.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Inhibitor.Inhibitor
+  nameWithType: Inhibitor.Inhibitor
 - uid: Oasys.Common.GameObject.ObjectClass.JungleMob
   name: JungleMob
   href: api/Oasys.Common.GameObject.ObjectClass.JungleMob.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.JungleMob
   fullName: Oasys.Common.GameObject.ObjectClass.JungleMob
   nameWithType: JungleMob
+- uid: Oasys.Common.GameObject.ObjectClass.JungleMob.#ctor(System.Int32)
+  name: JungleMob(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.JungleMob.html#Oasys_Common_GameObject_ObjectClass_JungleMob__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.JungleMob.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.JungleMob.JungleMob(System.Int32)
+  nameWithType: JungleMob.JungleMob(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.JungleMob.#ctor*
+  name: JungleMob
+  href: api/Oasys.Common.GameObject.ObjectClass.JungleMob.html#Oasys_Common_GameObject_ObjectClass_JungleMob__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.JungleMob.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.JungleMob.JungleMob
+  nameWithType: JungleMob.JungleMob
 - uid: Oasys.Common.GameObject.ObjectClass.Minion
   name: Minion
   href: api/Oasys.Common.GameObject.ObjectClass.Minion.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.Minion
   fullName: Oasys.Common.GameObject.ObjectClass.Minion
   nameWithType: Minion
+- uid: Oasys.Common.GameObject.ObjectClass.Minion.#ctor(System.Int32)
+  name: Minion(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Minion.html#Oasys_Common_GameObject_ObjectClass_Minion__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Minion.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Minion.Minion(System.Int32)
+  nameWithType: Minion.Minion(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Minion.#ctor*
+  name: Minion
+  href: api/Oasys.Common.GameObject.ObjectClass.Minion.html#Oasys_Common_GameObject_ObjectClass_Minion__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Minion.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Minion.Minion
+  nameWithType: Minion.Minion
 - uid: Oasys.Common.GameObject.ObjectClass.MissileClient
   name: MissileClient
   href: api/Oasys.Common.GameObject.ObjectClass.MissileClient.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.MissileClient
   fullName: Oasys.Common.GameObject.ObjectClass.MissileClient
   nameWithType: MissileClient
-- uid: Oasys.Common.GameObject.ObjectClass.MissileClient.#ctor
-  name: MissileClient()
-  href: api/Oasys.Common.GameObject.ObjectClass.MissileClient.html#Oasys_Common_GameObject_ObjectClass_MissileClient__ctor
-  commentId: M:Oasys.Common.GameObject.ObjectClass.MissileClient.#ctor
-  fullName: Oasys.Common.GameObject.ObjectClass.MissileClient.MissileClient()
-  nameWithType: MissileClient.MissileClient()
 - uid: Oasys.Common.GameObject.ObjectClass.MissileClient.#ctor(System.Int32)
   name: MissileClient(Int32)
   href: api/Oasys.Common.GameObject.ObjectClass.MissileClient.html#Oasys_Common_GameObject_ObjectClass_MissileClient__ctor_System_Int32_
@@ -8349,18 +8379,57 @@ references:
   commentId: T:Oasys.Common.GameObject.ObjectClass.Trap
   fullName: Oasys.Common.GameObject.ObjectClass.Trap
   nameWithType: Trap
+- uid: Oasys.Common.GameObject.ObjectClass.Trap.#ctor(System.Int32)
+  name: Trap(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Trap.html#Oasys_Common_GameObject_ObjectClass_Trap__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Trap.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Trap.Trap(System.Int32)
+  nameWithType: Trap.Trap(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Trap.#ctor*
+  name: Trap
+  href: api/Oasys.Common.GameObject.ObjectClass.Trap.html#Oasys_Common_GameObject_ObjectClass_Trap__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Trap.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Trap.Trap
+  nameWithType: Trap.Trap
 - uid: Oasys.Common.GameObject.ObjectClass.Turret
   name: Turret
   href: api/Oasys.Common.GameObject.ObjectClass.Turret.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.Turret
   fullName: Oasys.Common.GameObject.ObjectClass.Turret
   nameWithType: Turret
+- uid: Oasys.Common.GameObject.ObjectClass.Turret.#ctor(System.Int32)
+  name: Turret(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Turret.html#Oasys_Common_GameObject_ObjectClass_Turret__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Turret.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Turret.Turret(System.Int32)
+  nameWithType: Turret.Turret(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Turret.#ctor*
+  name: Turret
+  href: api/Oasys.Common.GameObject.ObjectClass.Turret.html#Oasys_Common_GameObject_ObjectClass_Turret__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Turret.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Turret.Turret
+  nameWithType: Turret.Turret
 - uid: Oasys.Common.GameObject.ObjectClass.Ward
   name: Ward
   href: api/Oasys.Common.GameObject.ObjectClass.Ward.html
   commentId: T:Oasys.Common.GameObject.ObjectClass.Ward
   fullName: Oasys.Common.GameObject.ObjectClass.Ward
   nameWithType: Ward
+- uid: Oasys.Common.GameObject.ObjectClass.Ward.#ctor(System.Int32)
+  name: Ward(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Ward.html#Oasys_Common_GameObject_ObjectClass_Ward__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Ward.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Ward.Ward(System.Int32)
+  nameWithType: Ward.Ward(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Ward.#ctor*
+  name: Ward
+  href: api/Oasys.Common.GameObject.ObjectClass.Ward.html#Oasys_Common_GameObject_ObjectClass_Ward__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Ward.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Ward.Ward
+  nameWithType: Ward.Ward
 - uid: Oasys.Common.LeagueNativeRendererManager
   name: LeagueNativeRendererManager
   href: api/Oasys.Common.LeagueNativeRendererManager.html
@@ -12595,6 +12664,12 @@ references:
   commentId: F:Oasys.SDK.GameEngine.OrderType.MoveTo
   fullName: Oasys.SDK.GameEngine.OrderType.MoveTo
   nameWithType: GameEngine.OrderType.MoveTo
+- uid: Oasys.SDK.GameEngine.OrderType.Recall
+  name: Recall
+  href: api/Oasys.SDK.GameEngine.OrderType.html#Oasys_SDK_GameEngine_OrderType_Recall
+  commentId: F:Oasys.SDK.GameEngine.OrderType.Recall
+  fullName: Oasys.SDK.GameEngine.OrderType.Recall
+  nameWithType: GameEngine.OrderType.Recall
 - uid: Oasys.SDK.GameEngine.OrderType.Stop
   name: Stop
   href: api/Oasys.SDK.GameEngine.OrderType.html#Oasys_SDK_GameEngine_OrderType_Stop

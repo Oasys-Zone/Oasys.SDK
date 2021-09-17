@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Oasys.SDK.Events
+﻿namespace Oasys.SDK.Events
 {
     /// <summary>
     /// Game related events.

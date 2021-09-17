@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.EngineManager.OrderType.html",
-          "hash": "Pgi66Jdb/4AsK1goVt+PSYaxc3XvMt911eO73e0TMGc="
+          "hash": "or4pZY5bW0BSawNjWYgbQtqkS4fs3OSBWs42P5CtDLc="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.html",
-          "hash": "zGk2q9y3LMupwYHb7FvJq2QT2VEcoSHtFhD6QxoJ1jo="
+          "hash": "fUVhwO1I+RvHo3x/Gi9vLhHcBNfepEb8TJBPk4pymcM="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.html",
-          "hash": "sIZ3OYjj4+kv3RkfkyKTAF/AY/ofA3P5bxNn84UtBx0="
+          "hash": "HBtizNaoS6avR7n+GD0zZo8vOsvTowFiHZIByNZDQjs="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMinionClient.html",
-          "hash": "U111w5kFblrph4WaBRgL1q7FyBkooFv1eOYa2OXH1ss="
+          "hash": "JBSu/bO7IOpA5BUSvSNapVv7st1oqMIk96s6vf1gKGY="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMissileClient.html",
-          "hash": "EtsDYRA+You0lQ9OUC9GbqNRIy+twoYm202Y1f6dSic="
+          "hash": "sDCQYe4iPL+POdaBoE5l8Tq1Tbfiw4OVN1t+8HdZwAg="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIPlacementClient.html",
-          "hash": "V07VfVGbqSsEnaJloG/tWVf6xyl+84AJSe12oW2YZZc="
+          "hash": "+/ZsW79AXElgLwkNvjuN1Yiqgv6g+D+GllPFVuR2Q1g="
         }
       },
       "is_incremental": false,
@@ -770,23 +770,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.html",
-          "hash": "tLSspUaHWRIZbIeNhoWHwU6BVAfIGyCgZu0HaUuGqQQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.GameObject.GameObjectBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.html",
-          "hash": "jo10lYNsV6orG9DIZyonb9BNc/6Dbc2a0StR7Kyb8i4="
+          "hash": "QOHV/eW8nbgYskLLXSju3oSVNWMp2GLVlz+MqeLY37A="
         }
       },
       "is_incremental": false,
@@ -798,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.html",
-          "hash": "00jWFkAqpu5MQNRw07rjTneq19VZ9+okGa8AHvlRHxQ="
+          "hash": "Ekitj0Vf4o9cyTLainZCH7XH6qG/yrEGV9bdBxLqiTY="
         }
       },
       "is_incremental": false,
@@ -810,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html",
-          "hash": "4wTzBpSvZtfi9sP07sdl2ZFsZTfyFO1mm5uVhW4dy2k="
+          "hash": "9yeHtCsfSd0/MHRuX+SQZoeaVs1HgloCee5e36fWhsc="
         }
       },
       "is_incremental": false,
@@ -822,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.JungleMob.html",
-          "hash": "2rGq9nc07h5kXrArnV7V85vhR+e/bJvZoaBCfzHleNc="
+          "hash": "up8vO9/keajW9tkwPnEkCuuq3mMllDx+Bn1USrWULaE="
         }
       },
       "is_incremental": false,
@@ -834,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.html",
-          "hash": "UcO5bwJUNe+w/mm4dYYZO9GWF6XlY7hoRb26Tog7fpU="
+          "hash": "0ovqKfyw38zI27hSFAvodqS8fZoKiGXQRaeRU3Uymvs="
         }
       },
       "is_incremental": false,
@@ -846,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.MissileClient.html",
-          "hash": "3LmaxK63USgk3wG1JOKOunHwprtXUga7A1BXkk7KjXA="
+          "hash": "HvLB/vVPwaq1ffodJP8kUBH7e+xmdVwAi1gAD0GsCPA="
         }
       },
       "is_incremental": false,
@@ -858,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Trap.html",
-          "hash": "N+VmM90LwXPnkWn+t/8qzxVqMm5DdCwg5vAXPkzDLs0="
+          "hash": "FjMg013d9tNOok2yCh8ebDw+Mj61heEjsN+PeX1Juk4="
         }
       },
       "is_incremental": false,
@@ -870,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.html",
-          "hash": "rDfKNGPTU/6GBtnvbh7NC73bQAMlFd3KdMNRRLJRztI="
+          "hash": "OHWUjsKHvgcY/ciDKsK2JvUDuyvqbKkTeyO/ldLIlkg="
         }
       },
       "is_incremental": false,
@@ -882,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Ward.html",
-          "hash": "fRE1HUJrTZR+ayn/0YA8X7kqj5WXwlR8AGEGGNxPIV0="
+          "hash": "M4TzhDs6VcyBnlkBY4s37wGnM8+zc7DFsWmK0AtgSn4="
         }
       },
       "is_incremental": false,
@@ -906,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.html",
-          "hash": "ZGITcCW/5WP4Gs7XAx4Rcm/2MEAEoorVhk+10Nqb1h4="
+          "hash": "uk6GygjHKWvIvRJTOON7fZwaCIfkt3e04hpqknlOC8U="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.GameEngine.OrderType.html",
-          "hash": "kC4YScn9AIPnFaLGsvW86ov6fc4CSXwwj45s6SHbnn8="
+          "hash": "rKGMh/ec7RyLId+Zk6Ldb9VkoVYm5Vv+xE06JjL1GWc="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "j2HvsFkhg82FoDPTGYzEh1yKuAaS0jtlN0sDIlK78uc="
+          "hash": "6/zbzsT7LTzEScrAQpN39VK3eHYyYw1dHUc+6I792hg="
         }
       },
       "is_incremental": false,
@@ -1945,8 +1933,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 153,
-          "skipped_file_count": 147
+          "total_file_count": 152,
+          "skipped_file_count": 54
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

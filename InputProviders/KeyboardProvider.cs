@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Oasys.Common.Tools.Devices;
+﻿using Oasys.Common.Tools.Devices;
 
 namespace Oasys.SDK.InputProviders
 {
@@ -17,55 +12,82 @@ namespace Oasys.SDK.InputProviders
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static bool IsKeyPressed(System.Windows.Forms.Keys key) => Keyboard.IsKeyPressed(key);
+        public static bool IsKeyPressed(System.Windows.Forms.Keys key)
+        {
+            return Keyboard.IsKeyPressed(key);
+        }
 
         /// <summary>
         /// Checks whether if control is pressed.
         /// </summary>
         /// <returns></returns>
-        public static bool IsControlPressed() => Keyboard.IsControlPressed();
+        public static bool IsControlPressed()
+        {
+            return Keyboard.IsControlPressed();
+        }
 
         /// <summary>
         /// Checks whether if shift is pressed.
         /// </summary>
         /// <returns></returns>
-        public static bool IsShiftPressed() => Keyboard.IsShiftPressed();
+        public static bool IsShiftPressed()
+        {
+            return Keyboard.IsShiftPressed();
+        }
 
         /// <summary>
         ///  Presses a key down.
         /// </summary>
         /// <param name="keyBoardScanCode"></param>
-        public static void PressKeyDown(short keyBoardScanCode) => Keyboard.SendKeyDown(keyBoardScanCode);
+        public static void PressKeyDown(short keyBoardScanCode)
+        {
+            Keyboard.SendKeyDown(keyBoardScanCode);
+        }
 
         /// <summary>
         /// Presses a key down.
         /// </summary>
         /// <param name="keyBoardScanCode"></param>
-        public static void PressKeyDown(KeyBoardScanCodes keyBoardScanCode) => PressKeyDown((short)keyBoardScanCode);
+        public static void PressKeyDown(KeyBoardScanCodes keyBoardScanCode)
+        {
+            PressKeyDown((short)keyBoardScanCode);
+        }
 
         /// <summary>
         /// Presses a key up.
         /// </summary>
         /// <param name="keyBoardScanCode"></param>
-        public static void PressKeyUp(short keyBoardScanCode) => Keyboard.SendKeyUp(keyBoardScanCode);
+        public static void PressKeyUp(short keyBoardScanCode)
+        {
+            Keyboard.SendKeyUp(keyBoardScanCode);
+        }
 
         /// <summary>
         /// Presses a key up.
         /// </summary>
         /// <param name="keyBoardScanCode"></param>
-        public static void PressKeyUp(KeyBoardScanCodes keyBoardScanCode) => PressKeyUp((short)keyBoardScanCode);
+        public static void PressKeyUp(KeyBoardScanCodes keyBoardScanCode)
+        {
+            PressKeyUp((short)keyBoardScanCode);
+        }
 
         /// <summary>
         /// Simulates a key press.
         /// </summary>
         /// <param name="keyboardScanCode"></param>
-        public static void PressKey(short keyboardScanCode) => Keyboard.SendKey(keyboardScanCode);
+        public static void PressKey(short keyboardScanCode)
+        {
+            Keyboard.SendKey(keyboardScanCode);
+        }
 
         /// <summary>
         /// Simulates a key press.
         /// </summary>
         /// <param name="keyboardScanCode"></param>
-        public static void PressKey(KeyBoardScanCodes keyboardScanCode) => PressKey((short)keyboardScanCode);
+        public static void PressKey(KeyBoardScanCodes keyboardScanCode)
+        {
+            PressKey((short)keyboardScanCode);
+        }
 
         public enum KeyBoardScanCodes : short
         {

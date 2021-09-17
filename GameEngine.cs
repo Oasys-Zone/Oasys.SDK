@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Oasys.Common;
+﻿using Oasys.Common;
+using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameInstances;
 using Oasys.Common.GameObject.Clients;
-using Oasys.Common.Enums.GameEnums;
-using Oasys.Common.Tools.Devices;
 
 namespace Oasys.SDK
 {
@@ -31,7 +25,7 @@ namespace Oasys.SDK
         /// It will return last cached game object if no object is found.
         /// </summary>
         public static AIBaseClient HoveredGameObjectUnderMouse => EngineManager.ObjectUnderMouse;
-        
+
         /// <summary>
         /// Gets the current game status.
         /// </summary>
@@ -57,7 +51,10 @@ namespace Oasys.SDK
         /// </summary>
         /// <param name="vec3Pos"></param>
         /// <returns></returns>
-        public static bool IsWall(SharpDX.Vector3 vec3Pos) => EngineManager.IsWall(vec3Pos);
+        public static bool IsWall(SharpDX.Vector3 vec3Pos)
+        {
+            return EngineManager.IsWall(vec3Pos);
+        }
 
         /// <summary>
         /// Position of the cursor in game world projection.
@@ -84,19 +81,26 @@ namespace Oasys.SDK
         /// </summary>
         /// <param name="issuedOrder"></param>
         /// <param name="positionOrdered"></param>
-        public static void IssueOrder(OrderType issuedOrder, SharpDX.Vector2 positionOrdered) => EngineManager.IssueOrder((EngineManager.OrderType)issuedOrder, positionOrdered);
+        public static void IssueOrder(OrderType issuedOrder, SharpDX.Vector2 positionOrdered)
+        {
+            EngineManager.IssueOrder((EngineManager.OrderType)issuedOrder, positionOrdered);
+        }
 
         /// <summary>
         /// Issue an order for the player(me) act on.
         /// </summary>
         /// <param name="issuedOrder"></param>
         /// <param name="positionOrdered"></param>
-        public static void IssueOrder(OrderType issuedOrder, SharpDX.Vector3 positionOrdered) => EngineManager.IssueOrder((EngineManager.OrderType)issuedOrder, positionOrdered);
-        
+        public static void IssueOrder(OrderType issuedOrder, SharpDX.Vector3 positionOrdered)
+        {
+            EngineManager.IssueOrder((EngineManager.OrderType)issuedOrder, positionOrdered);
+        }
+
         public enum OrderType
         {
             Stop = EngineManager.OrderType.Stop,
-            MoveTo = EngineManager.OrderType.MoveTo
+            MoveTo = EngineManager.OrderType.MoveTo,
+            Recall = EngineManager.OrderType.Recall,
         }
     }
 }

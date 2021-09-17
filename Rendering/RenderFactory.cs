@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SharpDX;
-using SharpDX.Mathematics.Interop;
+﻿using SharpDX;
 using SharpDX.Direct3D9;
+using SharpDX.Mathematics.Interop;
 
 namespace Oasys.SDK.Rendering
 {
@@ -130,18 +125,18 @@ namespace Oasys.SDK.Rendering
         /// <param name="cl"></param>
         public static void DrawSpellBoxedLine(Vector2 sPos, Vector2 ePos, float sWidth, Color cl)
         {
-            float[] posDir = new float[2] { (sPos.X - ePos.X), (sPos.Y - ePos.Y) };
+            var posDir = new float[2] { (sPos.X - ePos.X), (sPos.Y - ePos.Y) };
 
             var dist = System.Math.Sqrt(posDir[0] * posDir[0] + posDir[1] * posDir[1]);
 
             posDir[0] /= (float)dist; //dirX /=
             posDir[1] /= (float)dist; //dirY /=
 
-            Vector2 sLeft = new Vector2(sPos.X + (sWidth / 2) * posDir[1], sPos.Y - (sWidth / 2) * posDir[0]);
-            Vector2 sRight = new Vector2(sPos.X - (sWidth / 2) * posDir[1], sPos.Y + (sWidth / 2) * posDir[0]);
+            var sLeft = new Vector2(sPos.X + (sWidth / 2) * posDir[1], sPos.Y - (sWidth / 2) * posDir[0]);
+            var sRight = new Vector2(sPos.X - (sWidth / 2) * posDir[1], sPos.Y + (sWidth / 2) * posDir[0]);
 
-            Vector2 eLeft = new Vector2(ePos.X + (sWidth / 2) * posDir[1], ePos.Y - (sWidth / 2) * posDir[0]);
-            Vector2 eRight = new Vector2(ePos.X - (sWidth / 2) * posDir[1], ePos.Y + (sWidth / 2) * posDir[0]);
+            var eLeft = new Vector2(ePos.X + (sWidth / 2) * posDir[1], ePos.Y - (sWidth / 2) * posDir[0]);
+            var eRight = new Vector2(ePos.X - (sWidth / 2) * posDir[1], ePos.Y + (sWidth / 2) * posDir[0]);
 
             DrawLine(sLeft.X, sLeft.Y, sRight.X, sRight.Y, 3, cl); //Base start
             DrawLine(eLeft.X, eLeft.Y, eRight.X, eRight.Y, 3, cl); //Base end
@@ -193,6 +188,9 @@ namespace Oasys.SDK.Rendering
         /// <param name="color"></param>
         /// <param name="thickness"></param>
         /// <param name="filled"></param>
-        public static void DrawNativeCircle(Vector3 position, float radius, Color color, float thickness, bool filled = false) => Common.RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
+        public static void DrawNativeCircle(Vector3 position, float radius, Color color, float thickness, bool filled = false)
+        {
+            Common.RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
+        }
     }
 }

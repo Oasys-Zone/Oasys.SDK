@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Oasys.SDK.Menu
+﻿namespace Oasys.SDK.Menu
 {
     public class MenuManager
     {
@@ -17,7 +11,10 @@ namespace Oasys.SDK.Menu
         ///           MenuManager.AddTab(new Tab("Tab1"));
         ///    </code>
         /// </example>
-        public static void AddTab(Common.Menu.Tab tab) => Common.Menu.MenuManagerProvider.AddTab(tab);
+        public static void AddTab(Common.Menu.Tab tab)
+        {
+            Common.Menu.MenuManagerProvider.AddTab(tab);
+        }
 
         /// <summary>
         /// Gets the tab with the name from the menu.
@@ -29,6 +26,9 @@ namespace Oasys.SDK.Menu
         ///           MenuManager.GetTab("Tab1");
         ///    </code>
         /// </example>
-        public static Common.Menu.Tab GetTab(string tabName) => Common.Menu.MenuManagerProvider.GetTab(tabName);
+        public static Common.Menu.Tab GetTab(string tabName)
+        {
+            return Common.Menu.MenuManagerProvider.GetTab(tabName);
+        }
     }
 }

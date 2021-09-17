@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Oasys.Common.GameObject;
+﻿using Oasys.Common.GameObject;
 
 namespace Oasys.SDK
 {
@@ -18,7 +13,10 @@ namespace Oasys.SDK
         /// <param name="attacker"></param>
         /// <param name="target"></param>
         /// <returns></returns>
-        public static float GetTargetHealthAfterBasicAttack(GameObjectBase attacker, GameObjectBase target) => Common.Logic.DamageCalculator.GetTargetHealthAfterBasicAttack(attacker, target);
+        public static float GetTargetHealthAfterBasicAttack(GameObjectBase attacker, GameObjectBase target)
+        {
+            return Common.Logic.DamageCalculator.GetTargetHealthAfterBasicAttack(attacker, target);
+        }
 
         /// <summary>
         /// Gets the player's next attack damage to be dealt to the target.
@@ -26,6 +24,9 @@ namespace Oasys.SDK
         /// <param name="attacker"></param>
         /// <param name="target"></param>
         /// <returns></returns>
-        public static float GetNextBasicAttackDamage(GameObjectBase attacker, GameObjectBase target) => Common.Logic.DamageCalculator.GetNextBasicAttackDamage(attacker, target);
+        public static float GetNextBasicAttackDamage(GameObjectBase attacker, GameObjectBase target)
+        {
+            return Common.Logic.DamageCalculator.GetNextBasicAttackDamage(attacker, target);
+        }
     }
 }

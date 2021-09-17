@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Oasys.Common;
+using Oasys.Common.GameObject;
+using Oasys.Common.GameObject.Clients;
+using Oasys.Common.GameObject.ObjectClass;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Oasys.Common;
-using Oasys.Common.GameObject;
-using Oasys.Common.GameObject.ObjectClass;
-using Oasys.Common.GameObject.Clients;
 
 namespace Oasys.SDK
 {
@@ -72,81 +69,51 @@ namespace Oasys.SDK
         /// <summary>
         /// Gets all the enemy champions.
         /// </summary>
-        public static List<Hero> EnemyChampions
-        {
-            get => ObjectManagerExport.HeroCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Hero> EnemyChampions => ObjectManagerExport.HeroCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the ally champions, including the player champion.
         /// </summary>
-        public static List<Hero> AllyChampions
-        {
-            get => ObjectManagerExport.HeroCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Hero> AllyChampions => ObjectManagerExport.HeroCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the enemy minions.
         /// </summary>
-        public static List<Minion> EnemyMinions
-        {
-            get => ObjectManagerExport.MinionCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Minion> EnemyMinions => ObjectManagerExport.MinionCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the ally minions.
         /// </summary>
-        public static List<Minion> AllyMinions
-        {
-            get => ObjectManagerExport.MinionCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Minion> AllyMinions => ObjectManagerExport.MinionCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the enemy towers.
         /// </summary>
-        public static List<Turret> EnemyTowers
-        {
-            get => ObjectManagerExport.TurretCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Turret> EnemyTowers => ObjectManagerExport.TurretCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the ally towers.
         /// </summary>
-        public static List<Turret> AllyTowers
-        {
-            get => ObjectManagerExport.TurretCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Turret> AllyTowers => ObjectManagerExport.TurretCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the enemy inhibitors.
         /// </summary>
-        public static List<Inhibitor> EnemyInhibitors
-        {
-            get => ObjectManagerExport.InhibCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Inhibitor> EnemyInhibitors => ObjectManagerExport.InhibCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the ally inhibitors.
         /// </summary>
-        public static List<Inhibitor> AllyInhibitors
-        {
-            get => ObjectManagerExport.InhibCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<Inhibitor> AllyInhibitors => ObjectManagerExport.InhibCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the enemy jungle mobs.
         /// </summary>
-        public static List<JungleMob> EnemyJungleMobs
-        {
-            get => ObjectManagerExport.JungleObjectCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<JungleMob> EnemyJungleMobs => ObjectManagerExport.JungleObjectCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
 
         /// <summary>
         /// Gets all the ally jungle mobs.
         /// </summary>
-        public static List<JungleMob> AllyJungleMobs
-        {
-            get => ObjectManagerExport.JungleObjectCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
-        }
+        public static List<JungleMob> AllyJungleMobs => ObjectManagerExport.JungleObjectCollection.Where(kvp => kvp.Value.Team == MyChampion.Team).Select(a => a.Value).ToList();
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.Serialization;
-using Oasys.Common.GameObject.Clients.ExtendedInstances.Spells;
+﻿using System.Collections.Generic;
 
 namespace Oasys.SDK.SpellCasting
 {
@@ -13,10 +7,10 @@ namespace Oasys.SDK.SpellCasting
     /// </summary>
     public class SummonerSpellsProvider
     {
-        private static string Slot1_D = string.Empty;
-        private static string Slot2_F = string.Empty;
+        private static readonly string Slot1_D = string.Empty;
+        private static readonly string Slot2_F = string.Empty;
 
-        private static Dictionary<SummonerSpellsEnum, string> SummonerSpellsNameMappedDictionary;
+        private static readonly Dictionary<SummonerSpellsEnum, string> SummonerSpellsNameMappedDictionary;
 
         static SummonerSpellsProvider()
         {
