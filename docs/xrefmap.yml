@@ -3519,6 +3519,12 @@ references:
   commentId: T:Oasys.Common.EventsProvider.CoreEvents.InputRegisterTemplate
   fullName: Oasys.Common.EventsProvider.CoreEvents.InputRegisterTemplate
   nameWithType: CoreEvents.InputRegisterTemplate
+- uid: Oasys.Common.EventsProvider.CoreEvents.OnCoreHarassInputAsync
+  name: OnCoreHarassInputAsync
+  href: api/Oasys.Common.EventsProvider.CoreEvents.html#Oasys_Common_EventsProvider_CoreEvents_OnCoreHarassInputAsync
+  commentId: E:Oasys.Common.EventsProvider.CoreEvents.OnCoreHarassInputAsync
+  fullName: Oasys.Common.EventsProvider.CoreEvents.OnCoreHarassInputAsync
+  nameWithType: CoreEvents.OnCoreHarassInputAsync
 - uid: Oasys.Common.EventsProvider.CoreEvents.OnCoreInputRegister
   name: OnCoreInputRegister
   href: api/Oasys.Common.EventsProvider.CoreEvents.html#Oasys_Common_EventsProvider_CoreEvents_OnCoreInputRegister
@@ -4579,6 +4585,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Extensions.Extensions.ToVector4
   nameWithType: Extensions.ToVector4
+- uid: Oasys.Common.Extensions.Extensions.ToW2S(SharpDX.Vector3)
+  name: ToW2S(Vector3)
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_ToW2S_SharpDX_Vector3_
+  commentId: M:Oasys.Common.Extensions.Extensions.ToW2S(SharpDX.Vector3)
+  fullName: Oasys.Common.Extensions.Extensions.ToW2S(SharpDX.Vector3)
+  nameWithType: Extensions.ToW2S(Vector3)
+- uid: Oasys.Common.Extensions.Extensions.ToW2S*
+  name: ToW2S
+  href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_ToW2S_
+  commentId: Overload:Oasys.Common.Extensions.Extensions.ToW2S
+  isSpec: "True"
+  fullName: Oasys.Common.Extensions.Extensions.ToW2S
+  nameWithType: Extensions.ToW2S
 - uid: Oasys.Common.Extensions.Extensions.VectorMovementCollision(SharpDX.Vector2,SharpDX.Vector2,System.Single,SharpDX.Vector2,System.Single,System.Single)
   name: VectorMovementCollision(Vector2, Vector2, Single, Vector2, Single, Single)
   href: api/Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_VectorMovementCollision_SharpDX_Vector2_SharpDX_Vector2_System_Single_SharpDX_Vector2_System_Single_System_Single_
@@ -8642,12 +8661,50 @@ references:
   commentId: T:Oasys.Common.Logic.Orbwalker
   fullName: Oasys.Common.Logic.Orbwalker
   nameWithType: Orbwalker
+- uid: Oasys.Common.Logic.Orbwalker.AfterAttackAction
+  name: AfterAttackAction
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_AfterAttackAction
+  commentId: F:Oasys.Common.Logic.Orbwalker.AfterAttackAction
+  fullName: Oasys.Common.Logic.Orbwalker.AfterAttackAction
+  nameWithType: Orbwalker.AfterAttackAction
+- uid: Oasys.Common.Logic.Orbwalker.BeforeAttackAction
+  name: BeforeAttackAction
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_BeforeAttackAction
+  commentId: F:Oasys.Common.Logic.Orbwalker.BeforeAttackAction
+  fullName: Oasys.Common.Logic.Orbwalker.BeforeAttackAction
+  nameWithType: Orbwalker.BeforeAttackAction
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings
   name: Orbwalker.OrbSettings
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html
   commentId: T:Oasys.Common.Logic.Orbwalker.OrbSettings
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings
   nameWithType: Orbwalker.OrbSettings
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking
+  name: AllowAttacking
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_AllowAttacking
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking
+  nameWithType: Orbwalker.OrbSettings.AllowAttacking
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking*
+  name: AllowAttacking
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_AllowAttacking_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowAttacking
+  nameWithType: Orbwalker.OrbSettings.AllowAttacking
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving
+  name: AllowMoving
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_AllowMoving
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving
+  nameWithType: Orbwalker.OrbSettings.AllowMoving
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving*
+  name: AllowMoving
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_AllowMoving_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.AllowMoving
+  nameWithType: Orbwalker.OrbSettings.AllowMoving
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.AttackCooldownRemaining
   name: AttackCooldownRemaining
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_AttackCooldownRemaining
@@ -12432,6 +12489,12 @@ references:
   commentId: T:Oasys.SDK.Events.CoreEvents
   fullName: Oasys.SDK.Events.CoreEvents
   nameWithType: CoreEvents
+- uid: Oasys.SDK.Events.CoreEvents.OnCoreHarassInputAsync
+  name: OnCoreHarassInputAsync
+  href: api/Oasys.SDK.Events.CoreEvents.html#Oasys_SDK_Events_CoreEvents_OnCoreHarassInputAsync
+  commentId: E:Oasys.SDK.Events.CoreEvents.OnCoreHarassInputAsync
+  fullName: Oasys.SDK.Events.CoreEvents.OnCoreHarassInputAsync
+  nameWithType: CoreEvents.OnCoreHarassInputAsync
 - uid: Oasys.SDK.Events.CoreEvents.OnCoreLaneclearInputAsync
   name: OnCoreLaneclearInputAsync
   href: api/Oasys.SDK.Events.CoreEvents.html#Oasys_SDK_Events_CoreEvents_OnCoreLaneclearInputAsync
@@ -13268,6 +13331,32 @@ references:
   commentId: T:Oasys.SDK.Orbwalker
   fullName: Oasys.SDK.Orbwalker
   nameWithType: Orbwalker
+- uid: Oasys.SDK.Orbwalker.AllowAttacking
+  name: AllowAttacking
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_AllowAttacking
+  commentId: P:Oasys.SDK.Orbwalker.AllowAttacking
+  fullName: Oasys.SDK.Orbwalker.AllowAttacking
+  nameWithType: Orbwalker.AllowAttacking
+- uid: Oasys.SDK.Orbwalker.AllowAttacking*
+  name: AllowAttacking
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_AllowAttacking_
+  commentId: Overload:Oasys.SDK.Orbwalker.AllowAttacking
+  isSpec: "True"
+  fullName: Oasys.SDK.Orbwalker.AllowAttacking
+  nameWithType: Orbwalker.AllowAttacking
+- uid: Oasys.SDK.Orbwalker.AllowMoving
+  name: AllowMoving
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_AllowMoving
+  commentId: P:Oasys.SDK.Orbwalker.AllowMoving
+  fullName: Oasys.SDK.Orbwalker.AllowMoving
+  nameWithType: Orbwalker.AllowMoving
+- uid: Oasys.SDK.Orbwalker.AllowMoving*
+  name: AllowMoving
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_AllowMoving_
+  commentId: Overload:Oasys.SDK.Orbwalker.AllowMoving
+  isSpec: "True"
+  fullName: Oasys.SDK.Orbwalker.AllowMoving
+  nameWithType: Orbwalker.AllowMoving
 - uid: Oasys.SDK.Orbwalker.AttackCooldownRemaining
   name: AttackCooldownRemaining
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_AttackCooldownRemaining

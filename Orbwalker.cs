@@ -18,6 +18,24 @@ namespace Oasys.SDK
         }
 
         /// <summary>
+        /// Enable/disable the orbwalker to being able to attack
+        /// </summary>
+        public static bool AllowAttacking
+        {
+            get => Common.Logic.Orbwalker.OrbSettings.AllowAttacking;
+            set => Common.Logic.Orbwalker.OrbSettings.AllowAttacking = value;
+        }
+
+        /// <summary>
+        /// Enable/disable the orbwalker to being able to move
+        /// </summary>
+        public static bool AllowMoving
+        {
+            get => Common.Logic.Orbwalker.OrbSettings.AllowMoving;
+            set => Common.Logic.Orbwalker.OrbSettings.AllowMoving = value;
+        }
+
+        /// <summary>
         /// Can my champion move after basic attack
         /// </summary>
         public static bool CanMove => Common.Logic.Orbwalker.OrbSettings.CanMove;

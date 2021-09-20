@@ -35,6 +35,15 @@ namespace Oasys.SDK.Events
         }
 
         /// <summary>
+        /// This event is raised whenever the harass input(x key for default) is pressed.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreHarassInputAsync
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreHarassInputAsync += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreHarassInputAsync -= value;
+        }
+
+        /// <summary>
         /// This event is raised whenever the laneclear input(v key for default) is pressed.
         /// </summary>
         public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreLaneclearInputAsync
