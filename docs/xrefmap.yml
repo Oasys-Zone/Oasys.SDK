@@ -5310,6 +5310,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.IsCombatType
   nameWithType: AIBaseClient.IsCombatType
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid
+  name: IsNativeObjectPointerValid
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_IsNativeObjectPointerValid
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid
+  nameWithType: AIBaseClient.IsNativeObjectPointerValid
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid*
+  name: IsNativeObjectPointerValid
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_IsNativeObjectPointerValid_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.IsNativeObjectPointerValid
+  nameWithType: AIBaseClient.IsNativeObjectPointerValid
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.IsTargetable
   name: IsTargetable
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_IsTargetable
@@ -8392,6 +8405,25 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.ObjectClass.MissileClient.MissileClient
   nameWithType: MissileClient.MissileClient
+- uid: Oasys.Common.GameObject.ObjectClass.Nexus
+  name: Nexus
+  href: api/Oasys.Common.GameObject.ObjectClass.Nexus.html
+  commentId: T:Oasys.Common.GameObject.ObjectClass.Nexus
+  fullName: Oasys.Common.GameObject.ObjectClass.Nexus
+  nameWithType: Nexus
+- uid: Oasys.Common.GameObject.ObjectClass.Nexus.#ctor(System.Int32)
+  name: Nexus(Int32)
+  href: api/Oasys.Common.GameObject.ObjectClass.Nexus.html#Oasys_Common_GameObject_ObjectClass_Nexus__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.ObjectClass.Nexus.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.ObjectClass.Nexus.Nexus(System.Int32)
+  nameWithType: Nexus.Nexus(Int32)
+- uid: Oasys.Common.GameObject.ObjectClass.Nexus.#ctor*
+  name: Nexus
+  href: api/Oasys.Common.GameObject.ObjectClass.Nexus.html#Oasys_Common_GameObject_ObjectClass_Nexus__ctor_
+  commentId: Overload:Oasys.Common.GameObject.ObjectClass.Nexus.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.ObjectClass.Nexus.Nexus
+  nameWithType: Nexus.Nexus
 - uid: Oasys.Common.GameObject.ObjectClass.Trap
   name: Trap
   href: api/Oasys.Common.GameObject.ObjectClass.Trap.html
@@ -9364,6 +9396,12 @@ references:
   commentId: F:Oasys.Common.ObjectManagerExport.MinionCollection
   fullName: Oasys.Common.ObjectManagerExport.MinionCollection
   nameWithType: ObjectManagerExport.MinionCollection
+- uid: Oasys.Common.ObjectManagerExport.NexusCollection
+  name: NexusCollection
+  href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_NexusCollection
+  commentId: F:Oasys.Common.ObjectManagerExport.NexusCollection
+  fullName: Oasys.Common.ObjectManagerExport.NexusCollection
+  nameWithType: ObjectManagerExport.NexusCollection
 - uid: Oasys.Common.ObjectManagerExport.PlacementCollection
   name: PlacementCollection
   href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_PlacementCollection
@@ -9967,6 +10005,32 @@ references:
   commentId: T:Oasys.Common.Tools.Devices.Keyboard
   fullName: Oasys.Common.Tools.Devices.Keyboard
   nameWithType: Keyboard
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  name: GetKey(Keyboard.KeyBoardScanCodes)
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKey_Oasys_Common_Tools_Devices_Keyboard_KeyBoardScanCodes_
+  commentId: M:Oasys.Common.Tools.Devices.Keyboard.GetKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKey(Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes)
+  nameWithType: Keyboard.GetKey(Keyboard.KeyBoardScanCodes)
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKey*
+  name: GetKey
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKey_
+  commentId: Overload:Oasys.Common.Tools.Devices.Keyboard.GetKey
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKey
+  nameWithType: Keyboard.GetKey
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode(System.Windows.Forms.Keys)
+  name: GetKeyBoardScanCode(Keys)
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKeyBoardScanCode_System_Windows_Forms_Keys_
+  commentId: M:Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode(System.Windows.Forms.Keys)
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode(System.Windows.Forms.Keys)
+  nameWithType: Keyboard.GetKeyBoardScanCode(Keys)
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode*
+  name: GetKeyBoardScanCode
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKeyBoardScanCode_
+  commentId: Overload:Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode
+  nameWithType: Keyboard.GetKeyBoardScanCode
 - uid: Oasys.Common.Tools.Devices.Keyboard.IsControlPressed
   name: IsControlPressed()
   href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_IsControlPressed
@@ -14295,6 +14359,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.UnitManager.AllyMinions
   nameWithType: UnitManager.AllyMinions
+- uid: Oasys.SDK.UnitManager.AllyNexus
+  name: AllyNexus
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllyNexus
+  commentId: P:Oasys.SDK.UnitManager.AllyNexus
+  fullName: Oasys.SDK.UnitManager.AllyNexus
+  nameWithType: UnitManager.AllyNexus
+- uid: Oasys.SDK.UnitManager.AllyNexus*
+  name: AllyNexus
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllyNexus_
+  commentId: Overload:Oasys.SDK.UnitManager.AllyNexus
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.AllyNexus
+  nameWithType: UnitManager.AllyNexus
 - uid: Oasys.SDK.UnitManager.AllyTowers
   name: AllyTowers
   href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllyTowers
@@ -14373,6 +14450,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.UnitManager.EnemyMinions
   nameWithType: UnitManager.EnemyMinions
+- uid: Oasys.SDK.UnitManager.EnemyNexus
+  name: EnemyNexus
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_EnemyNexus
+  commentId: P:Oasys.SDK.UnitManager.EnemyNexus
+  fullName: Oasys.SDK.UnitManager.EnemyNexus
+  nameWithType: UnitManager.EnemyNexus
+- uid: Oasys.SDK.UnitManager.EnemyNexus*
+  name: EnemyNexus
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_EnemyNexus_
+  commentId: Overload:Oasys.SDK.UnitManager.EnemyNexus
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.EnemyNexus
+  nameWithType: UnitManager.EnemyNexus
 - uid: Oasys.SDK.UnitManager.EnemyTowers
   name: EnemyTowers
   href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_EnemyTowers
@@ -14392,6 +14482,19 @@ references:
   commentId: F:Oasys.SDK.UnitManager.MyChampion
   fullName: Oasys.SDK.UnitManager.MyChampion
   nameWithType: UnitManager.MyChampion
+- uid: Oasys.SDK.UnitManager.Nexuses
+  name: Nexuses
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_Nexuses
+  commentId: P:Oasys.SDK.UnitManager.Nexuses
+  fullName: Oasys.SDK.UnitManager.Nexuses
+  nameWithType: UnitManager.Nexuses
+- uid: Oasys.SDK.UnitManager.Nexuses*
+  name: Nexuses
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_Nexuses_
+  commentId: Overload:Oasys.SDK.UnitManager.Nexuses
+  isSpec: "True"
+  fullName: Oasys.SDK.UnitManager.Nexuses
+  nameWithType: UnitManager.Nexuses
 - uid: Oasys.SDK.UnitManager.PlacementObjects
   name: PlacementObjects
   href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_PlacementObjects
