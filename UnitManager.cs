@@ -67,6 +67,21 @@ namespace Oasys.SDK
                                                   .ToList();
 
         /// <summary>
+        /// Gets all nexuses in game if UseNativeObjectManagerCaching is enabled
+        /// </summary>
+        public static List<Nexus> Nexuses => ObjectManagerExport.NexusCollection.Values.ToList();
+
+        /// <summary>
+        /// Gets enemy nexus if UseNativeObjectManagerCaching is enabled
+        /// </summary>
+        public static Nexus EnemyNexus => Nexuses.FirstOrDefault(x => x.IsEnemy);
+
+        /// <summary>
+        /// Gets ally nexus if UseNativeObjectManagerCaching is enabled
+        /// </summary>
+        public static Nexus AllyNexus => Nexuses.FirstOrDefault(x => x.OnMyTeam);
+
+        /// <summary>
         /// Gets all the enemy champions.
         /// </summary>
         public static List<Hero> EnemyChampions => ObjectManagerExport.HeroCollection.Where(kvp => kvp.Value.Team != MyChampion.Team).Select(a => a.Value).ToList();
