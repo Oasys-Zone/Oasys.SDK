@@ -9172,6 +9172,51 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.ItemComponents.InfoDisplay.Information
   nameWithType: InfoDisplay.Information
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding
+  name: KeyBinding
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html
+  commentId: T:Oasys.Common.Menu.ItemComponents.KeyBinding
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding
+  nameWithType: KeyBinding
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.#ctor
+  name: KeyBinding()
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding__ctor
+  commentId: M:Oasys.Common.Menu.ItemComponents.KeyBinding.#ctor
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.KeyBinding()
+  nameWithType: KeyBinding.KeyBinding()
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.#ctor*
+  name: KeyBinding
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding__ctor_
+  commentId: Overload:Oasys.Common.Menu.ItemComponents.KeyBinding.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.KeyBinding
+  nameWithType: KeyBinding.KeyBinding
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.Keys
+  name: Keys
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding_Keys
+  commentId: P:Oasys.Common.Menu.ItemComponents.KeyBinding.Keys
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.Keys
+  nameWithType: KeyBinding.Keys
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.Keys*
+  name: Keys
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding_Keys_
+  commentId: Overload:Oasys.Common.Menu.ItemComponents.KeyBinding.Keys
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.Keys
+  nameWithType: KeyBinding.Keys
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey
+  name: SelectedKey
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding_SelectedKey
+  commentId: P:Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey
+  nameWithType: KeyBinding.SelectedKey
+- uid: Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey*
+  name: SelectedKey
+  href: api/Oasys.Common.Menu.ItemComponents.KeyBinding.html#Oasys_Common_Menu_ItemComponents_KeyBinding_SelectedKey_
+  commentId: Overload:Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.ItemComponents.KeyBinding.SelectedKey
+  nameWithType: KeyBinding.SelectedKey
 - uid: Oasys.Common.Menu.ItemComponents.ModeDisplay
   name: ModeDisplay
   href: api/Oasys.Common.Menu.ItemComponents.ModeDisplay.html

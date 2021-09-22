@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html",
-          "hash": "nVJyvWZG5WAA3PUhwAWp/wtIU7vwpvB2+JCu+JAFd+M="
+          "hash": "GD9uURTTWTGADFKpdQiT0S420lWzwHICjlMDnWtL+HA="
         }
       },
       "is_incremental": false,
@@ -1082,6 +1082,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.KeyBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.ItemComponents.KeyBinding.html",
+          "hash": "a2MiDm39zyGzoUyU9Ke6Enc8lnrdZar/1fqFF1an7F8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.yml",
       "output": {
         ".html": {
@@ -1110,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.html",
-          "hash": "StbacKkLWn5BhfNxs2SVjYKbARCs3Q7qfuzXMBDTsCU="
+          "hash": "i17rhHEQo/VklIIVuNQmnBz3d6oKBTVZlla0pxZ8DHY="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.TabItem.html",
-          "hash": "H8rF5KEynDGAdbhaH1h3szyFeAehdltf3Ss4fZ7x4Ko="
+          "hash": "btu/7I/SD/z3ZV5H0ZoPoZiSOR30k+AcPgAO21fTwD8="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.html",
-          "hash": "Yeo8Ata+0yKf/osDRTtGElkwxF0mMbjOmMFgiMPva30="
+          "hash": "tLFG/f5yNTqIqFj1ajkQi7Tx551ZRUNhan7JiNJDGEY="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mpCASmOlszd8IoobH4LNKGSmn0DPuGHmjY5fm60b+mA="
+          "hash": "82dRQK8mFwr6YzAiPh3EMRlh61ZxVm6QZlois3a1zXE="
         }
       },
       "is_incremental": false,
@@ -1945,8 +1957,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 153,
-          "skipped_file_count": 131
+          "total_file_count": 154,
+          "skipped_file_count": 154
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
