@@ -6019,6 +6019,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetHashCode
   nameWithType: BuffEntry.GetHashCode
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject
+  name: GetOwnerObject()
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_GetOwnerObject
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject()
+  nameWithType: BuffEntry.GetOwnerObject()
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject*
+  name: GetOwnerObject
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_GetOwnerObject_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.GetOwnerObject
+  nameWithType: BuffEntry.GetOwnerObject
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.IsActive
   name: IsActive
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_IsActive
@@ -6038,6 +6051,18 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
   nameWithType: BuffEntry.Name
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  name: OwnerObjectIndex
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectIndex
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  nameWithType: BuffEntry.OwnerObjectIndex
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  name: OwnerObjectNetworkID
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectNetworkID
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  nameWithType: BuffEntry.OwnerObjectNetworkID
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Stacks
   name: Stacks
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_Stacks
@@ -7086,6 +7111,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.UnitStats
   nameWithType: UnitStats.UnitStats
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste
+  name: AbilityHaste
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_AbilityHaste
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste
+  nameWithType: UnitStats.AbilityHaste
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste*
+  name: AbilityHaste
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_AbilityHaste_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AbilityHaste
+  nameWithType: UnitStats.AbilityHaste
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.Armor
   name: Armor
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_Armor
@@ -7099,6 +7137,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.Armor
   nameWithType: UnitStats.Armor
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration
+  name: ArmorPercentPentration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_ArmorPercentPentration
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration
+  nameWithType: UnitStats.ArmorPercentPentration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration*
+  name: ArmorPercentPentration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_ArmorPercentPentration_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.ArmorPercentPentration
+  nameWithType: UnitStats.ArmorPercentPentration
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackRange
   name: AttackRange
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_AttackRange
@@ -7125,6 +7176,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedMod
   nameWithType: UnitStats.AttackSpeedMod
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw
+  name: AttackSpeedModRaw
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_AttackSpeedModRaw
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw
+  nameWithType: UnitStats.AttackSpeedModRaw
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw*
+  name: AttackSpeedModRaw
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_AttackSpeedModRaw_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.AttackSpeedModRaw
+  nameWithType: UnitStats.AttackSpeedModRaw
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.BaseAbilityDamage
   name: BaseAbilityDamage
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_BaseAbilityDamage
@@ -7216,6 +7280,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.BonusMagicResist
   nameWithType: UnitStats.BonusMagicResist
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent
+  name: CooldownReductionPercent
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_CooldownReductionPercent
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent
+  nameWithType: UnitStats.CooldownReductionPercent
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent*
+  name: CooldownReductionPercent
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_CooldownReductionPercent_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.CooldownReductionPercent
+  nameWithType: UnitStats.CooldownReductionPercent
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.Crit
   name: Crit
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_Crit
@@ -7437,6 +7514,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PassiveCooldownTotalTime
   nameWithType: UnitStats.PassiveCooldownTotalTime
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod
+  name: PercentAttackSpeedMod
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentAttackSpeedMod
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod
+  nameWithType: UnitStats.PercentAttackSpeedMod
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod*
+  name: PercentAttackSpeedMod
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentAttackSpeedMod_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentAttackSpeedMod
+  nameWithType: UnitStats.PercentAttackSpeedMod
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBaseAttackDamageMod
   name: PercentBaseAttackDamageMod
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentBaseAttackDamageMod
@@ -7476,6 +7566,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusArmorPenetration
   nameWithType: UnitStats.PercentBonusArmorPenetration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration
+  name: PercentBonusMagicPenetration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentBonusMagicPenetration
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration
+  nameWithType: UnitStats.PercentBonusMagicPenetration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration*
+  name: PercentBonusMagicPenetration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentBonusMagicPenetration_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentBonusMagicPenetration
+  nameWithType: UnitStats.PercentBonusMagicPenetration
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.PercentCCReduction
   name: PercentCCReduction
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html#Oasys_Common_GameObject_Clients_ExtendedInstances_UnitStats_PercentCCReduction
@@ -9502,6 +9605,19 @@ references:
   commentId: T:Oasys.Common.Settings.Core
   fullName: Oasys.Common.Settings.Core
   nameWithType: Core
+- uid: Oasys.Common.Settings.Core.MenuSelectionColor
+  name: MenuSelectionColor
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_MenuSelectionColor
+  commentId: P:Oasys.Common.Settings.Core.MenuSelectionColor
+  fullName: Oasys.Common.Settings.Core.MenuSelectionColor
+  nameWithType: Core.MenuSelectionColor
+- uid: Oasys.Common.Settings.Core.MenuSelectionColor*
+  name: MenuSelectionColor
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_MenuSelectionColor_
+  commentId: Overload:Oasys.Common.Settings.Core.MenuSelectionColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Core.MenuSelectionColor
+  nameWithType: Core.MenuSelectionColor
 - uid: Oasys.Common.Settings.Core.UseBlockInput
   name: UseBlockInput
   href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseBlockInput
@@ -9528,6 +9644,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
   nameWithType: Core.UseNativeObjectManagerCaching
+- uid: Oasys.Common.Settings.Core.UseOasysMenuSelectionColor
+  name: UseOasysMenuSelectionColor
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseOasysMenuSelectionColor
+  commentId: P:Oasys.Common.Settings.Core.UseOasysMenuSelectionColor
+  fullName: Oasys.Common.Settings.Core.UseOasysMenuSelectionColor
+  nameWithType: Core.UseOasysMenuSelectionColor
+- uid: Oasys.Common.Settings.Core.UseOasysMenuSelectionColor*
+  name: UseOasysMenuSelectionColor
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseOasysMenuSelectionColor_
+  commentId: Overload:Oasys.Common.Settings.Core.UseOasysMenuSelectionColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Core.UseOasysMenuSelectionColor
+  nameWithType: Core.UseOasysMenuSelectionColor
 - uid: Oasys.Common.Settings.Drawings
   name: Drawings
   href: api/Oasys.Common.Settings.Drawings.html

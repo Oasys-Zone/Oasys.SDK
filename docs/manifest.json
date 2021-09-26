@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html",
-          "hash": "U1XWepDQ/DFPGPFP4AeilFfonfpH1sw69D/nApIVb1M="
+          "hash": "1Yq8gvslwYCNy4mPt+BKLnkLq1vFNSgwXe5ZcSqs7EY="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitStats.html",
-          "hash": "LwgaYEf5ut4tAS/v68WrbiglxpINkcKHy2KwSapnTJY="
+          "hash": "BnebS8txPL22T5lYJmFyaOar9yuoTlFNnqVLn6thjZ4="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Core.html",
-          "hash": "u50kWLHp20JtDMhUO3zt4S50hboX+RBG6uj85uoBl/A="
+          "hash": "4e6vB2tWJCOMbJ450knyahnkM1BP5LI/MJVyDn3JLq8="
         }
       },
       "is_incremental": false,
@@ -1942,23 +1942,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 154,
-          "skipped_file_count": 154
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
