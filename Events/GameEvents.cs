@@ -61,5 +61,41 @@
             add => Common.EventsProvider.GameEvents.OnDeleteObject += value;
             remove => Common.EventsProvider.GameEvents.OnDeleteObject -= value;
         }
+
+        /// <summary>
+        /// This event is raised whenever a hero object buys an item.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.HeroItemEventTemplate OnBuyItem
+        {
+            add => Common.EventsProvider.GameEvents.OnBuyItem += value;
+            remove => Common.EventsProvider.GameEvents.OnBuyItem -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever a hero object sells an item.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.HeroItemEventTemplate OnSellItem
+        {
+            add => Common.EventsProvider.GameEvents.OnSellItem += value;
+            remove => Common.EventsProvider.GameEvents.OnSellItem -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever a hero object upgrades an item.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.HeroItemEventTemplate OnItemUpgrade
+        {
+            add => Common.EventsProvider.GameEvents.OnItemUpgrade += value;
+            remove => Common.EventsProvider.GameEvents.OnItemUpgrade -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever a hero object changes the slot of an item.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.HeroItemEventTemplate OnItemSlotChanged
+        {
+            add => Common.EventsProvider.GameEvents.OnItemSlotChanged += value;
+            remove => Common.EventsProvider.GameEvents.OnItemSlotChanged -= value;
+        }
     }
 }

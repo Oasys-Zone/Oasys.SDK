@@ -17,7 +17,11 @@ namespace Oasys.SDK
         /// </summary>
         public static AIHeroClient MyChampion = ObjectManagerExport.LocalPlayer;
 
-        public static List<AIBaseClient> AllObjects => ObjectManagerExport.CollectedNativeObjects.Select(x => x.Value).ToList();
+        /// <summary>
+        /// Gets all native objects collected from OnCreateObject and OnDeleteObject.
+        /// To actively use this list, please refer to Common.Settings.Core.UseNativeObjectManagerCaching (It is disabled by default).
+        /// </summary>
+        public static List<AIBaseClient> AllNativeObjects => ObjectManagerExport.CollectedNativeObjects.Select(x => x.Value).ToList();
 
         /// <summary>
         /// Gets all the enemy game objects. This includes champions, minions, jungle mobs, towers and inhibitors.

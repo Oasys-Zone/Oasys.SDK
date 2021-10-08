@@ -88,7 +88,7 @@
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
   <h5 id="Oasys_Common_EventsProvider_GameEvents_ObjectManagerCallbackDelegate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate Task ObjectManagerCallbackDelegate(AIBaseClient callbackObject);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate Task ObjectManagerCallbackDelegate(List&lt;AIBaseClient&gt; callbackObjectList, AIBaseClient callbackObject, float callbackGameTime);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -101,8 +101,18 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.AIBaseClient.html">AIBaseClient</a>&gt;</td>
+        <td><span class="parametername">callbackObjectList</span></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a class="xref" href="Oasys.Common.GameObject.Clients.AIBaseClient.html">AIBaseClient</a></td>
         <td><span class="parametername">callbackObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">callbackGameTime</span></td>
         <td></td>
       </tr>
     </tbody>

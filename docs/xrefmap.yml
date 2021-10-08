@@ -735,6 +735,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.GameTypes.Tutorial
   fullName: Oasys.Common.Enums.GameEnums.GameTypes.Tutorial
   nameWithType: GameTypes.Tutorial
+- uid: Oasys.Common.Enums.GameEnums.GameTypes.Urf
+  name: Urf
+  href: api/Oasys.Common.Enums.GameEnums.GameTypes.html#Oasys_Common_Enums_GameEnums_GameTypes_Urf
+  commentId: F:Oasys.Common.Enums.GameEnums.GameTypes.Urf
+  fullName: Oasys.Common.Enums.GameEnums.GameTypes.Urf
+  nameWithType: GameTypes.Urf
 - uid: Oasys.Common.Enums.GameEnums.GapcloserType
   name: GapcloserType
   href: api/Oasys.Common.Enums.GameEnums.GapcloserType.html
@@ -3585,12 +3591,24 @@ references:
   commentId: T:Oasys.Common.EventsProvider.GameEvents.GameEventTemplate
   fullName: Oasys.Common.EventsProvider.GameEvents.GameEventTemplate
   nameWithType: GameEvents.GameEventTemplate
+- uid: Oasys.Common.EventsProvider.GameEvents.HeroItemEventTemplate
+  name: GameEvents.HeroItemEventTemplate
+  href: api/Oasys.Common.EventsProvider.GameEvents.HeroItemEventTemplate.html
+  commentId: T:Oasys.Common.EventsProvider.GameEvents.HeroItemEventTemplate
+  fullName: Oasys.Common.EventsProvider.GameEvents.HeroItemEventTemplate
+  nameWithType: GameEvents.HeroItemEventTemplate
 - uid: Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
   name: GameEvents.ObjectManagerCallbackDelegate
   href: api/Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate.html
   commentId: T:Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
   fullName: Oasys.Common.EventsProvider.GameEvents.ObjectManagerCallbackDelegate
   nameWithType: GameEvents.ObjectManagerCallbackDelegate
+- uid: Oasys.Common.EventsProvider.GameEvents.OnBuyItem
+  name: OnBuyItem
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnBuyItem
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnBuyItem
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnBuyItem
+  nameWithType: GameEvents.OnBuyItem
 - uid: Oasys.Common.EventsProvider.GameEvents.OnCreateObject
   name: OnCreateObject
   href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnCreateObject
@@ -3627,6 +3645,24 @@ references:
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameProcessSpell
   fullName: Oasys.Common.EventsProvider.GameEvents.OnGameProcessSpell
   nameWithType: GameEvents.OnGameProcessSpell
+- uid: Oasys.Common.EventsProvider.GameEvents.OnItemSlotChanged
+  name: OnItemSlotChanged
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnItemSlotChanged
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnItemSlotChanged
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnItemSlotChanged
+  nameWithType: GameEvents.OnItemSlotChanged
+- uid: Oasys.Common.EventsProvider.GameEvents.OnItemUpgrade
+  name: OnItemUpgrade
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnItemUpgrade
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnItemUpgrade
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnItemUpgrade
+  nameWithType: GameEvents.OnItemUpgrade
+- uid: Oasys.Common.EventsProvider.GameEvents.OnSellItem
+  name: OnSellItem
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnSellItem
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnSellItem
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnSellItem
+  nameWithType: GameEvents.OnSellItem
 - uid: Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate
   name: GameEvents.RecallEventTemplate
   href: api/Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate.html
@@ -6229,6 +6265,12 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
   nameWithType: HeroInventory.Item.Cost
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CreatedInListGameTime
+  name: CreatedInListGameTime
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_CreatedInListGameTime
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CreatedInListGameTime
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CreatedInListGameTime
+  nameWithType: HeroInventory.Item.CreatedInListGameTime
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.ID
   name: ID
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_ID
@@ -7793,6 +7835,19 @@ references:
   commentId: T:Oasys.Common.GameObject.GameObjectBase
   fullName: Oasys.Common.GameObject.GameObjectBase
   nameWithType: GameObjectBase
+- uid: Oasys.Common.GameObject.GameObjectBase.#ctor
+  name: GameObjectBase()
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase__ctor
+  commentId: M:Oasys.Common.GameObject.GameObjectBase.#ctor
+  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectBase()
+  nameWithType: GameObjectBase.GameObjectBase()
+- uid: Oasys.Common.GameObject.GameObjectBase.#ctor*
+  name: GameObjectBase
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase__ctor_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectBase
+  nameWithType: GameObjectBase.GameObjectBase
 - uid: Oasys.Common.GameObject.GameObjectBase.AIManager
   name: AIManager
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AIManager
@@ -8633,6 +8688,30 @@ references:
   commentId: N:Oasys.Common.Logic
   fullName: Oasys.Common.Logic
   nameWithType: Oasys.Common.Logic
+- uid: Oasys.Common.Logic.Alerts
+  name: Oasys.Common.Logic.Alerts
+  href: api/Oasys.Common.Logic.Alerts.html
+  commentId: N:Oasys.Common.Logic.Alerts
+  fullName: Oasys.Common.Logic.Alerts
+  nameWithType: Oasys.Common.Logic.Alerts
+- uid: Oasys.Common.Logic.Alerts.BaronAlerter
+  name: BaronAlerter
+  href: api/Oasys.Common.Logic.Alerts.BaronAlerter.html
+  commentId: T:Oasys.Common.Logic.Alerts.BaronAlerter
+  fullName: Oasys.Common.Logic.Alerts.BaronAlerter
+  nameWithType: BaronAlerter
+- uid: Oasys.Common.Logic.Alerts.DragonAlerter
+  name: DragonAlerter
+  href: api/Oasys.Common.Logic.Alerts.DragonAlerter.html
+  commentId: T:Oasys.Common.Logic.Alerts.DragonAlerter
+  fullName: Oasys.Common.Logic.Alerts.DragonAlerter
+  nameWithType: DragonAlerter
+- uid: Oasys.Common.Logic.Alerts.GankAlerter
+  name: GankAlerter
+  href: api/Oasys.Common.Logic.Alerts.GankAlerter.html
+  commentId: T:Oasys.Common.Logic.Alerts.GankAlerter
+  fullName: Oasys.Common.Logic.Alerts.GankAlerter
+  nameWithType: GankAlerter
 - uid: Oasys.Common.Logic.DamageCalculator
   name: DamageCalculator
   href: api/Oasys.Common.Logic.DamageCalculator.html
@@ -8796,18 +8875,6 @@ references:
   commentId: T:Oasys.Common.Logic.Orbwalker
   fullName: Oasys.Common.Logic.Orbwalker
   nameWithType: Orbwalker
-- uid: Oasys.Common.Logic.Orbwalker.AfterAttackAction
-  name: AfterAttackAction
-  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_AfterAttackAction
-  commentId: F:Oasys.Common.Logic.Orbwalker.AfterAttackAction
-  fullName: Oasys.Common.Logic.Orbwalker.AfterAttackAction
-  nameWithType: Orbwalker.AfterAttackAction
-- uid: Oasys.Common.Logic.Orbwalker.BeforeAttackAction
-  name: BeforeAttackAction
-  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_BeforeAttackAction
-  commentId: F:Oasys.Common.Logic.Orbwalker.BeforeAttackAction
-  fullName: Oasys.Common.Logic.Orbwalker.BeforeAttackAction
-  nameWithType: Orbwalker.BeforeAttackAction
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings
   name: Orbwalker.OrbSettings
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html
@@ -9186,6 +9253,24 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.TargetSelector.ShouldAttackMinion
   nameWithType: TargetSelector.ShouldAttackMinion
+- uid: Oasys.Common.Logic.Trackers
+  name: Oasys.Common.Logic.Trackers
+  href: api/Oasys.Common.Logic.Trackers.html
+  commentId: N:Oasys.Common.Logic.Trackers
+  fullName: Oasys.Common.Logic.Trackers
+  nameWithType: Oasys.Common.Logic.Trackers
+- uid: Oasys.Common.Logic.Trackers.TrapTracker
+  name: TrapTracker
+  href: api/Oasys.Common.Logic.Trackers.TrapTracker.html
+  commentId: T:Oasys.Common.Logic.Trackers.TrapTracker
+  fullName: Oasys.Common.Logic.Trackers.TrapTracker
+  nameWithType: TrapTracker
+- uid: Oasys.Common.Logic.Trackers.WardTracker
+  name: WardTracker
+  href: api/Oasys.Common.Logic.Trackers.WardTracker.html
+  commentId: T:Oasys.Common.Logic.Trackers.WardTracker
+  fullName: Oasys.Common.Logic.Trackers.WardTracker
+  nameWithType: WardTracker
 - uid: Oasys.Common.Menu
   name: Oasys.Common.Menu
   href: api/Oasys.Common.Menu.html
@@ -9390,6 +9475,21 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.MenuManagerProvider.AddTab
   nameWithType: MenuManagerProvider.AddTab
+- uid: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Func{Oasys.Common.Menu.Tab,System.Boolean})
+  name: GetTab(Func<Tab, Boolean>)
+  href: api/Oasys.Common.Menu.MenuManagerProvider.html#Oasys_Common_Menu_MenuManagerProvider_GetTab_System_Func_Oasys_Common_Menu_Tab_System_Boolean__
+  commentId: M:Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Func{Oasys.Common.Menu.Tab,System.Boolean})
+  name.vb: GetTab(Func(Of Tab, Boolean))
+  fullName: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Func<Oasys.Common.Menu.Tab, System.Boolean>)
+  fullName.vb: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Func(Of Oasys.Common.Menu.Tab, System.Boolean))
+  nameWithType: MenuManagerProvider.GetTab(Func<Tab, Boolean>)
+  nameWithType.vb: MenuManagerProvider.GetTab(Func(Of Tab, Boolean))
+- uid: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Int32)
+  name: GetTab(Int32)
+  href: api/Oasys.Common.Menu.MenuManagerProvider.html#Oasys_Common_Menu_MenuManagerProvider_GetTab_System_Int32_
+  commentId: M:Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Int32)
+  fullName: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Int32)
+  nameWithType: MenuManagerProvider.GetTab(Int32)
 - uid: Oasys.Common.Menu.MenuManagerProvider.GetTab(System.String)
   name: GetTab(String)
   href: api/Oasys.Common.Menu.MenuManagerProvider.html#Oasys_Common_Menu_MenuManagerProvider_GetTab_System_String_
@@ -9442,6 +9542,24 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.Tab.GetItem
   nameWithType: Tab.GetItem
+- uid: Oasys.Common.Menu.Tab.GetItem``1(System.Func{``0,System.Boolean})
+  name: GetItem<T>(Func<T, Boolean>)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetItem__1_System_Func___0_System_Boolean__
+  commentId: M:Oasys.Common.Menu.Tab.GetItem``1(System.Func{``0,System.Boolean})
+  name.vb: GetItem(Of T)(Func(Of T, Boolean))
+  fullName: Oasys.Common.Menu.Tab.GetItem<T>(System.Func<T, System.Boolean>)
+  fullName.vb: Oasys.Common.Menu.Tab.GetItem(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: Tab.GetItem<T>(Func<T, Boolean>)
+  nameWithType.vb: Tab.GetItem(Of T)(Func(Of T, Boolean))
+- uid: Oasys.Common.Menu.Tab.GetItem``1(System.Int32)
+  name: GetItem<T>(Int32)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetItem__1_System_Int32_
+  commentId: M:Oasys.Common.Menu.Tab.GetItem``1(System.Int32)
+  name.vb: GetItem(Of T)(Int32)
+  fullName: Oasys.Common.Menu.Tab.GetItem<T>(System.Int32)
+  fullName.vb: Oasys.Common.Menu.Tab.GetItem(Of T)(System.Int32)
+  nameWithType: Tab.GetItem<T>(Int32)
+  nameWithType.vb: Tab.GetItem(Of T)(Int32)
 - uid: Oasys.Common.Menu.Tab.GetItem``1(System.String)
   name: GetItem<T>(String)
   href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetItem__1_System_String_
@@ -9574,6 +9692,12 @@ references:
   commentId: F:Oasys.Common.RenderFactoryProvider.D3D
   fullName: Oasys.Common.RenderFactoryProvider.D3D
   nameWithType: RenderFactoryProvider.D3D
+- uid: Oasys.Common.RenderFactoryProvider.D3D9Line
+  name: D3D9Line
+  href: api/Oasys.Common.RenderFactoryProvider.html#Oasys_Common_RenderFactoryProvider_D3D9Line
+  commentId: F:Oasys.Common.RenderFactoryProvider.D3D9Line
+  fullName: Oasys.Common.RenderFactoryProvider.D3D9Line
+  nameWithType: RenderFactoryProvider.D3D9Line
 - uid: Oasys.Common.RenderFactoryProvider.DrawCircle(SharpDX.Vector3,System.Single,SharpDX.Color,System.Single,System.Boolean)
   name: DrawCircle(Vector3, Single, Color, Single, Boolean)
   href: api/Oasys.Common.RenderFactoryProvider.html#Oasys_Common_RenderFactoryProvider_DrawCircle_SharpDX_Vector3_System_Single_SharpDX_Color_System_Single_System_Boolean_
@@ -9599,6 +9723,116 @@ references:
   commentId: N:Oasys.Common.Settings
   fullName: Oasys.Common.Settings
   nameWithType: Oasys.Common.Settings
+- uid: Oasys.Common.Settings.Alerts
+  name: Alerts
+  href: api/Oasys.Common.Settings.Alerts.html
+  commentId: T:Oasys.Common.Settings.Alerts
+  fullName: Oasys.Common.Settings.Alerts
+  nameWithType: Alerts
+- uid: Oasys.Common.Settings.Alerts.GankAlerterColor
+  name: GankAlerterColor
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_GankAlerterColor
+  commentId: P:Oasys.Common.Settings.Alerts.GankAlerterColor
+  fullName: Oasys.Common.Settings.Alerts.GankAlerterColor
+  nameWithType: Alerts.GankAlerterColor
+- uid: Oasys.Common.Settings.Alerts.GankAlerterColor*
+  name: GankAlerterColor
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_GankAlerterColor_
+  commentId: Overload:Oasys.Common.Settings.Alerts.GankAlerterColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.GankAlerterColor
+  nameWithType: Alerts.GankAlerterColor
+- uid: Oasys.Common.Settings.Alerts.GankAlerterTextColor
+  name: GankAlerterTextColor
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_GankAlerterTextColor
+  commentId: P:Oasys.Common.Settings.Alerts.GankAlerterTextColor
+  fullName: Oasys.Common.Settings.Alerts.GankAlerterTextColor
+  nameWithType: Alerts.GankAlerterTextColor
+- uid: Oasys.Common.Settings.Alerts.GankAlerterTextColor*
+  name: GankAlerterTextColor
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_GankAlerterTextColor_
+  commentId: Overload:Oasys.Common.Settings.Alerts.GankAlerterTextColor
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.GankAlerterTextColor
+  nameWithType: Alerts.GankAlerterTextColor
+- uid: Oasys.Common.Settings.Alerts.LineThickness
+  name: LineThickness
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_LineThickness
+  commentId: P:Oasys.Common.Settings.Alerts.LineThickness
+  fullName: Oasys.Common.Settings.Alerts.LineThickness
+  nameWithType: Alerts.LineThickness
+- uid: Oasys.Common.Settings.Alerts.LineThickness*
+  name: LineThickness
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_LineThickness_
+  commentId: Overload:Oasys.Common.Settings.Alerts.LineThickness
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.LineThickness
+  nameWithType: Alerts.LineThickness
+- uid: Oasys.Common.Settings.Alerts.ShowLine
+  name: ShowLine
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_ShowLine
+  commentId: P:Oasys.Common.Settings.Alerts.ShowLine
+  fullName: Oasys.Common.Settings.Alerts.ShowLine
+  nameWithType: Alerts.ShowLine
+- uid: Oasys.Common.Settings.Alerts.ShowLine*
+  name: ShowLine
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_ShowLine_
+  commentId: Overload:Oasys.Common.Settings.Alerts.ShowLine
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.ShowLine
+  nameWithType: Alerts.ShowLine
+- uid: Oasys.Common.Settings.Alerts.ShowName
+  name: ShowName
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_ShowName
+  commentId: P:Oasys.Common.Settings.Alerts.ShowName
+  fullName: Oasys.Common.Settings.Alerts.ShowName
+  nameWithType: Alerts.ShowName
+- uid: Oasys.Common.Settings.Alerts.ShowName*
+  name: ShowName
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_ShowName_
+  commentId: Overload:Oasys.Common.Settings.Alerts.ShowName
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.ShowName
+  nameWithType: Alerts.ShowName
+- uid: Oasys.Common.Settings.Alerts.UseBaronAlerter
+  name: UseBaronAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseBaronAlerter
+  commentId: P:Oasys.Common.Settings.Alerts.UseBaronAlerter
+  fullName: Oasys.Common.Settings.Alerts.UseBaronAlerter
+  nameWithType: Alerts.UseBaronAlerter
+- uid: Oasys.Common.Settings.Alerts.UseBaronAlerter*
+  name: UseBaronAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseBaronAlerter_
+  commentId: Overload:Oasys.Common.Settings.Alerts.UseBaronAlerter
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.UseBaronAlerter
+  nameWithType: Alerts.UseBaronAlerter
+- uid: Oasys.Common.Settings.Alerts.UseDragonAlerter
+  name: UseDragonAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseDragonAlerter
+  commentId: P:Oasys.Common.Settings.Alerts.UseDragonAlerter
+  fullName: Oasys.Common.Settings.Alerts.UseDragonAlerter
+  nameWithType: Alerts.UseDragonAlerter
+- uid: Oasys.Common.Settings.Alerts.UseDragonAlerter*
+  name: UseDragonAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseDragonAlerter_
+  commentId: Overload:Oasys.Common.Settings.Alerts.UseDragonAlerter
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.UseDragonAlerter
+  nameWithType: Alerts.UseDragonAlerter
+- uid: Oasys.Common.Settings.Alerts.UseGankAlerter
+  name: UseGankAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseGankAlerter
+  commentId: P:Oasys.Common.Settings.Alerts.UseGankAlerter
+  fullName: Oasys.Common.Settings.Alerts.UseGankAlerter
+  nameWithType: Alerts.UseGankAlerter
+- uid: Oasys.Common.Settings.Alerts.UseGankAlerter*
+  name: UseGankAlerter
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_UseGankAlerter_
+  commentId: Overload:Oasys.Common.Settings.Alerts.UseGankAlerter
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.UseGankAlerter
+  nameWithType: Alerts.UseGankAlerter
 - uid: Oasys.Common.Settings.Core
   name: Core
   href: api/Oasys.Common.Settings.Core.html
@@ -9618,6 +9852,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Settings.Core.MenuSelectionColor
   nameWithType: Core.MenuSelectionColor
+- uid: Oasys.Common.Settings.Core.ObjectManagerReadInterval
+  name: ObjectManagerReadInterval
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_ObjectManagerReadInterval
+  commentId: P:Oasys.Common.Settings.Core.ObjectManagerReadInterval
+  fullName: Oasys.Common.Settings.Core.ObjectManagerReadInterval
+  nameWithType: Core.ObjectManagerReadInterval
+- uid: Oasys.Common.Settings.Core.ObjectManagerReadInterval*
+  name: ObjectManagerReadInterval
+  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_ObjectManagerReadInterval_
+  commentId: Overload:Oasys.Common.Settings.Core.ObjectManagerReadInterval
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Core.ObjectManagerReadInterval
+  nameWithType: Core.ObjectManagerReadInterval
 - uid: Oasys.Common.Settings.Core.UseBlockInput
   name: UseBlockInput
   href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseBlockInput
@@ -12775,6 +13022,12 @@ references:
   commentId: T:Oasys.SDK.Events.GameEvents
   fullName: Oasys.SDK.Events.GameEvents
   nameWithType: GameEvents
+- uid: Oasys.SDK.Events.GameEvents.OnBuyItem
+  name: OnBuyItem
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnBuyItem
+  commentId: E:Oasys.SDK.Events.GameEvents.OnBuyItem
+  fullName: Oasys.SDK.Events.GameEvents.OnBuyItem
+  nameWithType: GameEvents.OnBuyItem
 - uid: Oasys.SDK.Events.GameEvents.OnCreateObject
   name: OnCreateObject
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnCreateObject
@@ -12799,6 +13052,18 @@ references:
   commentId: E:Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   fullName: Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   nameWithType: GameEvents.OnGameMatchComplete
+- uid: Oasys.SDK.Events.GameEvents.OnItemSlotChanged
+  name: OnItemSlotChanged
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnItemSlotChanged
+  commentId: E:Oasys.SDK.Events.GameEvents.OnItemSlotChanged
+  fullName: Oasys.SDK.Events.GameEvents.OnItemSlotChanged
+  nameWithType: GameEvents.OnItemSlotChanged
+- uid: Oasys.SDK.Events.GameEvents.OnItemUpgrade
+  name: OnItemUpgrade
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnItemUpgrade
+  commentId: E:Oasys.SDK.Events.GameEvents.OnItemUpgrade
+  fullName: Oasys.SDK.Events.GameEvents.OnItemUpgrade
+  nameWithType: GameEvents.OnItemUpgrade
 - uid: Oasys.SDK.Events.GameEvents.OnProcessRecall
   name: OnProcessRecall
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnProcessRecall
@@ -12811,6 +13076,12 @@ references:
   commentId: E:Oasys.SDK.Events.GameEvents.OnProcessSpell
   fullName: Oasys.SDK.Events.GameEvents.OnProcessSpell
   nameWithType: GameEvents.OnProcessSpell
+- uid: Oasys.SDK.Events.GameEvents.OnSellItem
+  name: OnSellItem
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnSellItem
+  commentId: E:Oasys.SDK.Events.GameEvents.OnSellItem
+  fullName: Oasys.SDK.Events.GameEvents.OnSellItem
+  nameWithType: GameEvents.OnSellItem
 - uid: Oasys.SDK.GameEngine
   name: GameEngine
   href: api/Oasys.SDK.GameEngine.html
@@ -13544,6 +13815,21 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Menu.MenuManager.AddTab
   nameWithType: MenuManager.AddTab
+- uid: Oasys.SDK.Menu.MenuManager.GetTab(System.Func{Oasys.Common.Menu.Tab,System.Boolean})
+  name: GetTab(Func<Tab, Boolean>)
+  href: api/Oasys.SDK.Menu.MenuManager.html#Oasys_SDK_Menu_MenuManager_GetTab_System_Func_Oasys_Common_Menu_Tab_System_Boolean__
+  commentId: M:Oasys.SDK.Menu.MenuManager.GetTab(System.Func{Oasys.Common.Menu.Tab,System.Boolean})
+  name.vb: GetTab(Func(Of Tab, Boolean))
+  fullName: Oasys.SDK.Menu.MenuManager.GetTab(System.Func<Oasys.Common.Menu.Tab, System.Boolean>)
+  fullName.vb: Oasys.SDK.Menu.MenuManager.GetTab(System.Func(Of Oasys.Common.Menu.Tab, System.Boolean))
+  nameWithType: MenuManager.GetTab(Func<Tab, Boolean>)
+  nameWithType.vb: MenuManager.GetTab(Func(Of Tab, Boolean))
+- uid: Oasys.SDK.Menu.MenuManager.GetTab(System.Int32)
+  name: GetTab(Int32)
+  href: api/Oasys.SDK.Menu.MenuManager.html#Oasys_SDK_Menu_MenuManager_GetTab_System_Int32_
+  commentId: M:Oasys.SDK.Menu.MenuManager.GetTab(System.Int32)
+  fullName: Oasys.SDK.Menu.MenuManager.GetTab(System.Int32)
+  nameWithType: MenuManager.GetTab(Int32)
 - uid: Oasys.SDK.Menu.MenuManager.GetTab(System.String)
   name: GetTab(String)
   href: api/Oasys.SDK.Menu.MenuManager.html#Oasys_SDK_Menu_MenuManager_GetTab_System_String_
@@ -14468,19 +14754,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.UnitManager.Allies
   nameWithType: UnitManager.Allies
-- uid: Oasys.SDK.UnitManager.AllObjects
-  name: AllObjects
-  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllObjects
-  commentId: P:Oasys.SDK.UnitManager.AllObjects
-  fullName: Oasys.SDK.UnitManager.AllObjects
-  nameWithType: UnitManager.AllObjects
-- uid: Oasys.SDK.UnitManager.AllObjects*
-  name: AllObjects
-  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllObjects_
-  commentId: Overload:Oasys.SDK.UnitManager.AllObjects
+- uid: Oasys.SDK.UnitManager.AllNativeObjects
+  name: AllNativeObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllNativeObjects
+  commentId: P:Oasys.SDK.UnitManager.AllNativeObjects
+  fullName: Oasys.SDK.UnitManager.AllNativeObjects
+  nameWithType: UnitManager.AllNativeObjects
+- uid: Oasys.SDK.UnitManager.AllNativeObjects*
+  name: AllNativeObjects
+  href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllNativeObjects_
+  commentId: Overload:Oasys.SDK.UnitManager.AllNativeObjects
   isSpec: "True"
-  fullName: Oasys.SDK.UnitManager.AllObjects
-  nameWithType: UnitManager.AllObjects
+  fullName: Oasys.SDK.UnitManager.AllNativeObjects
+  nameWithType: UnitManager.AllNativeObjects
 - uid: Oasys.SDK.UnitManager.AllyChampions
   name: AllyChampions
   href: api/Oasys.SDK.UnitManager.html#Oasys_SDK_UnitManager_AllyChampions

@@ -93,9 +93,13 @@ namespace Oasys.SDK
         public static GameObjectBase LaneClearTarget => Common.Logic.Orbwalker.OrbSettings.LaneClearTarget;
 
         /// <summary>
-        /// Is target champions only being pressed default value F10 while holding space
+        /// Is target champions only being pressed. Set to true for holding target champions only, set to false to stop holding target champions only.
         /// </summary>
-        public static bool TargetChampionsOnly => Common.Logic.Orbwalker.OrbSettings.TargetChampionsOnly;
+        public static bool TargetChampionsOnly
+        {
+            get => Common.Logic.Orbwalker.OrbSettings.TargetChampionsOnly;
+            set => Common.Logic.Orbwalker.OrbSettings.TargetChampionsOnly = value;
+        }
 
         /// <summary>
         /// Current selected hero target
