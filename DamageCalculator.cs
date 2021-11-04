@@ -28,5 +28,37 @@ namespace Oasys.SDK
         {
             return Common.Logic.DamageCalculator.GetNextBasicAttackDamage(attacker, target);
         }
+
+        public static float GetCombatMagicResist(GameObjectBase attacker, GameObjectBase target)
+        {
+            var magicResist = target.UnitStats.MagicResist * attacker.UnitStats.MagicPercentPenetration;
+            magicResist -= attacker.UnitStats.FlatMagicPenetration;
+            return magicResist;
+        }
+
+        public static float GetMagicResistMod(GameObjectBase attacker, GameObjectBase target)
+        {
+            var magicResist = GetCombatMagicResist(attacker, target);
+            var damageMod = magicResist > 0
+                                ? 100 / (100 + magicResist)
+                                : 2 - 100 / (100 + magicResist);
+            return damageMod;
+        }
+
+        public static float GetCombatArmor(GameObjectBase attacker, GameObjectBase target)
+        {
+            var armor = target?.Armor ?? 1 * attacker.UnitStats.PercentBonusArmorPenetration;
+            armor -= attacker.UnitStats.PhysicalLethality;
+            return armor;
+        }
+
+        public static float GetArmorMod(GameObjectBase attacker, GameObjectBase target)
+        {
+            var armor = GetCombatArmor(attacker, target);
+            var damageMod = armor > 0
+                                ? 100 / (100 + armor)
+                                : 2 - 100 / (100 + armor);
+            return damageMod;
+        }
     }
 }

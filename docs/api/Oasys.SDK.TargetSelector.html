@@ -245,6 +245,93 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_TargetSelector_IsAttackable_" data-uid="Oasys.SDK.TargetSelector.IsAttackable*"></a>
+  <h4 id="Oasys_SDK_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_System_Boolean_" data-uid="Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean)">IsAttackable(GameObjectBase, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if the player can attack the target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAttackable(GameObjectBase target, bool teamCheck = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">teamCheck</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_TargetSelector_IsDisplacementImmune_" data-uid="Oasys.SDK.TargetSelector.IsDisplacementImmune*"></a>
+  <h4 id="Oasys_SDK_TargetSelector_IsDisplacementImmune_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.SDK.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)">IsDisplacementImmune(GameObjectBase)</h4>
+  <div class="markdown level1 summary"><p><a href="https://leagueoflegends.fandom.com/wiki/Crowd_control#Displacement_Immunity">https://leagueoflegends.fandom.com/wiki/Crowd_control#Displacement_Immunity</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDisplacementImmune(GameObjectBase target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_TargetSelector_IsInRange_" data-uid="Oasys.SDK.TargetSelector.IsInRange*"></a>
   <h4 id="Oasys_SDK_TargetSelector_IsInRange_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.SDK.TargetSelector.IsInRange(Oasys.Common.GameObject.GameObjectBase)">IsInRange(GameObjectBase)</h4>
   <div class="markdown level1 summary"><p>Checks whether if the target is in the player's base(attackable) range.</p>
@@ -286,6 +373,58 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_TargetSelector_IsInvulnerable_" data-uid="Oasys.SDK.TargetSelector.IsInvulnerable*"></a>
+  <h4 id="Oasys_SDK_TargetSelector_IsInvulnerable_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_Logic_DamageType_System_Boolean_" data-uid="Oasys.SDK.TargetSelector.IsInvulnerable(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.Logic.DamageType,System.Boolean)">IsInvulnerable(GameObjectBase, DamageType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if the target is invulnerable to damage of the specified damagetype, ignore shields default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInvulnerable(GameObjectBase target, DamageType damageType, bool ignoreShields = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Logic.DamageType.html">DamageType</a></td>
+        <td><span class="parametername">damageType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreShields</span></td>
+        <td><p>Default true. Ignores spell shields like Sivir E</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_TargetSelector_IsKillable_" data-uid="Oasys.SDK.TargetSelector.IsKillable*"></a>
   <h4 id="Oasys_SDK_TargetSelector_IsKillable_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.SDK.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase)">IsKillable(GameObjectBase)</h4>
   <div class="markdown level1 summary"><p>Checks whether if the target is killable.</p>
@@ -294,6 +433,47 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsKillable(GameObjectBase target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_TargetSelector_IsTotalCCImmune_" data-uid="Oasys.SDK.TargetSelector.IsTotalCCImmune*"></a>
+  <h4 id="Oasys_SDK_TargetSelector_IsTotalCCImmune_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.SDK.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)">IsTotalCCImmune(GameObjectBase)</h4>
+  <div class="markdown level1 summary"><p><a href="https://leagueoflegends.fandom.com/wiki/Crowd_control#Immunity">https://leagueoflegends.fandom.com/wiki/Crowd_control#Immunity</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTotalCCImmune(GameObjectBase target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

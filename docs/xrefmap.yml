@@ -2979,12 +2979,6 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.Shield
   fullName: Oasys.Common.Enums.GameEnums.ResourceType.Shield
   nameWithType: ResourceType.Shield
-- uid: Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
-  name: SoulUnbound
-  href: api/Oasys.Common.Enums.GameEnums.ResourceType.html#Oasys_Common_Enums_GameEnums_ResourceType_SoulUnbound
-  commentId: F:Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
-  fullName: Oasys.Common.Enums.GameEnums.ResourceType.SoulUnbound
-  nameWithType: ResourceType.SoulUnbound
 - uid: Oasys.Common.Enums.GameEnums.SkillshotDetectionType
   name: SkillshotDetectionType
   href: api/Oasys.Common.Enums.GameEnums.SkillshotDetectionType.html
@@ -5411,6 +5405,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.Level
   nameWithType: AIBaseClient.Level
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
+  name: MagicalShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_MagicalShield
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
+  nameWithType: AIBaseClient.MagicalShield
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield*
+  name: MagicalShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_MagicalShield_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
+  nameWithType: AIBaseClient.MagicalShield
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.Mana
   name: Mana
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_Mana
@@ -5489,6 +5496,32 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.NetworkID
   nameWithType: AIBaseClient.NetworkID
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield
+  name: NeutralShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_NeutralShield
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield
+  nameWithType: AIBaseClient.NeutralShield
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield*
+  name: NeutralShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_NeutralShield_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.NeutralShield
+  nameWithType: AIBaseClient.NeutralShield
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield
+  name: PhysicalShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_PhysicalShield
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield
+  nameWithType: AIBaseClient.PhysicalShield
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield*
+  name: PhysicalShield
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_PhysicalShield_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.PhysicalShield
+  nameWithType: AIBaseClient.PhysicalShield
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.Position
   name: Position
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_Position
@@ -6182,6 +6215,12 @@ references:
   commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String)
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String)
   nameWithType: BuffManager.HasBuff(String)
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String,System.Boolean,System.Boolean)
+  name: HasBuff(String, Boolean, Boolean)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_System_String_System_Boolean_System_Boolean_
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String,System.Boolean,System.Boolean)
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String, System.Boolean, System.Boolean)
+  nameWithType: BuffManager.HasBuff(String, Boolean, Boolean)
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff*
   name: HasBuff
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_
@@ -8267,6 +8306,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.Log
   nameWithType: GameObjectBase.Log
+- uid: Oasys.Common.GameObject.GameObjectBase.MagicalShield
+  name: MagicalShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MagicalShield
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.MagicalShield
+  fullName: Oasys.Common.GameObject.GameObjectBase.MagicalShield
+  nameWithType: GameObjectBase.MagicalShield
+- uid: Oasys.Common.GameObject.GameObjectBase.MagicalShield*
+  name: MagicalShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MagicalShield_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.MagicalShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.MagicalShield
+  nameWithType: GameObjectBase.MagicalShield
 - uid: Oasys.Common.GameObject.GameObjectBase.Mana
   name: Mana
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Mana
@@ -8345,6 +8397,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.NetworkID
   nameWithType: GameObjectBase.NetworkID
+- uid: Oasys.Common.GameObject.GameObjectBase.NeutralShield
+  name: NeutralShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_NeutralShield
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.NeutralShield
+  fullName: Oasys.Common.GameObject.GameObjectBase.NeutralShield
+  nameWithType: GameObjectBase.NeutralShield
+- uid: Oasys.Common.GameObject.GameObjectBase.NeutralShield*
+  name: NeutralShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_NeutralShield_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.NeutralShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.NeutralShield
+  nameWithType: GameObjectBase.NeutralShield
 - uid: Oasys.Common.GameObject.GameObjectBase.OnMyTeam
   name: OnMyTeam
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_OnMyTeam
@@ -8358,6 +8423,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.OnMyTeam
   nameWithType: GameObjectBase.OnMyTeam
+- uid: Oasys.Common.GameObject.GameObjectBase.PhysicalShield
+  name: PhysicalShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_PhysicalShield
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.PhysicalShield
+  fullName: Oasys.Common.GameObject.GameObjectBase.PhysicalShield
+  nameWithType: GameObjectBase.PhysicalShield
+- uid: Oasys.Common.GameObject.GameObjectBase.PhysicalShield*
+  name: PhysicalShield
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_PhysicalShield_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.PhysicalShield
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.PhysicalShield
+  nameWithType: GameObjectBase.PhysicalShield
 - uid: Oasys.Common.GameObject.GameObjectBase.Position
   name: Position
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Position
@@ -8998,19 +9076,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastMove
   nameWithType: Orbwalker.OrbSettings.LastMove
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM
-  name: MovementAPM
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_MovementAPM
-  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM
-  nameWithType: Orbwalker.OrbSettings.MovementAPM
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM*
-  name: MovementAPM
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_MovementAPM_
-  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM
-  isSpec: "True"
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.MovementAPM
-  nameWithType: Orbwalker.OrbSettings.MovementAPM
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode
   name: OrbwalkingMode
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_OrbwalkingMode
@@ -9201,6 +9266,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.TargetSelector.IsAttackable
   nameWithType: TargetSelector.IsAttackable
+- uid: Oasys.Common.Logic.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  name: IsDisplacementImmune(GameObjectBase)
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsDisplacementImmune_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.Common.Logic.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.Common.Logic.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: TargetSelector.IsDisplacementImmune(GameObjectBase)
+- uid: Oasys.Common.Logic.TargetSelector.IsDisplacementImmune*
+  name: IsDisplacementImmune
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsDisplacementImmune_
+  commentId: Overload:Oasys.Common.Logic.TargetSelector.IsDisplacementImmune
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.TargetSelector.IsDisplacementImmune
+  nameWithType: TargetSelector.IsDisplacementImmune
 - uid: Oasys.Common.Logic.TargetSelector.IsInRange(Oasys.Common.GameObject.GameObjectBase)
   name: IsInRange(GameObjectBase)
   href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsInRange_Oasys_Common_GameObject_GameObjectBase_
@@ -9240,6 +9318,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.TargetSelector.IsKillable
   nameWithType: TargetSelector.IsKillable
+- uid: Oasys.Common.Logic.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  name: IsTotalCCImmune(GameObjectBase)
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsTotalCCImmune_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.Common.Logic.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.Common.Logic.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: TargetSelector.IsTotalCCImmune(GameObjectBase)
+- uid: Oasys.Common.Logic.TargetSelector.IsTotalCCImmune*
+  name: IsTotalCCImmune
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsTotalCCImmune_
+  commentId: Overload:Oasys.Common.Logic.TargetSelector.IsTotalCCImmune
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.TargetSelector.IsTotalCCImmune
+  nameWithType: TargetSelector.IsTotalCCImmune
 - uid: Oasys.Common.Logic.TargetSelector.ShouldAttackMinion(Oasys.Common.GameObject.GameObjectBase)
   name: ShouldAttackMinion(GameObjectBase)
   href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_ShouldAttackMinion_Oasys_Common_GameObject_GameObjectBase_
@@ -9729,6 +9820,19 @@ references:
   commentId: T:Oasys.Common.Settings.Alerts
   fullName: Oasys.Common.Settings.Alerts
   nameWithType: Alerts
+- uid: Oasys.Common.Settings.Alerts.DetectionRange
+  name: DetectionRange
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_DetectionRange
+  commentId: P:Oasys.Common.Settings.Alerts.DetectionRange
+  fullName: Oasys.Common.Settings.Alerts.DetectionRange
+  nameWithType: Alerts.DetectionRange
+- uid: Oasys.Common.Settings.Alerts.DetectionRange*
+  name: DetectionRange
+  href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_DetectionRange_
+  commentId: Overload:Oasys.Common.Settings.Alerts.DetectionRange
+  isSpec: "True"
+  fullName: Oasys.Common.Settings.Alerts.DetectionRange
+  nameWithType: Alerts.DetectionRange
 - uid: Oasys.Common.Settings.Alerts.GankAlerterColor
   name: GankAlerterColor
   href: api/Oasys.Common.Settings.Alerts.html#Oasys_Common_Settings_Alerts_GankAlerterColor
@@ -10266,45 +10370,32 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Settings.Drawings.RecallsDrawingMode
   nameWithType: Drawings.RecallsDrawingMode
-- uid: Oasys.Common.Settings.Drawings.Spells
-  name: Spells
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Spells
-  commentId: P:Oasys.Common.Settings.Drawings.Spells
-  fullName: Oasys.Common.Settings.Drawings.Spells
-  nameWithType: Drawings.Spells
-- uid: Oasys.Common.Settings.Drawings.Spells*
-  name: Spells
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Spells_
-  commentId: Overload:Oasys.Common.Settings.Drawings.Spells
+- uid: Oasys.Common.Settings.Drawings.ShowLocalplayer
+  name: ShowLocalplayer
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ShowLocalplayer
+  commentId: P:Oasys.Common.Settings.Drawings.ShowLocalplayer
+  fullName: Oasys.Common.Settings.Drawings.ShowLocalplayer
+  nameWithType: Drawings.ShowLocalplayer
+- uid: Oasys.Common.Settings.Drawings.ShowLocalplayer*
+  name: ShowLocalplayer
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_ShowLocalplayer_
+  commentId: Overload:Oasys.Common.Settings.Drawings.ShowLocalplayer
   isSpec: "True"
-  fullName: Oasys.Common.Settings.Drawings.Spells
-  nameWithType: Drawings.Spells
-- uid: Oasys.Common.Settings.Drawings.SpellsDangerColor
-  name: SpellsDangerColor
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsDangerColor
-  commentId: P:Oasys.Common.Settings.Drawings.SpellsDangerColor
-  fullName: Oasys.Common.Settings.Drawings.SpellsDangerColor
-  nameWithType: Drawings.SpellsDangerColor
-- uid: Oasys.Common.Settings.Drawings.SpellsDangerColor*
-  name: SpellsDangerColor
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsDangerColor_
-  commentId: Overload:Oasys.Common.Settings.Drawings.SpellsDangerColor
+  fullName: Oasys.Common.Settings.Drawings.ShowLocalplayer
+  nameWithType: Drawings.ShowLocalplayer
+- uid: Oasys.Common.Settings.Drawings.SimpleChampionHUD
+  name: SimpleChampionHUD
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SimpleChampionHUD
+  commentId: P:Oasys.Common.Settings.Drawings.SimpleChampionHUD
+  fullName: Oasys.Common.Settings.Drawings.SimpleChampionHUD
+  nameWithType: Drawings.SimpleChampionHUD
+- uid: Oasys.Common.Settings.Drawings.SimpleChampionHUD*
+  name: SimpleChampionHUD
+  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SimpleChampionHUD_
+  commentId: Overload:Oasys.Common.Settings.Drawings.SimpleChampionHUD
   isSpec: "True"
-  fullName: Oasys.Common.Settings.Drawings.SpellsDangerColor
-  nameWithType: Drawings.SpellsDangerColor
-- uid: Oasys.Common.Settings.Drawings.SpellsIndicationColor
-  name: SpellsIndicationColor
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsIndicationColor
-  commentId: P:Oasys.Common.Settings.Drawings.SpellsIndicationColor
-  fullName: Oasys.Common.Settings.Drawings.SpellsIndicationColor
-  nameWithType: Drawings.SpellsIndicationColor
-- uid: Oasys.Common.Settings.Drawings.SpellsIndicationColor*
-  name: SpellsIndicationColor
-  href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_SpellsIndicationColor_
-  commentId: Overload:Oasys.Common.Settings.Drawings.SpellsIndicationColor
-  isSpec: "True"
-  fullName: Oasys.Common.Settings.Drawings.SpellsIndicationColor
-  nameWithType: Drawings.SpellsIndicationColor
+  fullName: Oasys.Common.Settings.Drawings.SimpleChampionHUD
+  nameWithType: Drawings.SimpleChampionHUD
 - uid: Oasys.Common.Settings.Drawings.Traps
   name: Traps
   href: api/Oasys.Common.Settings.Drawings.html#Oasys_Common_Settings_Drawings_Traps
@@ -12924,6 +13015,47 @@ references:
   commentId: N:Oasys.SDK
   fullName: Oasys.SDK
   nameWithType: Oasys.SDK
+- uid: Oasys.SDK.Collision
+  name: Collision
+  href: api/Oasys.SDK.Collision.html
+  commentId: T:Oasys.SDK.Collision
+  fullName: Oasys.SDK.Collision
+  nameWithType: Collision
+- uid: Oasys.SDK.Collision.IsLineCollision(SharpDX.Vector2,SharpDX.Vector2[],System.Int32)
+  name: IsLineCollision(Vector2, Vector2[], Int32)
+  href: api/Oasys.SDK.Collision.html#Oasys_SDK_Collision_IsLineCollision_SharpDX_Vector2_SharpDX_Vector2___System_Int32_
+  commentId: M:Oasys.SDK.Collision.IsLineCollision(SharpDX.Vector2,SharpDX.Vector2[],System.Int32)
+  name.vb: IsLineCollision(Vector2, Vector2(), Int32)
+  fullName: Oasys.SDK.Collision.IsLineCollision(SharpDX.Vector2, SharpDX.Vector2[], System.Int32)
+  fullName.vb: Oasys.SDK.Collision.IsLineCollision(SharpDX.Vector2, SharpDX.Vector2(), System.Int32)
+  nameWithType: Collision.IsLineCollision(Vector2, Vector2[], Int32)
+  nameWithType.vb: Collision.IsLineCollision(Vector2, Vector2(), Int32)
+- uid: Oasys.SDK.Collision.IsLineCollision*
+  name: IsLineCollision
+  href: api/Oasys.SDK.Collision.html#Oasys_SDK_Collision_IsLineCollision_
+  commentId: Overload:Oasys.SDK.Collision.IsLineCollision
+  isSpec: "True"
+  fullName: Oasys.SDK.Collision.IsLineCollision
+  nameWithType: Collision.IsLineCollision
+- uid: Oasys.SDK.Collision.MinionCollision(SharpDX.Vector2,System.Int32)
+  name: MinionCollision(Vector2, Int32)
+  href: api/Oasys.SDK.Collision.html#Oasys_SDK_Collision_MinionCollision_SharpDX_Vector2_System_Int32_
+  commentId: M:Oasys.SDK.Collision.MinionCollision(SharpDX.Vector2,System.Int32)
+  fullName: Oasys.SDK.Collision.MinionCollision(SharpDX.Vector2, System.Int32)
+  nameWithType: Collision.MinionCollision(Vector2, Int32)
+- uid: Oasys.SDK.Collision.MinionCollision(SharpDX.Vector3,System.Int32)
+  name: MinionCollision(Vector3, Int32)
+  href: api/Oasys.SDK.Collision.html#Oasys_SDK_Collision_MinionCollision_SharpDX_Vector3_System_Int32_
+  commentId: M:Oasys.SDK.Collision.MinionCollision(SharpDX.Vector3,System.Int32)
+  fullName: Oasys.SDK.Collision.MinionCollision(SharpDX.Vector3, System.Int32)
+  nameWithType: Collision.MinionCollision(Vector3, Int32)
+- uid: Oasys.SDK.Collision.MinionCollision*
+  name: MinionCollision
+  href: api/Oasys.SDK.Collision.html#Oasys_SDK_Collision_MinionCollision_
+  commentId: Overload:Oasys.SDK.Collision.MinionCollision
+  isSpec: "True"
+  fullName: Oasys.SDK.Collision.MinionCollision
+  nameWithType: Collision.MinionCollision
 - uid: Oasys.SDK.ColorConverter
   name: ColorConverter
   href: api/Oasys.SDK.ColorConverter.html
@@ -12936,6 +13068,58 @@ references:
   commentId: T:Oasys.SDK.DamageCalculator
   fullName: Oasys.SDK.DamageCalculator
   nameWithType: DamageCalculator
+- uid: Oasys.SDK.DamageCalculator.GetArmorMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  name: GetArmorMod(GameObjectBase, GameObjectBase)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetArmorMod_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.DamageCalculator.GetArmorMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.DamageCalculator.GetArmorMod(Oasys.Common.GameObject.GameObjectBase, Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: DamageCalculator.GetArmorMod(GameObjectBase, GameObjectBase)
+- uid: Oasys.SDK.DamageCalculator.GetArmorMod*
+  name: GetArmorMod
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetArmorMod_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetArmorMod
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetArmorMod
+  nameWithType: DamageCalculator.GetArmorMod
+- uid: Oasys.SDK.DamageCalculator.GetCombatArmor(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  name: GetCombatArmor(GameObjectBase, GameObjectBase)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetCombatArmor_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.DamageCalculator.GetCombatArmor(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.DamageCalculator.GetCombatArmor(Oasys.Common.GameObject.GameObjectBase, Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: DamageCalculator.GetCombatArmor(GameObjectBase, GameObjectBase)
+- uid: Oasys.SDK.DamageCalculator.GetCombatArmor*
+  name: GetCombatArmor
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetCombatArmor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetCombatArmor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetCombatArmor
+  nameWithType: DamageCalculator.GetCombatArmor
+- uid: Oasys.SDK.DamageCalculator.GetCombatMagicResist(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  name: GetCombatMagicResist(GameObjectBase, GameObjectBase)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetCombatMagicResist_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.DamageCalculator.GetCombatMagicResist(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.DamageCalculator.GetCombatMagicResist(Oasys.Common.GameObject.GameObjectBase, Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: DamageCalculator.GetCombatMagicResist(GameObjectBase, GameObjectBase)
+- uid: Oasys.SDK.DamageCalculator.GetCombatMagicResist*
+  name: GetCombatMagicResist
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetCombatMagicResist_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetCombatMagicResist
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetCombatMagicResist
+  nameWithType: DamageCalculator.GetCombatMagicResist
+- uid: Oasys.SDK.DamageCalculator.GetMagicResistMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  name: GetMagicResistMod(GameObjectBase, GameObjectBase)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetMagicResistMod_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.DamageCalculator.GetMagicResistMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.DamageCalculator.GetMagicResistMod(Oasys.Common.GameObject.GameObjectBase, Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: DamageCalculator.GetMagicResistMod(GameObjectBase, GameObjectBase)
+- uid: Oasys.SDK.DamageCalculator.GetMagicResistMod*
+  name: GetMagicResistMod
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetMagicResistMod_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetMagicResistMod
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetMagicResistMod
+  nameWithType: DamageCalculator.GetMagicResistMod
 - uid: Oasys.SDK.DamageCalculator.GetNextBasicAttackDamage(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetNextBasicAttackDamage(GameObjectBase, GameObjectBase)
   href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetNextBasicAttackDamage_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -13287,6 +13471,47 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.GameEngine.ZoomValue
   nameWithType: GameEngine.ZoomValue
+- uid: Oasys.SDK.Geometry
+  name: Geometry
+  href: api/Oasys.SDK.Geometry.html
+  commentId: T:Oasys.SDK.Geometry
+  fullName: Oasys.SDK.Geometry
+  nameWithType: Geometry
+- uid: Oasys.SDK.Geometry.DistanceFromPointToLine(SharpDX.Vector2,SharpDX.Vector2[])
+  name: DistanceFromPointToLine(Vector2, Vector2[])
+  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_DistanceFromPointToLine_SharpDX_Vector2_SharpDX_Vector2___
+  commentId: M:Oasys.SDK.Geometry.DistanceFromPointToLine(SharpDX.Vector2,SharpDX.Vector2[])
+  name.vb: DistanceFromPointToLine(Vector2, Vector2())
+  fullName: Oasys.SDK.Geometry.DistanceFromPointToLine(SharpDX.Vector2, SharpDX.Vector2[])
+  fullName.vb: Oasys.SDK.Geometry.DistanceFromPointToLine(SharpDX.Vector2, SharpDX.Vector2())
+  nameWithType: Geometry.DistanceFromPointToLine(Vector2, Vector2[])
+  nameWithType.vb: Geometry.DistanceFromPointToLine(Vector2, Vector2())
+- uid: Oasys.SDK.Geometry.DistanceFromPointToLine*
+  name: DistanceFromPointToLine
+  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_DistanceFromPointToLine_
+  commentId: Overload:Oasys.SDK.Geometry.DistanceFromPointToLine
+  isSpec: "True"
+  fullName: Oasys.SDK.Geometry.DistanceFromPointToLine
+  nameWithType: Geometry.DistanceFromPointToLine
+- uid: Oasys.SDK.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
+  name: Extend(Vector2, Vector2, Single)
+  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_SharpDX_Vector2_SharpDX_Vector2_System_Single_
+  commentId: M:Oasys.SDK.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
+  fullName: Oasys.SDK.Geometry.Extend(SharpDX.Vector2, SharpDX.Vector2, System.Single)
+  nameWithType: Geometry.Extend(Vector2, Vector2, Single)
+- uid: Oasys.SDK.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
+  name: Extend(Vector3, Vector3, Single)
+  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_SharpDX_Vector3_SharpDX_Vector3_System_Single_
+  commentId: M:Oasys.SDK.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
+  fullName: Oasys.SDK.Geometry.Extend(SharpDX.Vector3, SharpDX.Vector3, System.Single)
+  nameWithType: Geometry.Extend(Vector3, Vector3, Single)
+- uid: Oasys.SDK.Geometry.Extend*
+  name: Extend
+  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_
+  commentId: Overload:Oasys.SDK.Geometry.Extend
+  isSpec: "True"
+  fullName: Oasys.SDK.Geometry.Extend
+  nameWithType: Geometry.Extend
 - uid: Oasys.SDK.InputProviders
   name: Oasys.SDK.InputProviders
   href: api/Oasys.SDK.InputProviders.html
@@ -13972,19 +14197,6 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Orbwalker.LastMove
   nameWithType: Orbwalker.LastMove
-- uid: Oasys.SDK.Orbwalker.MovementAPM
-  name: MovementAPM
-  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_MovementAPM
-  commentId: P:Oasys.SDK.Orbwalker.MovementAPM
-  fullName: Oasys.SDK.Orbwalker.MovementAPM
-  nameWithType: Orbwalker.MovementAPM
-- uid: Oasys.SDK.Orbwalker.MovementAPM*
-  name: MovementAPM
-  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_MovementAPM_
-  commentId: Overload:Oasys.SDK.Orbwalker.MovementAPM
-  isSpec: "True"
-  fullName: Oasys.SDK.Orbwalker.MovementAPM
-  nameWithType: Orbwalker.MovementAPM
 - uid: Oasys.SDK.Orbwalker.OrbwalkingMode
   name: OrbwalkingMode
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_OrbwalkingMode
@@ -14640,6 +14852,12 @@ references:
   commentId: M:Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase)
   fullName: Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase)
   nameWithType: TargetSelector.IsAttackable(GameObjectBase)
+- uid: Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean)
+  name: IsAttackable(GameObjectBase, Boolean)
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_System_Boolean_
+  commentId: M:Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean)
+  fullName: Oasys.SDK.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase, System.Boolean)
+  nameWithType: TargetSelector.IsAttackable(GameObjectBase, Boolean)
 - uid: Oasys.SDK.TargetSelector.IsAttackable*
   name: IsAttackable
   href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsAttackable_
@@ -14647,6 +14865,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.TargetSelector.IsAttackable
   nameWithType: TargetSelector.IsAttackable
+- uid: Oasys.SDK.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  name: IsDisplacementImmune(GameObjectBase)
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsDisplacementImmune_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.TargetSelector.IsDisplacementImmune(Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: TargetSelector.IsDisplacementImmune(GameObjectBase)
+- uid: Oasys.SDK.TargetSelector.IsDisplacementImmune*
+  name: IsDisplacementImmune
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsDisplacementImmune_
+  commentId: Overload:Oasys.SDK.TargetSelector.IsDisplacementImmune
+  isSpec: "True"
+  fullName: Oasys.SDK.TargetSelector.IsDisplacementImmune
+  nameWithType: TargetSelector.IsDisplacementImmune
 - uid: Oasys.SDK.TargetSelector.IsInRange(Oasys.Common.GameObject.GameObjectBase)
   name: IsInRange(GameObjectBase)
   href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsInRange_Oasys_Common_GameObject_GameObjectBase_
@@ -14660,6 +14891,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.TargetSelector.IsInRange
   nameWithType: TargetSelector.IsInRange
+- uid: Oasys.SDK.TargetSelector.IsInvulnerable(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.Logic.DamageType,System.Boolean)
+  name: IsInvulnerable(GameObjectBase, DamageType, Boolean)
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsInvulnerable_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_Logic_DamageType_System_Boolean_
+  commentId: M:Oasys.SDK.TargetSelector.IsInvulnerable(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.Logic.DamageType,System.Boolean)
+  fullName: Oasys.SDK.TargetSelector.IsInvulnerable(Oasys.Common.GameObject.GameObjectBase, Oasys.Common.Logic.DamageType, System.Boolean)
+  nameWithType: TargetSelector.IsInvulnerable(GameObjectBase, DamageType, Boolean)
+- uid: Oasys.SDK.TargetSelector.IsInvulnerable*
+  name: IsInvulnerable
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsInvulnerable_
+  commentId: Overload:Oasys.SDK.TargetSelector.IsInvulnerable
+  isSpec: "True"
+  fullName: Oasys.SDK.TargetSelector.IsInvulnerable
+  nameWithType: TargetSelector.IsInvulnerable
 - uid: Oasys.SDK.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase)
   name: IsKillable(GameObjectBase)
   href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsKillable_Oasys_Common_GameObject_GameObjectBase_
@@ -14673,6 +14917,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.TargetSelector.IsKillable
   nameWithType: TargetSelector.IsKillable
+- uid: Oasys.SDK.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  name: IsTotalCCImmune(GameObjectBase)
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsTotalCCImmune_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.SDK.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.SDK.TargetSelector.IsTotalCCImmune(Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: TargetSelector.IsTotalCCImmune(GameObjectBase)
+- uid: Oasys.SDK.TargetSelector.IsTotalCCImmune*
+  name: IsTotalCCImmune
+  href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_IsTotalCCImmune_
+  commentId: Overload:Oasys.SDK.TargetSelector.IsTotalCCImmune
+  isSpec: "True"
+  fullName: Oasys.SDK.TargetSelector.IsTotalCCImmune
+  nameWithType: TargetSelector.IsTotalCCImmune
 - uid: Oasys.SDK.TargetSelector.ShouldAttackMinion(Oasys.Common.GameObject.GameObjectBase)
   name: ShouldAttackMinion(GameObjectBase)
   href: api/Oasys.SDK.TargetSelector.html#Oasys_SDK_TargetSelector_ShouldAttackMinion_Oasys_Common_GameObject_GameObjectBase_

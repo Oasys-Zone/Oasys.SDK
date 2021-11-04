@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Alerts
+    <title>Class Geometry
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Alerts
+    <meta name="title" content="Class Geometry
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,17 +77,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Settings.Alerts">
+            <article class="content wrap" id="_content" data-uid="Oasys.SDK.Geometry">
   
   
-  <h1 id="Oasys_Common_Settings_Alerts" data-uid="Oasys.Common.Settings.Alerts" class="text-break">Class Alerts
+  <h1 id="Oasys_SDK_Geometry" data-uid="Oasys.SDK.Geometry" class="text-break">Class Geometry
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Alerts</span></div>
+    <div class="level1"><span class="xref">Geometry</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,46 +113,45 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Settings.html">Oasys.Common.Settings</a></h6>
-  <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Settings_Alerts_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.SDK.html">Oasys.SDK</a></h6>
+  <h6><strong>Assembly</strong>: Oasys.SDK.dll</h6>
+  <h5 id="Oasys_SDK_Geometry_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Alerts</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Geometry</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="Oasys_Common_Settings_Alerts_DetectionRange_" data-uid="Oasys.Common.Settings.Alerts.DetectionRange*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_DetectionRange" data-uid="Oasys.Common.Settings.Alerts.DetectionRange">DetectionRange</h4>
+  <a id="Oasys_SDK_Geometry_DistanceFromPointToLine_" data-uid="Oasys.SDK.Geometry.DistanceFromPointToLine*"></a>
+  <h4 id="Oasys_SDK_Geometry_DistanceFromPointToLine_SharpDX_Vector2_SharpDX_Vector2___" data-uid="Oasys.SDK.Geometry.DistanceFromPointToLine(SharpDX.Vector2,SharpDX.Vector2[])">DistanceFromPointToLine(Vector2, Vector2[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int DetectionRange { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static double DistanceFromPointToLine(Vector2 point, Vector2[] Line)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span>[]</td>
+        <td><span class="parametername">Line</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Settings_Alerts_GankAlerterColor_" data-uid="Oasys.Common.Settings.Alerts.GankAlerterColor*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_GankAlerterColor" data-uid="Oasys.Common.Settings.Alerts.GankAlerterColor">GankAlerterColor</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color GankAlerterColor { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -162,20 +161,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Settings_Alerts_GankAlerterTextColor_" data-uid="Oasys.Common.Settings.Alerts.GankAlerterTextColor*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_GankAlerterTextColor" data-uid="Oasys.Common.Settings.Alerts.GankAlerterTextColor">GankAlerterTextColor</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Oasys_SDK_Geometry_Extend_" data-uid="Oasys.SDK.Geometry.Extend*"></a>
+  <h4 id="Oasys_SDK_Geometry_Extend_SharpDX_Vector2_SharpDX_Vector2_System_Single_" data-uid="Oasys.SDK.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)">Extend(Vector2, Vector2, Single)</h4>
+  <div class="markdown level1 summary"><p>Extends the vector.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color GankAlerterTextColor { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector2 Extend(this Vector2 v, Vector2 to, float distance)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>The vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>The vector to extend to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>The distance to extend.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -185,43 +215,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
+        <td><span class="xref">SharpDX.Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Settings_Alerts_LineThickness_" data-uid="Oasys.Common.Settings.Alerts.LineThickness*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_LineThickness" data-uid="Oasys.Common.Settings.Alerts.LineThickness">LineThickness</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Oasys_SDK_Geometry_Extend_" data-uid="Oasys.SDK.Geometry.Extend*"></a>
+  <h4 id="Oasys_SDK_Geometry_Extend_SharpDX_Vector3_SharpDX_Vector3_System_Single_" data-uid="Oasys.SDK.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)">Extend(Vector3, Vector3, Single)</h4>
+  <div class="markdown level1 summary"><p>Extends the specified vector.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int LineThickness { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 Extend(this Vector3 v, Vector3 to, float distance)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>The vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>The vector to extend to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>The distance.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Settings_Alerts_ShowLine_" data-uid="Oasys.Common.Settings.Alerts.ShowLine*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_ShowLine" data-uid="Oasys.Common.Settings.Alerts.ShowLine">ShowLine</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ShowLine { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -231,99 +269,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Settings_Alerts_ShowName_" data-uid="Oasys.Common.Settings.Alerts.ShowName*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_ShowName" data-uid="Oasys.Common.Settings.Alerts.ShowName">ShowName</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool ShowName { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Settings_Alerts_UseBaronAlerter_" data-uid="Oasys.Common.Settings.Alerts.UseBaronAlerter*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_UseBaronAlerter" data-uid="Oasys.Common.Settings.Alerts.UseBaronAlerter">UseBaronAlerter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool UseBaronAlerter { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Settings_Alerts_UseDragonAlerter_" data-uid="Oasys.Common.Settings.Alerts.UseDragonAlerter*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_UseDragonAlerter" data-uid="Oasys.Common.Settings.Alerts.UseDragonAlerter">UseDragonAlerter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool UseDragonAlerter { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Settings_Alerts_UseGankAlerter_" data-uid="Oasys.Common.Settings.Alerts.UseGankAlerter*"></a>
-  <h4 id="Oasys_Common_Settings_Alerts_UseGankAlerter" data-uid="Oasys.Common.Settings.Alerts.UseGankAlerter">UseGankAlerter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool UseGankAlerter { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">SharpDX.Vector3</span></td>
         <td></td>
       </tr>
     </tbody>

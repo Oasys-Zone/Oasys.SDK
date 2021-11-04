@@ -40,13 +40,6 @@ namespace Oasys.SDK
         /// </summary>
         public static bool CanMove => Common.Logic.Orbwalker.OrbSettings.CanMove;
 
-        /// <summary>
-        /// Maximum movement commands per minute
-        /// </summary>
-        public static float MovementAPM
-        {
-            set => Common.Logic.Orbwalker.OrbSettings.MovementAPM = value;
-        }
 
         /// <summary>
         /// Remaining time in seconds before basic attack is possible
