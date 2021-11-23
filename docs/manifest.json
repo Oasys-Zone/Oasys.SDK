@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.html",
-          "hash": "oXB5+cj3U5iiKlAzZkQjhOeYTV00jkLA7rB7v1M0Gt4="
+          "hash": "3sTGkLfXcXAADodFExPGPpvNrza7bbFX5dkoL5Y6MPA="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.LeagueNativeRendererManager.html",
-          "hash": "M+pFZSOG4LvJR38WXDBUBhjZb1Mv4PwBrncOWBgOO1Q="
+          "hash": "o8hmm53gFULp8TqplLRtifyAWQfWvmoMpVyp/BZcKZE="
         }
       },
       "is_incremental": false,
@@ -1034,11 +1034,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Oasys.Common.Logic.Helpers.RiotAPIHelper.yml",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.PlayerData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Oasys.Common.Logic.Helpers.RiotAPIHelper.html",
-          "hash": "pvHuWRrh8+WuctygDky8cNsJchWqFwDSbQ2kjnrrmP8="
+          "relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.PlayerData.html",
+          "hash": "+trFTjBWBfJTmm+127fl6tfoh6tE1+0l31KKcK/EcFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.html",
+          "hash": "a93L1GH9g5q5iV/jla1QglphBw2chD9I9RTaC+HVn0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.AttackSpeedAPIHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.AttackSpeedAPIHelper.html",
+          "hash": "vsesgw6BUCWN27XC3isC9uWFRSr/YM54lYWT5cYdSuA="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Helpers.html",
-          "hash": "5yQ0Ciw8P+CDLmFpSdN+j9f4/fp8IzPkGjxBgjn2lII="
+          "hash": "UllcaSs8EJayEEmp4J3EFJSwIgNcDhexYxOS+mavOvQ="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Alerts.html",
-          "hash": "LZx2GZoekBB+uihrt66aR/Fgw9ItApz1y3EeygRrvTs="
+          "hash": "g1kFK6Q5Yjq8x3ivSkrSQwM06lLlItOUPoVlvpu4m8E="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Core.html",
-          "hash": "EFUrcZcm6gepcelmJxGvE0OXbCDjMTe35zPUlw396TA="
+          "hash": "S8NZam6vGrm4G8FA3mLuvvEo6RZ3Oep9SaWVHcHPi0Y="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.InputProviders.KeyboardProvider.html",
-          "hash": "QLhXk8egU+zzFVqhFNuFElygcY8kxWtA2xUzO898kpA="
+          "hash": "Dzw3AiiQJOVnF6wOWAyp265KglVYzvBmnJ+JiKpfT5o="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+eaGK86xM5LRsc6qgAHKcNp6d2AkPGUdqKHqoZ6a7Cc="
+          "hash": "zuJfulnvv01RQhnOnN/9Oaf24K5KPR2dsgmH0zj3fDM="
         }
       },
       "is_incremental": false,
@@ -2089,8 +2113,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 165,
-          "skipped_file_count": 127
+          "total_file_count": 167,
+          "skipped_file_count": 154
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

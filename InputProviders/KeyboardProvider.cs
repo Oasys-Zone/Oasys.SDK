@@ -89,6 +89,15 @@ namespace Oasys.SDK.InputProviders
             PressKey((short)keyboardScanCode);
         }
 
+        /// <summary>
+        /// This event is raised whenever a key is pressed.
+        /// </summary>
+        public static event Keyboard.OnKeyPressCallback OnKeyPress
+        {
+            add => Keyboard.OnKeyPress += value;
+            remove => Keyboard.OnKeyPress -= value;
+        }
+
         public enum KeyBoardScanCodes : short
         {
             ESC = 0x01,

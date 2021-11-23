@@ -28,7 +28,7 @@ namespace Oasys.SDK.SpellCasting
                 { SummonerSpellsEnum.Ghost, "SummonerHaste" },
                 { SummonerSpellsEnum.Heal, "SummonerHeal" },
                 { SummonerSpellsEnum.Ignite, "SummonerDot" },
-                { SummonerSpellsEnum.Smite, "Smite" },
+                { SummonerSpellsEnum.Smite, "SummonerSmite" },
                 { SummonerSpellsEnum.PoroToss, "SummonerPoroThrow" },
                 { SummonerSpellsEnum.ToTheKing, "SummonerPoroRecall" }
             };
