@@ -241,6 +241,30 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_Orbwalker_ForceMovePosition_" data-uid="Oasys.SDK.Orbwalker.ForceMovePosition*"></a>
+  <h4 id="Oasys_SDK_Orbwalker_ForceMovePosition" data-uid="Oasys.SDK.Orbwalker.ForceMovePosition">ForceMovePosition</h4>
+  <div class="markdown level1 summary"><p>Set this to force move to a screen position when can walk, remember to reset the value to Vector2.Zero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ForceMovePosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_Orbwalker_LaneClearTarget_" data-uid="Oasys.SDK.Orbwalker.LaneClearTarget*"></a>
   <h4 id="Oasys_SDK_Orbwalker_LaneClearTarget" data-uid="Oasys.SDK.Orbwalker.LaneClearTarget">LaneClearTarget</h4>
   <div class="markdown level1 summary"><p>Current selected laneclear target</p>
@@ -468,6 +492,54 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void AttackReset()</code></pre>
   </div>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="Oasys_SDK_Orbwalker_OnOrbwalkerAfterBasicAttack" data-uid="Oasys.SDK.Orbwalker.OnOrbwalkerAfterBasicAttack">OnOrbwalkerAfterBasicAttack</h4>
+  <div class="markdown level1 summary"><p>This event is raised when orbwalker has just processed a basicattack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerAfterBasicAttack</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Oasys_SDK_Orbwalker_OnOrbwalkerBasicAttack" data-uid="Oasys.SDK.Orbwalker.OnOrbwalkerBasicAttack">OnOrbwalkerBasicAttack</h4>
+  <div class="markdown level1 summary"><p>This event is raised when orbwalker is processing a basicattack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerBasicAttack</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>

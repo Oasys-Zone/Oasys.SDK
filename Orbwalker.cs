@@ -1,4 +1,5 @@
 ﻿using Oasys.Common.GameObject;
+using SharpDX;
 
 namespace Oasys.SDK
 {
@@ -98,6 +99,33 @@ namespace Oasys.SDK
         /// Current selected hero target
         /// </summary>
         public static GameObjectBase TargetHero => Common.Logic.Orbwalker.OrbSettings.TargetHero;
+
+        /// <summary>
+        /// Set this to force move to a screen position when can walk, remember to reset the value to Vector2.Zero.
+        /// </summary>
+        public static Vector2 ForceMovePosition
+        {
+            get => Common.Logic.Orbwalker.OrbSettings.ForceMovePosition;
+            set => Common.Logic.Orbwalker.OrbSettings.ForceMovePosition = value;
+        }
+
+        /// <summary>
+        /// This event is raised when orbwalker is processing a basicattack.
+        /// </summary>
+        public static event Common.Logic.Orbwalker.BasicAttackCommand OnOrbwalkerBasicAttack
+        {
+            add => Common.Logic.Orbwalker.OnOrbwalkerBasicAttack += value;
+            remove => Common.Logic.Orbwalker.OnOrbwalkerBasicAttack -= value;
+        }
+
+        /// <summary>
+        /// This event is raised when orbwalker has just processed a basicattack.
+        /// </summary>
+        public static event Common.Logic.Orbwalker.BasicAttackCommand OnOrbwalkerAfterBasicAttack
+        {
+            add => Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack += value;
+            remove => Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack -= value;
+        }
 
         /// <summary>
         /// Orbwalking mode

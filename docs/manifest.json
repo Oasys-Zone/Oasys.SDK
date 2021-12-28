@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Enums.GameEnums.BuffType.html",
-          "hash": "TM5LK6qYkAmDEV2FQMaz4CHXMMhvWf3poOFyKFvGGVQ="
+          "hash": "xKuRYV+l/+BhFY6ObJIvd6aAmqoQ3JtmVuX/ouEKEmc="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Enums.GameEnums.ItemID.html",
-          "hash": "RcntLbUGikn5v3Y12qyPCM7P2X7uZQ/E0XQ/q/aHoKw="
+          "hash": "+eEYuRJYoOPGiYLSPV2O8K7w0AtX5EDWjCmbm7GSt6Q="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameInstances.MinimapInfo.html",
-          "hash": "XtJ3hF7YH7pWuL1cQDK1TgAl6OYPKpbLuN4tgZ81xv8="
+          "hash": "OE/mJL27XLhAF2LVFkF3oiqSyUwp8mufgXoEuxnaBX0="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html",
-          "hash": "1Yq8gvslwYCNy4mPt+BKLnkLq1vFNSgwXe5ZcSqs7EY="
+          "hash": "e8fIT6ECM4/hvlV+0KYh2RP0TVfw+iG2dTRi48SNYlk="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html",
-          "hash": "3OytJfSf+Z/ywlefLj013Ptk0Ux0BmEQjevKseo67RU="
+          "hash": "mhxJ/S5pKAo+Jaw4ry8NsKy/x4IahYSZ1DhT+2mcc2Y="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html",
-          "hash": "GD9uURTTWTGADFKpdQiT0S420lWzwHICjlMDnWtL+HA="
+          "hash": "IGx3V/kDEizHCDxoxO6E2L1S3Bw9By7Qw2Fm7eczQa0="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.LeagueNativeRendererManager.html",
-          "hash": "o8hmm53gFULp8TqplLRtifyAWQfWvmoMpVyp/BZcKZE="
+          "hash": "bM2WM/3pgSNPxmJLtEY1w8mLjzoasoInQxdnwoyU4VA="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.DamageCalculator.html",
-          "hash": "UzUZGL3UEeIbhmVpRFTbkKK3YgbkszbemNZLHEI+VPE="
+          "hash": "cA3Fazv9KDW9iWaVGA18xFD6Y5lIWFwgjh/nn4a0C/g="
         }
       },
       "is_incremental": false,
@@ -1082,11 +1082,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Orbwalker.BasicAttackCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html",
+          "hash": "pbMdvWuoVzs0Z8nrBXkt4ca+Q7A2CY0Vv7kYZLnX2Hw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.html",
-          "hash": "sC9r2Vb71txIAtmWfdzL1Q2/nhLs21TTtY9MmkkPaxk="
+          "hash": "I8UJBCjXT1abozMyp3p0yqyj1pvAaKqxTywRvCjgbCk="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Orbwalker.html",
-          "hash": "LR6SoPYEGiqWN+0dXDUQnBMfuSv1t6x1eTyZG0pjEqs="
+          "hash": "Gh8lZPEC+b9aZmC1miEhcpZppI7S0miaBj5pqJNd01c="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.html",
-          "hash": "EZu/jhcQpv4i9RSAfIYkfOFiSp23KX7c1FkGZYK/ZMA="
+          "hash": "V2mt7QVWjRv3FM78iWsAIutt363DJp54sgSxUfDODrw="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.html",
-          "hash": "G5/jpn3N99S5nx69H1dsQmBA4VgiK2m5RXzVcs6b+IE="
+          "hash": "YJJRTOvfMVd/e0U/gxV7OZtDwdXbJygkuai6BlYw5GI="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.InfoDisplay.html",
-          "hash": "ljc/oy8rL9pImkJ8SvouYPyRQAPWvX+eS1CGtleq/C8="
+          "hash": "icjrdHZq+KMkHVYIQnlGt6mOeNyopWE4T42DTzPrF94="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.KeyBinding.html",
-          "hash": "a2MiDm39zyGzoUyU9Ke6Enc8lnrdZar/1fqFF1an7F8="
+          "hash": "nsh9EETH9i2quG+2WHK5LcMlzRHhXlv1V30RMD42sto="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.html",
-          "hash": "YE6q0H8WFsMjrdgovmh0Gw5+vX1typsdnRlbR47RMz4="
+          "hash": "d1siRY99AXFy5dbj4l8pCpOkCQnQxk+yslh119Gs7YI="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Switch.html",
-          "hash": "oBzaGdmoD8sarR5kACTDThiH5SDiEAVWhMko6VCdjlA="
+          "hash": "aKWYvIYeBE67xDjSjKTpzeyfOUeF2HB1JqpbcRAF/BQ="
         }
       },
       "is_incremental": false,
@@ -1274,11 +1286,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.TabItem.TabItemChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.TabItem.TabItemChanged.html",
+          "hash": "zQKlY5Yn3q7Kg/Wut+9ju5G8ibg1JlayE8I7MtpVSl8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Menu.TabItem.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.TabItem.html",
-          "hash": "btu/7I/SD/z3ZV5H0ZoPoZiSOR30k+AcPgAO21fTwD8="
+          "hash": "zUogk2uAlsaWWIXXrm9plIfaZRtq8ZODehd8rNJsMmk="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.html",
-          "hash": "bRfeb+KfI7jDaSwHFfvUMvbY45xAfk4VHSRBZip8v6Y="
+          "hash": "1/IKUcvSSVNjHYd1JTZFqn2PjRqqQ2yjp+iVis2ENkk="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.ObjectManagerExport.html",
-          "hash": "/1uKwgWnxk0gZnysAEQPNQ/belPZGI09Rcppj3bk6js="
+          "hash": "ag+fiM/ffoz75yhMgITTf2fas9f5fVlUX8hFB/o0FYU="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Core.html",
-          "hash": "S8NZam6vGrm4G8FA3mLuvvEo6RZ3Oep9SaWVHcHPi0Y="
+          "hash": "pAOV/K4VIDIRpMjgukFteMLQWrNQ7HLZMvY3WAA7lCs="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.html",
-          "hash": "tLFG/f5yNTqIqFj1ajkQi7Tx551ZRUNhan7JiNJDGEY="
+          "hash": "d1WgL2i9blzio4MLcZ2Y2HMy9bWfeiNMvusxzLMUKqk="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.Orbwalker.html",
-          "hash": "z7zVaanCtlNlJQtd2ofuNNQNadMJjkSQIaVpGzX2KsM="
+          "hash": "NV0XW0S2xwUtvZP8vmcPbU+KK+hTkoXHezMSj7LSbzE="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zuJfulnvv01RQhnOnN/9Oaf24K5KPR2dsgmH0zj3fDM="
+          "hash": "uI+kDrFsgAtFqKDX582QOxUXAC8YpqAkyL7r1zfcNNk="
         }
       },
       "is_incremental": false,
@@ -2113,8 +2137,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 167,
-          "skipped_file_count": 154
+          "total_file_count": 169,
+          "skipped_file_count": 132
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

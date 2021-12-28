@@ -237,12 +237,24 @@ references:
   commentId: T:Oasys.Common.Enums.GameEnums.BuffType
   fullName: Oasys.Common.Enums.GameEnums.BuffType
   nameWithType: BuffType
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Asleep
+  name: Asleep
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Asleep
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Asleep
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Asleep
+  nameWithType: BuffType.Asleep
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Aura
   name: Aura
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Aura
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Aura
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Aura
   nameWithType: BuffType.Aura
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Berserk
+  name: Berserk
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Berserk
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Berserk
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Berserk
+  nameWithType: BuffType.Berserk
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Blind
   name: Blind
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Blind
@@ -273,6 +285,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Counter
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Counter
   nameWithType: BuffType.Counter
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Currency
+  name: Currency
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Currency
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Currency
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Currency
+  nameWithType: BuffType.Currency
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Damage
   name: Damage
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Damage
@@ -285,6 +303,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Disarm
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Disarm
   nameWithType: BuffType.Disarm
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Drowsy
+  name: Drowsy
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Drowsy
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Drowsy
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Drowsy
+  nameWithType: BuffType.Drowsy
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Fear
   name: Fear
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Fear
@@ -297,12 +321,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Flee
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Flee
   nameWithType: BuffType.Flee
-- uid: Oasys.Common.Enums.GameEnums.BuffType.Frenzy
-  name: Frenzy
-  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Frenzy
-  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Frenzy
-  fullName: Oasys.Common.Enums.GameEnums.BuffType.Frenzy
-  nameWithType: BuffType.Frenzy
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Grounded
+  name: Grounded
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Grounded
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Grounded
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Grounded
+  nameWithType: BuffType.Grounded
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Haste
   name: Haste
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Haste
@@ -351,6 +375,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.NearSight
   fullName: Oasys.Common.Enums.GameEnums.BuffType.NearSight
   nameWithType: BuffType.NearSight
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Obscured
+  name: Obscured
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Obscured
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Obscured
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Obscured
+  nameWithType: BuffType.Obscured
 - uid: Oasys.Common.Enums.GameEnums.BuffType.PhysicalImmunity
   name: PhysicalImmunity
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_PhysicalImmunity
@@ -429,12 +459,24 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Taunt
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Taunt
   nameWithType: BuffType.Taunt
+- uid: Oasys.Common.Enums.GameEnums.BuffType.Unkillable
+  name: Unkillable
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Unkillable
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Unkillable
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.Unkillable
+  nameWithType: BuffType.Unkillable
 - uid: Oasys.Common.Enums.GameEnums.BuffType.Unknown
   name: Unknown
   href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_Unknown
   commentId: F:Oasys.Common.Enums.GameEnums.BuffType.Unknown
   fullName: Oasys.Common.Enums.GameEnums.BuffType.Unknown
   nameWithType: BuffType.Unknown
+- uid: Oasys.Common.Enums.GameEnums.BuffType.UnSelectableToEnemies
+  name: UnSelectableToEnemies
+  href: api/Oasys.Common.Enums.GameEnums.BuffType.html#Oasys_Common_Enums_GameEnums_BuffType_UnSelectableToEnemies
+  commentId: F:Oasys.Common.Enums.GameEnums.BuffType.UnSelectableToEnemies
+  fullName: Oasys.Common.Enums.GameEnums.BuffType.UnSelectableToEnemies
+  nameWithType: BuffType.UnSelectableToEnemies
 - uid: Oasys.Common.Enums.GameEnums.CastType
   name: CastType
   href: api/Oasys.Common.Enums.GameEnums.CastType.html
@@ -771,12 +813,6 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Abyssal_Mask
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Abyssal_Mask
   nameWithType: ItemID.Abyssal_Mask
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Adaptive_Helm
-  name: Adaptive_Helm
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Adaptive_Helm
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Adaptive_Helm
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Adaptive_Helm
-  nameWithType: ItemID.Adaptive_Helm
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Aegis_of_the_Legion
   name: Aegis_of_the_Legion
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Aegis_of_the_Legion
@@ -795,54 +831,36 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Amplifying_Tome
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Amplifying_Tome
   nameWithType: ItemID.Amplifying_Tome
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ancient_Coin
-  name: Ancient_Coin
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ancient_Coin
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ancient_Coin
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ancient_Coin
-  nameWithType: ItemID.Ancient_Coin
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper
-  name: Arcane_Sweeper
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Arcane_Sweeper
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper
-  nameWithType: ItemID.Arcane_Sweeper
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper_1
-  name: Arcane_Sweeper_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Arcane_Sweeper_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Arcane_Sweeper_1
-  nameWithType: ItemID.Arcane_Sweeper_1
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Anathemas_Chains
+  name: Anathemas_Chains
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Anathemas_Chains
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Anathemas_Chains
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Anathemas_Chains
+  nameWithType: ItemID.Anathemas_Chains
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Anti_tower_Socks
+  name: Anti_tower_Socks
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Anti_tower_Socks
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Anti_tower_Socks
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Anti_tower_Socks
+  nameWithType: ItemID.Anti_tower_Socks
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff
   name: Archangels_Staff
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Archangels_Staff
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff
   nameWithType: ItemID.Archangels_Staff
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff_Quick_Charge
-  name: Archangels_Staff_Quick_Charge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Archangels_Staff_Quick_Charge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff_Quick_Charge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Archangels_Staff_Quick_Charge
-  nameWithType: ItemID.Archangels_Staff_Quick_Charge
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Ardent_Censer
   name: Ardent_Censer
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ardent_Censer
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ardent_Censer
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Ardent_Censer
   nameWithType: ItemID.Ardent_Censer
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Athenes_Unholy_Grail
-  name: Athenes_Unholy_Grail
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Athenes_Unholy_Grail
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Athenes_Unholy_Grail
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Athenes_Unholy_Grail
-  nameWithType: ItemID.Athenes_Unholy_Grail
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Atmas_Reckoning
-  name: Atmas_Reckoning
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Atmas_Reckoning
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Atmas_Reckoning
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Atmas_Reckoning
-  nameWithType: ItemID.Atmas_Reckoning
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Axiom_Arc
+  name: Axiom_Arc
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Axiom_Arc
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Axiom_Arc
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Axiom_Arc
+  nameWithType: ItemID.Axiom_Arc
 - uid: Oasys.Common.Enums.GameEnums.ItemID.B_F_Sword
   name: B_F_Sword
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_B_F_Sword
@@ -855,6 +873,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bamis_Cinder
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Bamis_Cinder
   nameWithType: ItemID.Bamis_Cinder
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Bandleglass_Mirror
+  name: Bandleglass_Mirror
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Bandleglass_Mirror
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bandleglass_Mirror
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Bandleglass_Mirror
+  nameWithType: ItemID.Bandleglass_Mirror
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Banshees_Veil
   name: Banshees_Veil
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Banshees_Veil
@@ -867,60 +891,54 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Berserkers_Greaves
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Berserkers_Greaves
   nameWithType: ItemID.Berserkers_Greaves
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Bilgewater_Cutlass
-  name: Bilgewater_Cutlass
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Bilgewater_Cutlass
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bilgewater_Cutlass
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Bilgewater_Cutlass
-  nameWithType: ItemID.Bilgewater_Cutlass
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Black_Cleaver
   name: Black_Cleaver
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Black_Cleaver
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Black_Cleaver
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Black_Cleaver
   nameWithType: ItemID.Black_Cleaver
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Black_Spear
-  name: Black_Spear
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Black_Spear
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Black_Spear
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Black_Spear
-  nameWithType: ItemID.Black_Spear
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Black_Spear_2
-  name: Black_Spear_2
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Black_Spear_2
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Black_Spear_2
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Black_Spear_2
-  nameWithType: ItemID.Black_Spear_2
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Blade_of_the_Ruined_King
-  name: Blade_of_the_Ruined_King
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Blade_of_the_Ruined_King
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Blade_of_the_Ruined_King
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Blade_of_the_Ruined_King
-  nameWithType: ItemID.Blade_of_the_Ruined_King
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Black_Mist_Scythe
+  name: Black_Mist_Scythe
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Black_Mist_Scythe
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Black_Mist_Scythe
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Black_Mist_Scythe
+  nameWithType: ItemID.Black_Mist_Scythe
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Blade_of_The_Ruined_King
+  name: Blade_of_The_Ruined_King
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Blade_of_The_Ruined_King
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Blade_of_The_Ruined_King
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Blade_of_The_Ruined_King
+  nameWithType: ItemID.Blade_of_The_Ruined_King
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Blasting_Wand
   name: Blasting_Wand
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Blasting_Wand
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Blasting_Wand
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Blasting_Wand
   nameWithType: ItemID.Blasting_Wand
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Blighting_Jewel
+  name: Blighting_Jewel
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Blighting_Jewel
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Blighting_Jewel
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Blighting_Jewel
+  nameWithType: ItemID.Blighting_Jewel
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Bloodthirster
   name: Bloodthirster
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Bloodthirster
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bloodthirster
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Bloodthirster
   nameWithType: ItemID.Bloodthirster
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Mobility
-  name: Boots_of_Mobility
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Boots_of_Mobility
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Mobility
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Mobility
-  nameWithType: ItemID.Boots_of_Mobility
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Speed
-  name: Boots_of_Speed
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Boots_of_Speed
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Speed
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Speed
-  nameWithType: ItemID.Boots_of_Speed
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Bloodward
+  name: Bloodward
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Bloodward
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bloodward
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Bloodward
+  nameWithType: ItemID.Bloodward
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Boots
+  name: Boots
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Boots
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Boots
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Boots
+  nameWithType: ItemID.Boots
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Boots_of_Swiftness
   name: Boots_of_Swiftness
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Boots_of_Swiftness
@@ -933,66 +951,66 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bramble_Vest
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Bramble_Vest
   nameWithType: ItemID.Bramble_Vest
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Brawlers_Gloves
-  name: Brawlers_Gloves
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Brawlers_Gloves
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Brawlers_Gloves
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Brawlers_Gloves
-  nameWithType: ItemID.Brawlers_Gloves
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch
   name: Broken_Stopwatch
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Broken_Stopwatch
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch
   nameWithType: ItemID.Broken_Stopwatch
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch_1
-  name: Broken_Stopwatch_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Broken_Stopwatch_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch_1
-  nameWithType: ItemID.Broken_Stopwatch_1
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Catalyst_of_Aeons
-  name: Catalyst_of_Aeons
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Catalyst_of_Aeons
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Catalyst_of_Aeons
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Catalyst_of_Aeons
-  nameWithType: ItemID.Catalyst_of_Aeons
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch2
+  name: Broken_Stopwatch2
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Broken_Stopwatch2
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch2
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Broken_Stopwatch2
+  nameWithType: ItemID.Broken_Stopwatch2
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Bulwark_of_the_Mountain
+  name: Bulwark_of_the_Mountain
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Bulwark_of_the_Mountain
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Bulwark_of_the_Mountain
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Bulwark_of_the_Mountain
+  nameWithType: ItemID.Bulwark_of_the_Mountain
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Caesura
+  name: Caesura
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Caesura
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Caesura
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Caesura
+  nameWithType: ItemID.Caesura
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Caulfields_Warhammer
   name: Caulfields_Warhammer
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Caulfields_Warhammer
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Caulfields_Warhammer
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Caulfields_Warhammer
   nameWithType: ItemID.Caulfields_Warhammer
+- uid: Oasys.Common.Enums.GameEnums.ItemID.CeaselessHunger
+  name: CeaselessHunger
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_CeaselessHunger
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.CeaselessHunger
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.CeaselessHunger
+  nameWithType: ItemID.CeaselessHunger
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Chain_Vest
   name: Chain_Vest
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Chain_Vest
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Chain_Vest
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Chain_Vest
   nameWithType: ItemID.Chain_Vest
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Chalice_of_Harmony
-  name: Chalice_of_Harmony
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Chalice_of_Harmony
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Chalice_of_Harmony
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Chalice_of_Harmony
-  nameWithType: ItemID.Chalice_of_Harmony
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Circlet_of_the_Iron_Solari
-  name: Circlet_of_the_Iron_Solari
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Circlet_of_the_Iron_Solari
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Circlet_of_the_Iron_Solari
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Circlet_of_the_Iron_Solari
-  nameWithType: ItemID.Circlet_of_the_Iron_Solari
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Chempunk_Chainsword
+  name: Chempunk_Chainsword
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Chempunk_Chainsword
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Chempunk_Chainsword
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Chempunk_Chainsword
+  nameWithType: ItemID.Chempunk_Chainsword
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Chemtech_Putrifier
+  name: Chemtech_Putrifier
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Chemtech_Putrifier
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Chemtech_Putrifier
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Chemtech_Putrifier
+  nameWithType: ItemID.Chemtech_Putrifier
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Agility
   name: Cloak_of_Agility
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Cloak_of_Agility
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Agility
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Agility
   nameWithType: ItemID.Cloak_of_Agility
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Stars
-  name: Cloak_of_Stars
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Cloak_of_Stars
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Stars
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Cloak_of_Stars
-  nameWithType: ItemID.Cloak_of_Stars
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Cloth_Armor
   name: Cloth_Armor
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Cloth_Armor
@@ -1017,12 +1035,18 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Corrupting_Potion
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Corrupting_Potion
   nameWithType: ItemID.Corrupting_Potion
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Shackle
-  name: Cosmic_Shackle
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Cosmic_Shackle
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Shackle
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Shackle
-  nameWithType: ItemID.Cosmic_Shackle
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Drive
+  name: Cosmic_Drive
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Cosmic_Drive
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Drive
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Cosmic_Drive
+  nameWithType: ItemID.Cosmic_Drive
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Crown_of_the_Shattered_Queen
+  name: Crown_of_the_Shattered_Queen
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Crown_of_the_Shattered_Queen
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Crown_of_the_Shattered_Queen
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Crown_of_the_Shattered_Queen
+  nameWithType: ItemID.Crown_of_the_Shattered_Queen
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Crystalline_Bracer
   name: Crystalline_Bracer
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Crystalline_Bracer
@@ -1041,90 +1065,54 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dagger
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Dagger
   nameWithType: ItemID.Dagger
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dark_Matter_Scythe
-  name: Dark_Matter_Scythe
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dark_Matter_Scythe
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dark_Matter_Scythe
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dark_Matter_Scythe
-  nameWithType: ItemID.Dark_Matter_Scythe
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Dark_Seal
   name: Dark_Seal
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dark_Seal
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dark_Seal
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Dark_Seal
   nameWithType: ItemID.Dark_Seal
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dark_Star_Sigil
-  name: Dark_Star_Sigil
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dark_Star_Sigil
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dark_Star_Sigil
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dark_Star_Sigil
-  nameWithType: ItemID.Dark_Star_Sigil
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Dead_Mans_Plate
   name: Dead_Mans_Plate
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dead_Mans_Plate
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dead_Mans_Plate
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Dead_Mans_Plate
   nameWithType: ItemID.Dead_Mans_Plate
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Deathfire_Grasp
-  name: Deathfire_Grasp
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Deathfire_Grasp
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Deathfire_Grasp
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Deathfire_Grasp
-  nameWithType: ItemID.Deathfire_Grasp
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Dance
   name: Deaths_Dance
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Deaths_Dance
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Deaths_Dance
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Dance
   nameWithType: ItemID.Deaths_Dance
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter
-  name: Deaths_Daughter
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Deaths_Daughter
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter
-  nameWithType: ItemID.Deaths_Daughter
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dervish_Blade
-  name: Dervish_Blade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dervish_Blade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dervish_Blade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dervish_Blade
-  nameWithType: ItemID.Dervish_Blade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Diet_Poro_Snax
-  name: Diet_Poro_Snax
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Diet_Poro_Snax
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Diet_Poro_Snax
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Diet_Poro_Snax
-  nameWithType: ItemID.Diet_Poro_Snax
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter_Silver_Serpents
+  name: Deaths_Daughter_Silver_Serpents
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Deaths_Daughter_Silver_Serpents
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter_Silver_Serpents
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Deaths_Daughter_Silver_Serpents
+  nameWithType: ItemID.Deaths_Daughter_Silver_Serpents
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Deicide
+  name: Deicide
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Deicide
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Deicide
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Deicide
+  nameWithType: ItemID.Deicide
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Demonic_Embrace
+  name: Demonic_Embrace
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Demonic_Embrace
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Demonic_Embrace
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Demonic_Embrace
+  nameWithType: ItemID.Demonic_Embrace
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Divine_Sunderer
+  name: Divine_Sunderer
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Divine_Sunderer
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Divine_Sunderer
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Divine_Sunderer
+  nameWithType: ItemID.Divine_Sunderer
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Blade
   name: Dorans_Blade
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Blade
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Blade
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Blade
   nameWithType: ItemID.Dorans_Blade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Blade
-  name: Dorans_Lost_Blade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Lost_Blade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Blade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Blade
-  nameWithType: ItemID.Dorans_Lost_Blade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Idol
-  name: Dorans_Lost_Idol
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Lost_Idol
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Idol
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Idol
-  nameWithType: ItemID.Dorans_Lost_Idol
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Ring
-  name: Dorans_Lost_Ring
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Lost_Ring
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Ring
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Ring
-  nameWithType: ItemID.Dorans_Lost_Ring
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Shield
-  name: Dorans_Lost_Shield
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Lost_Shield
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Shield
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Lost_Shield
-  nameWithType: ItemID.Dorans_Lost_Shield
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Ring
   name: Dorans_Ring
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dorans_Ring
@@ -1137,12 +1125,30 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dorans_Shield
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Dorans_Shield
   nameWithType: ItemID.Dorans_Shield
+- uid: Oasys.Common.Enums.GameEnums.ItemID.DraktharrsShadowcarver
+  name: DraktharrsShadowcarver
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_DraktharrsShadowcarver
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.DraktharrsShadowcarver
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.DraktharrsShadowcarver
+  nameWithType: ItemID.DraktharrsShadowcarver
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Dreamshatter
+  name: Dreamshatter
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Dreamshatter
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Dreamshatter
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Dreamshatter
+  nameWithType: ItemID.Dreamshatter
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Duskblade_of_Draktharr
   name: Duskblade_of_Draktharr
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Duskblade_of_Draktharr
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Duskblade_of_Draktharr
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Duskblade_of_Draktharr
   nameWithType: ItemID.Duskblade_of_Draktharr
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Eclipse
+  name: Eclipse
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Eclipse
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Eclipse
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Eclipse
+  nameWithType: ItemID.Eclipse
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Edge_of_Night
   name: Edge_of_Night
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Edge_of_Night
@@ -1155,12 +1161,6 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Elixir_of_Iron
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Elixir_of_Iron
   nameWithType: ItemID.Elixir_of_Iron
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Elixir_Of_Skill
-  name: Elixir_Of_Skill
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Elixir_Of_Skill
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Elixir_Of_Skill
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Elixir_Of_Skill
-  nameWithType: ItemID.Elixir_Of_Skill
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Elixir_of_Sorcery
   name: Elixir_of_Sorcery
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Elixir_of_Sorcery
@@ -1173,72 +1173,60 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Elixir_of_Wrath
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Elixir_of_Wrath
   nameWithType: ItemID.Elixir_of_Wrath
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Bloodrazor_3
-  name: Enchantment_Bloodrazor_3
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Enchantment_Bloodrazor_3
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Bloodrazor_3
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Bloodrazor_3
-  nameWithType: ItemID.Enchantment_Bloodrazor_3
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Cinderhulk_3
-  name: Enchantment_Cinderhulk_3
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Enchantment_Cinderhulk_3
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Cinderhulk_3
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Cinderhulk_3
-  nameWithType: ItemID.Enchantment_Cinderhulk_3
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Runic_Echoes_3
-  name: Enchantment_Runic_Echoes_3
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Enchantment_Runic_Echoes_3
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Runic_Echoes_3
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Runic_Echoes_3
-  nameWithType: ItemID.Enchantment_Runic_Echoes_3
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Warrior_3
-  name: Enchantment_Warrior_3
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Enchantment_Warrior_3
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Warrior_3
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Enchantment_Warrior_3
-  nameWithType: ItemID.Enchantment_Warrior_3
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Entropy_Field
-  name: Entropy_Field
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Entropy_Field
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Entropy_Field
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Entropy_Field
-  nameWithType: ItemID.Entropy_Field
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Espresso_Snax
-  name: Espresso_Snax
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Espresso_Snax
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Espresso_Snax
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Espresso_Snax
-  nameWithType: ItemID.Espresso_Snax
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Emberknife
+  name: Emberknife
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Emberknife
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Emberknife
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Emberknife
+  nameWithType: ItemID.Emberknife
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Equinox
+  name: Equinox
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Equinox
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Equinox
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Equinox
+  nameWithType: ItemID.Equinox
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Essence_Reaver
   name: Essence_Reaver
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Essence_Reaver
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Essence_Reaver
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Essence_Reaver
   nameWithType: ItemID.Essence_Reaver
+- uid: Oasys.Common.Enums.GameEnums.ItemID.EternalWinter
+  name: EternalWinter
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_EternalWinter
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.EternalWinter
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.EternalWinter
+  nameWithType: ItemID.EternalWinter
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Evenshroud
+  name: Evenshroud
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Evenshroud
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Evenshroud
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Evenshroud
+  nameWithType: ItemID.Evenshroud
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Everfrost
+  name: Everfrost
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Everfrost
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Everfrost
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Everfrost
+  nameWithType: ItemID.Everfrost
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Executioners_Calling
   name: Executioners_Calling
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Executioners_Calling
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Executioners_Calling
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Executioners_Calling
   nameWithType: ItemID.Executioners_Calling
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Explorers_Ward
-  name: Explorers_Ward
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Explorers_Ward
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Explorers_Ward
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Explorers_Ward
-  nameWithType: ItemID.Explorers_Ward
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald
   name: Eye_of_the_Herald
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Eye_of_the_Herald
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald
   nameWithType: ItemID.Eye_of_the_Herald
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald_1
-  name: Eye_of_the_Herald_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Eye_of_the_Herald_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Eye_of_the_Herald_1
-  nameWithType: ItemID.Eye_of_the_Herald_1
+- uid: Oasys.Common.Enums.GameEnums.ItemID.EyeofLuden
+  name: EyeofLuden
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_EyeofLuden
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.EyeofLuden
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.EyeofLuden
+  nameWithType: ItemID.EyeofLuden
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Faerie_Charm
   name: Faerie_Charm
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Faerie_Charm
@@ -1257,18 +1245,18 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Fiendish_Codex
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Fiendish_Codex
   nameWithType: ItemID.Fiendish_Codex
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will
-  name: Fire_at_Will
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Fire_at_Will
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will
-  nameWithType: ItemID.Fire_at_Will
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Flash_Zone
-  name: Flash_Zone
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Flash_Zone
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Flash_Zone
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Flash_Zone
-  nameWithType: ItemID.Flash_Zone
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Fimbulwinter
+  name: Fimbulwinter
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Fimbulwinter
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Fimbulwinter
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Fimbulwinter
+  nameWithType: ItemID.Fimbulwinter
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will_Silver_Serpents
+  name: Fire_at_Will_Silver_Serpents
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Fire_at_Will_Silver_Serpents
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will_Silver_Serpents
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Fire_at_Will_Silver_Serpents
+  nameWithType: ItemID.Fire_at_Will_Silver_Serpents
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Forbidden_Idol
   name: Forbidden_Idol
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Forbidden_Idol
@@ -1281,108 +1269,84 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Force_of_Nature
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Force_of_Nature
   nameWithType: ItemID.Force_of_Nature
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Forgefire_Cape
-  name: Forgefire_Cape
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Forgefire_Cape
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Forgefire_Cape
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Forgefire_Cape
-  nameWithType: ItemID.Forgefire_Cape
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Frosted_Snax
-  name: Frosted_Snax
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frosted_Snax
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frosted_Snax
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Frosted_Snax
-  nameWithType: ItemID.Frosted_Snax
+- uid: Oasys.Common.Enums.GameEnums.ItemID.ForgefireCrest
+  name: ForgefireCrest
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_ForgefireCrest
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.ForgefireCrest
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.ForgefireCrest
+  nameWithType: ItemID.ForgefireCrest
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Fortification
+  name: Fortification
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Fortification
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Fortification
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Fortification
+  nameWithType: ItemID.Fortification
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Frostfang
   name: Frostfang
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frostfang
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frostfang
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Frostfang
   nameWithType: ItemID.Frostfang
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Fist
-  name: Frozen_Fist
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frozen_Fist
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frozen_Fist
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Fist
-  nameWithType: ItemID.Frozen_Fist
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Frostfire_Gauntlet
+  name: Frostfire_Gauntlet
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frostfire_Gauntlet
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frostfire_Gauntlet
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Frostfire_Gauntlet
+  nameWithType: ItemID.Frostfire_Gauntlet
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Heart
   name: Frozen_Heart
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frozen_Heart
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frozen_Heart
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Heart
   nameWithType: ItemID.Frozen_Heart
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Mallet
-  name: Frozen_Mallet
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Frozen_Mallet
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Frozen_Mallet
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Frozen_Mallet
-  nameWithType: ItemID.Frozen_Mallet
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Galeforce
   name: Galeforce
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Galeforce
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Galeforce
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Galeforce
   nameWithType: ItemID.Galeforce
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Gangplank_Placeholder
+  name: Gangplank_Placeholder
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Gangplank_Placeholder
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Gangplank_Placeholder
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Gangplank_Placeholder
+  nameWithType: ItemID.Gangplank_Placeholder
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Gargoyle_Stoneplate
   name: Gargoyle_Stoneplate
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Gargoyle_Stoneplate
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Gargoyle_Stoneplate
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Gargoyle_Stoneplate
   nameWithType: ItemID.Gargoyle_Stoneplate
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ghost_Poro
-  name: Ghost_Poro
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ghost_Poro
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ghost_Poro
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ghost_Poro
-  nameWithType: ItemID.Ghost_Poro
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Giants_Belt
   name: Giants_Belt
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Giants_Belt
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Giants_Belt
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Giants_Belt
   nameWithType: ItemID.Giants_Belt
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Glacial_Shroud
-  name: Glacial_Shroud
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Glacial_Shroud
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Glacial_Shroud
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Glacial_Shroud
-  nameWithType: ItemID.Glacial_Shroud
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence
-  name: Golden_Transcendence
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Golden_Transcendence
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence
-  nameWithType: ItemID.Golden_Transcendence
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence_Disabled
-  name: Golden_Transcendence_Disabled
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Golden_Transcendence_Disabled
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence_Disabled
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Golden_Transcendence_Disabled
-  nameWithType: ItemID.Golden_Transcendence_Disabled
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Gravity_Boots
-  name: Gravity_Boots
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Gravity_Boots
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Gravity_Boots
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Gravity_Boots
-  nameWithType: ItemID.Gravity_Boots
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Greater_Stealth_Totem_Trinket
-  name: Greater_Stealth_Totem_Trinket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Greater_Stealth_Totem_Trinket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Greater_Stealth_Totem_Trinket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Greater_Stealth_Totem_Trinket
-  nameWithType: ItemID.Greater_Stealth_Totem_Trinket
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Greater_Vision_Totem_Trinket
-  name: Greater_Vision_Totem_Trinket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Greater_Vision_Totem_Trinket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Greater_Vision_Totem_Trinket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Greater_Vision_Totem_Trinket
-  nameWithType: ItemID.Greater_Vision_Totem_Trinket
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Glacial_Buckler
+  name: Glacial_Buckler
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Glacial_Buckler
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Glacial_Buckler
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Glacial_Buckler
+  nameWithType: ItemID.Glacial_Buckler
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Goredrinker
+  name: Goredrinker
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Goredrinker
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Goredrinker
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Goredrinker
+  nameWithType: ItemID.Goredrinker
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Guardian_Angel
   name: Guardian_Angel
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Guardian_Angel
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Guardian_Angel
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Guardian_Angel
   nameWithType: ItemID.Guardian_Angel
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Guardians_Blade
+  name: Guardians_Blade
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Guardians_Blade
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Guardians_Blade
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Guardians_Blade
+  nameWithType: ItemID.Guardians_Blade
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Guardians_Hammer
   name: Guardians_Hammer
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Guardians_Hammer
@@ -1407,150 +1371,120 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Guinsoos_Rageblade
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Guinsoos_Rageblade
   nameWithType: ItemID.Guinsoos_Rageblade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Haunting_Guise
-  name: Haunting_Guise
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Haunting_Guise
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Haunting_Guise
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Haunting_Guise
-  nameWithType: ItemID.Haunting_Guise
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix
-  name: Head_of_KhaZix
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Head_of_KhaZix
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix
-  nameWithType: ItemID.Head_of_KhaZix
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_1
-  name: Head_of_KhaZix_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Head_of_KhaZix_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_1
-  nameWithType: ItemID.Head_of_KhaZix_1
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_2
-  name: Head_of_KhaZix_2
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Head_of_KhaZix_2
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_2
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_2
-  nameWithType: ItemID.Head_of_KhaZix_2
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_3
-  name: Head_of_KhaZix_3
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Head_of_KhaZix_3
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_3
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_3
-  nameWithType: ItemID.Head_of_KhaZix_3
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_4
-  name: Head_of_KhaZix_4
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Head_of_KhaZix_4
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_4
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Head_of_KhaZix_4
-  nameWithType: ItemID.Head_of_KhaZix_4
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Gusto
+  name: Gusto
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Gusto
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Gusto
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Gusto
+  nameWithType: ItemID.Gusto
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Hailblade
+  name: Hailblade
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hailblade
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hailblade
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hailblade
+  nameWithType: ItemID.Hailblade
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Harrowing_Crescent
+  name: Harrowing_Crescent
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Harrowing_Crescent
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Harrowing_Crescent
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Harrowing_Crescent
+  nameWithType: ItemID.Harrowing_Crescent
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Health_Potion
   name: Health_Potion
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Health_Potion
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Health_Potion
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Health_Potion
   nameWithType: ItemID.Health_Potion
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Heart_of_Targon
-  name: Heart_of_Targon
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Heart_of_Targon
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Heart_of_Targon
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Heart_of_Targon
-  nameWithType: ItemID.Heart_of_Targon
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_1
-  name: Hex_Core_mk_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hex_Core_mk_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_1
-  nameWithType: ItemID.Hex_Core_mk_1
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_2
-  name: Hex_Core_mk_2
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hex_Core_mk_2
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_2
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hex_Core_mk_2
-  nameWithType: ItemID.Hex_Core_mk_2
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Hearthbound_Axe
+  name: Hearthbound_Axe
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hearthbound_Axe
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hearthbound_Axe
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hearthbound_Axe
+  nameWithType: ItemID.Hearthbound_Axe
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Hexdrinker
   name: Hexdrinker
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hexdrinker
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hexdrinker
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Hexdrinker
   nameWithType: ItemID.Hexdrinker
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_GLP_800
-  name: Hextech_GLP_800
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_GLP_800
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_GLP_800
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_GLP_800
-  nameWithType: ItemID.Hextech_GLP_800
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Gunblade
-  name: Hextech_Gunblade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_Gunblade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_Gunblade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Gunblade
-  nameWithType: ItemID.Hextech_Gunblade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Protobelt_RocketBelt
-  name: Hextech_Protobelt_RocketBelt
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_Protobelt_RocketBelt
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_Protobelt_RocketBelt
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Protobelt_RocketBelt
-  nameWithType: ItemID.Hextech_Protobelt_RocketBelt
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Revolver
-  name: Hextech_Revolver
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_Revolver
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_Revolver
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Revolver
-  nameWithType: ItemID.Hextech_Revolver
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hunters_Machete
-  name: Hunters_Machete
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hunters_Machete
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hunters_Machete
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hunters_Machete
-  nameWithType: ItemID.Hunters_Machete
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Hunters_Talisman
-  name: Hunters_Talisman
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hunters_Talisman
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hunters_Talisman
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hunters_Talisman
-  nameWithType: ItemID.Hunters_Talisman
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Iceborn_Gauntlet
-  name: Iceborn_Gauntlet
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Iceborn_Gauntlet
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Iceborn_Gauntlet
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Iceborn_Gauntlet
-  nameWithType: ItemID.Iceborn_Gauntlet
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Alternator
+  name: Hextech_Alternator
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_Alternator
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_Alternator
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Alternator
+  nameWithType: ItemID.Hextech_Alternator
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Rocketbelt
+  name: Hextech_Rocketbelt
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hextech_Rocketbelt
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hextech_Rocketbelt
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hextech_Rocketbelt
+  nameWithType: ItemID.Hextech_Rocketbelt
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Horizon_Focus
+  name: Horizon_Focus
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Horizon_Focus
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Horizon_Focus
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Horizon_Focus
+  nameWithType: ItemID.Horizon_Focus
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Hullbreaker
+  name: Hullbreaker
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Hullbreaker
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Hullbreaker
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Hullbreaker
+  nameWithType: ItemID.Hullbreaker
+- uid: Oasys.Common.Enums.GameEnums.ItemID.IcathiasCurse
+  name: IcathiasCurse
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_IcathiasCurse
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.IcathiasCurse
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.IcathiasCurse
+  nameWithType: ItemID.IcathiasCurse
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Immortal_Shieldbow
   name: Immortal_Shieldbow
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Immortal_Shieldbow
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Immortal_Shieldbow
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Immortal_Shieldbow
   nameWithType: ItemID.Immortal_Shieldbow
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Infernal_Mask
-  name: Infernal_Mask
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Infernal_Mask
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Infernal_Mask
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Infernal_Mask
-  nameWithType: ItemID.Infernal_Mask
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Imperial_Mandate
+  name: Imperial_Mandate
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Imperial_Mandate
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Imperial_Mandate
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Imperial_Mandate
+  nameWithType: ItemID.Imperial_Mandate
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Infinity_Edge
   name: Infinity_Edge
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Infinity_Edge
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Infinity_Edge
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Infinity_Edge
   nameWithType: ItemID.Infinity_Edge
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Innervating_Locket
-  name: Innervating_Locket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Innervating_Locket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Innervating_Locket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Innervating_Locket
-  nameWithType: ItemID.Innervating_Locket
+- uid: Oasys.Common.Enums.GameEnums.ItemID.InfinityForce
+  name: InfinityForce
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_InfinityForce
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.InfinityForce
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.InfinityForce
+  nameWithType: ItemID.InfinityForce
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Ionian_Boots_of_Lucidity
   name: Ionian_Boots_of_Lucidity
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ionian_Boots_of_Lucidity
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ionian_Boots_of_Lucidity
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Ionian_Boots_of_Lucidity
   nameWithType: ItemID.Ionian_Boots_of_Lucidity
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Jaurims_Fist
-  name: Jaurims_Fist
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Jaurims_Fist
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Jaurims_Fist
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Jaurims_Fist
-  nameWithType: ItemID.Jaurims_Fist
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Ironspike_Whip
+  name: Ironspike_Whip
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ironspike_Whip
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ironspike_Whip
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ironspike_Whip
+  nameWithType: ItemID.Ironspike_Whip
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear
+  name: Kalistas_Black_Spear
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Kalistas_Black_Spear
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear
+  nameWithType: ItemID.Kalistas_Black_Spear
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear2
+  name: Kalistas_Black_Spear2
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Kalistas_Black_Spear2
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear2
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Kalistas_Black_Spear2
+  nameWithType: ItemID.Kalistas_Black_Spear2
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Kindlegem
   name: Kindlegem
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Kindlegem
@@ -1581,30 +1515,36 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Last_Whisper
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Last_Whisper
   nameWithType: ItemID.Last_Whisper
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Torment
-  name: Liandrys_Torment
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Liandrys_Torment
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Torment
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Torment
-  nameWithType: ItemID.Liandrys_Torment
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Leeching_Leer
+  name: Leeching_Leer
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Leeching_Leer
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Leeching_Leer
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Leeching_Leer
+  nameWithType: ItemID.Leeching_Leer
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Anguish
+  name: Liandrys_Anguish
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Liandrys_Anguish
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Anguish
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Liandrys_Anguish
+  nameWithType: ItemID.Liandrys_Anguish
+- uid: Oasys.Common.Enums.GameEnums.ItemID.LiandrysLament
+  name: LiandrysLament
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_LiandrysLament
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.LiandrysLament
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.LiandrysLament
+  nameWithType: ItemID.LiandrysLament
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Lich_Bane
   name: Lich_Bane
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lich_Bane
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lich_Bane
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Lich_Bane
   nameWithType: ItemID.Lich_Bane
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Lifeline
-  name: Lifeline
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lifeline
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lifeline
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Lifeline
-  nameWithType: ItemID.Lifeline
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Lightbringer
-  name: Lightbringer
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lightbringer
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lightbringer
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Lightbringer
-  nameWithType: ItemID.Lightbringer
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Lightning_Rod
+  name: Lightning_Rod
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lightning_Rod
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lightning_Rod
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Lightning_Rod
+  nameWithType: ItemID.Lightning_Rod
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Locket_of_the_Iron_Solari
   name: Locket_of_the_Iron_Solari
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Locket_of_the_Iron_Solari
@@ -1617,66 +1557,30 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Long_Sword
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Long_Sword
   nameWithType: ItemID.Long_Sword
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Looted_Biscuit_of_Rejuvenation
-  name: Looted_Biscuit_of_Rejuvenation
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Looted_Biscuit_of_Rejuvenation
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Looted_Biscuit_of_Rejuvenation
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Looted_Biscuit_of_Rejuvenation
-  nameWithType: ItemID.Looted_Biscuit_of_Rejuvenation
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Looted_Oracles_Extract
-  name: Looted_Oracles_Extract
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Looted_Oracles_Extract
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Looted_Oracles_Extract
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Looted_Oracles_Extract
-  nameWithType: ItemID.Looted_Oracles_Extract
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Lord_Dominiks_Regards
   name: Lord_Dominiks_Regards
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lord_Dominiks_Regards
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lord_Dominiks_Regards
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Lord_Dominiks_Regards
   nameWithType: ItemID.Lord_Dominiks_Regards
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Lord_Van_Damms_Pillager
-  name: Lord_Van_Damms_Pillager
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lord_Van_Damms_Pillager
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lord_Van_Damms_Pillager
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Lord_Van_Damms_Pillager
-  nameWithType: ItemID.Lord_Van_Damms_Pillager
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Lost_Chapter
   name: Lost_Chapter
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Lost_Chapter
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Lost_Chapter
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Lost_Chapter
   nameWithType: ItemID.Lost_Chapter
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Echo
-  name: Ludens_Echo
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ludens_Echo
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ludens_Echo
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Echo
-  nameWithType: ItemID.Ludens_Echo
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Pulse
-  name: Ludens_Pulse
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ludens_Pulse
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ludens_Pulse
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Pulse
-  nameWithType: ItemID.Ludens_Pulse
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Mana_Potion
-  name: Mana_Potion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Mana_Potion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Mana_Potion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Mana_Potion
-  nameWithType: ItemID.Mana_Potion
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Tempest
+  name: Ludens_Tempest
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ludens_Tempest
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ludens_Tempest
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ludens_Tempest
+  nameWithType: ItemID.Ludens_Tempest
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Manamune
   name: Manamune
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Manamune
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Manamune
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Manamune
   nameWithType: ItemID.Manamune
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Manamune_Quick_Charge
-  name: Manamune_Quick_Charge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Manamune_Quick_Charge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Manamune_Quick_Charge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Manamune_Quick_Charge
-  nameWithType: ItemID.Manamune_Quick_Charge
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Maw_of_Malmortius
   name: Maw_of_Malmortius
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Maw_of_Malmortius
@@ -1701,36 +1605,30 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Mercurys_Treads
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Mercurys_Treads
   nameWithType: ItemID.Mercurys_Treads
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Might_of_the_Ruined_King
-  name: Might_of_the_Ruined_King
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Might_of_the_Ruined_King
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Might_of_the_Ruined_King
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Might_of_the_Ruined_King
-  nameWithType: ItemID.Might_of_the_Ruined_King
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Crucible
-  name: Mikaels_Crucible
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Mikaels_Crucible
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Crucible
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Crucible
-  nameWithType: ItemID.Mikaels_Crucible
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Blessing
+  name: Mikaels_Blessing
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Mikaels_Blessing
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Blessing
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Mikaels_Blessing
+  nameWithType: ItemID.Mikaels_Blessing
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Minion_Dematerializer
   name: Minion_Dematerializer
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Minion_Dematerializer
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Minion_Dematerializer
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Minion_Dematerializer
   nameWithType: ItemID.Minion_Dematerializer
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Molten_Edge
-  name: Molten_Edge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Molten_Edge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Molten_Edge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Molten_Edge
-  nameWithType: ItemID.Molten_Edge
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Moonflair_Spellblade
-  name: Moonflair_Spellblade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Moonflair_Spellblade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Moonflair_Spellblade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Moonflair_Spellblade
-  nameWithType: ItemID.Moonflair_Spellblade
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Mobility_Boots
+  name: Mobility_Boots
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Mobility_Boots
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Mobility_Boots
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Mobility_Boots
+  nameWithType: ItemID.Mobility_Boots
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Moonstone_Renewer
+  name: Moonstone_Renewer
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Moonstone_Renewer
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Moonstone_Renewer
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Moonstone_Renewer
+  nameWithType: ItemID.Moonstone_Renewer
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Morellonomicon
   name: Morellonomicon
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Morellonomicon
@@ -1749,12 +1647,6 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Muramana
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Muramana
   nameWithType: ItemID.Muramana
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Muramana_1
-  name: Muramana_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Muramana_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Muramana_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Muramana_1
-  nameWithType: ItemID.Muramana_1
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Nashors_Tooth
   name: Nashors_Tooth
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Nashors_Tooth
@@ -1779,24 +1671,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Negatron_Cloak
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Negatron_Cloak
   nameWithType: ItemID.Negatron_Cloak
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Nexus_Siege_Siege_Weapon_Slot
-  name: Nexus_Siege_Siege_Weapon_Slot
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Nexus_Siege_Siege_Weapon_Slot
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Nexus_Siege_Siege_Weapon_Slot
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Nexus_Siege_Siege_Weapon_Slot
-  nameWithType: ItemID.Nexus_Siege_Siege_Weapon_Slot
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ninja_Tabi
-  name: Ninja_Tabi
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ninja_Tabi
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ninja_Tabi
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ninja_Tabi
-  nameWithType: ItemID.Ninja_Tabi
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Nomads_Medallion
-  name: Nomads_Medallion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Nomads_Medallion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Nomads_Medallion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Nomads_Medallion
-  nameWithType: ItemID.Nomads_Medallion
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Night_Harvester
+  name: Night_Harvester
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Night_Harvester
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Night_Harvester
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Night_Harvester
+  nameWithType: ItemID.Night_Harvester
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Noonquiver
   name: Noonquiver
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Noonquiver
@@ -1815,48 +1695,42 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Oblivion_Orb
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Oblivion_Orb
   nameWithType: ItemID.Oblivion_Orb
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Cleaver
-  name: Obsidian_Cleaver
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Obsidian_Cleaver
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Cleaver
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Cleaver
-  nameWithType: ItemID.Obsidian_Cleaver
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Ohmwrecker
-  name: Ohmwrecker
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ohmwrecker
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ohmwrecker
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Ohmwrecker
-  nameWithType: ItemID.Ohmwrecker
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Edge
+  name: Obsidian_Edge
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Obsidian_Edge
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Edge
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Obsidian_Edge
+  nameWithType: ItemID.Obsidian_Edge
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Oracle_Lens
   name: Oracle_Lens
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Oracle_Lens
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Oracle_Lens
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Oracle_Lens
   nameWithType: ItemID.Oracle_Lens
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Oracles_Extract
-  name: Oracles_Extract
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Oracles_Extract
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Oracles_Extract
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Oracles_Extract
-  nameWithType: ItemID.Oracles_Extract
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Overlords_Bloodmail
-  name: Overlords_Bloodmail
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Overlords_Bloodmail
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Overlords_Bloodmail
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Overlords_Bloodmail
-  nameWithType: ItemID.Overlords_Bloodmail
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Peering_Farsight_Ward
-  name: Peering_Farsight_Ward
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Peering_Farsight_Ward
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Peering_Farsight_Ward
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Peering_Farsight_Ward
-  nameWithType: ItemID.Peering_Farsight_Ward
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Perfect_Hex_Core
-  name: Perfect_Hex_Core
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Perfect_Hex_Core
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Perfect_Hex_Core
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Perfect_Hex_Core
-  nameWithType: ItemID.Perfect_Hex_Core
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Overcharged
+  name: Overcharged
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Overcharged
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Overcharged
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Overcharged
+  nameWithType: ItemID.Overcharged
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Pauldrons_of_Whiterock
+  name: Pauldrons_of_Whiterock
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pauldrons_of_Whiterock
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pauldrons_of_Whiterock
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pauldrons_of_Whiterock
+  nameWithType: ItemID.Pauldrons_of_Whiterock
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Penetrating_Bullets
+  name: Penetrating_Bullets
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Penetrating_Bullets
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Penetrating_Bullets
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Penetrating_Bullets
+  nameWithType: ItemID.Penetrating_Bullets
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Perfectly_Timed_Stopwatch
+  name: Perfectly_Timed_Stopwatch
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Perfectly_Timed_Stopwatch
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Perfectly_Timed_Stopwatch
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Perfectly_Timed_Stopwatch
+  nameWithType: ItemID.Perfectly_Timed_Stopwatch
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Phage
   name: Phage
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Phage
@@ -1869,84 +1743,36 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Phantom_Dancer
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Phantom_Dancer
   nameWithType: ItemID.Phantom_Dancer
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Philosophers_Medallion
-  name: Philosophers_Medallion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Philosophers_Medallion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Philosophers_Medallion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Philosophers_Medallion
-  nameWithType: ItemID.Philosophers_Medallion
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Phreakish_Gusto
+  name: Phreakish_Gusto
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Phreakish_Gusto
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Phreakish_Gusto
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Phreakish_Gusto
+  nameWithType: ItemID.Phreakish_Gusto
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Pickaxe
   name: Pickaxe
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pickaxe
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pickaxe
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Pickaxe
   nameWithType: ItemID.Pickaxe
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Health_Potion
-  name: Pilfered_Health_Potion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pilfered_Health_Potion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Health_Potion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Health_Potion
-  nameWithType: ItemID.Pilfered_Health_Potion
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Potion_of_Rouge
-  name: Pilfered_Potion_of_Rouge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pilfered_Potion_of_Rouge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Potion_of_Rouge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Potion_of_Rouge
-  nameWithType: ItemID.Pilfered_Potion_of_Rouge
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Stealth_Ward
-  name: Pilfered_Stealth_Ward
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pilfered_Stealth_Ward
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Stealth_Ward
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pilfered_Stealth_Ward
-  nameWithType: ItemID.Pilfered_Stealth_Ward
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Plated_Steelcaps
+  name: Plated_Steelcaps
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Plated_Steelcaps
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Plated_Steelcaps
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Plated_Steelcaps
+  nameWithType: ItemID.Plated_Steelcaps
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Poro_Snax
   name: Poro_Snax
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Poro_Snax
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Poro_Snax
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Poro_Snax
   nameWithType: ItemID.Poro_Snax
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Port_Pad
-  name: Port_Pad
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Port_Pad
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Port_Pad
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Port_Pad
-  nameWithType: ItemID.Port_Pad
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade
-  name: Pridestalkers_Blade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pridestalkers_Blade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade
-  nameWithType: ItemID.Pridestalkers_Blade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Bloodrazor
-  name: Pridestalkers_Blade_Enchantment_Bloodrazor
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pridestalkers_Blade_Enchantment_Bloodrazor
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Bloodrazor
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Bloodrazor
-  nameWithType: ItemID.Pridestalkers_Blade_Enchantment_Bloodrazor
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Cinderhulk
-  name: Pridestalkers_Blade_Enchantment_Cinderhulk
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pridestalkers_Blade_Enchantment_Cinderhulk
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Cinderhulk
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Cinderhulk
-  nameWithType: ItemID.Pridestalkers_Blade_Enchantment_Cinderhulk
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Runic_Echoes
-  name: Pridestalkers_Blade_Enchantment_Runic_Echoes
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pridestalkers_Blade_Enchantment_Runic_Echoes
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Runic_Echoes
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Runic_Echoes
-  nameWithType: ItemID.Pridestalkers_Blade_Enchantment_Runic_Echoes
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Warrior
-  name: Pridestalkers_Blade_Enchantment_Warrior
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Pridestalkers_Blade_Enchantment_Warrior
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Warrior
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Pridestalkers_Blade_Enchantment_Warrior
-  nameWithType: ItemID.Pridestalkers_Blade_Enchantment_Warrior
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Prototype_Hex_Core
-  name: Prototype_Hex_Core
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Prototype_Hex_Core
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Prototype_Hex_Core
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Prototype_Hex_Core
-  nameWithType: ItemID.Prototype_Hex_Core
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Prowlers_Claw
+  name: Prowlers_Claw
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Prowlers_Claw
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Prowlers_Claw
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Prowlers_Claw
+  nameWithType: ItemID.Prowlers_Claw
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Quicksilver_Sash
   name: Quicksilver_Sash
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Quicksilver_Sash
@@ -1959,30 +1785,18 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rabadons_Deathcap
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Rabadons_Deathcap
   nameWithType: ItemID.Rabadons_Deathcap
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Rabadons_Deathcrown
-  name: Rabadons_Deathcrown
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rabadons_Deathcrown
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rabadons_Deathcrown
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Rabadons_Deathcrown
-  nameWithType: ItemID.Rabadons_Deathcrown
-- uid: Oasys.Common.Enums.GameEnums.ItemID.RageKnife
-  name: RageKnife
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_RageKnife
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.RageKnife
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.RageKnife
-  nameWithType: ItemID.RageKnife
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Rainbow_Snax_Party_Pack
-  name: Rainbow_Snax_Party_Pack
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rainbow_Snax_Party_Pack
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rainbow_Snax_Party_Pack
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Rainbow_Snax_Party_Pack
-  nameWithType: ItemID.Rainbow_Snax_Party_Pack
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale
-  name: Raise_Morale
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Raise_Morale
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale
-  nameWithType: ItemID.Raise_Morale
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Rageknife
+  name: Rageknife
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rageknife
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rageknife
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Rageknife
+  nameWithType: ItemID.Rageknife
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale_Silver_Serpents
+  name: Raise_Morale_Silver_Serpents
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Raise_Morale_Silver_Serpents
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale_Silver_Serpents
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Raise_Morale_Silver_Serpents
+  nameWithType: ItemID.Raise_Morale_Silver_Serpents
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Randuins_Omen
   name: Randuins_Omen
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Randuins_Omen
@@ -1995,18 +1809,18 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rapid_Firecannon
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Rapid_Firecannon
   nameWithType: ItemID.Rapid_Firecannon
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Raptor_Cloak
-  name: Raptor_Cloak
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Raptor_Cloak
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Raptor_Cloak
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Raptor_Cloak
-  nameWithType: ItemID.Raptor_Cloak
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Ravenous_Hydra
   name: Ravenous_Hydra
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ravenous_Hydra
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Ravenous_Hydra
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Ravenous_Hydra
   nameWithType: ItemID.Ravenous_Hydra
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Recall
+  name: Recall
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Recall
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Recall
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Recall
+  nameWithType: ItemID.Recall
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Recurve_Bow
   name: Recurve_Bow
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Recurve_Bow
@@ -2025,6 +1839,18 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Refillable_Potion
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Refillable_Potion
   nameWithType: ItemID.Refillable_Potion
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor
+  name: Reinforced_Armor
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Reinforced_Armor
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor
+  nameWithType: ItemID.Reinforced_Armor
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor2
+  name: Reinforced_Armor2
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Reinforced_Armor2
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor2
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Reinforced_Armor2
+  nameWithType: ItemID.Reinforced_Armor2
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Rejuvenation_Bead
   name: Rejuvenation_Bead
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rejuvenation_Bead
@@ -2037,42 +1863,24 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Relic_Shield
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Relic_Shield
   nameWithType: ItemID.Relic_Shield
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Ascended
-  name: Remnant_of_the_Ascended
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Remnant_of_the_Ascended
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Ascended
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Ascended
-  nameWithType: ItemID.Remnant_of_the_Ascended
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Aspect
-  name: Remnant_of_the_Aspect
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Remnant_of_the_Aspect
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Aspect
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Aspect
-  nameWithType: ItemID.Remnant_of_the_Aspect
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Watchers
-  name: Remnant_of_the_Watchers
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Remnant_of_the_Watchers
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Watchers
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Remnant_of_the_Watchers
-  nameWithType: ItemID.Remnant_of_the_Watchers
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Righteous_Glory
-  name: Righteous_Glory
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Righteous_Glory
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Righteous_Glory
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Righteous_Glory
-  nameWithType: ItemID.Righteous_Glory
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages
-  name: Rod_of_Ages
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rod_of_Ages
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages
-  nameWithType: ItemID.Rod_of_Ages
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages_Quick_Charge
-  name: Rod_of_Ages_Quick_Charge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rod_of_Ages_Quick_Charge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages_Quick_Charge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Rod_of_Ages_Quick_Charge
-  nameWithType: ItemID.Rod_of_Ages_Quick_Charge
+- uid: Oasys.Common.Enums.GameEnums.ItemID.ReliquaryoftheGoldenDawn
+  name: ReliquaryoftheGoldenDawn
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_ReliquaryoftheGoldenDawn
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.ReliquaryoftheGoldenDawn
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.ReliquaryoftheGoldenDawn
+  nameWithType: ItemID.ReliquaryoftheGoldenDawn
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Riftmaker
+  name: Riftmaker
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Riftmaker
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Riftmaker
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Riftmaker
+  nameWithType: ItemID.Riftmaker
+- uid: Oasys.Common.Enums.GameEnums.ItemID.RimeforgedGrasp
+  name: RimeforgedGrasp
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_RimeforgedGrasp
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.RimeforgedGrasp
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.RimeforgedGrasp
+  nameWithType: ItemID.RimeforgedGrasp
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Ruby_Crystal
   name: Ruby_Crystal
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Ruby_Crystal
@@ -2085,270 +1893,132 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Runaans_Hurricane
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Runaans_Hurricane
   nameWithType: ItemID.Runaans_Hurricane
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Runesteel_Spaulders
+  name: Runesteel_Spaulders
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Runesteel_Spaulders
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Runesteel_Spaulders
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Runesteel_Spaulders
+  nameWithType: ItemID.Runesteel_Spaulders
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Rylais_Crystal_Scepter
   name: Rylais_Crystal_Scepter
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Rylais_Crystal_Scepter
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Rylais_Crystal_Scepter
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Rylais_Crystal_Scepter
   nameWithType: ItemID.Rylais_Crystal_Scepter
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Salvation
-  name: Salvation
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Salvation
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Salvation
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Salvation
-  nameWithType: ItemID.Salvation
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Sanguine_Blade
-  name: Sanguine_Blade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sanguine_Blade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sanguine_Blade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Sanguine_Blade
-  nameWithType: ItemID.Sanguine_Blade
+- uid: Oasys.Common.Enums.GameEnums.ItemID.SandshrikesClaw
+  name: SandshrikesClaw
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_SandshrikesClaw
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.SandshrikesClaw
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.SandshrikesClaw
+  nameWithType: ItemID.SandshrikesClaw
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Sapphire_Crystal
   name: Sapphire_Crystal
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sapphire_Crystal
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sapphire_Crystal
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Sapphire_Crystal
   nameWithType: ItemID.Sapphire_Crystal
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Scarecrow_Effigy
+  name: Scarecrow_Effigy
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Scarecrow_Effigy
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Scarecrow_Effigy
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Scarecrow_Effigy
+  nameWithType: ItemID.Scarecrow_Effigy
+- uid: Oasys.Common.Enums.GameEnums.ItemID.SeatofCommand
+  name: SeatofCommand
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_SeatofCommand
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.SeatofCommand
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.SeatofCommand
+  nameWithType: ItemID.SeatofCommand
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Seekers_Armguard
   name: Seekers_Armguard
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seekers_Armguard
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seekers_Armguard
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Seekers_Armguard
   nameWithType: ItemID.Seekers_Armguard
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket
-  name: Seer_Stone_Trinket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seer_Stone_Trinket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket
-  nameWithType: ItemID.Seer_Stone_Trinket
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket_1
-  name: Seer_Stone_Trinket_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seer_Stone_Trinket_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Seer_Stone_Trinket_1
-  nameWithType: ItemID.Seer_Stone_Trinket_1
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace
   name: Seraphs_Embrace
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seraphs_Embrace
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace
   nameWithType: ItemID.Seraphs_Embrace
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace_1
-  name: Seraphs_Embrace_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seraphs_Embrace_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Seraphs_Embrace_1
-  nameWithType: ItemID.Seraphs_Embrace_1
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Serpents_Fang
+  name: Serpents_Fang
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Serpents_Fang
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Serpents_Fang
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Serpents_Fang
+  nameWithType: ItemID.Serpents_Fang
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Serrated_Dirk
   name: Serrated_Dirk
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Serrated_Dirk
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Serrated_Dirk
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Serrated_Dirk
   nameWithType: ItemID.Serrated_Dirk
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Seryldas_Grudge
+  name: Seryldas_Grudge
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Seryldas_Grudge
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Seryldas_Grudge
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Seryldas_Grudge
+  nameWithType: ItemID.Seryldas_Grudge
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Shadowflame
+  name: Shadowflame
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Shadowflame
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Shadowflame
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Shadowflame
+  nameWithType: ItemID.Shadowflame
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Shard_of_True_Ice
+  name: Shard_of_True_Ice
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Shard_of_True_Ice
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Shard_of_True_Ice
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Shard_of_True_Ice
+  nameWithType: ItemID.Shard_of_True_Ice
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Sheen
   name: Sheen
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sheen
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sheen
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Sheen
   nameWithType: ItemID.Sheen
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Shield_Totem
-  name: Shield_Totem
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Shield_Totem
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Shield_Totem
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Shield_Totem
-  nameWithType: ItemID.Shield_Totem
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Reverie
-  name: Shurelyas_Reverie
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Shurelyas_Reverie
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Reverie
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Reverie
-  nameWithType: ItemID.Shurelyas_Reverie
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Ballista
-  name: Siege_Ballista
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Ballista
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Ballista
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Ballista
-  nameWithType: ItemID.Siege_Ballista
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Refund
-  name: Siege_Refund
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Refund
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Refund
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Refund
-  nameWithType: ItemID.Siege_Refund
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Sight_Warder
-  name: Siege_Sight_Warder
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Sight_Warder
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Sight_Warder
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Sight_Warder
-  nameWithType: ItemID.Siege_Sight_Warder
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport
-  name: Siege_Teleport
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Teleport
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport
-  nameWithType: ItemID.Siege_Teleport
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_1
-  name: Siege_Teleport_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Teleport_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_1
-  nameWithType: ItemID.Siege_Teleport_1
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_Inactive
-  name: Siege_Teleport_Inactive
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Siege_Teleport_Inactive
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_Inactive
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Siege_Teleport_Inactive
-  nameWithType: ItemID.Siege_Teleport_Inactive
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Singularity_Lantern
-  name: Singularity_Lantern
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Singularity_Lantern
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Singularity_Lantern
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Singularity_Lantern
-  nameWithType: ItemID.Singularity_Lantern
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre
-  name: Skirmishers_Sabre
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Skirmishers_Sabre
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre
-  nameWithType: ItemID.Skirmishers_Sabre
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Bloodrazor
-  name: Skirmishers_Sabre_Enchantment_Bloodrazor
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Skirmishers_Sabre_Enchantment_Bloodrazor
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Bloodrazor
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Bloodrazor
-  nameWithType: ItemID.Skirmishers_Sabre_Enchantment_Bloodrazor
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Cinderhulk
-  name: Skirmishers_Sabre_Enchantment_Cinderhulk
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Skirmishers_Sabre_Enchantment_Cinderhulk
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Cinderhulk
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Cinderhulk
-  nameWithType: ItemID.Skirmishers_Sabre_Enchantment_Cinderhulk
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Runic_Echoes
-  name: Skirmishers_Sabre_Enchantment_Runic_Echoes
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Skirmishers_Sabre_Enchantment_Runic_Echoes
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Runic_Echoes
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Runic_Echoes
-  nameWithType: ItemID.Skirmishers_Sabre_Enchantment_Runic_Echoes
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Warrior
-  name: Skirmishers_Sabre_Enchantment_Warrior
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Skirmishers_Sabre_Enchantment_Warrior
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Warrior
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Skirmishers_Sabre_Enchantment_Warrior
-  nameWithType: ItemID.Skirmishers_Sabre_Enchantment_Warrior
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Boots
-  name: Slightly_Magical_Boots
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Slightly_Magical_Boots
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Boots
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Boots
-  nameWithType: ItemID.Slightly_Magical_Boots
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Sly_Sack_of_Gold
-  name: Sly_Sack_of_Gold
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sly_Sack_of_Gold
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sly_Sack_of_Gold
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Sly_Sack_of_Gold
-  nameWithType: ItemID.Sly_Sack_of_Gold
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Battlesong
+  name: Shurelyas_Battlesong
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Shurelyas_Battlesong
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Battlesong
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Shurelyas_Battlesong
+  nameWithType: ItemID.Shurelyas_Battlesong
+- uid: Oasys.Common.Enums.GameEnums.ItemID.ShurelyasRequiem
+  name: ShurelyasRequiem
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_ShurelyasRequiem
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.ShurelyasRequiem
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.ShurelyasRequiem
+  nameWithType: ItemID.ShurelyasRequiem
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Silvermere_Dawn
+  name: Silvermere_Dawn
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Silvermere_Dawn
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Silvermere_Dawn
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Silvermere_Dawn
+  nameWithType: ItemID.Silvermere_Dawn
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Footwear
+  name: Slightly_Magical_Footwear
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Slightly_Magical_Footwear
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Footwear
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Slightly_Magical_Footwear
+  nameWithType: ItemID.Slightly_Magical_Footwear
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Sorcerers_Shoes
   name: Sorcerers_Shoes
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sorcerers_Shoes
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sorcerers_Shoes
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Sorcerers_Shoes
   nameWithType: ItemID.Sorcerers_Shoes
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Soul_Anchor_Trinket
-  name: Soul_Anchor_Trinket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Soul_Anchor_Trinket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Soul_Anchor_Trinket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Soul_Anchor_Trinket
-  nameWithType: ItemID.Soul_Anchor_Trinket
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Bilgewater_Cutlass
-  name: Space_Bilgewater_Cutlass
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Bilgewater_Cutlass
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Bilgewater_Cutlass
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Bilgewater_Cutlass
-  nameWithType: ItemID.Space_Bilgewater_Cutlass
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Blade_of_the_Ruined_King
-  name: Space_Blade_of_the_Ruined_King
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Blade_of_the_Ruined_King
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Blade_of_the_Ruined_King
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Blade_of_the_Ruined_King
-  nameWithType: ItemID.Space_Blade_of_the_Ruined_King
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Bloodthirster
-  name: Space_Bloodthirster
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Bloodthirster
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Bloodthirster
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Bloodthirster
-  nameWithType: ItemID.Space_Bloodthirster
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Boots_of_Lucidity
-  name: Space_Boots_of_Lucidity
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Boots_of_Lucidity
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Boots_of_Lucidity
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Boots_of_Lucidity
-  nameWithType: ItemID.Space_Boots_of_Lucidity
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Deaths_Dance
-  name: Space_Deaths_Dance
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Deaths_Dance
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Deaths_Dance
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Deaths_Dance
-  nameWithType: ItemID.Space_Deaths_Dance
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Hextech_Gunblade
-  name: Space_Hextech_Gunblade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Hextech_Gunblade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Hextech_Gunblade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Hextech_Gunblade
-  nameWithType: ItemID.Space_Hextech_Gunblade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Knights_Vow
-  name: Space_Knights_Vow
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Knights_Vow
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Knights_Vow
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Knights_Vow
-  nameWithType: ItemID.Space_Knights_Vow
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Maw_of_Malmortius
-  name: Space_Maw_of_Malmortius
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Maw_of_Malmortius
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Maw_of_Malmortius
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Maw_of_Malmortius
-  nameWithType: ItemID.Space_Maw_of_Malmortius
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Mercurial_Scimitar
-  name: Space_Mercurial_Scimitar
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Mercurial_Scimitar
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Mercurial_Scimitar
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Mercurial_Scimitar
-  nameWithType: ItemID.Space_Mercurial_Scimitar
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Ravenous_Hydra
-  name: Space_Ravenous_Hydra
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Ravenous_Hydra
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Ravenous_Hydra
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Ravenous_Hydra
-  nameWithType: ItemID.Space_Ravenous_Hydra
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Space_Vampiric_Scepter
-  name: Space_Vampiric_Scepter
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Space_Vampiric_Scepter
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Space_Vampiric_Scepter
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Space_Vampiric_Scepter
-  nameWithType: ItemID.Space_Vampiric_Scepter
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Spear_of_Shojin
-  name: Spear_of_Shojin
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spear_of_Shojin
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spear_of_Shojin
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Spear_of_Shojin
-  nameWithType: ItemID.Spear_of_Shojin
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Spectral_Cutlass
-  name: Spectral_Cutlass
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spectral_Cutlass
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spectral_Cutlass
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Spectral_Cutlass
-  nameWithType: ItemID.Spectral_Cutlass
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Spectral_Sickle
+  name: Spectral_Sickle
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spectral_Sickle
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spectral_Sickle
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Spectral_Sickle
+  nameWithType: ItemID.Spectral_Sickle
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Spectres_Cowl
   name: Spectres_Cowl
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spectres_Cowl
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spectres_Cowl
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Spectres_Cowl
   nameWithType: ItemID.Spectres_Cowl
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Spellbinder
-  name: Spellbinder
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spellbinder
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spellbinder
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Spellbinder
-  nameWithType: ItemID.Spellbinder
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Spellthiefs_Edge
   name: Spellthiefs_Edge
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Spellthiefs_Edge
@@ -2361,120 +2031,132 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Spirit_Visage
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Spirit_Visage
   nameWithType: ItemID.Spirit_Visage
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade
-  name: Stalkers_Blade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stalkers_Blade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade
-  nameWithType: ItemID.Stalkers_Blade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Bloodrazor
-  name: Stalkers_Blade_Enchantment_Bloodrazor
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stalkers_Blade_Enchantment_Bloodrazor
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Bloodrazor
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Bloodrazor
-  nameWithType: ItemID.Stalkers_Blade_Enchantment_Bloodrazor
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Cinderhulk
-  name: Stalkers_Blade_Enchantment_Cinderhulk
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stalkers_Blade_Enchantment_Cinderhulk
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Cinderhulk
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Cinderhulk
-  nameWithType: ItemID.Stalkers_Blade_Enchantment_Cinderhulk
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Runic_Echoes
-  name: Stalkers_Blade_Enchantment_Runic_Echoes
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stalkers_Blade_Enchantment_Runic_Echoes
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Runic_Echoes
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Runic_Echoes
-  nameWithType: ItemID.Stalkers_Blade_Enchantment_Runic_Echoes
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Warrior
-  name: Stalkers_Blade_Enchantment_Warrior
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stalkers_Blade_Enchantment_Warrior
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Warrior
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stalkers_Blade_Enchantment_Warrior
-  nameWithType: ItemID.Stalkers_Blade_Enchantment_Warrior
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stat_Stick_of_Stoicism
-  name: Stat_Stick_of_Stoicism
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stat_Stick_of_Stoicism
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stat_Stick_of_Stoicism
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stat_Stick_of_Stoicism
-  nameWithType: ItemID.Stat_Stick_of_Stoicism
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Statikk_Shiv
-  name: Statikk_Shiv
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Statikk_Shiv
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Statikk_Shiv
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Statikk_Shiv
-  nameWithType: ItemID.Statikk_Shiv
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Staff_of_Flowing_Water
+  name: Staff_of_Flowing_Water
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Staff_of_Flowing_Water
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Staff_of_Flowing_Water
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Staff_of_Flowing_Water
+  nameWithType: ItemID.Staff_of_Flowing_Water
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Starcaster
+  name: Starcaster
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Starcaster
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Starcaster
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Starcaster
+  nameWithType: ItemID.Starcaster
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Stealth_Ward
+  name: Stealth_Ward
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stealth_Ward
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stealth_Ward
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stealth_Ward
+  nameWithType: ItemID.Stealth_Ward
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Steel_Shoulderguards
+  name: Steel_Shoulderguards
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Steel_Shoulderguards
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Steel_Shoulderguards
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Steel_Shoulderguards
+  nameWithType: ItemID.Steel_Shoulderguards
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Steraks_Gage
   name: Steraks_Gage
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Steraks_Gage
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Steraks_Gage
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Steraks_Gage
   nameWithType: ItemID.Steraks_Gage
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stinger
-  name: Stinger
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stinger
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stinger
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stinger
-  nameWithType: ItemID.Stinger
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Stirring_Wardstone
+  name: Stirring_Wardstone
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stirring_Wardstone
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stirring_Wardstone
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stirring_Wardstone
+  nameWithType: ItemID.Stirring_Wardstone
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Stopwatch
   name: Stopwatch
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stopwatch
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stopwatch
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Stopwatch
   nameWithType: ItemID.Stopwatch
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Stopwatch_1
-  name: Stopwatch_1
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stopwatch_1
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stopwatch_1
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stopwatch_1
-  nameWithType: ItemID.Stopwatch_1
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Stormrazor
   name: Stormrazor
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stormrazor
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stormrazor
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Stormrazor
   nameWithType: ItemID.Stormrazor
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Cape
-  name: Sunfire_Cape
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sunfire_Cape
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Cape
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Cape
-  nameWithType: ItemID.Sunfire_Cape
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Super_Spicy_Snax
-  name: Super_Spicy_Snax
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Super_Spicy_Snax
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Super_Spicy_Snax
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Super_Spicy_Snax
-  nameWithType: ItemID.Super_Spicy_Snax
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Sword_of_the_Divine
-  name: Sword_of_the_Divine
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sword_of_the_Divine
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sword_of_the_Divine
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Sword_of_the_Divine
-  nameWithType: ItemID.Sword_of_the_Divine
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Targons_Brace
-  name: Targons_Brace
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Targons_Brace
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Targons_Brace
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Targons_Brace
-  nameWithType: ItemID.Targons_Brace
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Stridebreaker
+  name: Stridebreaker
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Stridebreaker
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Stridebreaker
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Stridebreaker
+  nameWithType: ItemID.Stridebreaker
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty
+  name: Structure_Bounty
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Structure_Bounty
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty
+  nameWithType: ItemID.Structure_Bounty
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty1
+  name: Structure_Bounty1
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Structure_Bounty1
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty1
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty1
+  nameWithType: ItemID.Structure_Bounty1
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty2
+  name: Structure_Bounty2
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Structure_Bounty2
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty2
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty2
+  nameWithType: ItemID.Structure_Bounty2
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty3
+  name: Structure_Bounty3
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Structure_Bounty3
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty3
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Structure_Bounty3
+  nameWithType: ItemID.Structure_Bounty3
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Aegis
+  name: Sunfire_Aegis
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Sunfire_Aegis
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Aegis
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Sunfire_Aegis
+  nameWithType: ItemID.Sunfire_Aegis
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Armor
+  name: Super_Mech_Armor
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Super_Mech_Armor
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Armor
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Armor
+  nameWithType: ItemID.Super_Mech_Armor
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Power_Field
+  name: Super_Mech_Power_Field
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Super_Mech_Power_Field
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Power_Field
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Super_Mech_Power_Field
+  nameWithType: ItemID.Super_Mech_Power_Field
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Syzygy
+  name: Syzygy
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Syzygy
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Syzygy
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Syzygy
+  nameWithType: ItemID.Syzygy
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Targons_Buckler
+  name: Targons_Buckler
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Targons_Buckler
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Targons_Buckler
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Targons_Buckler
+  nameWithType: ItemID.Targons_Buckler
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess
   name: Tear_of_the_Goddess
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Tear_of_the_Goddess
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess
   nameWithType: ItemID.Tear_of_the_Goddess
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess_Quick_Charge
-  name: Tear_of_the_Goddess_Quick_Charge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Tear_of_the_Goddess_Quick_Charge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess_Quick_Charge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Tear_of_the_Goddess_Quick_Charge
-  nameWithType: ItemID.Tear_of_the_Goddess_Quick_Charge
 - uid: Oasys.Common.Enums.GameEnums.ItemID.The_Collector
   name: The_Collector
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_The_Collector
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.The_Collector
   fullName: Oasys.Common.Enums.GameEnums.ItemID.The_Collector
   nameWithType: ItemID.The_Collector
+- uid: Oasys.Common.Enums.GameEnums.ItemID.The_Golden_Spatula
+  name: The_Golden_Spatula
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_The_Golden_Spatula
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.The_Golden_Spatula
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.The_Golden_Spatula
+  nameWithType: ItemID.The_Golden_Spatula
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Thornmail
   name: Thornmail
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Thornmail
@@ -2487,60 +2169,6 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Tiamat
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Tiamat
   nameWithType: ItemID.Tiamat
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Ancient_Coin
-  name: Timeworn_Ancient_Coin
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Ancient_Coin
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Ancient_Coin
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Ancient_Coin
-  nameWithType: ItemID.Timeworn_Ancient_Coin
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Face_of_the_Mountain
-  name: Timeworn_Face_of_the_Mountain
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Face_of_the_Mountain
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Face_of_the_Mountain
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Face_of_the_Mountain
-  nameWithType: ItemID.Timeworn_Face_of_the_Mountain
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frost_Queens_Claim
-  name: Timeworn_Frost_Queens_Claim
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Frost_Queens_Claim
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frost_Queens_Claim
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frost_Queens_Claim
-  nameWithType: ItemID.Timeworn_Frost_Queens_Claim
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frostfang
-  name: Timeworn_Frostfang
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Frostfang
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frostfang
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Frostfang
-  nameWithType: ItemID.Timeworn_Frostfang
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Nomads_Medallion
-  name: Timeworn_Nomads_Medallion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Nomads_Medallion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Nomads_Medallion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Nomads_Medallion
-  nameWithType: ItemID.Timeworn_Nomads_Medallion
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Relic_Shield
-  name: Timeworn_Relic_Shield
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Relic_Shield
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Relic_Shield
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Relic_Shield
-  nameWithType: ItemID.Timeworn_Relic_Shield
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Spellthiefs_Edge
-  name: Timeworn_Spellthiefs_Edge
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Spellthiefs_Edge
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Spellthiefs_Edge
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Spellthiefs_Edge
-  nameWithType: ItemID.Timeworn_Spellthiefs_Edge
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Talisman_of_Ascension
-  name: Timeworn_Talisman_of_Ascension
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Talisman_of_Ascension
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Talisman_of_Ascension
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Talisman_of_Ascension
-  nameWithType: ItemID.Timeworn_Talisman_of_Ascension
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Targons_Brace
-  name: Timeworn_Targons_Brace
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Timeworn_Targons_Brace
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Targons_Brace
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Timeworn_Targons_Brace
-  nameWithType: ItemID.Timeworn_Targons_Brace
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Titanic_Hydra
   name: Titanic_Hydra
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Titanic_Hydra
@@ -2553,138 +2181,144 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Total_Biscuit_of_Everlasting_Will
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Total_Biscuit_of_Everlasting_Will
   nameWithType: ItemID.Total_Biscuit_of_Everlasting_Will
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Total_Biscuit_of_Rejuvenation
-  name: Total_Biscuit_of_Rejuvenation
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Total_Biscuit_of_Rejuvenation
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Total_Biscuit_of_Rejuvenation
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Total_Biscuit_of_Rejuvenation
-  nameWithType: ItemID.Total_Biscuit_of_Rejuvenation
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Tower_Beam_of_Ruination
-  name: Tower_Beam_of_Ruination
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Tower_Beam_of_Ruination
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Tower_Beam_of_Ruination
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Tower_Beam_of_Ruination
-  nameWithType: ItemID.Tower_Beam_of_Ruination
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Tower_Storm_Bulwark
-  name: Tower_Storm_Bulwark
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Tower_Storm_Bulwark
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Tower_Storm_Bulwark
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Tower_Storm_Bulwark
-  nameWithType: ItemID.Tower_Storm_Bulwark
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Iron
-  name: Travel_Size_Elixir_of_Iron
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Travel_Size_Elixir_of_Iron
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Iron
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Iron
-  nameWithType: ItemID.Travel_Size_Elixir_of_Iron
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Sorcery
-  name: Travel_Size_Elixir_of_Sorcery
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Travel_Size_Elixir_of_Sorcery
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Sorcery
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Sorcery
-  nameWithType: ItemID.Travel_Size_Elixir_of_Sorcery
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Wrath
-  name: Travel_Size_Elixir_of_Wrath
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Travel_Size_Elixir_of_Wrath
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Wrath
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Travel_Size_Elixir_of_Wrath
-  nameWithType: ItemID.Travel_Size_Elixir_of_Wrath
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Trinity_Force
   name: Trinity_Force
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Trinity_Force
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Trinity_Force
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Trinity_Force
   nameWithType: ItemID.Trinity_Force
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Trinity_Fusion
-  name: Trinity_Fusion
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Trinity_Fusion
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Trinity_Fusion
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Trinity_Fusion
-  nameWithType: ItemID.Trinity_Fusion
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Twin_Shadows
-  name: Twin_Shadows
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Twin_Shadows
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Twin_Shadows
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Twin_Shadows
-  nameWithType: ItemID.Twin_Shadows
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Turbo_Chemtank
+  name: Turbo_Chemtank
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Turbo_Chemtank
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Turbo_Chemtank
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Turbo_Chemtank
+  nameWithType: ItemID.Turbo_Chemtank
+- uid: Oasys.Common.Enums.GameEnums.ItemID.TurbochargedHexperiment
+  name: TurbochargedHexperiment
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_TurbochargedHexperiment
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.TurbochargedHexperiment
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.TurbochargedHexperiment
+  nameWithType: ItemID.TurbochargedHexperiment
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Turret_Plating
+  name: Turret_Plating
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Turret_Plating
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Turret_Plating
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Turret_Plating
+  nameWithType: ItemID.Turret_Plating
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Typhoon
+  name: Typhoon
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Typhoon
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Typhoon
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Typhoon
+  nameWithType: ItemID.Typhoon
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Umbral_Glaive
+  name: Umbral_Glaive
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Umbral_Glaive
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Umbral_Glaive
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Umbral_Glaive
+  nameWithType: ItemID.Umbral_Glaive
 - uid: Oasys.Common.Enums.GameEnums.ItemID.UnknownItem
   name: UnknownItem
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_UnknownItem
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.UnknownItem
   fullName: Oasys.Common.Enums.GameEnums.ItemID.UnknownItem
   nameWithType: ItemID.UnknownItem
+- uid: Oasys.Common.Enums.GameEnums.ItemID.UpgradedAeropack
+  name: UpgradedAeropack
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_UpgradedAeropack
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.UpgradedAeropack
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.UpgradedAeropack
+  nameWithType: ItemID.UpgradedAeropack
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Vampiric_Scepter
   name: Vampiric_Scepter
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Vampiric_Scepter
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Vampiric_Scepter
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Vampiric_Scepter
   nameWithType: ItemID.Vampiric_Scepter
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Vanguard_Banner
-  name: Vanguard_Banner
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Vanguard_Banner
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Vanguard_Banner
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Vanguard_Banner
-  nameWithType: ItemID.Vanguard_Banner
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Vanguard
+  name: Vanguard
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Vanguard
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Vanguard
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Vanguard
+  nameWithType: ItemID.Vanguard
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Verdant_Barrier
+  name: Verdant_Barrier
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Verdant_Barrier
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Verdant_Barrier
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Verdant_Barrier
+  nameWithType: ItemID.Verdant_Barrier
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Vespertide
+  name: Vespertide
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Vespertide
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Vespertide
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Vespertide
+  nameWithType: ItemID.Vespertide
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Vigilant_Wardstone
+  name: Vigilant_Wardstone
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Vigilant_Wardstone
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Vigilant_Wardstone
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Vigilant_Wardstone
+  nameWithType: ItemID.Vigilant_Wardstone
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Void_Staff
   name: Void_Staff
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Void_Staff
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Void_Staff
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Void_Staff
   nameWithType: ItemID.Void_Staff
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Wardens_Eye
+  name: Wardens_Eye
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wardens_Eye
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wardens_Eye
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Wardens_Eye
+  nameWithType: ItemID.Wardens_Eye
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Wardens_Mail
   name: Wardens_Mail
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wardens_Mail
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wardens_Mail
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Wardens_Mail
   nameWithType: ItemID.Wardens_Mail
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Warding_Totem_Trinket
-  name: Warding_Totem_Trinket
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Warding_Totem_Trinket
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Warding_Totem_Trinket
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Warding_Totem_Trinket
-  nameWithType: ItemID.Warding_Totem_Trinket
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Warmogs_Armor
   name: Warmogs_Armor
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Warmogs_Armor
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Warmogs_Armor
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Warmogs_Armor
   nameWithType: ItemID.Warmogs_Armor
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Wicked_Hatchet
-  name: Wicked_Hatchet
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wicked_Hatchet
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wicked_Hatchet
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Wicked_Hatchet
-  nameWithType: ItemID.Wicked_Hatchet
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Watchful_Wardstone
+  name: Watchful_Wardstone
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Watchful_Wardstone
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Watchful_Wardstone
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Watchful_Wardstone
+  nameWithType: ItemID.Watchful_Wardstone
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Winged_Moonplate
+  name: Winged_Moonplate
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Winged_Moonplate
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Winged_Moonplate
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Winged_Moonplate
+  nameWithType: ItemID.Winged_Moonplate
+- uid: Oasys.Common.Enums.GameEnums.ItemID.Winters_Approach
+  name: Winters_Approach
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Winters_Approach
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Winters_Approach
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.Winters_Approach
+  nameWithType: ItemID.Winters_Approach
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Wits_End
   name: Wits_End
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wits_End
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wits_End
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Wits_End
   nameWithType: ItemID.Wits_End
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcap
-  name: Wooglets_Witchcap
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wooglets_Witchcap
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcap
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcap
-  nameWithType: ItemID.Wooglets_Witchcap
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcrown
-  name: Wooglets_Witchcrown
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Wooglets_Witchcrown
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcrown
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Wooglets_Witchcrown
-  nameWithType: ItemID.Wooglets_Witchcrown
+- uid: Oasys.Common.Enums.GameEnums.ItemID.WyrmfallenSacrifice
+  name: WyrmfallenSacrifice
+  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_WyrmfallenSacrifice
+  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.WyrmfallenSacrifice
+  fullName: Oasys.Common.Enums.GameEnums.ItemID.WyrmfallenSacrifice
+  nameWithType: ItemID.WyrmfallenSacrifice
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Ghostblade
   name: Youmuus_Ghostblade
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Youmuus_Ghostblade
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Ghostblade
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Ghostblade
   nameWithType: ItemID.Youmuus_Ghostblade
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Wraithblade
-  name: Youmuus_Wraithblade
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Youmuus_Wraithblade
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Wraithblade
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Youmuus_Wraithblade
-  nameWithType: ItemID.Youmuus_Wraithblade
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Your_Cut
   name: Your_Cut
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Your_Cut
@@ -2703,30 +2337,12 @@ references:
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Zekes_Convergence
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Zekes_Convergence
   nameWithType: ItemID.Zekes_Convergence
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Zephyr
-  name: Zephyr
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Zephyr
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Zephyr
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Zephyr
-  nameWithType: ItemID.Zephyr
 - uid: Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Hourglass
   name: Zhonyas_Hourglass
   href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Zhonyas_Hourglass
   commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Hourglass
   fullName: Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Hourglass
   nameWithType: ItemID.Zhonyas_Hourglass
-- uid: Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Paradox
-  name: Zhonyas_Paradox
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_Zhonyas_Paradox
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Paradox
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.Zhonyas_Paradox
-  nameWithType: ItemID.Zhonyas_Paradox
-- uid: Oasys.Common.Enums.GameEnums.ItemID.ZzRot_Portal
-  name: ZzRot_Portal
-  href: api/Oasys.Common.Enums.GameEnums.ItemID.html#Oasys_Common_Enums_GameEnums_ItemID_ZzRot_Portal
-  commentId: F:Oasys.Common.Enums.GameEnums.ItemID.ZzRot_Portal
-  fullName: Oasys.Common.Enums.GameEnums.ItemID.ZzRot_Portal
-  nameWithType: ItemID.ZzRot_Portal
 - uid: Oasys.Common.Enums.GameEnums.ItemSlot
   name: ItemSlot
   href: api/Oasys.Common.Enums.GameEnums.ItemSlot.html
@@ -4809,6 +4425,45 @@ references:
   commentId: T:Oasys.Common.GameInstances.MinimapInfo
   fullName: Oasys.Common.GameInstances.MinimapInfo
   nameWithType: MinimapInfo
+- uid: Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide
+  name: IsOnTheLeftSide
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_IsOnTheLeftSide
+  commentId: P:Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide
+  fullName: Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide
+  nameWithType: MinimapInfo.IsOnTheLeftSide
+- uid: Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide*
+  name: IsOnTheLeftSide
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_IsOnTheLeftSide_
+  commentId: Overload:Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide
+  isSpec: "True"
+  fullName: Oasys.Common.GameInstances.MinimapInfo.IsOnTheLeftSide
+  nameWithType: MinimapInfo.IsOnTheLeftSide
+- uid: Oasys.Common.GameInstances.MinimapInfo.IsVisible
+  name: IsVisible
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_IsVisible
+  commentId: P:Oasys.Common.GameInstances.MinimapInfo.IsVisible
+  fullName: Oasys.Common.GameInstances.MinimapInfo.IsVisible
+  nameWithType: MinimapInfo.IsVisible
+- uid: Oasys.Common.GameInstances.MinimapInfo.IsVisible*
+  name: IsVisible
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_IsVisible_
+  commentId: Overload:Oasys.Common.GameInstances.MinimapInfo.IsVisible
+  isSpec: "True"
+  fullName: Oasys.Common.GameInstances.MinimapInfo.IsVisible
+  nameWithType: MinimapInfo.IsVisible
+- uid: Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable
+  name: MinimapMaxSizeable
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_MinimapMaxSizeable
+  commentId: P:Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable
+  fullName: Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable
+  nameWithType: MinimapInfo.MinimapMaxSizeable
+- uid: Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable*
+  name: MinimapMaxSizeable
+  href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_MinimapMaxSizeable_
+  commentId: Overload:Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable
+  isSpec: "True"
+  fullName: Oasys.Common.GameInstances.MinimapInfo.MinimapMaxSizeable
+  nameWithType: MinimapInfo.MinimapMaxSizeable
 - uid: Oasys.Common.GameInstances.MinimapInfo.MinimapScreenPosition
   name: MinimapScreenPosition
   href: api/Oasys.Common.GameInstances.MinimapInfo.html#Oasys_Common_GameInstances_MinimapInfo_MinimapScreenPosition
@@ -6050,6 +5705,32 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
   nameWithType: BuffEntry.BuffCountInt
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
+  name: Duration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_Duration
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
+  nameWithType: BuffEntry.Duration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration*
+  name: Duration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_Duration_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
+  nameWithType: BuffEntry.Duration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs
+  name: DurationMs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_DurationMs
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs
+  nameWithType: BuffEntry.DurationMs
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs*
+  name: DurationMs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_DurationMs_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.DurationMs
+  nameWithType: BuffEntry.DurationMs
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
   name: EndTime
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_EndTime
@@ -6298,6 +5979,18 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
   nameWithType: HeroInventory.Item.Charges
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  name: Cooldown
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cooldown
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  nameWithType: HeroInventory.Item.Cooldown
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  name: CooldownExpiry
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_CooldownExpiry
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  nameWithType: HeroInventory.Item.CooldownExpiry
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
   name: Cost
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cost
@@ -6316,6 +6009,18 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.ID
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.ID
   nameWithType: HeroInventory.Item.ID
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  name: Name
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Name
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  nameWithType: HeroInventory.Item.Name
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.OwnerHero
+  name: OwnerHero
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_OwnerHero
+  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.OwnerHero
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.OwnerHero
+  nameWithType: HeroInventory.Item.OwnerHero
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
   name: Slot
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Slot
@@ -8762,6 +8467,45 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.LeagueNativeRendererManager.GetGameToWindowScreenScalingY
   nameWithType: LeagueNativeRendererManager.GetGameToWindowScreenScalingY
+- uid: Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix
+  name: GetProjectionMatrix()
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetProjectionMatrix
+  commentId: M:Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix()
+  nameWithType: LeagueNativeRendererManager.GetProjectionMatrix()
+- uid: Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix*
+  name: GetProjectionMatrix
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetProjectionMatrix_
+  commentId: Overload:Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix
+  isSpec: "True"
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetProjectionMatrix
+  nameWithType: LeagueNativeRendererManager.GetProjectionMatrix
+- uid: Oasys.Common.LeagueNativeRendererManager.GetViewMatrix
+  name: GetViewMatrix()
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetViewMatrix
+  commentId: M:Oasys.Common.LeagueNativeRendererManager.GetViewMatrix
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetViewMatrix()
+  nameWithType: LeagueNativeRendererManager.GetViewMatrix()
+- uid: Oasys.Common.LeagueNativeRendererManager.GetViewMatrix*
+  name: GetViewMatrix
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetViewMatrix_
+  commentId: Overload:Oasys.Common.LeagueNativeRendererManager.GetViewMatrix
+  isSpec: "True"
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetViewMatrix
+  nameWithType: LeagueNativeRendererManager.GetViewMatrix
+- uid: Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix
+  name: GetViewProjectionMatrix()
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetViewProjectionMatrix
+  commentId: M:Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix()
+  nameWithType: LeagueNativeRendererManager.GetViewProjectionMatrix()
+- uid: Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix*
+  name: GetViewProjectionMatrix
+  href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetViewProjectionMatrix_
+  commentId: Overload:Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix
+  isSpec: "True"
+  fullName: Oasys.Common.LeagueNativeRendererManager.GetViewProjectionMatrix
+  nameWithType: LeagueNativeRendererManager.GetViewProjectionMatrix
 - uid: Oasys.Common.LeagueNativeRendererManager.GetWindowsScreenResolution
   name: GetWindowsScreenResolution()
   href: api/Oasys.Common.LeagueNativeRendererManager.html#Oasys_Common_LeagueNativeRendererManager_GetWindowsScreenResolution
@@ -8937,6 +8681,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.DamageCalculator.GetBasicAttackDamage
   nameWithType: DamageCalculator.GetBasicAttackDamage
+- uid: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
+  name: GetDamageReductionModifier(GameObjectBase)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_Oasys_Common_GameObject_GameObjectBase_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
+  fullName: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
+  nameWithType: DamageCalculator.GetDamageReductionModifier(GameObjectBase)
+- uid: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier*
+  name: GetDamageReductionModifier
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier
+  nameWithType: DamageCalculator.GetDamageReductionModifier
 - uid: Oasys.Common.Logic.DamageCalculator.GetMaximumBasicAttackDamage(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetMaximumBasicAttackDamage(GameObjectBase, GameObjectBase)
   href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetMaximumBasicAttackDamage_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -9212,6 +8969,24 @@ references:
   commentId: T:Oasys.Common.Logic.Orbwalker
   fullName: Oasys.Common.Logic.Orbwalker
   nameWithType: Orbwalker
+- uid: Oasys.Common.Logic.Orbwalker.BasicAttackCommand
+  name: Orbwalker.BasicAttackCommand
+  href: api/Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html
+  commentId: T:Oasys.Common.Logic.Orbwalker.BasicAttackCommand
+  fullName: Oasys.Common.Logic.Orbwalker.BasicAttackCommand
+  nameWithType: Orbwalker.BasicAttackCommand
+- uid: Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack
+  name: OnOrbwalkerAfterBasicAttack
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_OnOrbwalkerAfterBasicAttack
+  commentId: E:Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack
+  fullName: Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack
+  nameWithType: Orbwalker.OnOrbwalkerAfterBasicAttack
+- uid: Oasys.Common.Logic.Orbwalker.OnOrbwalkerBasicAttack
+  name: OnOrbwalkerBasicAttack
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_OnOrbwalkerBasicAttack
+  commentId: E:Oasys.Common.Logic.Orbwalker.OnOrbwalkerBasicAttack
+  fullName: Oasys.Common.Logic.Orbwalker.OnOrbwalkerBasicAttack
+  nameWithType: Orbwalker.OnOrbwalkerBasicAttack
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings
   name: Orbwalker.OrbSettings
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html
@@ -9283,6 +9058,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.CanMove
   nameWithType: Orbwalker.OrbSettings.CanMove
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
+  name: ForceMovePosition
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_ForceMovePosition
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
+  nameWithType: Orbwalker.OrbSettings.ForceMovePosition
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition*
+  name: ForceMovePosition
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_ForceMovePosition_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
+  nameWithType: Orbwalker.OrbSettings.ForceMovePosition
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single)
   name: GetCalculatedAttackCastDelay(Single)
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_System_Single_
@@ -9296,6 +9084,32 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay
   nameWithType: Orbwalker.OrbSettings.GetCalculatedAttackCastDelay
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
+  name: HarassTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_HarassTarget
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
+  nameWithType: Orbwalker.OrbSettings.HarassTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget*
+  name: HarassTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_HarassTarget_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
+  nameWithType: Orbwalker.OrbSettings.HarassTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget
+  name: HeroTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_HeroTarget
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget
+  nameWithType: Orbwalker.OrbSettings.HeroTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget*
+  name: HeroTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_HeroTarget_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.HeroTarget
+  nameWithType: Orbwalker.OrbSettings.HeroTarget
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LaneClearTarget
   name: LaneClearTarget
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LaneClearTarget
@@ -9322,6 +9136,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastBasicAttack
   nameWithType: Orbwalker.OrbSettings.LastBasicAttack
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget
+  name: LastHitTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastHitTarget
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget
+  nameWithType: Orbwalker.OrbSettings.LastHitTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget*
+  name: LastHitTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastHitTarget_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastHitTarget
+  nameWithType: Orbwalker.OrbSettings.LastHitTarget
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastMove
   name: LastMove
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastMove
@@ -9335,6 +9162,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastMove
   nameWithType: Orbwalker.OrbSettings.LastMove
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget
+  name: MixedTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_MixedTarget
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget
+  nameWithType: Orbwalker.OrbSettings.MixedTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget*
+  name: MixedTarget
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_MixedTarget_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.MixedTarget
+  nameWithType: Orbwalker.OrbSettings.MixedTarget
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.OrbwalkingMode
   name: OrbwalkingMode
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_OrbwalkingMode
@@ -9951,6 +9791,31 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.TabItem.TabItem
   nameWithType: TabItem.TabItem
+- uid: Oasys.Common.Menu.TabItem.OnTabItemChange
+  name: OnTabItemChange
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_OnTabItemChange
+  commentId: E:Oasys.Common.Menu.TabItem.OnTabItemChange
+  fullName: Oasys.Common.Menu.TabItem.OnTabItemChange
+  nameWithType: TabItem.OnTabItemChange
+- uid: Oasys.Common.Menu.TabItem.TabItemChanged
+  name: TabItem.TabItemChanged
+  href: api/Oasys.Common.Menu.TabItem.TabItemChanged.html
+  commentId: T:Oasys.Common.Menu.TabItem.TabItemChanged
+  fullName: Oasys.Common.Menu.TabItem.TabItemChanged
+  nameWithType: TabItem.TabItemChanged
+- uid: Oasys.Common.Menu.TabItem.TabName
+  name: TabName
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_TabName
+  commentId: P:Oasys.Common.Menu.TabItem.TabName
+  fullName: Oasys.Common.Menu.TabItem.TabName
+  nameWithType: TabItem.TabName
+- uid: Oasys.Common.Menu.TabItem.TabName*
+  name: TabName
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_TabName_
+  commentId: Overload:Oasys.Common.Menu.TabItem.TabName
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.TabItem.TabName
+  nameWithType: TabItem.TabName
 - uid: Oasys.Common.Menu.TabItem.Title
   name: Title
   href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_Title
@@ -10228,19 +10093,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Settings.Core.MenuSelectionColor
   nameWithType: Core.MenuSelectionColor
-- uid: Oasys.Common.Settings.Core.ObjectManagerReadInterval
-  name: ObjectManagerReadInterval
-  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_ObjectManagerReadInterval
-  commentId: P:Oasys.Common.Settings.Core.ObjectManagerReadInterval
-  fullName: Oasys.Common.Settings.Core.ObjectManagerReadInterval
-  nameWithType: Core.ObjectManagerReadInterval
-- uid: Oasys.Common.Settings.Core.ObjectManagerReadInterval*
-  name: ObjectManagerReadInterval
-  href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_ObjectManagerReadInterval_
-  commentId: Overload:Oasys.Common.Settings.Core.ObjectManagerReadInterval
-  isSpec: "True"
-  fullName: Oasys.Common.Settings.Core.ObjectManagerReadInterval
-  nameWithType: Core.ObjectManagerReadInterval
 - uid: Oasys.Common.Settings.Core.UseNativeObjectManagerCaching
   name: UseNativeObjectManagerCaching
   href: api/Oasys.Common.Settings.Core.html#Oasys_Common_Settings_Core_UseNativeObjectManagerCaching
@@ -10802,6 +10654,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Tools.Devices.Keyboard.GetKeyBoardScanCode
   nameWithType: Keyboard.GetKeyBoardScanCode
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKeyState(System.Windows.Forms.Keys)
+  name: GetKeyState(Keys)
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKeyState_System_Windows_Forms_Keys_
+  commentId: M:Oasys.Common.Tools.Devices.Keyboard.GetKeyState(System.Windows.Forms.Keys)
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKeyState(System.Windows.Forms.Keys)
+  nameWithType: Keyboard.GetKeyState(Keys)
+- uid: Oasys.Common.Tools.Devices.Keyboard.GetKeyState*
+  name: GetKeyState
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_GetKeyState_
+  commentId: Overload:Oasys.Common.Tools.Devices.Keyboard.GetKeyState
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Keyboard.GetKeyState
+  nameWithType: Keyboard.GetKeyState
 - uid: Oasys.Common.Tools.Devices.Keyboard.IsControlPressed
   name: IsControlPressed()
   href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_IsControlPressed
@@ -10828,6 +10693,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Tools.Devices.Keyboard.IsKeyPressed
   nameWithType: Keyboard.IsKeyPressed
+- uid: Oasys.Common.Tools.Devices.Keyboard.IsPressed(System.Windows.Forms.Keys)
+  name: IsPressed(Keys)
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_IsPressed_System_Windows_Forms_Keys_
+  commentId: M:Oasys.Common.Tools.Devices.Keyboard.IsPressed(System.Windows.Forms.Keys)
+  fullName: Oasys.Common.Tools.Devices.Keyboard.IsPressed(System.Windows.Forms.Keys)
+  nameWithType: Keyboard.IsPressed(Keys)
+- uid: Oasys.Common.Tools.Devices.Keyboard.IsPressed*
+  name: IsPressed
+  href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_IsPressed_
+  commentId: Overload:Oasys.Common.Tools.Devices.Keyboard.IsPressed
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Devices.Keyboard.IsPressed
+  nameWithType: Keyboard.IsPressed
 - uid: Oasys.Common.Tools.Devices.Keyboard.IsShiftPressed
   name: IsShiftPressed()
   href: api/Oasys.Common.Tools.Devices.Keyboard.html#Oasys_Common_Tools_Devices_Keyboard_IsShiftPressed
@@ -14423,6 +14301,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Orbwalker.CanMove
   nameWithType: Orbwalker.CanMove
+- uid: Oasys.SDK.Orbwalker.ForceMovePosition
+  name: ForceMovePosition
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_ForceMovePosition
+  commentId: P:Oasys.SDK.Orbwalker.ForceMovePosition
+  fullName: Oasys.SDK.Orbwalker.ForceMovePosition
+  nameWithType: Orbwalker.ForceMovePosition
+- uid: Oasys.SDK.Orbwalker.ForceMovePosition*
+  name: ForceMovePosition
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_ForceMovePosition_
+  commentId: Overload:Oasys.SDK.Orbwalker.ForceMovePosition
+  isSpec: "True"
+  fullName: Oasys.SDK.Orbwalker.ForceMovePosition
+  nameWithType: Orbwalker.ForceMovePosition
 - uid: Oasys.SDK.Orbwalker.LaneClearTarget
   name: LaneClearTarget
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_LaneClearTarget
@@ -14462,6 +14353,18 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Orbwalker.LastMove
   nameWithType: Orbwalker.LastMove
+- uid: Oasys.SDK.Orbwalker.OnOrbwalkerAfterBasicAttack
+  name: OnOrbwalkerAfterBasicAttack
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_OnOrbwalkerAfterBasicAttack
+  commentId: E:Oasys.SDK.Orbwalker.OnOrbwalkerAfterBasicAttack
+  fullName: Oasys.SDK.Orbwalker.OnOrbwalkerAfterBasicAttack
+  nameWithType: Orbwalker.OnOrbwalkerAfterBasicAttack
+- uid: Oasys.SDK.Orbwalker.OnOrbwalkerBasicAttack
+  name: OnOrbwalkerBasicAttack
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_OnOrbwalkerBasicAttack
+  commentId: E:Oasys.SDK.Orbwalker.OnOrbwalkerBasicAttack
+  fullName: Oasys.SDK.Orbwalker.OnOrbwalkerBasicAttack
+  nameWithType: Orbwalker.OnOrbwalkerBasicAttack
 - uid: Oasys.SDK.Orbwalker.OrbwalkingMode
   name: OrbwalkingMode
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_OrbwalkingMode
