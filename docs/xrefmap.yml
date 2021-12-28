@@ -6009,6 +6009,19 @@ references:
   commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.ID
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.ID
   nameWithType: HeroInventory.Item.ID
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady
+  name: IsReady
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_IsReady
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady
+  nameWithType: HeroInventory.Item.IsReady
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady*
+  name: IsReady
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_IsReady_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.IsReady
+  nameWithType: HeroInventory.Item.IsReady
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
   name: Name
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Name

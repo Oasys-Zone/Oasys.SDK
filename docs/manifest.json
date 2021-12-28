@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html",
-          "hash": "mhxJ/S5pKAo+Jaw4ry8NsKy/x4IahYSZ1DhT+2mcc2Y="
+          "hash": "bH6IQw597sWXRHCKaGJAYlH/Cg5gZYK0fwGyziJC9fY="
         }
       },
       "is_incremental": false,
@@ -2138,7 +2138,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 169,
-          "skipped_file_count": 132
+          "skipped_file_count": 168
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
