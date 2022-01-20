@@ -80,8 +80,8 @@ Please follow the <a href="https://docs.microsoft.com/en-us/dotnet/csharp/progra
 <li>Your brain</li>
 <li>At minimum, foundation level of knowledge in C#</li>
 <li>An IDE (Strongly recommend Visual Studio)</li>
-<li>.NET 5.0 Runtime</li>
-<li>.NET 5.0 SDK</li>
+<li>.NET 6.0 Runtime</li>
+<li>.NET 6.0 SDK</li>
 </ul>
 <h2 id="installation">Installation</h2>
 <p>Head over to the <a href="https://github.com/Oasys-Zone/Oasys.SDK/releases">releases tab</a> and download the latest release build.<br>
@@ -178,7 +178,10 @@ namespace SampleModule
 }
 </code></pre>
 <h2 id="compiling">Compiling</h2>
-<p>Compile as normal, and then rename the built .dll library extension to .omod in order for the loader to load the module.</p>
+<p>Add the below commands into the post-build event and compile the library as normal. This will copy your module into the loader and your current project directory as .omod extension.</p>
+<pre><code>copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;%ProgramW6432%\Oasys\Modules\$(ProjectName).omod&quot;
+copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;$(TargetDir)$(ProjectName).omod&quot;
+</code></pre>
 </article>
           </div>
           

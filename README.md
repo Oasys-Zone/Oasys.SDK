@@ -9,8 +9,8 @@ Please follow the [C# Language and Coding Convention](https://docs.microsoft.com
 - Your brain
 - At minimum, foundation level of knowledge in C# 
 - An IDE (Strongly recommend Visual Studio)
-- .NET 5.0 Runtime
-- .NET 5.0 SDK
+- .NET 6.0 Runtime
+- .NET 6.0 SDK
 
 ## Installation
 Head over to the [releases tab](https://github.com/Oasys-Zone/Oasys.SDK/releases) and download the latest release build.  
@@ -115,8 +115,8 @@ namespace SampleModule
 ```
 
 ## Compiling
-Compile as normal, and then rename the built .dll library extension to .omod in order for the loader to load the module.
-
-use post build event
-```copy /Y "$(TargetDir)$(ProjectName).dll" "path of oasys module location$(ProjectName).omod"```
-set it to "when the build succeeds"
+Add the below commands into the post-build event and compile the library as normal. This will copy your module into the loader and your current project directory as .omod extension.
+```
+copy /Y "$(TargetDir)$(ProjectName).dll" "%ProgramW6432%\Oasys\Modules\$(ProjectName).omod"
+copy /Y "$(TargetDir)$(ProjectName).dll" "$(TargetDir)$(ProjectName).omod"
+```

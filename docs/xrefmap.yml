@@ -5687,22 +5687,56 @@ references:
   commentId: T:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry
   nameWithType: BuffEntry
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.#ctor(System.Int32)
+  name: BuffEntry(Int32)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry__ctor_System_Int32_
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.#ctor(System.Int32)
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffEntry(System.Int32)
+  nameWithType: BuffEntry.BuffEntry(Int32)
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.#ctor*
+  name: BuffEntry
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry__ctor_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffEntry
+  nameWithType: BuffEntry.BuffEntry
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
   name: BuffCountAlt
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountAlt
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
+  nameWithType: BuffEntry.BuffCountAlt
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt*
+  name: BuffCountAlt
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountAlt_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountAlt
   nameWithType: BuffEntry.BuffCountAlt
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
   name: BuffCountFloat
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountFloat
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
+  nameWithType: BuffEntry.BuffCountFloat
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat*
+  name: BuffCountFloat
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountFloat_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountFloat
   nameWithType: BuffEntry.BuffCountFloat
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
   name: BuffCountInt
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountInt
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
+  nameWithType: BuffEntry.BuffCountInt
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt*
+  name: BuffCountInt
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_BuffCountInt_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.BuffCountInt
   nameWithType: BuffEntry.BuffCountInt
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Duration
@@ -5734,13 +5768,27 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
   name: EndTime
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_EndTime
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
+  nameWithType: BuffEntry.EndTime
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime*
+  name: EndTime
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_EndTime_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EndTime
   nameWithType: BuffEntry.EndTime
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
   name: EntryType
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_EntryType
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
+  nameWithType: BuffEntry.EntryType
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType*
+  name: EntryType
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_EntryType_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.EntryType
   nameWithType: BuffEntry.EntryType
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Equals(System.Object)
@@ -5798,19 +5846,40 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
   name: Name
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_Name
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
+  nameWithType: BuffEntry.Name
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name*
+  name: Name
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_Name_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Name
   nameWithType: BuffEntry.Name
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
   name: OwnerObjectIndex
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectIndex
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  nameWithType: BuffEntry.OwnerObjectIndex
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex*
+  name: OwnerObjectIndex
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectIndex_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectIndex
   nameWithType: BuffEntry.OwnerObjectIndex
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
   name: OwnerObjectNetworkID
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectNetworkID
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  nameWithType: BuffEntry.OwnerObjectNetworkID
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID*
+  name: OwnerObjectNetworkID
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_OwnerObjectNetworkID_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.OwnerObjectNetworkID
   nameWithType: BuffEntry.OwnerObjectNetworkID
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.Stacks
@@ -5829,7 +5898,14 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
   name: StartTime
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_StartTime
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
+  nameWithType: BuffEntry.StartTime
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime*
+  name: StartTime
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_StartTime_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.StartTime
   nameWithType: BuffEntry.StartTime
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.ToString
@@ -5976,25 +6052,53 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
   name: Charges
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Charges
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
+  nameWithType: HeroInventory.Item.Charges
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges*
+  name: Charges
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Charges_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Charges
   nameWithType: HeroInventory.Item.Charges
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
   name: Cooldown
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cooldown
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  nameWithType: HeroInventory.Item.Cooldown
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown*
+  name: Cooldown
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cooldown_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cooldown
   nameWithType: HeroInventory.Item.Cooldown
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
   name: CooldownExpiry
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_CooldownExpiry
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  nameWithType: HeroInventory.Item.CooldownExpiry
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry*
+  name: CooldownExpiry
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_CooldownExpiry_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CooldownExpiry
   nameWithType: HeroInventory.Item.CooldownExpiry
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
   name: Cost
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cost
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
+  nameWithType: HeroInventory.Item.Cost
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost*
+  name: Cost
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Cost_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Cost
   nameWithType: HeroInventory.Item.Cost
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.CreatedInListGameTime
@@ -6025,7 +6129,14 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
   name: Name
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Name
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  nameWithType: HeroInventory.Item.Name
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name*
+  name: Name
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Name_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Name
   nameWithType: HeroInventory.Item.Name
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.OwnerHero
@@ -6037,7 +6148,14 @@ references:
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
   name: Slot
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Slot
-  commentId: F:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
+  nameWithType: HeroInventory.Item.Slot
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot*
+  name: Slot
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html#Oasys_Common_GameObject_Clients_ExtendedInstances_HeroInventory_Item_Slot_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
+  isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.Slot
   nameWithType: HeroInventory.Item.Slot
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells
@@ -9084,12 +9202,12 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
   nameWithType: Orbwalker.OrbSettings.ForceMovePosition
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single)
-  name: GetCalculatedAttackCastDelay(Single)
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_System_Single_
-  commentId: M:Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single)
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single)
-  nameWithType: Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(Single)
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single,System.Single)
+  name: GetCalculatedAttackCastDelay(Single, Single)
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_System_Single_System_Single_
+  commentId: M:Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single,System.Single)
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single, System.Single)
+  nameWithType: Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(Single, Single)
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay*
   name: GetCalculatedAttackCastDelay
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_
@@ -13159,6 +13277,25 @@ references:
   fullName.vb: Oasys.Common.Tools.Storage(Of K, T).Set
   nameWithType: Storage<K, T>.Set
   nameWithType.vb: Storage(Of K, T).Set
+- uid: Oasys.Common.Tools.Util
+  name: Util
+  href: api/Oasys.Common.Tools.Util.html
+  commentId: T:Oasys.Common.Tools.Util
+  fullName: Oasys.Common.Tools.Util
+  nameWithType: Util
+- uid: Oasys.Common.Tools.Util.Sleep(System.Int32)
+  name: Sleep(Int32)
+  href: api/Oasys.Common.Tools.Util.html#Oasys_Common_Tools_Util_Sleep_System_Int32_
+  commentId: M:Oasys.Common.Tools.Util.Sleep(System.Int32)
+  fullName: Oasys.Common.Tools.Util.Sleep(System.Int32)
+  nameWithType: Util.Sleep(Int32)
+- uid: Oasys.Common.Tools.Util.Sleep*
+  name: Sleep
+  href: api/Oasys.Common.Tools.Util.html#Oasys_Common_Tools_Util_Sleep_
+  commentId: Overload:Oasys.Common.Tools.Util.Sleep
+  isSpec: "True"
+  fullName: Oasys.Common.Tools.Util.Sleep
+  nameWithType: Util.Sleep
 - uid: Oasys.SDK
   name: Oasys.SDK
   href: api/Oasys.SDK.html

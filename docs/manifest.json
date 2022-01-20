@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "H:/Developments/PVC/Oasys/Oasys.Core-NET5-Rewrite/Oasys.Core/Oasys.SDK/Documentation",
+  "source_base_path": "H:/Developments/PVC/Oasys/Oasys.Core_dev-zero/Oasys.Core/Oasys.Core/Oasys.SDK/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html",
-          "hash": "e8fIT6ECM4/hvlV+0KYh2RP0TVfw+iG2dTRi48SNYlk="
+          "hash": "ZmWSUrBSgH5KyExEddL/0Bi0DgZk09Jm2J5B+6w90IU="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html",
-          "hash": "bH6IQw597sWXRHCKaGJAYlH/Cg5gZYK0fwGyziJC9fY="
+          "hash": "Sje8fjHpZfKGIJe9QLesY+ffr8oMpSNhsu7nsgJUmfk="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.html",
-          "hash": "I8UJBCjXT1abozMyp3p0yqyj1pvAaKqxTywRvCjgbCk="
+          "hash": "ULkqekh7Wgzrofc+4vFN+qoRMhyWQ5I62KfKsMedBDY="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1614,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Storage-2.html",
-          "hash": "Fkgm0zeJvYlQWcTV2CmHPghs7A475etfi3U1h0fP11Y="
+          "hash": "puBkTmBs9jl8dZbwmX5DFoPIcyLbkKl5kV2QF0OYPuo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Tools.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Tools.Util.html",
+          "hash": "Mnum27igMnjGQnStpO8SzTivdA7WBUtBtmaMMd0JT4o="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.html",
-          "hash": "XZFJQat2IDLjdIcggXV6+gRswYcO5HjFQjg0It2sLBc="
+          "hash": "XKKSZGcyeXvxFDiwXISXXQ5L++58fvjfUUT0Jot20H4="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "uI+kDrFsgAtFqKDX582QOxUXAC8YpqAkyL7r1zfcNNk="
+          "hash": "Cu0T5AABS9MI2Q0aM28OL1UQ3QgtBZTgAGiOp4dOHg8="
         }
       },
       "is_incremental": false,
@@ -2097,7 +2109,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "RV6JPtGo34TKDlYoQhljJHSUQbDNd7A29gnMQkKDO+M="
+          "hash": "BvvycHWBfN7SymXC5pAkUYY14m1Dw1ilBof1swQ/SgQ="
         }
       },
       "is_incremental": false,
@@ -2122,23 +2134,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 169,
-          "skipped_file_count": 168
+          "total_file_count": 170,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

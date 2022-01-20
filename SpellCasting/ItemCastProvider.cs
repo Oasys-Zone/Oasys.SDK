@@ -1,5 +1,6 @@
 ﻿using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameObject;
+using Oasys.Common.Tools;
 using Oasys.SDK.InputProviders;
 using SharpDX;
 using System.Threading;
@@ -90,7 +91,7 @@ namespace Oasys.SDK.SpellCasting
             MouseProvider.SetCursor((int)w2sPos.X, (int)w2sPos.Y);
             CastItem(iID);
 
-            Thread.Sleep(2);
+            Util.Sleep(2);
             MouseProvider.SetCursor(currMousePos);
         }
 
@@ -106,7 +107,7 @@ namespace Oasys.SDK.SpellCasting
             MouseProvider.SetCursor((int)screenPosition.X, (int)screenPosition.Y);
             CastItem(iID);
 
-            Thread.Sleep(2);
+            Util.Sleep(2);
             MouseProvider.SetCursor(currMousePos);
         }
 
