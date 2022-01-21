@@ -60,5 +60,70 @@ namespace Oasys.SDK
                                 : 2 - 100 / (100 + armor);
             return damageMod;
         }
+
+        public static float GetPhysicalDamageReductionModifier<T>(T target) where T : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier(target);
+        }
+
+        public static float GetMagicDamageReductionModifier<T>(T target) where T : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.GetMagicDamageReductionModifier(target);
+        }
+
+        public static float GetGeneralDamageReductionModifier<T>(T target) where T : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier(target);
+        }
+
+        public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)
+            where TObject : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+                                         GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
+                                         physicalDamage, magicDamage,
+                                         trueDamage, GetGeneralDamageReductionModifier(target),
+                                         target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
+        }
+
+        public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage)
+            where TObject : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+                                         GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
+                                         physicalDamage, 0,
+                                         0, GetGeneralDamageReductionModifier(target),
+                                         target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
+        }
+
+        public static float CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo damageInfo)
+            where TDamageInfo : DamageInfo<TObject>
+            where TObject : GameObjectBase
+        {
+            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(damageInfo.attacker, damageInfo.target), GetPhysicalDamageReductionModifier(damageInfo.target),
+                                         GetMagicResistMod(damageInfo.attacker, damageInfo.target), GetMagicDamageReductionModifier(damageInfo.target),
+                                         damageInfo.physicalDamage, damageInfo.magicDamage,
+                                         damageInfo.trueDamage, GetGeneralDamageReductionModifier(damageInfo.target),
+                                         damageInfo.target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), damageInfo.attacker.Level);
+        }
+
+        public record DamageInfo<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)
+            where TObject : GameObjectBase;
+
+        public record PhysicalDamageInfo<TObject>(TObject attacker, TObject target, float physicalDamage)
+            : DamageInfo<TObject>(attacker, target, physicalDamage, 0, 0)
+            where TObject : GameObjectBase;
+
+        public record MagicDamageInfo<TObject>(TObject attacker, TObject target, float magicDamage)
+            : DamageInfo<TObject>(attacker, target, 0, magicDamage, 0)
+            where TObject : GameObjectBase;
+
+        public record TrueDamageInfo<TObject>(TObject attacker, TObject target, float trueDamage)
+            : DamageInfo<TObject>(attacker, target, 0, 0, trueDamage)
+            where TObject : GameObjectBase;
+
+        public record MixedDamageInfo<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage)
+            : DamageInfo<TObject>(attacker, target, physicalDamage, magicDamage, 0)
+            where TObject : GameObjectBase;
     }
 }

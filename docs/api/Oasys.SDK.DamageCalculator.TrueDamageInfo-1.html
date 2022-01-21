@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DDragonParser
+    <title>Class DamageCalculator.TrueDamageInfo&lt;TObject&gt;
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DDragonParser
+    <meta name="title" content="Class DamageCalculator.TrueDamageInfo&lt;TObject&gt;
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,20 +77,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.DDragonParser">
+            <article class="content wrap" id="_content" data-uid="Oasys.SDK.DamageCalculator.TrueDamageInfo`1">
   
   
-  <h1 id="Oasys_Common_Logic_EvadeCommon_SpellDB_DDragonParser" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.DDragonParser" class="text-break">Class DDragonParser
+  <h1 id="Oasys_SDK_DamageCalculator_TrueDamageInfo_1" data-uid="Oasys.SDK.DamageCalculator.TrueDamageInfo`1" class="text-break">Class DamageCalculator.TrueDamageInfo&lt;TObject&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DDragonParser</span></div>
+    <div class="level1"><a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html">DamageCalculator.DamageInfo</a>&lt;TObject&gt;</div>
+    <div class="level2"><span class="xref">DamageCalculator.TrueDamageInfo&lt;TObject&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html">DamageCalculator.DamageInfo</a>&lt;TObject&gt;&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Oasys.SDK.DamageCalculator.TrueDamageInfo-1.html">DamageCalculator.TrueDamageInfo</a>&lt;TObject&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_attacker">DamageCalculator.DamageInfo&lt;TObject&gt;.attacker</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_target">DamageCalculator.DamageInfo&lt;TObject&gt;.target</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_physicalDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.physicalDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_magicDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.magicDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_trueDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.trueDamage</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -113,21 +134,70 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.html">Oasys.Common.Logic.EvadeCommon.SpellDB</a></h6>
-  <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Logic_EvadeCommon_SpellDB_DDragonParser_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.SDK.html">Oasys.SDK</a></h6>
+  <h6><strong>Assembly</strong>: Oasys.SDK.dll</h6>
+  <h5 id="Oasys_SDK_DamageCalculator_TrueDamageInfo_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DDragonParser</code></pre>
+    <pre><code class="lang-csharp hljs">public class TrueDamageInfo&lt;TObject&gt; : DamageCalculator.DamageInfo&lt;TObject&gt;, IEquatable&lt;DamageCalculator.DamageInfo&lt;TObject&gt;&gt;, IEquatable&lt;DamageCalculator.TrueDamageInfo&lt;TObject&gt;&gt; where TObject : GameObjectBase</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
-  <a id="Oasys_Common_Logic_EvadeCommon_SpellDB_DDragonParser_ParseAndBuildSpellDB_" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.DDragonParser.ParseAndBuildSpellDB*"></a>
-  <h4 id="Oasys_Common_Logic_EvadeCommon_SpellDB_DDragonParser_ParseAndBuildSpellDB" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.DDragonParser.ParseAndBuildSpellDB">ParseAndBuildSpellDB()</h4>
+  <a id="Oasys_SDK_DamageCalculator_TrueDamageInfo_1__ctor_" data-uid="Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_TrueDamageInfo_1__ctor__0__0_System_Single_" data-uid="Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor(`0,`0,System.Single)">TrueDamageInfo(TObject, TObject, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ParseAndBuildSpellDB()</code></pre>
+    <pre><code class="lang-csharp hljs">public TrueDamageInfo(TObject attacker, TObject target, float trueDamage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">trueDamage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

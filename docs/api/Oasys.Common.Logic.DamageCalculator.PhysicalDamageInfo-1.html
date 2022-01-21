@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Champion
+    <title>Class DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Champion
+    <meta name="title" content="Class DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,20 +77,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion">
+            <article class="content wrap" id="_content" data-uid="Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1">
   
   
-  <h1 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion" class="text-break">Class Champion
+  <h1 id="Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1" data-uid="Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1" class="text-break">Class DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Champion</span></div>
+    <div class="level1"><a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html">DamageCalculator.DamageInfo</a>&lt;TObject&gt;</div>
+    <div class="level2"><span class="xref">DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html">DamageCalculator.DamageInfo</a>&lt;TObject&gt;&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo-1.html">DamageCalculator.PhysicalDamageInfo</a>&lt;TObject&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_attacker">DamageCalculator.DamageInfo&lt;TObject&gt;.attacker</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_target">DamageCalculator.DamageInfo&lt;TObject&gt;.target</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_physicalDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.physicalDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_magicDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.magicDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_trueDamage">DamageCalculator.DamageInfo&lt;TObject&gt;.trueDamage</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -113,102 +134,71 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.html">Oasys.Common.Logic.EvadeCommon.SpellDB</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Logic.html">Oasys.Common.Logic</a></h6>
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion_syntax">Syntax</h5>
+  <h5 id="Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Champion</code></pre>
+    <pre><code class="lang-csharp hljs">public class PhysicalDamageInfo&lt;TObject&gt; : DamageCalculator.DamageInfo&lt;TObject&gt;, IEquatable&lt;DamageCalculator.DamageInfo&lt;TObject&gt;&gt;, IEquatable&lt;DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;&gt; where TObject : GameObjectBase</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
-  <h4 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion_E" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion.E">E</h4>
+  <a id="Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1__ctor_" data-uid="Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1__ctor__0__0_System_Single_" data-uid="Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor(`0,`0,System.Single)">PhysicalDamageInfo(TObject, TObject, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpellInfo E</code></pre>
+    <pre><code class="lang-csharp hljs">public PhysicalDamageInfo(TObject attacker, TObject target, float physicalDamage)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.SpellInfo.html">SpellInfo</a></td>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h4 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion_Q" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion.Q">Q</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpellInfo Q</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.SpellInfo.html">SpellInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion_R" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion.R">R</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpellInfo R</code></pre>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.SpellInfo.html">SpellInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="Oasys_Common_Logic_EvadeCommon_SpellDB_Champion_W" data-uid="Oasys.Common.Logic.EvadeCommon.SpellDB.Champion.W">W</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpellInfo W</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.EvadeCommon.SpellDB.SpellInfo.html">SpellInfo</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>

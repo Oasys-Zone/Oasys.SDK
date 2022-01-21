@@ -121,6 +121,293 @@
   </div>
   <h3 id="methods">Methods
   </h3>
+  <a id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Boolean_System_Int32_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Int32)">CalculateActualDamage(Single, Single, Single, Single, Single, Single, Single, Single, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateActualDamage(float armorMod, float physicalDamageReductionMod, float magicResistMod, float magicDamageReductionMod, float physicalDamage, float magicDamage, float trueDamage, float generalDamageReductionMod, bool hasPtaBuff, int attackerLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">armorMod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamageReductionMod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">magicResistMod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">magicDamageReductionMod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">magicDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">trueDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">generalDamageReductionMod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hasPtaBuff</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">attackerLevel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single)">CalculateActualDamage&lt;TObject&gt;(TObject, TObject, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateActualDamage&lt;TObject&gt;(TObject attacker, TObject target, float physicalDamage)
+    where TObject : GameObjectBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_System_Single_System_Single_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single,System.Single,System.Single)">CalculateActualDamage&lt;TObject&gt;(TObject, TObject, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateActualDamage&lt;TObject&gt;(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)
+    where TObject : GameObjectBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">magicDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">trueDamage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__2___0_" data-uid="Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``2(``0)">CalculateActualDamage&lt;TDamageInfo, TObject&gt;(TDamageInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateActualDamage&lt;TDamageInfo, TObject&gt;(TDamageInfo damageInfo)
+    where TDamageInfo : DamageCalculator.DamageInfo&lt;TObject&gt; where TObject : GameObjectBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDamageInfo</span></td>
+        <td><span class="parametername">damageInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDamageInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_Logic_DamageCalculator_GetBasicAttackDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.GetBasicAttackDamage*"></a>
   <h4 id="Oasys_Common_Logic_DamageCalculator_GetBasicAttackDamage_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_Logic_DamageCalculator_BasicAttackDamage_" data-uid="Oasys.Common.Logic.DamageCalculator.GetBasicAttackDamage(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase,Oasys.Common.Logic.DamageCalculator.BasicAttackDamage)">GetBasicAttackDamage(GameObjectBase, GameObjectBase, DamageCalculator.BasicAttackDamage)</h4>
   <div class="markdown level1 summary"></div>
@@ -171,13 +458,14 @@
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_" data-uid="Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier*"></a>
-  <h4 id="Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)">GetDamageReductionModifier(GameObjectBase)</h4>
+  <a id="Oasys_Common_Logic_DamageCalculator_GetGeneralDamageReductionModifier_" data-uid="Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_GetGeneralDamageReductionModifier__1___0_" data-uid="Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier``1(``0)">GetGeneralDamageReductionModifier&lt;T&gt;(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float GetDamageReductionModifier(GameObjectBase target)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetGeneralDamageReductionModifier&lt;T&gt;(T target)
+    where T : GameObjectBase</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,7 +478,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="xref">T</span></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -207,6 +495,77 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_DamageCalculator_GetMagicDamageReductionModifier_" data-uid="Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_GetMagicDamageReductionModifier__1___0_" data-uid="Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier``1(``0)">GetMagicDamageReductionModifier&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetMagicDamageReductionModifier&lt;T&gt;(T target)
+    where T : GameObjectBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -387,6 +746,62 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_DamageCalculator_GetPhysicalDamageReductionModifier_" data-uid="Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier*"></a>
+  <h4 id="Oasys_Common_Logic_DamageCalculator_GetPhysicalDamageReductionModifier__1___0_" data-uid="Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier``1(``0)">GetPhysicalDamageReductionModifier&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetPhysicalDamageReductionModifier&lt;T&gt;(T target)
+    where T : GameObjectBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

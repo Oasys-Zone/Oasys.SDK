@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ColorHelper
+    <title>Class DamageCalculator.DamageInfo&lt;TObject&gt;
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ColorHelper
+    <meta name="title" content="Class DamageCalculator.DamageInfo&lt;TObject&gt;
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,17 +77,25 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Tools.ColorHelper">
+            <article class="content wrap" id="_content" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1">
   
   
-  <h1 id="Oasys_Common_Tools_ColorHelper" data-uid="Oasys.Common.Tools.ColorHelper" class="text-break">Class ColorHelper
+  <h1 id="Oasys_SDK_DamageCalculator_DamageInfo_1" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1" class="text-break">Class DamageCalculator.DamageInfo&lt;TObject&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ColorHelper</span></div>
+    <div class="level1"><span class="xref">DamageCalculator.DamageInfo&lt;TObject&gt;</span></div>
+      <div class="level2"><a class="xref" href="Oasys.SDK.DamageCalculator.MagicDamageInfo-1.html">DamageCalculator.MagicDamageInfo&lt;TObject&gt;</a></div>
+      <div class="level2"><a class="xref" href="Oasys.SDK.DamageCalculator.MixedDamageInfo-1.html">DamageCalculator.MixedDamageInfo&lt;TObject&gt;</a></div>
+      <div class="level2"><a class="xref" href="Oasys.SDK.DamageCalculator.PhysicalDamageInfo-1.html">DamageCalculator.PhysicalDamageInfo&lt;TObject&gt;</a></div>
+      <div class="level2"><a class="xref" href="Oasys.SDK.DamageCalculator.TrueDamageInfo-1.html">DamageCalculator.TrueDamageInfo&lt;TObject&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Oasys.SDK.DamageCalculator.DamageInfo-1.html">DamageCalculator.DamageInfo</a>&lt;TObject&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,21 +121,36 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Tools.html">Oasys.Common.Tools</a></h6>
-  <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Tools_ColorHelper_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.SDK.html">Oasys.SDK</a></h6>
+  <h6><strong>Assembly</strong>: Oasys.SDK.dll</h6>
+  <h5 id="Oasys_SDK_DamageCalculator_DamageInfo_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ColorHelper</code></pre>
+    <pre><code class="lang-csharp hljs">public class DamageInfo&lt;TObject&gt; : IEquatable&lt;DamageCalculator.DamageInfo&lt;TObject&gt;&gt; where TObject : GameObjectBase</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
   </h3>
-  <a id="Oasys_Common_Tools_ColorHelper_GetColor_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor*"></a>
-  <h4 id="Oasys_Common_Tools_ColorHelper_GetColor_System_String_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor(System.String)">GetColor(String)</h4>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1__ctor_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1__ctor__0__0_System_Single_System_Single_System_Single_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor(`0,`0,System.Single,System.Single,System.Single)">DamageInfo(TObject, TObject, Single, Single, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color GetColor(string colorName)</code></pre>
+    <pre><code class="lang-csharp hljs">public DamageInfo(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,58 +163,43 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">colorName</span></td>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">physicalDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">magicDamage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">trueDamage</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Tools_ColorHelper_GetColor_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor*"></a>
-  <h4 id="Oasys_Common_Tools_ColorHelper_GetColor_System_String_System_Int32_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor(System.String,System.Int32)">GetColor(String, Int32)</h4>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1_attacker_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.attacker*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1_attacker" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.attacker">attacker</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color GetColor(string colorName, int alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public TObject attacker { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">colorName</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">alpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -201,20 +209,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
+        <td><span class="xref">TObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Tools_ColorHelper_GetColors_" data-uid="Oasys.Common.Tools.ColorHelper.GetColors*"></a>
-  <h4 id="Oasys_Common_Tools_ColorHelper_GetColors" data-uid="Oasys.Common.Tools.ColorHelper.GetColors">GetColors()</h4>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1_magicDamage_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1_magicDamage" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage">magicDamage</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;string&gt; GetColors()</code></pre>
+    <pre><code class="lang-csharp hljs">public float magicDamage { get; set; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -224,42 +232,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Tools_ColorHelper_GetColorWithAlpha_" data-uid="Oasys.Common.Tools.ColorHelper.GetColorWithAlpha*"></a>
-  <h4 id="Oasys_Common_Tools_ColorHelper_GetColorWithAlpha_SharpDX_Color_System_Int32_" data-uid="Oasys.Common.Tools.ColorHelper.GetColorWithAlpha(SharpDX.Color,System.Int32)">GetColorWithAlpha(Color, Int32)</h4>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1_physicalDamage_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1_physicalDamage" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage">physicalDamage</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color GetColorWithAlpha(Color color, int alpha)</code></pre>
+    <pre><code class="lang-csharp hljs">public float physicalDamage { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
-        <td><span class="parametername">color</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">alpha</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -269,11 +255,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SharpDX.Color</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1_target_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.target*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1_target" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.target">target</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TObject target { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_DamageCalculator_DamageInfo_1_trueDamage_" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage*"></a>
+  <h4 id="Oasys_SDK_DamageCalculator_DamageInfo_1_trueDamage" data-uid="Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage">trueDamage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float trueDamage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>

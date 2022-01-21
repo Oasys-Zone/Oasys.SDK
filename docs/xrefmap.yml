@@ -5073,6 +5073,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.MagicalShield
   nameWithType: AIBaseClient.MagicalShield
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist
+  name: MagicResist
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_MagicResist
+  commentId: P:Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist
+  nameWithType: AIBaseClient.MagicResist
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist*
+  name: MagicResist
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_MagicResist_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.MagicResist
+  nameWithType: AIBaseClient.MagicResist
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.Mana
   name: Mana
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_Mana
@@ -8155,6 +8168,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.MagicalShield
   nameWithType: GameObjectBase.MagicalShield
+- uid: Oasys.Common.GameObject.GameObjectBase.MagicResist
+  name: MagicResist
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MagicResist
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.MagicResist
+  fullName: Oasys.Common.GameObject.GameObjectBase.MagicResist
+  nameWithType: GameObjectBase.MagicResist
+- uid: Oasys.Common.GameObject.GameObjectBase.MagicResist*
+  name: MagicResist
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_MagicResist_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.MagicResist
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.MagicResist
+  nameWithType: GameObjectBase.MagicResist
 - uid: Oasys.Common.GameObject.GameObjectBase.Mana
   name: Mana
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Mana
@@ -8799,6 +8825,157 @@ references:
   commentId: F:Oasys.Common.Logic.DamageCalculator.BasicAttackDamage.Next
   fullName: Oasys.Common.Logic.DamageCalculator.BasicAttackDamage.Next
   nameWithType: DamageCalculator.BasicAttackDamage.Next
+- uid: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Int32)
+  name: CalculateActualDamage(Single, Single, Single, Single, Single, Single, Single, Single, Boolean, Int32)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Boolean_System_Int32_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Int32)
+  fullName: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Single, System.Boolean, System.Int32)
+  nameWithType: DamageCalculator.CalculateActualDamage(Single, Single, Single, Single, Single, Single, Single, Single, Boolean, Int32)
+- uid: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage*
+  name: CalculateActualDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_CalculateActualDamage_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.CalculateActualDamage
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage
+  nameWithType: DamageCalculator.CalculateActualDamage
+- uid: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single)
+  name: CalculateActualDamage<TObject>(TObject, TObject, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single)
+  name.vb: CalculateActualDamage(Of TObject)(TObject, TObject, Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single,System.Single,System.Single)
+  name: CalculateActualDamage<TObject>(TObject, TObject, Single, Single, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_System_Single_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single,System.Single,System.Single)
+  name.vb: CalculateActualDamage(Of TObject)(TObject, TObject, Single, Single, Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, System.Single, System.Single, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, System.Single, System.Single, System.Single)
+  nameWithType: DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, Single, Single, Single)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, Single, Single, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``2(``0)
+  name: CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_CalculateActualDamage__2___0_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.CalculateActualDamage``2(``0)
+  name.vb: CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+  fullName: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+  nameWithType: DamageCalculator.CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1
+  name: DamageCalculator.DamageInfo<TObject>
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html
+  commentId: T:Oasys.Common.Logic.DamageCalculator.DamageInfo`1
+  name.vb: DamageCalculator.DamageInfo(Of TObject)
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject)
+  nameWithType: DamageCalculator.DamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject)
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.#ctor(`0,`0,System.Single,System.Single,System.Single)
+  name: DamageInfo(TObject, TObject, Single, Single, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1__ctor__0__0_System_Single_System_Single_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.#ctor(`0,`0,System.Single,System.Single,System.Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.DamageInfo(TObject, TObject, System.Single, System.Single, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).DamageInfo(TObject, TObject, System.Single, System.Single, System.Single)
+  nameWithType: DamageCalculator.DamageInfo<TObject>.DamageInfo(TObject, TObject, Single, Single, Single)
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).DamageInfo(TObject, TObject, Single, Single, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.#ctor*
+  name: DamageInfo
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1__ctor_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.DamageInfo
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).DamageInfo
+  nameWithType: DamageCalculator.DamageInfo<TObject>.DamageInfo
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).DamageInfo
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.attacker
+  name: attacker
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_attacker
+  commentId: P:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.attacker
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.attacker
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).attacker
+  nameWithType: DamageCalculator.DamageInfo<TObject>.attacker
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).attacker
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.attacker*
+  name: attacker
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_attacker_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.attacker
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.attacker
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).attacker
+  nameWithType: DamageCalculator.DamageInfo<TObject>.attacker
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).attacker
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.magicDamage
+  name: magicDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_magicDamage
+  commentId: P:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.magicDamage
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.magicDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).magicDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.magicDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).magicDamage
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.magicDamage*
+  name: magicDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_magicDamage_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.magicDamage
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.magicDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).magicDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.magicDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).magicDamage
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.physicalDamage
+  name: physicalDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_physicalDamage
+  commentId: P:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.physicalDamage
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.physicalDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).physicalDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.physicalDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).physicalDamage
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.physicalDamage*
+  name: physicalDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_physicalDamage_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.physicalDamage
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.physicalDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).physicalDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.physicalDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).physicalDamage
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.target
+  name: target
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_target
+  commentId: P:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.target
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.target
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).target
+  nameWithType: DamageCalculator.DamageInfo<TObject>.target
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).target
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.target*
+  name: target
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_target_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.target
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.target
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).target
+  nameWithType: DamageCalculator.DamageInfo<TObject>.target
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).target
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.trueDamage
+  name: trueDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_trueDamage
+  commentId: P:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.trueDamage
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.trueDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).trueDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.trueDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).trueDamage
+- uid: Oasys.Common.Logic.DamageCalculator.DamageInfo`1.trueDamage*
+  name: trueDamage
+  href: api/Oasys.Common.Logic.DamageCalculator.DamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_DamageInfo_1_trueDamage_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.DamageInfo`1.trueDamage
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.DamageInfo<TObject>.trueDamage
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.DamageInfo(Of TObject).trueDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.trueDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).trueDamage
 - uid: Oasys.Common.Logic.DamageCalculator.GetBasicAttackDamage(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase,Oasys.Common.Logic.DamageCalculator.BasicAttackDamage)
   name: GetBasicAttackDamage(GameObjectBase, GameObjectBase, DamageCalculator.BasicAttackDamage)
   href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetBasicAttackDamage_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_Logic_DamageCalculator_BasicAttackDamage_
@@ -8812,19 +8989,38 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.DamageCalculator.GetBasicAttackDamage
   nameWithType: DamageCalculator.GetBasicAttackDamage
-- uid: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
-  name: GetDamageReductionModifier(GameObjectBase)
-  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_Oasys_Common_GameObject_GameObjectBase_
-  commentId: M:Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
-  fullName: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier(Oasys.Common.GameObject.GameObjectBase)
-  nameWithType: DamageCalculator.GetDamageReductionModifier(GameObjectBase)
-- uid: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier*
-  name: GetDamageReductionModifier
-  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetDamageReductionModifier_
-  commentId: Overload:Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier
+- uid: Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier*
+  name: GetGeneralDamageReductionModifier
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetGeneralDamageReductionModifier_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier
   isSpec: "True"
-  fullName: Oasys.Common.Logic.DamageCalculator.GetDamageReductionModifier
-  nameWithType: DamageCalculator.GetDamageReductionModifier
+  fullName: Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier
+  nameWithType: DamageCalculator.GetGeneralDamageReductionModifier
+- uid: Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier``1(``0)
+  name: GetGeneralDamageReductionModifier<T>(T)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetGeneralDamageReductionModifier__1___0_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier``1(``0)
+  name.vb: GetGeneralDamageReductionModifier(Of T)(T)
+  fullName: Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.GetGeneralDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetGeneralDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetGeneralDamageReductionModifier(Of T)(T)
+- uid: Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier*
+  name: GetMagicDamageReductionModifier
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetMagicDamageReductionModifier_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier
+  nameWithType: DamageCalculator.GetMagicDamageReductionModifier
+- uid: Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier``1(``0)
+  name: GetMagicDamageReductionModifier<T>(T)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetMagicDamageReductionModifier__1___0_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier``1(``0)
+  name.vb: GetMagicDamageReductionModifier(Of T)(T)
+  fullName: Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.GetMagicDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetMagicDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetMagicDamageReductionModifier(Of T)(T)
 - uid: Oasys.Common.Logic.DamageCalculator.GetMaximumBasicAttackDamage(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetMaximumBasicAttackDamage(GameObjectBase, GameObjectBase)
   href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetMaximumBasicAttackDamage_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -8877,6 +9073,22 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.DamageCalculator.GetNextBasicAttackDamage
   nameWithType: DamageCalculator.GetNextBasicAttackDamage
+- uid: Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier*
+  name: GetPhysicalDamageReductionModifier
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetPhysicalDamageReductionModifier_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier
+  nameWithType: DamageCalculator.GetPhysicalDamageReductionModifier
+- uid: Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier``1(``0)
+  name: GetPhysicalDamageReductionModifier<T>(T)
+  href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetPhysicalDamageReductionModifier__1___0_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier``1(``0)
+  name.vb: GetPhysicalDamageReductionModifier(Of T)(T)
+  fullName: Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.GetPhysicalDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetPhysicalDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetPhysicalDamageReductionModifier(Of T)(T)
 - uid: Oasys.Common.Logic.DamageCalculator.GetTargetHealthAfterBasicAttack(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetTargetHealthAfterBasicAttack(GameObjectBase, GameObjectBase)
   href: api/Oasys.Common.Logic.DamageCalculator.html#Oasys_Common_Logic_DamageCalculator_GetTargetHealthAfterBasicAttack_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -8890,6 +9102,110 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.DamageCalculator.GetTargetHealthAfterBasicAttack
   nameWithType: DamageCalculator.GetTargetHealthAfterBasicAttack
+- uid: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1
+  name: DamageCalculator.MagicDamageInfo<TObject>
+  href: api/Oasys.Common.Logic.DamageCalculator.MagicDamageInfo-1.html
+  commentId: T:Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1
+  name.vb: DamageCalculator.MagicDamageInfo(Of TObject)
+  fullName: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo<TObject>
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject)
+- uid: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: MagicDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.MagicDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_MagicDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo(TObject, TObject, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1.#ctor*
+  name: MagicDamageInfo
+  href: api/Oasys.Common.Logic.DamageCalculator.MagicDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_MagicDamageInfo_1__ctor_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.MagicDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo
+- uid: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1
+  name: DamageCalculator.MixedDamageInfo<TObject>
+  href: api/Oasys.Common.Logic.DamageCalculator.MixedDamageInfo-1.html
+  commentId: T:Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1
+  name.vb: DamageCalculator.MixedDamageInfo(Of TObject)
+  fullName: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo<TObject>
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject)
+- uid: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1.#ctor(`0,`0,System.Single,System.Single)
+  name: MixedDamageInfo(TObject, TObject, Single, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.MixedDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_MixedDamageInfo_1__ctor__0__0_System_Single_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1.#ctor(`0,`0,System.Single,System.Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo(TObject, TObject, System.Single, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo(TObject, TObject, System.Single, System.Single)
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo(TObject, TObject, Single, Single)
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo(TObject, TObject, Single, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1.#ctor*
+  name: MixedDamageInfo
+  href: api/Oasys.Common.Logic.DamageCalculator.MixedDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_MixedDamageInfo_1__ctor_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.MixedDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo
+- uid: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1
+  name: DamageCalculator.PhysicalDamageInfo<TObject>
+  href: api/Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo-1.html
+  commentId: T:Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1
+  name.vb: DamageCalculator.PhysicalDamageInfo(Of TObject)
+  fullName: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo<TObject>
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject)
+- uid: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: PhysicalDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo(TObject, TObject, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor*
+  name: PhysicalDamageInfo
+  href: api/Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_PhysicalDamageInfo_1__ctor_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo
+- uid: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1
+  name: DamageCalculator.TrueDamageInfo<TObject>
+  href: api/Oasys.Common.Logic.DamageCalculator.TrueDamageInfo-1.html
+  commentId: T:Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1
+  name.vb: DamageCalculator.TrueDamageInfo(Of TObject)
+  fullName: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo<TObject>
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject)
+- uid: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: TrueDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.Common.Logic.DamageCalculator.TrueDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_TrueDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo(TObject, TObject, Single)
+- uid: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1.#ctor*
+  name: TrueDamageInfo
+  href: api/Oasys.Common.Logic.DamageCalculator.TrueDamageInfo-1.html#Oasys_Common_Logic_DamageCalculator_TrueDamageInfo_1__ctor_
+  commentId: Overload:Oasys.Common.Logic.DamageCalculator.TrueDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo
+  fullName.vb: Oasys.Common.Logic.DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo
 - uid: Oasys.Common.Logic.DamageType
   name: DamageType
   href: api/Oasys.Common.Logic.DamageType.html
@@ -9972,6 +10288,12 @@ references:
   commentId: T:Oasys.Common.ObjectManagerExport
   fullName: Oasys.Common.ObjectManagerExport
   nameWithType: ObjectManagerExport
+- uid: Oasys.Common.ObjectManagerExport.CollectedNativeMissiles
+  name: CollectedNativeMissiles
+  href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_CollectedNativeMissiles
+  commentId: F:Oasys.Common.ObjectManagerExport.CollectedNativeMissiles
+  fullName: Oasys.Common.ObjectManagerExport.CollectedNativeMissiles
+  nameWithType: ObjectManagerExport.CollectedNativeMissiles
 - uid: Oasys.Common.ObjectManagerExport.CollectedNativeObjects
   name: CollectedNativeObjects
   href: api/Oasys.Common.ObjectManagerExport.html#Oasys_Common_ObjectManagerExport_CollectedNativeObjects
@@ -13355,6 +13677,151 @@ references:
   commentId: T:Oasys.SDK.DamageCalculator
   fullName: Oasys.SDK.DamageCalculator
   nameWithType: DamageCalculator
+- uid: Oasys.SDK.DamageCalculator.CalculateActualDamage*
+  name: CalculateActualDamage
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_CalculateActualDamage_
+  commentId: Overload:Oasys.SDK.DamageCalculator.CalculateActualDamage
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.CalculateActualDamage
+  nameWithType: DamageCalculator.CalculateActualDamage
+- uid: Oasys.SDK.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single)
+  name: CalculateActualDamage<TObject>(TObject, TObject, Single)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single)
+  name.vb: CalculateActualDamage(Of TObject)(TObject, TObject, Single)
+  fullName: Oasys.SDK.DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, Single)
+- uid: Oasys.SDK.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single,System.Single,System.Single)
+  name: CalculateActualDamage<TObject>(TObject, TObject, Single, Single, Single)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_CalculateActualDamage__1___0___0_System_Single_System_Single_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.CalculateActualDamage``1(``0,``0,System.Single,System.Single,System.Single)
+  name.vb: CalculateActualDamage(Of TObject)(TObject, TObject, Single, Single, Single)
+  fullName: Oasys.SDK.DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, System.Single, System.Single, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, System.Single, System.Single, System.Single)
+  nameWithType: DamageCalculator.CalculateActualDamage<TObject>(TObject, TObject, Single, Single, Single)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TObject)(TObject, TObject, Single, Single, Single)
+- uid: Oasys.SDK.DamageCalculator.CalculateActualDamage``2(``0)
+  name: CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_CalculateActualDamage__2___0_
+  commentId: M:Oasys.SDK.DamageCalculator.CalculateActualDamage``2(``0)
+  name.vb: CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+  fullName: Oasys.SDK.DamageCalculator.CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  fullName.vb: Oasys.SDK.DamageCalculator.CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+  nameWithType: DamageCalculator.CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo)
+  nameWithType.vb: DamageCalculator.CalculateActualDamage(Of TDamageInfo, TObject)(TDamageInfo)
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1
+  name: DamageCalculator.DamageInfo<TObject>
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html
+  commentId: T:Oasys.SDK.DamageCalculator.DamageInfo`1
+  name.vb: DamageCalculator.DamageInfo(Of TObject)
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject)
+  nameWithType: DamageCalculator.DamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject)
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor(`0,`0,System.Single,System.Single,System.Single)
+  name: DamageInfo(TObject, TObject, Single, Single, Single)
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1__ctor__0__0_System_Single_System_Single_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor(`0,`0,System.Single,System.Single,System.Single)
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.DamageInfo(TObject, TObject, System.Single, System.Single, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).DamageInfo(TObject, TObject, System.Single, System.Single, System.Single)
+  nameWithType: DamageCalculator.DamageInfo<TObject>.DamageInfo(TObject, TObject, Single, Single, Single)
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).DamageInfo(TObject, TObject, Single, Single, Single)
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor*
+  name: DamageInfo
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1__ctor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.DamageInfo
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).DamageInfo
+  nameWithType: DamageCalculator.DamageInfo<TObject>.DamageInfo
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).DamageInfo
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.attacker
+  name: attacker
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_attacker
+  commentId: P:Oasys.SDK.DamageCalculator.DamageInfo`1.attacker
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.attacker
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).attacker
+  nameWithType: DamageCalculator.DamageInfo<TObject>.attacker
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).attacker
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.attacker*
+  name: attacker
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_attacker_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.attacker
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.attacker
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).attacker
+  nameWithType: DamageCalculator.DamageInfo<TObject>.attacker
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).attacker
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage
+  name: magicDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_magicDamage
+  commentId: P:Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.magicDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).magicDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.magicDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).magicDamage
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage*
+  name: magicDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_magicDamage_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.magicDamage
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.magicDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).magicDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.magicDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).magicDamage
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage
+  name: physicalDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_physicalDamage
+  commentId: P:Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.physicalDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).physicalDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.physicalDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).physicalDamage
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage*
+  name: physicalDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_physicalDamage_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.physicalDamage
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.physicalDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).physicalDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.physicalDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).physicalDamage
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.target
+  name: target
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_target
+  commentId: P:Oasys.SDK.DamageCalculator.DamageInfo`1.target
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.target
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).target
+  nameWithType: DamageCalculator.DamageInfo<TObject>.target
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).target
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.target*
+  name: target
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_target_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.target
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.target
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).target
+  nameWithType: DamageCalculator.DamageInfo<TObject>.target
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).target
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage
+  name: trueDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_trueDamage
+  commentId: P:Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.trueDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).trueDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.trueDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).trueDamage
+- uid: Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage*
+  name: trueDamage
+  href: api/Oasys.SDK.DamageCalculator.DamageInfo-1.html#Oasys_SDK_DamageCalculator_DamageInfo_1_trueDamage_
+  commentId: Overload:Oasys.SDK.DamageCalculator.DamageInfo`1.trueDamage
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.DamageInfo<TObject>.trueDamage
+  fullName.vb: Oasys.SDK.DamageCalculator.DamageInfo(Of TObject).trueDamage
+  nameWithType: DamageCalculator.DamageInfo<TObject>.trueDamage
+  nameWithType.vb: DamageCalculator.DamageInfo(Of TObject).trueDamage
 - uid: Oasys.SDK.DamageCalculator.GetArmorMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetArmorMod(GameObjectBase, GameObjectBase)
   href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetArmorMod_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -13394,6 +13861,38 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.DamageCalculator.GetCombatMagicResist
   nameWithType: DamageCalculator.GetCombatMagicResist
+- uid: Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier*
+  name: GetGeneralDamageReductionModifier
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetGeneralDamageReductionModifier_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier
+  nameWithType: DamageCalculator.GetGeneralDamageReductionModifier
+- uid: Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier``1(``0)
+  name: GetGeneralDamageReductionModifier<T>(T)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetGeneralDamageReductionModifier__1___0_
+  commentId: M:Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier``1(``0)
+  name.vb: GetGeneralDamageReductionModifier(Of T)(T)
+  fullName: Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.SDK.DamageCalculator.GetGeneralDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetGeneralDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetGeneralDamageReductionModifier(Of T)(T)
+- uid: Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier*
+  name: GetMagicDamageReductionModifier
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetMagicDamageReductionModifier_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier
+  nameWithType: DamageCalculator.GetMagicDamageReductionModifier
+- uid: Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier``1(``0)
+  name: GetMagicDamageReductionModifier<T>(T)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetMagicDamageReductionModifier__1___0_
+  commentId: M:Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier``1(``0)
+  name.vb: GetMagicDamageReductionModifier(Of T)(T)
+  fullName: Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.SDK.DamageCalculator.GetMagicDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetMagicDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetMagicDamageReductionModifier(Of T)(T)
 - uid: Oasys.SDK.DamageCalculator.GetMagicResistMod(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetMagicResistMod(GameObjectBase, GameObjectBase)
   href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetMagicResistMod_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -13420,6 +13919,22 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.DamageCalculator.GetNextBasicAttackDamage
   nameWithType: DamageCalculator.GetNextBasicAttackDamage
+- uid: Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier*
+  name: GetPhysicalDamageReductionModifier
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetPhysicalDamageReductionModifier_
+  commentId: Overload:Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier
+  nameWithType: DamageCalculator.GetPhysicalDamageReductionModifier
+- uid: Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier``1(``0)
+  name: GetPhysicalDamageReductionModifier<T>(T)
+  href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetPhysicalDamageReductionModifier__1___0_
+  commentId: M:Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier``1(``0)
+  name.vb: GetPhysicalDamageReductionModifier(Of T)(T)
+  fullName: Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier<T>(T)
+  fullName.vb: Oasys.SDK.DamageCalculator.GetPhysicalDamageReductionModifier(Of T)(T)
+  nameWithType: DamageCalculator.GetPhysicalDamageReductionModifier<T>(T)
+  nameWithType.vb: DamageCalculator.GetPhysicalDamageReductionModifier(Of T)(T)
 - uid: Oasys.SDK.DamageCalculator.GetTargetHealthAfterBasicAttack(Oasys.Common.GameObject.GameObjectBase,Oasys.Common.GameObject.GameObjectBase)
   name: GetTargetHealthAfterBasicAttack(GameObjectBase, GameObjectBase)
   href: api/Oasys.SDK.DamageCalculator.html#Oasys_SDK_DamageCalculator_GetTargetHealthAfterBasicAttack_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_
@@ -13433,6 +13948,110 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.DamageCalculator.GetTargetHealthAfterBasicAttack
   nameWithType: DamageCalculator.GetTargetHealthAfterBasicAttack
+- uid: Oasys.SDK.DamageCalculator.MagicDamageInfo`1
+  name: DamageCalculator.MagicDamageInfo<TObject>
+  href: api/Oasys.SDK.DamageCalculator.MagicDamageInfo-1.html
+  commentId: T:Oasys.SDK.DamageCalculator.MagicDamageInfo`1
+  name.vb: DamageCalculator.MagicDamageInfo(Of TObject)
+  fullName: Oasys.SDK.DamageCalculator.MagicDamageInfo<TObject>
+  fullName.vb: Oasys.SDK.DamageCalculator.MagicDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject)
+- uid: Oasys.SDK.DamageCalculator.MagicDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: MagicDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.SDK.DamageCalculator.MagicDamageInfo-1.html#Oasys_SDK_DamageCalculator_MagicDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.MagicDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.SDK.DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo(TObject, TObject, Single)
+- uid: Oasys.SDK.DamageCalculator.MagicDamageInfo`1.#ctor*
+  name: MagicDamageInfo
+  href: api/Oasys.SDK.DamageCalculator.MagicDamageInfo-1.html#Oasys_SDK_DamageCalculator_MagicDamageInfo_1__ctor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.MagicDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo
+  fullName.vb: Oasys.SDK.DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo
+  nameWithType: DamageCalculator.MagicDamageInfo<TObject>.MagicDamageInfo
+  nameWithType.vb: DamageCalculator.MagicDamageInfo(Of TObject).MagicDamageInfo
+- uid: Oasys.SDK.DamageCalculator.MixedDamageInfo`1
+  name: DamageCalculator.MixedDamageInfo<TObject>
+  href: api/Oasys.SDK.DamageCalculator.MixedDamageInfo-1.html
+  commentId: T:Oasys.SDK.DamageCalculator.MixedDamageInfo`1
+  name.vb: DamageCalculator.MixedDamageInfo(Of TObject)
+  fullName: Oasys.SDK.DamageCalculator.MixedDamageInfo<TObject>
+  fullName.vb: Oasys.SDK.DamageCalculator.MixedDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject)
+- uid: Oasys.SDK.DamageCalculator.MixedDamageInfo`1.#ctor(`0,`0,System.Single,System.Single)
+  name: MixedDamageInfo(TObject, TObject, Single, Single)
+  href: api/Oasys.SDK.DamageCalculator.MixedDamageInfo-1.html#Oasys_SDK_DamageCalculator_MixedDamageInfo_1__ctor__0__0_System_Single_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.MixedDamageInfo`1.#ctor(`0,`0,System.Single,System.Single)
+  fullName: Oasys.SDK.DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo(TObject, TObject, System.Single, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo(TObject, TObject, System.Single, System.Single)
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo(TObject, TObject, Single, Single)
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo(TObject, TObject, Single, Single)
+- uid: Oasys.SDK.DamageCalculator.MixedDamageInfo`1.#ctor*
+  name: MixedDamageInfo
+  href: api/Oasys.SDK.DamageCalculator.MixedDamageInfo-1.html#Oasys_SDK_DamageCalculator_MixedDamageInfo_1__ctor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.MixedDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo
+  fullName.vb: Oasys.SDK.DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo
+  nameWithType: DamageCalculator.MixedDamageInfo<TObject>.MixedDamageInfo
+  nameWithType.vb: DamageCalculator.MixedDamageInfo(Of TObject).MixedDamageInfo
+- uid: Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1
+  name: DamageCalculator.PhysicalDamageInfo<TObject>
+  href: api/Oasys.SDK.DamageCalculator.PhysicalDamageInfo-1.html
+  commentId: T:Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1
+  name.vb: DamageCalculator.PhysicalDamageInfo(Of TObject)
+  fullName: Oasys.SDK.DamageCalculator.PhysicalDamageInfo<TObject>
+  fullName.vb: Oasys.SDK.DamageCalculator.PhysicalDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject)
+- uid: Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: PhysicalDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.SDK.DamageCalculator.PhysicalDamageInfo-1.html#Oasys_SDK_DamageCalculator_PhysicalDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.SDK.DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo(TObject, TObject, Single)
+- uid: Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1.#ctor*
+  name: PhysicalDamageInfo
+  href: api/Oasys.SDK.DamageCalculator.PhysicalDamageInfo-1.html#Oasys_SDK_DamageCalculator_PhysicalDamageInfo_1__ctor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.PhysicalDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo
+  fullName.vb: Oasys.SDK.DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo
+  nameWithType: DamageCalculator.PhysicalDamageInfo<TObject>.PhysicalDamageInfo
+  nameWithType.vb: DamageCalculator.PhysicalDamageInfo(Of TObject).PhysicalDamageInfo
+- uid: Oasys.SDK.DamageCalculator.TrueDamageInfo`1
+  name: DamageCalculator.TrueDamageInfo<TObject>
+  href: api/Oasys.SDK.DamageCalculator.TrueDamageInfo-1.html
+  commentId: T:Oasys.SDK.DamageCalculator.TrueDamageInfo`1
+  name.vb: DamageCalculator.TrueDamageInfo(Of TObject)
+  fullName: Oasys.SDK.DamageCalculator.TrueDamageInfo<TObject>
+  fullName.vb: Oasys.SDK.DamageCalculator.TrueDamageInfo(Of TObject)
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject)
+- uid: Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor(`0,`0,System.Single)
+  name: TrueDamageInfo(TObject, TObject, Single)
+  href: api/Oasys.SDK.DamageCalculator.TrueDamageInfo-1.html#Oasys_SDK_DamageCalculator_TrueDamageInfo_1__ctor__0__0_System_Single_
+  commentId: M:Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor(`0,`0,System.Single)
+  fullName: Oasys.SDK.DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo(TObject, TObject, System.Single)
+  fullName.vb: Oasys.SDK.DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo(TObject, TObject, System.Single)
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo(TObject, TObject, Single)
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo(TObject, TObject, Single)
+- uid: Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor*
+  name: TrueDamageInfo
+  href: api/Oasys.SDK.DamageCalculator.TrueDamageInfo-1.html#Oasys_SDK_DamageCalculator_TrueDamageInfo_1__ctor_
+  commentId: Overload:Oasys.SDK.DamageCalculator.TrueDamageInfo`1.#ctor
+  isSpec: "True"
+  fullName: Oasys.SDK.DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo
+  fullName.vb: Oasys.SDK.DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo
+  nameWithType: DamageCalculator.TrueDamageInfo<TObject>.TrueDamageInfo
+  nameWithType.vb: DamageCalculator.TrueDamageInfo(Of TObject).TrueDamageInfo
 - uid: Oasys.SDK.Events
   name: Oasys.SDK.Events
   href: api/Oasys.SDK.Events.html
