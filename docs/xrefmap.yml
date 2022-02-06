@@ -52,6 +52,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.EngineManager.GameStatus
   nameWithType: EngineManager.GameStatus
+- uid: Oasys.Common.EngineManager.GameTick
+  name: GameTick
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_GameTick
+  commentId: P:Oasys.Common.EngineManager.GameTick
+  fullName: Oasys.Common.EngineManager.GameTick
+  nameWithType: EngineManager.GameTick
+- uid: Oasys.Common.EngineManager.GameTick*
+  name: GameTick
+  href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_GameTick_
+  commentId: Overload:Oasys.Common.EngineManager.GameTick
+  isSpec: "True"
+  fullName: Oasys.Common.EngineManager.GameTick
+  nameWithType: EngineManager.GameTick
 - uid: Oasys.Common.EngineManager.GameTime
   name: GameTime
   href: api/Oasys.Common.EngineManager.html#Oasys_Common_EngineManager_GameTime
@@ -4676,6 +4689,12 @@ references:
   commentId: M:Oasys.Common.GameObject.Clients.AIBaseClient.#ctor(System.Int32)
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.AIBaseClient(System.Int32)
   nameWithType: AIBaseClient.AIBaseClient(Int32)
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.#ctor(System.Int32,System.Single)
+  name: AIBaseClient(Int32, Single)
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient__ctor_System_Int32_System_Single_
+  commentId: M:Oasys.Common.GameObject.Clients.AIBaseClient.#ctor(System.Int32,System.Single)
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.AIBaseClient(System.Int32, System.Single)
+  nameWithType: AIBaseClient.AIBaseClient(Int32, Single)
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.#ctor*
   name: AIBaseClient
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient__ctor_
@@ -7729,6 +7748,12 @@ references:
   commentId: M:Oasys.Common.GameObject.GameObjectBase.#ctor
   fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectBase()
   nameWithType: GameObjectBase.GameObjectBase()
+- uid: Oasys.Common.GameObject.GameObjectBase.#ctor(System.Single)
+  name: GameObjectBase(Single)
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase__ctor_System_Single_
+  commentId: M:Oasys.Common.GameObject.GameObjectBase.#ctor(System.Single)
+  fullName: Oasys.Common.GameObject.GameObjectBase.GameObjectBase(System.Single)
+  nameWithType: GameObjectBase.GameObjectBase(Single)
 - uid: Oasys.Common.GameObject.GameObjectBase.#ctor*
   name: GameObjectBase
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase__ctor_
@@ -7791,6 +7816,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.AttackRange
   nameWithType: GameObjectBase.AttackRange
+- uid: Oasys.Common.GameObject.GameObjectBase.AttackSpeed
+  name: AttackSpeed
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackSpeed
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.AttackSpeed
+  fullName: Oasys.Common.GameObject.GameObjectBase.AttackSpeed
+  nameWithType: GameObjectBase.AttackSpeed
+- uid: Oasys.Common.GameObject.GameObjectBase.AttackSpeed*
+  name: AttackSpeed
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackSpeed_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.AttackSpeed
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.AttackSpeed
+  nameWithType: GameObjectBase.AttackSpeed
 - uid: Oasys.Common.GameObject.GameObjectBase.BasicAttackInfo
   name: BasicAttackInfo
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_BasicAttackInfo
@@ -9422,6 +9460,25 @@ references:
   commentId: T:Oasys.Common.Logic.Orbwalker.BasicAttackCommand
   fullName: Oasys.Common.Logic.Orbwalker.BasicAttackCommand
   nameWithType: Orbwalker.BasicAttackCommand
+- uid: Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode)
+  name: GetTarget(OrbwalkingMode)
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_
+  commentId: M:Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode)
+  fullName: Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode)
+  nameWithType: Orbwalker.GetTarget(OrbwalkingMode)
+- uid: Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode,System.Single)
+  name: GetTarget(OrbwalkingMode, Single)
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_System_Single_
+  commentId: M:Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode,System.Single)
+  fullName: Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode, System.Single)
+  nameWithType: Orbwalker.GetTarget(OrbwalkingMode, Single)
+- uid: Oasys.Common.Logic.Orbwalker.GetTarget*
+  name: GetTarget
+  href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_GetTarget_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.GetTarget
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.GetTarget
+  nameWithType: Orbwalker.GetTarget
 - uid: Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack
   name: OnOrbwalkerAfterBasicAttack
   href: api/Oasys.Common.Logic.Orbwalker.html#Oasys_Common_Logic_Orbwalker_OnOrbwalkerAfterBasicAttack
@@ -9779,6 +9836,15 @@ references:
   commentId: M:Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase)
   fullName: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase)
   nameWithType: TargetSelector.GetBestHeroTarget(GameObjectBase)
+- uid: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase,System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})
+  name: GetBestHeroTarget(GameObjectBase, Func<GameObjectBase, Boolean>)
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_GetBestHeroTarget_Oasys_Common_GameObject_GameObjectBase_System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__
+  commentId: M:Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase,System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})
+  name.vb: GetBestHeroTarget(GameObjectBase, Func(Of GameObjectBase, Boolean))
+  fullName: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase, System.Func<Oasys.Common.GameObject.GameObjectBase, System.Boolean>)
+  fullName.vb: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget(Oasys.Common.GameObject.GameObjectBase, System.Func(Of Oasys.Common.GameObject.GameObjectBase, System.Boolean))
+  nameWithType: TargetSelector.GetBestHeroTarget(GameObjectBase, Func<GameObjectBase, Boolean>)
+  nameWithType.vb: TargetSelector.GetBestHeroTarget(GameObjectBase, Func(Of GameObjectBase, Boolean))
 - uid: Oasys.Common.Logic.TargetSelector.GetBestHeroTarget*
   name: GetBestHeroTarget
   href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_GetBestHeroTarget_
@@ -9851,12 +9917,15 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.TargetSelector.IsInvulnerable
   nameWithType: TargetSelector.IsInvulnerable
-- uid: Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase)
-  name: IsKillable(GameObjectBase)
-  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsKillable_Oasys_Common_GameObject_GameObjectBase_
-  commentId: M:Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase)
-  fullName: Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase)
-  nameWithType: TargetSelector.IsKillable(GameObjectBase)
+- uid: Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase,System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})
+  name: IsKillable(GameObjectBase, Func<GameObjectBase, Boolean>)
+  href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsKillable_Oasys_Common_GameObject_GameObjectBase_System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__
+  commentId: M:Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase,System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})
+  name.vb: IsKillable(GameObjectBase, Func(Of GameObjectBase, Boolean))
+  fullName: Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase, System.Func<Oasys.Common.GameObject.GameObjectBase, System.Boolean>)
+  fullName.vb: Oasys.Common.Logic.TargetSelector.IsKillable(Oasys.Common.GameObject.GameObjectBase, System.Func(Of Oasys.Common.GameObject.GameObjectBase, System.Boolean))
+  nameWithType: TargetSelector.IsKillable(GameObjectBase, Func<GameObjectBase, Boolean>)
+  nameWithType.vb: TargetSelector.IsKillable(GameObjectBase, Func(Of GameObjectBase, Boolean))
 - uid: Oasys.Common.Logic.TargetSelector.IsKillable*
   name: IsKillable
   href: api/Oasys.Common.Logic.TargetSelector.html#Oasys_Common_Logic_TargetSelector_IsKillable_
@@ -14191,6 +14260,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.GameEngine.ChatBox
   nameWithType: GameEngine.ChatBox
+- uid: Oasys.SDK.GameEngine.GamePing
+  name: GamePing
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GamePing
+  commentId: P:Oasys.SDK.GameEngine.GamePing
+  fullName: Oasys.SDK.GameEngine.GamePing
+  nameWithType: GameEngine.GamePing
+- uid: Oasys.SDK.GameEngine.GamePing*
+  name: GamePing
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GamePing_
+  commentId: Overload:Oasys.SDK.GameEngine.GamePing
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.GamePing
+  nameWithType: GameEngine.GamePing
 - uid: Oasys.SDK.GameEngine.GameStatus
   name: GameStatus
   href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GameStatus
@@ -14204,6 +14286,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.GameEngine.GameStatus
   nameWithType: GameEngine.GameStatus
+- uid: Oasys.SDK.GameEngine.GameTick
+  name: GameTick
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GameTick
+  commentId: P:Oasys.SDK.GameEngine.GameTick
+  fullName: Oasys.SDK.GameEngine.GameTick
+  nameWithType: GameEngine.GameTick
+- uid: Oasys.SDK.GameEngine.GameTick*
+  name: GameTick
+  href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GameTick_
+  commentId: Overload:Oasys.SDK.GameEngine.GameTick
+  isSpec: "True"
+  fullName: Oasys.SDK.GameEngine.GameTick
+  nameWithType: GameEngine.GameTick
 - uid: Oasys.SDK.GameEngine.GameTime
   name: GameTime
   href: api/Oasys.SDK.GameEngine.html#Oasys_SDK_GameEngine_GameTime
@@ -15083,6 +15178,25 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Orbwalker.ForceMovePosition
   nameWithType: Orbwalker.ForceMovePosition
+- uid: Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType)
+  name: GetTarget(Orbwalker.OrbWalkingModeType)
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_GetTarget_Oasys_SDK_Orbwalker_OrbWalkingModeType_
+  commentId: M:Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType)
+  fullName: Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType)
+  nameWithType: Orbwalker.GetTarget(Orbwalker.OrbWalkingModeType)
+- uid: Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType,System.Single)
+  name: GetTarget(Orbwalker.OrbWalkingModeType, Single)
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_GetTarget_Oasys_SDK_Orbwalker_OrbWalkingModeType_System_Single_
+  commentId: M:Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType,System.Single)
+  fullName: Oasys.SDK.Orbwalker.GetTarget(Oasys.SDK.Orbwalker.OrbWalkingModeType, System.Single)
+  nameWithType: Orbwalker.GetTarget(Orbwalker.OrbWalkingModeType, Single)
+- uid: Oasys.SDK.Orbwalker.GetTarget*
+  name: GetTarget
+  href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_GetTarget_
+  commentId: Overload:Oasys.SDK.Orbwalker.GetTarget
+  isSpec: "True"
+  fullName: Oasys.SDK.Orbwalker.GetTarget
+  nameWithType: Orbwalker.GetTarget
 - uid: Oasys.SDK.Orbwalker.LaneClearTarget
   name: LaneClearTarget
   href: api/Oasys.SDK.Orbwalker.html#Oasys_SDK_Orbwalker_LaneClearTarget

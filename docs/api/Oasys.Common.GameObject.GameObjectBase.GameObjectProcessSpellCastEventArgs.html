@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Orbwalker
+    <title>Class GameObjectBase.GameObjectProcessSpellCastEventArgs
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Orbwalker
+    <meta name="title" content="Class GameObjectBase.GameObjectProcessSpellCastEventArgs
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,20 +77,24 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Logic.Orbwalker">
+            <article class="content wrap" id="_content" data-uid="Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs">
   
   
-  <h1 id="Oasys_Common_Logic_Orbwalker" data-uid="Oasys.Common.Logic.Orbwalker" class="text-break">Class Orbwalker
+  <h1 id="Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs" data-uid="Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs" class="text-break">Class GameObjectBase.GameObjectProcessSpellCastEventArgs
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Orbwalker</span></div>
+    <div class="level1"><span class="xref">System.EventArgs</span></div>
+    <div class="level2"><span class="xref">GameObjectBase.GameObjectProcessSpellCastEventArgs</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.EventArgs.Empty</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -113,40 +117,23 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Logic.html">Oasys.Common.Logic</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.GameObject.html">Oasys.Common.GameObject</a></h6>
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Logic_Orbwalker_syntax">Syntax</h5>
+  <h5 id="Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Orbwalker</code></pre>
+    <pre><code class="lang-csharp hljs">public class GameObjectProcessSpellCastEventArgs : EventArgs</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
-  <a id="Oasys_Common_Logic_Orbwalker_GetTarget_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget*"></a>
-  <h4 id="Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode)">GetTarget(OrbwalkingMode)</h4>
+  <a id="Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs_Spell_" data-uid="Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell*"></a>
+  <h4 id="Oasys_Common_GameObject_GameObjectBase_GameObjectProcessSpellCastEventArgs_Spell" data-uid="Oasys.Common.GameObject.GameObjectBase.GameObjectProcessSpellCastEventArgs.Spell">Spell</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetTarget(OrbwalkingMode orbwalkingMode)</code></pre>
+    <pre><code class="lang-csharp hljs">public SpellActiveEntry Spell { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.OrbwalkingMode.html">OrbwalkingMode</a></td>
-        <td><span class="parametername">orbwalkingMode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -156,102 +143,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html">SpellActiveEntry</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Logic_Orbwalker_GetTarget_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget*"></a>
-  <h4 id="Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_System_Single_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode,System.Single)">GetTarget(OrbwalkingMode, Single)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetTarget(OrbwalkingMode orbwalkingMode, float range = 0F)</code></pre>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.OrbwalkingMode.html">OrbwalkingMode</a></td>
-        <td><span class="parametername">orbwalkingMode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-  </h3>
-  <h4 id="Oasys_Common_Logic_Orbwalker_OnOrbwalkerAfterBasicAttack" data-uid="Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack">OnOrbwalkerAfterBasicAttack</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerAfterBasicAttack</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h4 id="Oasys_Common_Logic_Orbwalker_OnOrbwalkerBasicAttack" data-uid="Oasys.Common.Logic.Orbwalker.OnOrbwalkerBasicAttack">OnOrbwalkerBasicAttack</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerBasicAttack</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

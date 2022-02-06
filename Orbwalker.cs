@@ -1,10 +1,41 @@
 ﻿using Oasys.Common.GameObject;
 using SharpDX;
+using System;
 
 namespace Oasys.SDK
 {
     public class Orbwalker
     {
+        /// <summary>
+        /// Get a orbwalking target
+        /// </summary>
+        /// <param name="orbwalkingMode"></param>
+        /// <returns></returns>
+        public static GameObjectBase GetTarget(OrbWalkingModeType orbwalkingMode) => GetTarget(orbwalkingMode, 0);
+
+        /// <summary>
+        /// Get a orbwalking target with custom range, usecase fx: Zeri Q
+        /// </summary>
+        /// <param name="orbwalkingMode"></param>
+        /// <returns></returns>
+        public static GameObjectBase GetTarget(OrbWalkingModeType orbwalkingMode, float range = 0f)
+        {
+            var mode = orbwalkingMode switch
+            {
+                OrbWalkingModeType.LastHit => Common.Logic.OrbwalkingMode.LastHit,
+                OrbWalkingModeType.Mixed => Common.Logic.OrbwalkingMode.Mixed,
+                OrbWalkingModeType.LaneClear => Common.Logic.OrbwalkingMode.LaneClear,
+                OrbWalkingModeType.Combo => Common.Logic.OrbwalkingMode.Combo,
+                OrbWalkingModeType.Freeze => Common.Logic.OrbwalkingMode.Freeze,
+                OrbWalkingModeType.Move => Common.Logic.OrbwalkingMode.Move,
+                OrbWalkingModeType.None => Common.Logic.OrbwalkingMode.None,
+                OrbWalkingModeType.Evade => Common.Logic.OrbwalkingMode.Evade,
+                _ => throw new NotImplementedException()
+            };
+
+            return Common.Logic.Orbwalker.GetTarget(mode, range);
+        }
+
         /// <summary>
         /// Can my champion basic attack
         /// </summary>

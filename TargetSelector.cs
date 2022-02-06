@@ -35,7 +35,7 @@ namespace Oasys.SDK
         /// <returns></returns>
         public static bool IsKillable(GameObjectBase target)
         {
-            return Common.Logic.TargetSelector.IsKillable(target);
+            return Common.Logic.TargetSelector.IsKillable(target, IsInRange);
         }
 
         /// <summary>

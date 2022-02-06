@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Orbwalker
+    <title>Class ColorHelper
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Orbwalker
+    <meta name="title" content="Class ColorHelper
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,17 +77,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Logic.Orbwalker">
+            <article class="content wrap" id="_content" data-uid="Oasys.Common.Tools.ColorHelper">
   
   
-  <h1 id="Oasys_Common_Logic_Orbwalker" data-uid="Oasys.Common.Logic.Orbwalker" class="text-break">Class Orbwalker
+  <h1 id="Oasys_Common_Tools_ColorHelper" data-uid="Oasys.Common.Tools.ColorHelper" class="text-break">Class ColorHelper
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Orbwalker</span></div>
+    <div class="level1"><span class="xref">ColorHelper</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,21 +113,21 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Logic.html">Oasys.Common.Logic</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Tools.html">Oasys.Common.Tools</a></h6>
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Logic_Orbwalker_syntax">Syntax</h5>
+  <h5 id="Oasys_Common_Tools_ColorHelper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Orbwalker</code></pre>
+    <pre><code class="lang-csharp hljs">public class ColorHelper</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="Oasys_Common_Logic_Orbwalker_GetTarget_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget*"></a>
-  <h4 id="Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode)">GetTarget(OrbwalkingMode)</h4>
+  <a id="Oasys_Common_Tools_ColorHelper_GetColor_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor*"></a>
+  <h4 id="Oasys_Common_Tools_ColorHelper_GetColor_System_String_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor(System.String)">GetColor(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetTarget(OrbwalkingMode orbwalkingMode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color GetColor(string colorName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,8 +140,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.OrbwalkingMode.html">OrbwalkingMode</a></td>
-        <td><span class="parametername">orbwalkingMode</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">colorName</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -156,18 +156,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="xref">SharpDX.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Logic_Orbwalker_GetTarget_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget*"></a>
-  <h4 id="Oasys_Common_Logic_Orbwalker_GetTarget_Oasys_Common_Logic_OrbwalkingMode_System_Single_" data-uid="Oasys.Common.Logic.Orbwalker.GetTarget(Oasys.Common.Logic.OrbwalkingMode,System.Single)">GetTarget(OrbwalkingMode, Single)</h4>
+  <a id="Oasys_Common_Tools_ColorHelper_GetColor_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor*"></a>
+  <h4 id="Oasys_Common_Tools_ColorHelper_GetColor_System_String_System_Int32_" data-uid="Oasys.Common.Tools.ColorHelper.GetColor(System.String,System.Int32)">GetColor(String, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetTarget(OrbwalkingMode orbwalkingMode, float range = 0F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color GetColor(string colorName, int alpha)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,13 +180,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.OrbwalkingMode.html">OrbwalkingMode</a></td>
-        <td><span class="parametername">orbwalkingMode</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">colorName</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">range</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">alpha</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -201,21 +201,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="xref">SharpDX.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="events">Events
-  </h3>
-  <h4 id="Oasys_Common_Logic_Orbwalker_OnOrbwalkerAfterBasicAttack" data-uid="Oasys.Common.Logic.Orbwalker.OnOrbwalkerAfterBasicAttack">OnOrbwalkerAfterBasicAttack</h4>
+  <a id="Oasys_Common_Tools_ColorHelper_GetColors_" data-uid="Oasys.Common.Tools.ColorHelper.GetColors*"></a>
+  <h4 id="Oasys_Common_Tools_ColorHelper_GetColors" data-uid="Oasys.Common.Tools.ColorHelper.GetColors">GetColors()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerAfterBasicAttack</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;string&gt; GetColors()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -225,19 +224,42 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h4 id="Oasys_Common_Logic_Orbwalker_OnOrbwalkerBasicAttack" data-uid="Oasys.Common.Logic.Orbwalker.OnOrbwalkerBasicAttack">OnOrbwalkerBasicAttack</h4>
+  <a id="Oasys_Common_Tools_ColorHelper_GetColorWithAlpha_" data-uid="Oasys.Common.Tools.ColorHelper.GetColorWithAlpha*"></a>
+  <h4 id="Oasys_Common_Tools_ColorHelper_GetColorWithAlpha_SharpDX_Color_System_Int32_" data-uid="Oasys.Common.Tools.ColorHelper.GetColorWithAlpha(SharpDX.Color,System.Int32)">GetColorWithAlpha(Color, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Orbwalker.BasicAttackCommand OnOrbwalkerBasicAttack</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color GetColorWithAlpha(Color color, int alpha)</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -247,11 +269,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Logic.Orbwalker.BasicAttackCommand.html">Orbwalker.BasicAttackCommand</a></td>
+        <td><span class="xref">SharpDX.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_In__1___0___0___">Extensions.In&lt;T&gt;(T, T[])</a>
+  </div>
 </article>
           </div>
           

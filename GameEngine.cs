@@ -16,6 +16,16 @@ namespace Oasys.SDK
         public static float GameTime => EngineManager.GameTime;
 
         /// <summary>
+        /// Gets the current game tick. This is equal to gametime * 1000
+        /// </summary>
+        public static int GameTick => EngineManager.GameTick;
+
+        /// <summary>
+        /// The local ping to server.
+        /// </summary>
+        public static int GamePing => EngineManager.GamePing;
+
+        /// <summary>
         /// Gets the current game version.
         /// </summary>
         public static string GameVersion => EngineManager.GameVersion;
