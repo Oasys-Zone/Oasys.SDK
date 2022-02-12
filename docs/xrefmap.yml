@@ -3208,6 +3208,12 @@ references:
   commentId: T:Oasys.Common.EventsProvider.GameEvents
   fullName: Oasys.Common.EventsProvider.GameEvents
   nameWithType: GameEvents
+- uid: Oasys.Common.EventsProvider.GameEvents.DashEventTemplate
+  name: GameEvents.DashEventTemplate
+  href: api/Oasys.Common.EventsProvider.GameEvents.DashEventTemplate.html
+  commentId: T:Oasys.Common.EventsProvider.GameEvents.DashEventTemplate
+  fullName: Oasys.Common.EventsProvider.GameEvents.DashEventTemplate
+  nameWithType: GameEvents.DashEventTemplate
 - uid: Oasys.Common.EventsProvider.GameEvents.GameEventTemplate
   name: GameEvents.GameEventTemplate
   href: api/Oasys.Common.EventsProvider.GameEvents.GameEventTemplate.html
@@ -3244,6 +3250,12 @@ references:
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnDeleteObject
   fullName: Oasys.Common.EventsProvider.GameEvents.OnDeleteObject
   nameWithType: GameEvents.OnDeleteObject
+- uid: Oasys.Common.EventsProvider.GameEvents.OnGameDash
+  name: OnGameDash
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameDash
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameDash
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnGameDash
+  nameWithType: GameEvents.OnGameDash
 - uid: Oasys.Common.EventsProvider.GameEvents.OnGameLoadComplete
   name: OnGameLoadComplete
   href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameLoadComplete
@@ -3256,6 +3268,12 @@ references:
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameMatchComplete
   fullName: Oasys.Common.EventsProvider.GameEvents.OnGameMatchComplete
   nameWithType: GameEvents.OnGameMatchComplete
+- uid: Oasys.Common.EventsProvider.GameEvents.OnGameNewPath
+  name: OnGameNewPath
+  href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameNewPath
+  commentId: E:Oasys.Common.EventsProvider.GameEvents.OnGameNewPath
+  fullName: Oasys.Common.EventsProvider.GameEvents.OnGameNewPath
+  nameWithType: GameEvents.OnGameNewPath
 - uid: Oasys.Common.EventsProvider.GameEvents.OnGameProcessRecall
   name: OnGameProcessRecall
   href: api/Oasys.Common.EventsProvider.GameEvents.html#Oasys_Common_EventsProvider_GameEvents_OnGameProcessRecall
@@ -3286,6 +3304,12 @@ references:
   commentId: E:Oasys.Common.EventsProvider.GameEvents.OnSellItem
   fullName: Oasys.Common.EventsProvider.GameEvents.OnSellItem
   nameWithType: GameEvents.OnSellItem
+- uid: Oasys.Common.EventsProvider.GameEvents.PathChangeEventTemplate
+  name: GameEvents.PathChangeEventTemplate
+  href: api/Oasys.Common.EventsProvider.GameEvents.PathChangeEventTemplate.html
+  commentId: T:Oasys.Common.EventsProvider.GameEvents.PathChangeEventTemplate
+  fullName: Oasys.Common.EventsProvider.GameEvents.PathChangeEventTemplate
+  nameWithType: GameEvents.PathChangeEventTemplate
 - uid: Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate
   name: GameEvents.RecallEventTemplate
   href: api/Oasys.Common.EventsProvider.GameEvents.RecallEventTemplate.html
@@ -4897,6 +4921,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.AIBaseClient.GetAttackDelay
   nameWithType: AIBaseClient.GetAttackDelay
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay(System.Single,System.Single)
+  name: GetCalculatedAttackCastDelay(Single, Single)
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_GetCalculatedAttackCastDelay_System_Single_System_Single_
+  commentId: M:Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay(System.Single,System.Single)
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay(System.Single, System.Single)
+  nameWithType: AIBaseClient.GetCalculatedAttackCastDelay(Single, Single)
+- uid: Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay*
+  name: GetCalculatedAttackCastDelay
+  href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_GetCalculatedAttackCastDelay_
+  commentId: Overload:Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay
+  nameWithType: AIBaseClient.GetCalculatedAttackCastDelay
 - uid: Oasys.Common.GameObject.Clients.AIBaseClient.GetCurrentCastingSpell
   name: GetCurrentCastingSpell()
   href: api/Oasys.Common.GameObject.Clients.AIBaseClient.html#Oasys_Common_GameObject_Clients_AIBaseClient_GetCurrentCastingSpell
@@ -9575,19 +9612,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.ForceMovePosition
   nameWithType: Orbwalker.OrbSettings.ForceMovePosition
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single,System.Single)
-  name: GetCalculatedAttackCastDelay(Single, Single)
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_System_Single_System_Single_
-  commentId: M:Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single,System.Single)
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(System.Single, System.Single)
-  nameWithType: Orbwalker.OrbSettings.GetCalculatedAttackCastDelay(Single, Single)
-- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay*
-  name: GetCalculatedAttackCastDelay
-  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_GetCalculatedAttackCastDelay_
-  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay
-  isSpec: "True"
-  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.GetCalculatedAttackCastDelay
-  nameWithType: Orbwalker.OrbSettings.GetCalculatedAttackCastDelay
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.HarassTarget
   name: HarassTarget
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_HarassTarget
@@ -14199,6 +14223,12 @@ references:
   commentId: E:Oasys.SDK.Events.GameEvents.OnDeleteObject
   fullName: Oasys.SDK.Events.GameEvents.OnDeleteObject
   nameWithType: GameEvents.OnDeleteObject
+- uid: Oasys.SDK.Events.GameEvents.OnGameDash
+  name: OnGameDash
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnGameDash
+  commentId: E:Oasys.SDK.Events.GameEvents.OnGameDash
+  fullName: Oasys.SDK.Events.GameEvents.OnGameDash
+  nameWithType: GameEvents.OnGameDash
 - uid: Oasys.SDK.Events.GameEvents.OnGameLoadComplete
   name: OnGameLoadComplete
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnGameLoadComplete
@@ -14211,6 +14241,12 @@ references:
   commentId: E:Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   fullName: Oasys.SDK.Events.GameEvents.OnGameMatchComplete
   nameWithType: GameEvents.OnGameMatchComplete
+- uid: Oasys.SDK.Events.GameEvents.OnGameNewPath
+  name: OnGameNewPath
+  href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnGameNewPath
+  commentId: E:Oasys.SDK.Events.GameEvents.OnGameNewPath
+  fullName: Oasys.SDK.Events.GameEvents.OnGameNewPath
+  nameWithType: GameEvents.OnGameNewPath
 - uid: Oasys.SDK.Events.GameEvents.OnItemSlotChanged
   name: OnItemSlotChanged
   href: api/Oasys.SDK.Events.GameEvents.html#Oasys_SDK_Events_GameEvents_OnItemSlotChanged

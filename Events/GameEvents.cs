@@ -43,6 +43,24 @@
         }
 
         /// <summary>
+        /// This event is raised whenever a champion changes pathing.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.PathChangeEventTemplate OnGameNewPath
+        {
+            add => Common.EventsProvider.GameEvents.OnGameNewPath += value;
+            remove => Common.EventsProvider.GameEvents.OnGameNewPath -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever a champion is dashing.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.DashEventTemplate OnGameDash
+        {
+            add => Common.EventsProvider.GameEvents.OnGameDash += value;
+            remove => Common.EventsProvider.GameEvents.OnGameDash -= value;
+        }
+
+        /// <summary>
         /// This event is raised whenever there is an object that is created by the game.
         /// To activate this event, please refer to Common.Settings.Core.UseNativeObjectManagerCaching (It is disabled by default)
         /// </summary>
