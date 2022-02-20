@@ -1,4 +1,5 @@
 ﻿using Oasys.Common;
+using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameObject;
 using Oasys.Common.GameObject.Clients;
 using Oasys.Common.GameObject.ObjectClass;
@@ -40,6 +41,11 @@ namespace Oasys.SDK
                 return aibCliList;
             }
         }
+
+        /// <summary>
+        /// Get objects by types.
+        /// </summary>
+        public static List<GameObjectBase> GetEnemies(params ObjectTypeFlag[] objectTypes) => Enemies.Where(x => objectTypes.Any(t => x.IsObject(t))).ToList();
 
         /// <summary>
         /// Gets all the ally game objects. This includes champions, minions, jungle mobs, towers and inhibitors.

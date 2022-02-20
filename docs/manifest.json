@@ -14,6 +14,198 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.ClipType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.ClipType.html",
+          "hash": "ky8LCvqfZohLHvTsXAYa1bpPH9kmFQY1emfC6KL6QuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.Clipper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.Clipper.html",
+          "hash": "pDdIQ7gw3x6uKlLwzkmXdeZVAhpWVkatgwtzTIaZ++8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.ClipperBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.ClipperBase.html",
+          "hash": "6iDtPQVgH/U6q04IWWrtuOntO0s6Iwr36WRMwU3Nuws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.ClipperOffset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.ClipperOffset.html",
+          "hash": "ke0vWLkeF2QWDmGxNuTdenSjlK2auYhODG9gDOjiz90="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.DoublePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.DoublePoint.html",
+          "hash": "Qh8jrsYtNo8XWnRy7SpJ09VqvUx4Ctq2YlXrw11/0aw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.EndType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.EndType.html",
+          "hash": "72wEr/TsFXG7HDsBtYQ4wdywzHLHsNopTG1HvoKPCsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.IntPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.IntPoint.html",
+          "hash": "dszHuJUv0kPLvaIdRtJMlw+fablKSsd4qfD9KRAjFTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.IntRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.IntRect.html",
+          "hash": "g3z+3iSTQ+fTidCXxEOfZVhwQJG4gcGz3MG6ewvN430="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.IntersectNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.IntersectNode.html",
+          "hash": "vuUPek7FVLlKKbwHgs30VFz0+Ceok0O8VyYn8tY+3cY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.JoinType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.JoinType.html",
+          "hash": "+rAkWzCLvkfRPLxZ1x9iKeQoVlrnKy58pelonSobNQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.MyIntersectNodeSort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.MyIntersectNodeSort.html",
+          "hash": "wBmbg13msM7fOLvYGWHOHf4DVDB2TCD9Gw3U1HzFgtI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.PolyFillType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.PolyFillType.html",
+          "hash": "HTA+4kWL0Mbis0pTFesksEx4N0j+hmChRsz552K9j18="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.PolyNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.PolyNode.html",
+          "hash": "m8vTH5QJ4AVnEbT1QmOrBDVIxxOiQg8C9J6hhF7I4HI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.PolyTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.PolyTree.html",
+          "hash": "JEKod4jCWE90NaM2u01VJWnH8JNVDkAEQgOkwqjdbIo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.PolyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.PolyType.html",
+          "hash": "eiK54HdzwE3pGSCh4WOsuwGFEJVxbupIJfQ1sOSQnDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClipperLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClipperLib.html",
+          "hash": "HR0BEuMXO8fskwyGF/wL0eB/cGf6t9Xvlds9Yi3fuTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.EngineManager.OrderType.yml",
       "output": {
         ".html": {
@@ -55,30 +247,6 @@
         ".html": {
           "relative_path": "api/Oasys.Common.Enums.GameEnums.CastType.html",
           "hash": "VGqNHdnro0r5yCTbqPDAXjE32hSgbXFYa3fYAR+5uQU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionFlags.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionFlags.html",
-          "hash": "FXMcD7NVDyOhYckErZSruNP/ZENzqh13TVuCkCzIulk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionableObjects.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oasys.Common.Enums.GameEnums.CollisionableObjects.html",
-          "hash": "H6h1yE1YdmljVLto1SorIcxaveVml2h1JiEr5N3FgOw="
         }
       },
       "is_incremental": false,
@@ -254,18 +422,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Oasys.Common.Enums.GameEnums.SpellType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellType.html",
-          "hash": "zE2c1dFRn/TNEUkp7S3mYHs6cK2jw5Hu3+ZAl8cQhOU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Enums.GameEnums.TeamFlag.yml",
       "output": {
         ".html": {
@@ -294,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Enums.GameEnums.html",
-          "hash": "KzNjXdXj7MDcPbbZQxpdi2tnWqLks1BH6yoksBEorP8="
+          "hash": "k+8CpsSObLDv9MDYTT1mGS6u/Hx8nCtcpOnqx1XgSf4="
         }
       },
       "is_incremental": false,
@@ -474,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Extensions.Extensions.html",
-          "hash": "RWr+1lnH7FskpdHYSxDwkK8FMbq3APOBHfuCkffJlWo="
+          "hash": "RXXe8flFIFbozV18JqXcBELwhrx0f5DeQb+UCtoFftg="
         }
       },
       "is_incremental": false,
@@ -582,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.html",
-          "hash": "LxMhWg795OITPhBKsFtncwyvSUo2W2VEcN8PAOV2JdQ="
+          "hash": "25NlxTBEX8hhz3I5ts45tdbdrpD8cMr0QAPkcEn0ul0="
         }
       },
       "is_incremental": false,
@@ -594,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.html",
-          "hash": "Dz/UUWrIpjtN7x7lchmXZwfPSuo9kvLWWnR59V2+ie4="
+          "hash": "wprjs1dXh9a2sCquEQopW+HqT+AEtB8TCddKcbJt76w="
         }
       },
       "is_incremental": false,
@@ -606,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMinionClient.html",
-          "hash": "Ud739RoQwn6fZ5jcKeV9fvogRhQLo2mojYTVmcvmfJA="
+          "hash": "YU3xqsHfm1my3YFLhqYUokVrhfLbI2vhpXijDFy2U9o="
         }
       },
       "is_incremental": false,
@@ -618,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMissileClient.html",
-          "hash": "HiK7YjzmfW4EoJk4tZ/0S3SbVFDYjmLn8EH6/Lb2wkU="
+          "hash": "7J3gMGwPb4GgjPZVZv16rw/+15L0YMtcj+tdzXL8FkI="
         }
       },
       "is_incremental": false,
@@ -630,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIPlacementClient.html",
-          "hash": "FtSd0MdpXMxrVOzVVftPG3gQdgaz/cvj+QuIDNceEh0="
+          "hash": "vova7gCNozbIvQmTClQGxvxJlMMW0Ic70RbucgXoKu4="
         }
       },
       "is_incremental": false,
@@ -810,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.html",
-          "hash": "lNdmH2tNuzAdZij9qvWK9wGNCrFpjbz54TqzMrSGHgY="
+          "hash": "RyxMSmR8E19bZq4p1PvvqHQa6267/NhXk+Gv84r/pYQ="
         }
       },
       "is_incremental": false,
@@ -822,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.html",
-          "hash": "wUkOzLUe5kbT0gi2Rr313LvUzkrw5GH+8LwK0MVgHmM="
+          "hash": "O9MlWb+hKtE34mgXH3YHnPGQiC6PhftNe7PnSeQrRjw="
         }
       },
       "is_incremental": false,
@@ -834,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html",
-          "hash": "/Snx/Nr1R4F/TQuEK8fgrse6nzvwy4sB3emQAnpFzak="
+          "hash": "FuEfTwRSqQPv8heToBOgCz0o/26pQrzfg6FSq9DyXaE="
         }
       },
       "is_incremental": false,
@@ -846,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.JungleMob.html",
-          "hash": "70Nbo/pWaKrTrsc9EXZ5BxqnhvUKTXzIhOVpwtDA+Ak="
+          "hash": "g/PxD91RH2wihEVPvUH1qc2+gE8EpAY7YeUunM76qvo="
         }
       },
       "is_incremental": false,
@@ -858,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.html",
-          "hash": "hN9jU1ggGLPopw+vhDu7WpoXtFODFi6ymrfdTyG8NsQ="
+          "hash": "vmZOj+8kTcNPlcn6k0Aa8PakLp9tP81Vu9hk4TWXEWU="
         }
       },
       "is_incremental": false,
@@ -882,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Nexus.html",
-          "hash": "BNlvUauIrzoSUY0O/KjWUCpR+6eFSArIquJbiqrssoM="
+          "hash": "OND/wOn9FWf4/HIvaBJEKxMa20zAoFnbhdfIRBjfrXA="
         }
       },
       "is_incremental": false,
@@ -894,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Trap.html",
-          "hash": "MhCHPCOyJvVTSwcOEd/jHxKOT2xS3pmC3DvTfCc5oqg="
+          "hash": "1EyHVadF0mPetS0nDqFo1QWQHZS71Fl/jNlDcYDtVAM="
         }
       },
       "is_incremental": false,
@@ -906,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.html",
-          "hash": "6+ApsaTBn6lbmiiOid2OmPGLHSaRAkDeT5haWy3DLUk="
+          "hash": "4B4qjzv2+vTIyVW1rzPjDvqwBBCH+JKLa8EtR/mEkFA="
         }
       },
       "is_incremental": false,
@@ -918,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Ward.html",
-          "hash": "xLAd/fqkvfLEZ/ZazY/9whTqTb7ln/5nTPkoM+XtRmE="
+          "hash": "WrHCeLGPkhHc0v9MfXB7cJ0l2z88jmWqPQ9UjI4KU4g="
         }
       },
       "is_incremental": false,
@@ -1118,6 +1274,246 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.CollisionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.CollisionType.html",
+          "hash": "S2tcSWIlfmw8ip6VjB3aAMNHiuMrPPh31tO40isVSOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.HitChance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.HitChance.html",
+          "hash": "EJ/8v5XOGvS4QV4bG7wGU/iNDyif0uFiT5s+0Axke6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.Collision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.Collision.html",
+          "hash": "CKwkUyG23xUYvrFl1IM6dPHBMtcDq6t0RXruzEChPvM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.PredictionData.PredictionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.PredictionData.PredictionType.html",
+          "hash": "c3DMYE8xbB7LxnwqFKj0KS/AYqPUYxJL9RQkTUqvA48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.PredictionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.PredictionData.html",
+          "hash": "fIG62v+sRu8+aD+r5o6W84GGQXmBXxWK1aWZgYP792g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.Prediction.Position.html",
+          "hash": "9K+pGXBln4kQzMleNgGUTwJHlUqPLQZAobMqoLN3Prk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.Prediction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.Prediction.html",
+          "hash": "8J1dH1Lx/0jb4O7bJf5bzdr5pLZQIIdqDdo1oyrfukU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.PredictionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.PredictionResult.html",
+          "hash": "eOhS2v44LpqUS6/duj92qgRBJJ/1oPkOIzZzrCYISwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.SkillShotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.SkillShotType.html",
+          "hash": "9EfG0awS3pkZ8tGb6FCJfbqQZ9dHQAw6OABCxX9B03k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.EB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.EB.html",
+          "hash": "Emmy1bqiy1mOyvvAoo2zvkjkHpdmQfGDifozPsf2mOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.IntersectionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.IntersectionResult.html",
+          "hash": "HfhdJOjE2iCAbWAKFFJtnbZFJbnjbCbz7zusDYhSNrw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Arc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Arc.html",
+          "hash": "aWMWrljvuE/wL4xHaK9k887SdhhTfWqx3Qy9YMSLzhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Circle.html",
+          "hash": "2DdtiIO2wn9mXlN3bW9OQtJ2OJTuUoq5NQgtJeadJSk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Line.html",
+          "hash": "yk6fHNM8HGJUlk+MmPDSrNLuiSaZHtXT8h8hc0akRXg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Rectangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Rectangle.html",
+          "hash": "YBdCEGnZyfEflAOW8vEX72l0LkgnAUyz168JY/rNWs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Ring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Ring.html",
+          "hash": "Co4kG1M2/+rQfOFCj4ZdkhEEtTbqMfM5N7oAWsTmWwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Sector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Sector.html",
+          "hash": "NJCSIP4ltY933QljHbXF+OPOdwUabSkQxwfe6AL73j0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.html",
+          "hash": "XPFbiTPSLAXJEGwa7hnV278WEKLNYgSflRGaMUZ0Vyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.ProjectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.ProjectionInfo.html",
+          "hash": "pPgZJ//q+n7MyPUZwvOspKx8Zshq9nHJTXQsC1F8Q2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Geometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Geometry.html",
+          "hash": "Jqsg+EiiBdiPc+1lzT6+JlTlzvcLpvVvZMKFMnDNHwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.PlayerData.yml",
       "output": {
         ".html": {
@@ -1159,6 +1555,126 @@
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Helpers.html",
           "hash": "UllcaSs8EJayEEmp4J3EFJSwIgNcDhexYxOS+mavOvQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.Collision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.Collision.html",
+          "hash": "kEFbx4pj4thBcMY6SeGb7+TVLxzThMnlQVhl2DoP9sI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.CollisionableObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.CollisionableObjects.html",
+          "hash": "Ozg0QB0Ii1nyz7Nunwo9ROwRQ+V7VxD59sgqWfCL7e4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.HitChance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.HitChance.html",
+          "hash": "8rMe2iD6LJaA7P9UnD8xiwh1SB8nQg0a1by91FTC2JI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.Prediction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.Prediction.html",
+          "hash": "wSMg3vwQaIA8wvdL6PYmi5djODrx32tlixyk8wVNuvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.PredictionInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.PredictionInput.html",
+          "hash": "wTi0yoZUZCPKUmRF1Qj2O8GZQdv+qSWbMhXbRCnO92o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.PredictionOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.PredictionOutput.html",
+          "hash": "qeYhuBX6nnpt3se4VphRvl//HwQ8ZSVlfmeqKufXeW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.SkillshotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.SkillshotType.html",
+          "hash": "3FT6nBbiHpSn4P6LZF0SdHbpVHOlYia+lXjxZwL49Ss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.LS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.LS.html",
+          "hash": "I9IYn43YX2latXgq3IpNZ3glLHQgnh5tjsXEMxBembk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.MEC.MecCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.MEC.MecCircle.html",
+          "hash": "ftBXBCLyZpdXlNmzo1f8PyGX3481Y/SK3RoAFPqWibU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.MEC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.MEC.html",
+          "hash": "bBr/Ej6Ni8D+pZ+jsCAbfh4+O9wgKsFrnVNs4Z54lqQ="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.html",
-          "hash": "RlAojFGlazxMyjEkA0EVfar3tVFekWRuYeSIHFW/JSU="
+          "hash": "h4tOoS1BKUbunbk3vCAdLAd538FbF2rjDus8cFf5IbM="
         }
       },
       "is_incremental": false,
@@ -1514,11 +2030,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Settings.SDKPrediction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Settings.SDKPrediction.html",
+          "hash": "PWBH2TvkVXZ3KDUcGP1AoZCuc1WOZeZxJkLn6utzLjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Settings.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.html",
-          "hash": "926nQn7LQCqk4Bfoej7NPgCRQQriFOzvY+TJ8FQuN3A="
+          "hash": "8WM5UThQijSR59ZqKzGw2z9nR9JmlAaW4EuPWbV4KCg="
         }
       },
       "is_incremental": false,
@@ -2018,6 +2546,114 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.EB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.EB.html",
+          "hash": "IfC3nl3I8W9LoUJb3u+SWFFEe7kVcoLgbpdBVLofQ4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.LS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.LS.html",
+          "hash": "fHdjRgZNZDM+T+KcmpI2V50HGVxB9u74mdumgKI6nTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.HitChance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.HitChance.html",
+          "hash": "QU0t4T7zDXL09aSsDyikjaKJCPr8H9ArsyAcQ+/LUkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionInput.html",
+          "hash": "H9LF8EzmfyltrHET1q0vYzBr8RYYQBe/szbFuYokzqs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionMode.html",
+          "hash": "Qax295mfyo6WSB0B9BcCIvBbZUBG3Jmya8XJD3Hpc1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionOutput.html",
+          "hash": "pk3GihT7X+DVAxqSKS+j6FcXtBF2QZrb8IddqYaAB/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.PredictionType.html",
+          "hash": "LIcr+InzbPewnoZCvEIIbh9j7Z5QAg9ZdKAyY13Z2/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.MenuSelected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.MenuSelected.html",
+          "hash": "fJwtSvVXWSsGcOsatHw4HrOQrKsj2xPQunePKDSWKos="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.Prediction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.Prediction.html",
+          "hash": "nCfpItxxEe14R80LLy6jqhnp/sQnAObFvbKPUgUZP0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.SDK.Rendering.RenderFactory.yml",
       "output": {
         ".html": {
@@ -2035,6 +2671,18 @@
         ".html": {
           "relative_path": "api/Oasys.SDK.Rendering.html",
           "hash": "Lbh6WW/inAjDnHC3CQpJvieYfMnfPzT64iYZ1tzsAc8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.SDKSpell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.SDKSpell.html",
+          "hash": "IJq4OrQN6Z8SqqEL/HnExvfRXhLrETOzE/Q2kaBGdJc="
         }
       },
       "is_incremental": false,
@@ -2178,7 +2826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.UnitManager.html",
-          "hash": "euybQ0TrHtmI9oDdGNMKjsO9Hb9bBcG9LpxwXPpIMrQ="
+          "hash": "G2espu/FM6ELutMoDNUrFVE8+96FGC7meh7hNZRjEBk="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.html",
-          "hash": "zv91+kjsfR08zuRoc5iasYxG6TyeLkz2WEXZ9Ad71To="
+          "hash": "SrF81DiDjhgvk7dinLbrgtlee08X3Tjo3m8ZBAZ4F/M="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "SwR8sTsn1KMOa7w6Abbqp6astCtNUc6LFF35h36Z6ow="
+          "hash": "rG+txts37p1GI/zvNdfhEm8Dc6AVYtFe7eFQeZ/BEK0="
         }
       },
       "is_incremental": false,
@@ -2293,8 +2941,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 182,
-          "skipped_file_count": 157
+          "total_file_count": 236,
+          "skipped_file_count": 159
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

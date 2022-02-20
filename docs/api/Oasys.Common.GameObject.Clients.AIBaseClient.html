@@ -128,6 +128,12 @@
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsJungle">GameObjectBase.IsJungle</a>
     </div>
     <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_HealthPercent">GameObjectBase.HealthPercent</a>
+    </div>
+    <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsBasicAttacking">GameObjectBase.IsBasicAttacking</a>
+    </div>
+    <div>
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_AttackSpeed">GameObjectBase.AttackSpeed</a>
     </div>
     <div>
@@ -1322,12 +1328,12 @@
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_GetAttackDelay">GameObjectBase.GetAttackDelay()</a></div>
   <a id="Oasys_Common_GameObject_Clients_AIBaseClient_GetCalculatedAttackCastDelay_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay*"></a>
-  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetCalculatedAttackCastDelay_System_Single_System_Single_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay(System.Single,System.Single)">GetCalculatedAttackCastDelay(Single, Single)</h4>
+  <h4 id="Oasys_Common_GameObject_Clients_AIBaseClient_GetCalculatedAttackCastDelay_System_String_System_Single_System_Single_" data-uid="Oasys.Common.GameObject.Clients.AIBaseClient.GetCalculatedAttackCastDelay(System.String,System.Single,System.Single)">GetCalculatedAttackCastDelay(String, Single, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float GetCalculatedAttackCastDelay(float windupPercent, float windupModifier)</code></pre>
+    <pre><code class="lang-csharp hljs">public float GetCalculatedAttackCastDelay(string championName, float windupPercent, float windupModifier)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1339,6 +1345,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">championName</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">windupPercent</span></td>
@@ -1536,6 +1547,21 @@
   </div>
   <div>
       <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_IsValidTarget_Oasys_Common_GameObject_GameObjectBase_System_Single_System_Boolean_SharpDX_Vector3_">Extensions.IsValidTarget(GameObjectBase, Single, Boolean, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Extensions.Extensions.html#Oasys_Common_Extensions_Extensions_GetWaypoints_Oasys_Common_GameObject_GameObjectBase_">Extensions.GetWaypoints(GameObjectBase)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Distance_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_System_Boolean_">Geometry.Distance(GameObjectBase, GameObjectBase, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Distance_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector3_System_Boolean_">Geometry.Distance(GameObjectBase, Vector3, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Distance_Oasys_Common_GameObject_GameObjectBase_SharpDX_Vector2_System_Boolean_">Geometry.Distance(GameObjectBase, Vector2, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Distance3D_Oasys_Common_GameObject_GameObjectBase_Oasys_Common_GameObject_GameObjectBase_System_Boolean_">Geometry.Distance3D(GameObjectBase, GameObjectBase, Boolean)</a>
   </div>
 </article>
           </div>
