@@ -373,6 +373,53 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_SDKSpell_IsEnabled_" data-uid="Oasys.SDK.SDKSpell.IsEnabled*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_IsEnabled" data-uid="Oasys.SDK.SDKSpell.IsEnabled">IsEnabled</h4>
+  <div class="markdown level1 summary"><p>Defines if a spell is enabled. Fx: enabled by menu. Standard value = true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;bool&gt; IsEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_SDKSpell_IsSpellReady_" data-uid="Oasys.SDK.SDKSpell.IsSpellReady*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_IsSpellReady" data-uid="Oasys.SDK.SDKSpell.IsSpellReady">IsSpellReady</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;SpellClass, float, int, bool&gt; IsSpellReady { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html">SpellClass</a>, <span class="xref">System.Single</span>, <span class="xref">System.Int32</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_SDKSpell_IsTargetted_" data-uid="Oasys.SDK.SDKSpell.IsTargetted*"></a>
   <h4 id="Oasys_SDK_SDKSpell_IsTargetted" data-uid="Oasys.SDK.SDKSpell.IsTargetted">IsTargetted</h4>
   <div class="markdown level1 summary"><p>Is a targetted spell. Standard value = false.</p>
@@ -397,6 +444,30 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_SDKSpell_MinimumCharges_" data-uid="Oasys.SDK.SDKSpell.MinimumCharges*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_MinimumCharges" data-uid="Oasys.SDK.SDKSpell.MinimumCharges">MinimumCharges</h4>
+  <div class="markdown level1 summary"><p>The minimum charges for a spell to be used. Standard value = 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;int&gt; MinimumCharges { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_SDKSpell_MinimumHitChance_" data-uid="Oasys.SDK.SDKSpell.MinimumHitChance*"></a>
   <h4 id="Oasys_SDK_SDKSpell_MinimumHitChance" data-uid="Oasys.SDK.SDKSpell.MinimumHitChance">MinimumHitChance</h4>
   <div class="markdown level1 summary"><p>The minimum hit chance. Standard value = HitChance.High.</p>
@@ -417,6 +488,30 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.SDK.Prediction.MenuSelected.HitChance.html">Prediction.MenuSelected.HitChance</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_SDKSpell_MinimumMana_" data-uid="Oasys.SDK.SDKSpell.MinimumMana*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_MinimumMana" data-uid="Oasys.SDK.SDKSpell.MinimumMana">MinimumMana</h4>
+  <div class="markdown level1 summary"><p>The minimum mana for a spell to be used. Standard value = 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;float&gt; MinimumMana { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Single</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -519,12 +614,12 @@
   </table>
   <a id="Oasys_SDK_SDKSpell_ShouldCast_" data-uid="Oasys.SDK.SDKSpell.ShouldCast*"></a>
   <h4 id="Oasys_SDK_SDKSpell_ShouldCast" data-uid="Oasys.SDK.SDKSpell.ShouldCast">ShouldCast</h4>
-  <div class="markdown level1 summary"><p>Should cast spell. Standard value = false.</p>
+  <div class="markdown level1 summary"><p>Should cast spell. Standard value = target is not null.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;GameObjectBase, SpellClass, float, bool&gt; ShouldCast { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Func&lt;Orbwalker.OrbWalkingModeType, GameObjectBase, SpellClass, float, bool&gt; ShouldCast { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -536,7 +631,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>, <a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html">SpellClass</a>, <span class="xref">System.Single</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.SDK.Orbwalker.OrbWalkingModeType.html">Orbwalker.OrbWalkingModeType</a>, <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>, <a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html">SpellClass</a>, <span class="xref">System.Single</span>, <span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

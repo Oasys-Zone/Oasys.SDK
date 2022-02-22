@@ -19879,6 +19879,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.SDKSpell.IsCharging
   nameWithType: SDKSpell.IsCharging
+- uid: Oasys.SDK.SDKSpell.IsEnabled
+  name: IsEnabled
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsEnabled
+  commentId: P:Oasys.SDK.SDKSpell.IsEnabled
+  fullName: Oasys.SDK.SDKSpell.IsEnabled
+  nameWithType: SDKSpell.IsEnabled
+- uid: Oasys.SDK.SDKSpell.IsEnabled*
+  name: IsEnabled
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsEnabled_
+  commentId: Overload:Oasys.SDK.SDKSpell.IsEnabled
+  isSpec: "True"
+  fullName: Oasys.SDK.SDKSpell.IsEnabled
+  nameWithType: SDKSpell.IsEnabled
 - uid: Oasys.SDK.SDKSpell.IsPossibleToHit(Oasys.Common.GameObject.GameObjectBase)
   name: IsPossibleToHit(GameObjectBase)
   href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsPossibleToHit_Oasys_Common_GameObject_GameObjectBase_
@@ -19898,6 +19911,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.SDKSpell.IsPossibleToHit
   nameWithType: SDKSpell.IsPossibleToHit
+- uid: Oasys.SDK.SDKSpell.IsSpellReady
+  name: IsSpellReady
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsSpellReady
+  commentId: P:Oasys.SDK.SDKSpell.IsSpellReady
+  fullName: Oasys.SDK.SDKSpell.IsSpellReady
+  nameWithType: SDKSpell.IsSpellReady
+- uid: Oasys.SDK.SDKSpell.IsSpellReady*
+  name: IsSpellReady
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsSpellReady_
+  commentId: Overload:Oasys.SDK.SDKSpell.IsSpellReady
+  isSpec: "True"
+  fullName: Oasys.SDK.SDKSpell.IsSpellReady
+  nameWithType: SDKSpell.IsSpellReady
 - uid: Oasys.SDK.SDKSpell.IsTargetable(Oasys.Common.GameObject.GameObjectBase)
   name: IsTargetable(GameObjectBase)
   href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_IsTargetable_Oasys_Common_GameObject_GameObjectBase_
@@ -19924,6 +19950,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.SDKSpell.IsTargetted
   nameWithType: SDKSpell.IsTargetted
+- uid: Oasys.SDK.SDKSpell.MinimumCharges
+  name: MinimumCharges
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_MinimumCharges
+  commentId: P:Oasys.SDK.SDKSpell.MinimumCharges
+  fullName: Oasys.SDK.SDKSpell.MinimumCharges
+  nameWithType: SDKSpell.MinimumCharges
+- uid: Oasys.SDK.SDKSpell.MinimumCharges*
+  name: MinimumCharges
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_MinimumCharges_
+  commentId: Overload:Oasys.SDK.SDKSpell.MinimumCharges
+  isSpec: "True"
+  fullName: Oasys.SDK.SDKSpell.MinimumCharges
+  nameWithType: SDKSpell.MinimumCharges
 - uid: Oasys.SDK.SDKSpell.MinimumHitChance
   name: MinimumHitChance
   href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_MinimumHitChance
@@ -19937,6 +19976,19 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.SDKSpell.MinimumHitChance
   nameWithType: SDKSpell.MinimumHitChance
+- uid: Oasys.SDK.SDKSpell.MinimumMana
+  name: MinimumMana
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_MinimumMana
+  commentId: P:Oasys.SDK.SDKSpell.MinimumMana
+  fullName: Oasys.SDK.SDKSpell.MinimumMana
+  nameWithType: SDKSpell.MinimumMana
+- uid: Oasys.SDK.SDKSpell.MinimumMana*
+  name: MinimumMana
+  href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_MinimumMana_
+  commentId: Overload:Oasys.SDK.SDKSpell.MinimumMana
+  isSpec: "True"
+  fullName: Oasys.SDK.SDKSpell.MinimumMana
+  nameWithType: SDKSpell.MinimumMana
 - uid: Oasys.SDK.SDKSpell.OnSpellCast
   name: OnSpellCast
   href: api/Oasys.SDK.SDKSpell.html#Oasys_SDK_SDKSpell_OnSpellCast

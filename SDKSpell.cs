@@ -51,6 +51,31 @@ namespace Oasys.SDK
         public SpellSlot SpellSlot { get; }
 
         /// <summary>
+        /// Defines if a spell is ready. Standard value = spellClass.IsSpellReady && UnitManager.MyChampion.Mana >= spellClass.SpellData.ResourceCost && UnitManager.MyChampion.Mana >= minimumMana.
+        /// </summary>
+        public Func<SpellClass, float, int, bool> IsSpellReady { get; set; }
+            = (spellClass, minimumMana, minimumCharges)
+            => spellClass.IsSpellReady &&
+               UnitManager.MyChampion.Mana >= spellClass.SpellData.ResourceCost &&
+               UnitManager.MyChampion.Mana >= minimumMana &&
+               spellClass.Charges >= minimumCharges;
+
+        /// <summary>
+        /// The minimum mana for a spell to be used. Standard value = 0.
+        /// </summary>
+        public Func<float> MinimumMana { get; set; } = () => 0f;
+
+        /// <summary>
+        /// The minimum charges for a spell to be used. Standard value = 0.
+        /// </summary>
+        public Func<int> MinimumCharges { get; set; } = () => 0;
+
+        /// <summary>
+        /// Defines if a spell is enabled. Fx: enabled by menu. Standard value = true.
+        /// </summary>
+        public Func<bool> IsEnabled { get; set; } = () => true;
+
+        /// <summary>
         /// Allow to cast the spell in a direction. Standard value = false.
         /// </summary>
         public Func<bool> AllowCastInDirection { get; set; } = () => false;
@@ -111,9 +136,9 @@ namespace Oasys.SDK
         public Func<GameObjectBase, IEnumerable<GameObjectBase>, bool> AllowCollision { get; set; } = (target, collisions) => true;
 
         /// <summary>
-        /// Should cast spell. Standard value = false.
+        /// Should cast spell. Standard value = target is not null.
         /// </summary>
-        public Func<GameObjectBase, SpellClass, float, bool> ShouldCast { get; set; } = (target, spellClass, damage) => false;
+        public Func<Orbwalker.OrbWalkingModeType, GameObjectBase, SpellClass, float, bool> ShouldCast { get; set; } = (mode, target, spellClass, damage) => target is not null;
 
         /// <summary>
         /// Target selection. Standard value = null.
@@ -220,8 +245,16 @@ namespace Oasys.SDK
             {
                 if (UnitManager.MyChampion.IsAlive && (IsCharge() || !UnitManager.MyChampion.IsCastingSpell))
                 {
+                    if (!IsSpellReady(SpellClass, MinimumMana(), MinimumCharges()))
+                    {
+                        return false;
+                    }
+                    if (!IsEnabled())
+                    {
+                        return false;
+                    }
                     var target = TargetSelect(mode);
-                    if (!ShouldCast(target, SpellClass, Damage(target, SpellClass)))
+                    if (!ShouldCast(mode, target, SpellClass, Damage(target, SpellClass)))
                     {
                         return false;
                     }
