@@ -10,7 +10,6 @@ using Oasys.SDK.SpellCasting;
 using SharpDX;
 using System.Diagnostics;
 using static Oasys.SDK.Prediction.MenuSelected;
-using Oasys.SDK.Tools;
 
 namespace Oasys.SDK
 {

@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html",
-          "hash": "IGx3V/kDEizHCDxoxO6E2L1S3Bw9By7Qw2Fm7eczQa0="
+          "hash": "siWgIfm+9wAlrUdP9WcE1jts/y+WI6grdLzMZPvRSyg="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.html",
-          "hash": "Jqsg+EiiBdiPc+1lzT6+JlTlzvcLpvVvZMKFMnDNHwU="
+          "hash": "lf8HnOjZYidHm+2LkESmc+fFP1F8W1aKBTZfkpoatcI="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.Geometry.html",
-          "hash": "4eXogj6tuI+kmfHu2vl0bgW6n4hvMmR3Fob6MFxtD7s="
+          "hash": "FGRxJIfw7Oy/sBLCDlZ/5KenZrADzEe16Vz+KA3SGd8="
         }
       },
       "is_incremental": false,
@@ -2942,7 +2942,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 236,
-          "skipped_file_count": 233
+          "skipped_file_count": 219
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

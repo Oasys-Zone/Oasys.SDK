@@ -7761,6 +7761,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.FinalCooldownExpire
   nameWithType: SpellClass.FinalCooldownExpire
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated
+  name: IsActivated
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_IsActivated
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated
+  nameWithType: SpellClass.IsActivated
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated*
+  name: IsActivated
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_IsActivated_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsActivated
+  nameWithType: SpellClass.IsActivated
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsSpellReady
   name: IsSpellReady
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_IsSpellReady
@@ -7774,6 +7787,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsSpellReady
   nameWithType: SpellClass.IsSpellReady
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled
+  name: IsToggled
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_IsToggled
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled
+  nameWithType: SpellClass.IsToggled
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled*
+  name: IsToggled
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_IsToggled_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.IsToggled
+  nameWithType: SpellClass.IsToggled
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.Level
   name: Level
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClass_Level
@@ -11220,25 +11246,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Geometry.Distance3D
   nameWithType: Geometry.Distance3D
-- uid: Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
-  name: Extend(Vector2, Vector2, Single)
-  href: api/Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Extend_SharpDX_Vector2_SharpDX_Vector2_System_Single_
-  commentId: M:Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
-  fullName: Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector2, SharpDX.Vector2, System.Single)
-  nameWithType: Geometry.Extend(Vector2, Vector2, Single)
-- uid: Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
-  name: Extend(Vector3, Vector3, Single)
-  href: api/Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Extend_SharpDX_Vector3_SharpDX_Vector3_System_Single_
-  commentId: M:Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
-  fullName: Oasys.Common.Logic.Geometry.Extend(SharpDX.Vector3, SharpDX.Vector3, System.Single)
-  nameWithType: Geometry.Extend(Vector3, Vector3, Single)
-- uid: Oasys.Common.Logic.Geometry.Extend*
-  name: Extend
-  href: api/Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Extend_
-  commentId: Overload:Oasys.Common.Logic.Geometry.Extend
-  isSpec: "True"
-  fullName: Oasys.Common.Logic.Geometry.Extend
-  nameWithType: Geometry.Extend
 - uid: Oasys.Common.Logic.Geometry.Intersection(SharpDX.Vector2,SharpDX.Vector2,SharpDX.Vector2,SharpDX.Vector2)
   name: Intersection(Vector2, Vector2, Vector2, Vector2)
   href: api/Oasys.Common.Logic.Geometry.html#Oasys_Common_Logic_Geometry_Intersection_SharpDX_Vector2_SharpDX_Vector2_SharpDX_Vector2_SharpDX_Vector2_
@@ -17922,25 +17929,6 @@ references:
   isSpec: "True"
   fullName: Oasys.SDK.Geometry.DistanceFromPointToLine
   nameWithType: Geometry.DistanceFromPointToLine
-- uid: Oasys.SDK.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
-  name: Extend(Vector2, Vector2, Single)
-  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_SharpDX_Vector2_SharpDX_Vector2_System_Single_
-  commentId: M:Oasys.SDK.Geometry.Extend(SharpDX.Vector2,SharpDX.Vector2,System.Single)
-  fullName: Oasys.SDK.Geometry.Extend(SharpDX.Vector2, SharpDX.Vector2, System.Single)
-  nameWithType: Geometry.Extend(Vector2, Vector2, Single)
-- uid: Oasys.SDK.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
-  name: Extend(Vector3, Vector3, Single)
-  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_SharpDX_Vector3_SharpDX_Vector3_System_Single_
-  commentId: M:Oasys.SDK.Geometry.Extend(SharpDX.Vector3,SharpDX.Vector3,System.Single)
-  fullName: Oasys.SDK.Geometry.Extend(SharpDX.Vector3, SharpDX.Vector3, System.Single)
-  nameWithType: Geometry.Extend(Vector3, Vector3, Single)
-- uid: Oasys.SDK.Geometry.Extend*
-  name: Extend
-  href: api/Oasys.SDK.Geometry.html#Oasys_SDK_Geometry_Extend_
-  commentId: Overload:Oasys.SDK.Geometry.Extend
-  isSpec: "True"
-  fullName: Oasys.SDK.Geometry.Extend
-  nameWithType: Geometry.Extend
 - uid: Oasys.SDK.InputProviders
   name: Oasys.SDK.InputProviders
   href: api/Oasys.SDK.InputProviders.html
