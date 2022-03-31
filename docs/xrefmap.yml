@@ -7107,6 +7107,86 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.BuffManager
   nameWithType: BuffManager.BuffManager
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs
+  name: ActiveBuffs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_ActiveBuffs
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs
+  nameWithType: BuffManager.ActiveBuffs
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs*
+  name: ActiveBuffs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_ActiveBuffs_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs
+  nameWithType: BuffManager.ActiveBuffs
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs
+  name: Buffs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_Buffs
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs
+  nameWithType: BuffManager.Buffs
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs*
+  name: Buffs
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_Buffs_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs
+  nameWithType: BuffManager.Buffs
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name: FirstOrDefault(Func<BuffEntry, Boolean>)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_FirstOrDefault_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name.vb: FirstOrDefault(Func(Of BuffEntry, Boolean))
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault(System.Func<Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean>)
+  fullName.vb: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault(System.Func(Of Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean))
+  nameWithType: BuffManager.FirstOrDefault(Func<BuffEntry, Boolean>)
+  nameWithType.vb: BuffManager.FirstOrDefault(Func(Of BuffEntry, Boolean))
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault*
+  name: FirstOrDefault
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_FirstOrDefault_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault
+  nameWithType: BuffManager.FirstOrDefault
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name: GetActiveBuff(Func<BuffEntry, Boolean>)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name.vb: GetActiveBuff(Func(Of BuffEntry, Boolean))
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.Func<Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean>)
+  fullName.vb: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.Func(Of Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean))
+  nameWithType: BuffManager.GetActiveBuff(Func<BuffEntry, Boolean>)
+  nameWithType.vb: BuffManager.GetActiveBuff(Func(Of BuffEntry, Boolean))
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.String)
+  name: GetActiveBuff(String)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_System_String_
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.String)
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.String)
+  nameWithType: BuffManager.GetActiveBuff(String)
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff*
+  name: GetActiveBuff
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff
+  nameWithType: BuffManager.GetActiveBuff
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name: GetBuff(Func<BuffEntry, Boolean>)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name.vb: GetBuff(Func(Of BuffEntry, Boolean))
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff(System.Func<Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean>)
+  fullName.vb: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff(System.Func(Of Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean))
+  nameWithType: BuffManager.GetBuff(Func<BuffEntry, Boolean>)
+  nameWithType.vb: BuffManager.GetBuff(Func(Of BuffEntry, Boolean))
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff*
+  name: GetBuff
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuff_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff
+  nameWithType: BuffManager.GetBuff
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuffByName(System.String,System.Boolean,System.Boolean)
   name: GetBuffByName(String, Boolean, Boolean)
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuffByName_System_String_System_Boolean_System_Boolean_
@@ -7133,6 +7213,37 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuffList
   nameWithType: BuffManager.GetBuffList
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name: HasActiveBuff(Func<BuffEntry, Boolean>)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name.vb: HasActiveBuff(Func(Of BuffEntry, Boolean))
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.Func<Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean>)
+  fullName.vb: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.Func(Of Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean))
+  nameWithType: BuffManager.HasActiveBuff(Func<BuffEntry, Boolean>)
+  nameWithType.vb: BuffManager.HasActiveBuff(Func(Of BuffEntry, Boolean))
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.String)
+  name: HasActiveBuff(String)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_System_String_
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.String)
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.String)
+  nameWithType: BuffManager.HasActiveBuff(String)
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff*
+  name: HasActiveBuff
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff
+  nameWithType: BuffManager.HasActiveBuff
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name: HasBuff(Func<BuffEntry, Boolean>)
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__
+  commentId: M:Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})
+  name.vb: HasBuff(Func(Of BuffEntry, Boolean))
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.Func<Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean>)
+  fullName.vb: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.Func(Of Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry, System.Boolean))
+  nameWithType: BuffManager.HasBuff(Func<BuffEntry, Boolean>)
+  nameWithType.vb: BuffManager.HasBuff(Func(Of BuffEntry, Boolean))
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.String)
   name: HasBuff(String)
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html#Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_System_String_
@@ -7441,19 +7552,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.MissileIndex
   nameWithType: SpellActiveEntry.MissileIndex
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition
-  name: SpellCurrentPosition
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_SpellCurrentPosition
-  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition
-  nameWithType: SpellActiveEntry.SpellCurrentPosition
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition*
-  name: SpellCurrentPosition
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_SpellCurrentPosition_
-  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellCurrentPosition
-  nameWithType: SpellActiveEntry.SpellCurrentPosition
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellData
   name: SpellData
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_SpellData
@@ -7506,6 +7604,32 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.SpellStartPosition
   nameWithType: SpellActiveEntry.SpellStartPosition
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes
+  name: TargetIndexes
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_TargetIndexes
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes
+  nameWithType: SpellActiveEntry.TargetIndexes
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes*
+  name: TargetIndexes
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_TargetIndexes_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.TargetIndexes
+  nameWithType: SpellActiveEntry.TargetIndexes
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets
+  name: Targets
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_Targets
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets
+  nameWithType: SpellActiveEntry.Targets
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets*
+  name: Targets
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_Targets_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.Targets
+  nameWithType: SpellActiveEntry.Targets
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.WindupTime
   name: WindupTime
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellActiveEntry_WindupTime
@@ -7858,6 +7982,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTime
   nameWithType: SpellClassData.AmmoRechargeTime
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable
+  name: AmmoRechargeTimeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AmmoRechargeTimeTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable
+  nameWithType: SpellClassData.AmmoRechargeTimeTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable*
+  name: AmmoRechargeTimeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AmmoRechargeTimeTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoRechargeTimeTable
+  nameWithType: SpellClassData.AmmoRechargeTimeTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoUsed
   name: AmmoUsed
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AmmoUsed
@@ -7871,32 +8008,6 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AmmoUsed
   nameWithType: SpellClassData.AmmoUsed
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE
-  name: AOE
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AOE
-  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE
-  nameWithType: SpellClassData.AOE
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE*
-  name: AOE
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AOE_
-  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOE
-  nameWithType: SpellClassData.AOE
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration
-  name: AOEDuration
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AOEDuration
-  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration
-  nameWithType: SpellClassData.AOEDuration
-- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration*
-  name: AOEDuration
-  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_AOEDuration_
-  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration
-  isSpec: "True"
-  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.AOEDuration
-  nameWithType: SpellClassData.AOEDuration
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRange
   name: CastRange
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_CastRange
@@ -7910,6 +8021,32 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRange
   nameWithType: SpellClassData.CastRange
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable
+  name: CastRangeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_CastRangeTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable
+  nameWithType: SpellClassData.CastRangeTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable*
+  name: CastRangeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_CastRangeTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CastRangeTable
+  nameWithType: SpellClassData.CastRangeTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable
+  name: CooldownTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_CooldownTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable
+  nameWithType: SpellClassData.CooldownTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable*
+  name: CooldownTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_CooldownTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.CooldownTable
+  nameWithType: SpellClassData.CooldownTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmo
   name: MaxAmmo
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MaxAmmo
@@ -7923,6 +8060,45 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmo
   nameWithType: SpellClassData.MaxAmmo
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable
+  name: MaxAmmoTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MaxAmmoTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable
+  nameWithType: SpellClassData.MaxAmmoTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable*
+  name: MaxAmmoTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MaxAmmoTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxAmmoTable
+  nameWithType: SpellClassData.MaxAmmoTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable
+  name: MaxBaseDamageTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MaxBaseDamageTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable
+  nameWithType: SpellClassData.MaxBaseDamageTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable*
+  name: MaxBaseDamageTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MaxBaseDamageTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MaxBaseDamageTable
+  nameWithType: SpellClassData.MaxBaseDamageTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable
+  name: MinBaseDamageTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MinBaseDamageTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable
+  nameWithType: SpellClassData.MinBaseDamageTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable*
+  name: MinBaseDamageTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MinBaseDamageTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MinBaseDamageTable
+  nameWithType: SpellClassData.MinBaseDamageTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.MissileAcceleration
   name: MissileAcceleration
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_MissileAcceleration
@@ -8001,6 +8177,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCost
   nameWithType: SpellClassData.ResourceCost
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable
+  name: ResourceCostTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_ResourceCostTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable
+  nameWithType: SpellClassData.ResourceCostTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable*
+  name: ResourceCostTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_ResourceCostTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.ResourceCostTable
+  nameWithType: SpellClassData.ResourceCostTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
   name: SpellDuration
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDuration
@@ -8014,6 +8203,45 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDuration
   nameWithType: SpellClassData.SpellDuration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable
+  name: SpellDurationTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDurationTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable
+  nameWithType: SpellClassData.SpellDurationTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable*
+  name: SpellDurationTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellDurationTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellDurationTable
+  nameWithType: SpellClassData.SpellDurationTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration
+  name: SpellEffectDuration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellEffectDuration
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration
+  nameWithType: SpellClassData.SpellEffectDuration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration*
+  name: SpellEffectDuration
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellEffectDuration_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDuration
+  nameWithType: SpellClassData.SpellEffectDuration
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable
+  name: SpellEffectDurationTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellEffectDurationTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable
+  nameWithType: SpellClassData.SpellEffectDurationTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable*
+  name: SpellEffectDurationTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellEffectDurationTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellEffectDurationTable
+  nameWithType: SpellClassData.SpellEffectDurationTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellName
   name: SpellName
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellName
@@ -8040,6 +8268,45 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadius
   nameWithType: SpellClassData.SpellRadius
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable
+  name: SpellRadiusTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRadiusTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable
+  nameWithType: SpellClassData.SpellRadiusTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable*
+  name: SpellRadiusTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRadiusTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRadiusTable
+  nameWithType: SpellClassData.SpellRadiusTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange
+  name: SpellRange
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRange
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange
+  nameWithType: SpellClassData.SpellRange
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange*
+  name: SpellRange
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRange_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRange
+  nameWithType: SpellClassData.SpellRange
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable
+  name: SpellRangeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRangeTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable
+  nameWithType: SpellClassData.SpellRangeTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable*
+  name: SpellRangeTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellRangeTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellRangeTable
+  nameWithType: SpellClassData.SpellRangeTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellWidth
   name: SpellWidth
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_SpellWidth
@@ -8053,6 +8320,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.SpellWidth
   nameWithType: SpellClassData.SpellWidth
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable
+  name: TotalAttackDamageScalingTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_TotalAttackDamageScalingTable
+  commentId: P:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable
+  nameWithType: SpellClassData.TotalAttackDamageScalingTable
+- uid: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable*
+  name: TotalAttackDamageScalingTable
+  href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html#Oasys_Common_GameObject_Clients_ExtendedInstances_Spells_SpellClassData_TotalAttackDamageScalingTable_
+  commentId: Overload:Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.TotalAttackDamageScalingTable
+  nameWithType: SpellClassData.TotalAttackDamageScalingTable
 - uid: Oasys.Common.GameObject.Clients.ExtendedInstances.UnitComponentInfo
   name: UnitComponentInfo
   href: api/Oasys.Common.GameObject.Clients.ExtendedInstances.UnitComponentInfo.html
@@ -9341,6 +9621,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.IsTargetable
   nameWithType: GameObjectBase.IsTargetable
+- uid: Oasys.Common.GameObject.GameObjectBase.IsTargetDummy
+  name: IsTargetDummy
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsTargetDummy
+  commentId: P:Oasys.Common.GameObject.GameObjectBase.IsTargetDummy
+  fullName: Oasys.Common.GameObject.GameObjectBase.IsTargetDummy
+  nameWithType: GameObjectBase.IsTargetDummy
+- uid: Oasys.Common.GameObject.GameObjectBase.IsTargetDummy*
+  name: IsTargetDummy
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsTargetDummy_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.IsTargetDummy
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.IsTargetDummy
+  nameWithType: GameObjectBase.IsTargetDummy
 - uid: Oasys.Common.GameObject.GameObjectBase.IsVisible
   name: IsVisible
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsVisible
@@ -9536,6 +9829,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.GameObject.GameObjectBase.Position
   nameWithType: GameObjectBase.Position
+- uid: Oasys.Common.GameObject.GameObjectBase.PredictHealth(System.Int32)
+  name: PredictHealth(Int32)
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_PredictHealth_System_Int32_
+  commentId: M:Oasys.Common.GameObject.GameObjectBase.PredictHealth(System.Int32)
+  fullName: Oasys.Common.GameObject.GameObjectBase.PredictHealth(System.Int32)
+  nameWithType: GameObjectBase.PredictHealth(Int32)
+- uid: Oasys.Common.GameObject.GameObjectBase.PredictHealth*
+  name: PredictHealth
+  href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_PredictHealth_
+  commentId: Overload:Oasys.Common.GameObject.GameObjectBase.PredictHealth
+  isSpec: "True"
+  fullName: Oasys.Common.GameObject.GameObjectBase.PredictHealth
+  nameWithType: GameObjectBase.PredictHealth
 - uid: Oasys.Common.GameObject.GameObjectBase.Team
   name: Team
   href: api/Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_Team
@@ -11571,6 +11877,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Geometry.Polygon.Circle.UpdatePolygon
   nameWithType: Geometry.Polygon.Circle.UpdatePolygon
+- uid: Oasys.Common.Logic.Geometry.Polygon.Draw(SharpDX.Color,System.Int32)
+  name: Draw(Color, Int32)
+  href: api/Oasys.Common.Logic.Geometry.Polygon.html#Oasys_Common_Logic_Geometry_Polygon_Draw_SharpDX_Color_System_Int32_
+  commentId: M:Oasys.Common.Logic.Geometry.Polygon.Draw(SharpDX.Color,System.Int32)
+  fullName: Oasys.Common.Logic.Geometry.Polygon.Draw(SharpDX.Color, System.Int32)
+  nameWithType: Geometry.Polygon.Draw(Color, Int32)
+- uid: Oasys.Common.Logic.Geometry.Polygon.Draw*
+  name: Draw
+  href: api/Oasys.Common.Logic.Geometry.Polygon.html#Oasys_Common_Logic_Geometry_Polygon_Draw_
+  commentId: Overload:Oasys.Common.Logic.Geometry.Polygon.Draw
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Geometry.Polygon.Draw
+  nameWithType: Geometry.Polygon.Draw
 - uid: Oasys.Common.Logic.Geometry.Polygon.IsInside(Oasys.Common.GameObject.GameObjectBase)
   name: IsInside(GameObjectBase)
   href: api/Oasys.Common.Logic.Geometry.Polygon.html#Oasys_Common_Logic_Geometry_Polygon_IsInside_Oasys_Common_GameObject_GameObjectBase_
@@ -13031,6 +13350,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LaneClearTarget
   nameWithType: Orbwalker.OrbSettings.LaneClearTarget
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay
+  name: LastAttackCastDelay
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastAttackCastDelay
+  commentId: P:Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay
+  nameWithType: Orbwalker.OrbSettings.LastAttackCastDelay
+- uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay*
+  name: LastAttackCastDelay
+  href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastAttackCastDelay_
+  commentId: Overload:Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay
+  isSpec: "True"
+  fullName: Oasys.Common.Logic.Orbwalker.OrbSettings.LastAttackCastDelay
+  nameWithType: Orbwalker.OrbSettings.LastAttackCastDelay
 - uid: Oasys.Common.Logic.Orbwalker.OrbSettings.LastBasicAttack
   name: LastBasicAttack
   href: api/Oasys.Common.Logic.Orbwalker.OrbSettings.html#Oasys_Common_Logic_Orbwalker_OrbSettings_LastBasicAttack
@@ -13387,6 +13719,98 @@ references:
   commentId: N:Oasys.Common.Menu
   fullName: Oasys.Common.Menu
   nameWithType: Oasys.Common.Menu
+- uid: Oasys.Common.Menu.Group
+  name: Group
+  href: api/Oasys.Common.Menu.Group.html
+  commentId: T:Oasys.Common.Menu.Group
+  fullName: Oasys.Common.Menu.Group
+  nameWithType: Group
+- uid: Oasys.Common.Menu.Group.#ctor(System.String)
+  name: Group(String)
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group__ctor_System_String_
+  commentId: M:Oasys.Common.Menu.Group.#ctor(System.String)
+  fullName: Oasys.Common.Menu.Group.Group(System.String)
+  nameWithType: Group.Group(String)
+- uid: Oasys.Common.Menu.Group.#ctor*
+  name: Group
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group__ctor_
+  commentId: Overload:Oasys.Common.Menu.Group.#ctor
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Group.Group
+  nameWithType: Group.Group
+- uid: Oasys.Common.Menu.Group.AddItem(Oasys.Common.Menu.TabItem)
+  name: AddItem(TabItem)
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_AddItem_Oasys_Common_Menu_TabItem_
+  commentId: M:Oasys.Common.Menu.Group.AddItem(Oasys.Common.Menu.TabItem)
+  fullName: Oasys.Common.Menu.Group.AddItem(Oasys.Common.Menu.TabItem)
+  nameWithType: Group.AddItem(TabItem)
+- uid: Oasys.Common.Menu.Group.AddItem*
+  name: AddItem
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_AddItem_
+  commentId: Overload:Oasys.Common.Menu.Group.AddItem
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Group.AddItem
+  nameWithType: Group.AddItem
+- uid: Oasys.Common.Menu.Group.GetItem*
+  name: GetItem
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_GetItem_
+  commentId: Overload:Oasys.Common.Menu.Group.GetItem
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Group.GetItem
+  nameWithType: Group.GetItem
+- uid: Oasys.Common.Menu.Group.GetItem``1(System.Func{``0,System.Boolean})
+  name: GetItem<T>(Func<T, Boolean>)
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_GetItem__1_System_Func___0_System_Boolean__
+  commentId: M:Oasys.Common.Menu.Group.GetItem``1(System.Func{``0,System.Boolean})
+  name.vb: GetItem(Of T)(Func(Of T, Boolean))
+  fullName: Oasys.Common.Menu.Group.GetItem<T>(System.Func<T, System.Boolean>)
+  fullName.vb: Oasys.Common.Menu.Group.GetItem(Of T)(System.Func(Of T, System.Boolean))
+  nameWithType: Group.GetItem<T>(Func<T, Boolean>)
+  nameWithType.vb: Group.GetItem(Of T)(Func(Of T, Boolean))
+- uid: Oasys.Common.Menu.Group.GetItem``1(System.Int32)
+  name: GetItem<T>(Int32)
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_GetItem__1_System_Int32_
+  commentId: M:Oasys.Common.Menu.Group.GetItem``1(System.Int32)
+  name.vb: GetItem(Of T)(Int32)
+  fullName: Oasys.Common.Menu.Group.GetItem<T>(System.Int32)
+  fullName.vb: Oasys.Common.Menu.Group.GetItem(Of T)(System.Int32)
+  nameWithType: Group.GetItem<T>(Int32)
+  nameWithType.vb: Group.GetItem(Of T)(Int32)
+- uid: Oasys.Common.Menu.Group.GetItem``1(System.String)
+  name: GetItem<T>(String)
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_GetItem__1_System_String_
+  commentId: M:Oasys.Common.Menu.Group.GetItem``1(System.String)
+  name.vb: GetItem(Of T)(String)
+  fullName: Oasys.Common.Menu.Group.GetItem<T>(System.String)
+  fullName.vb: Oasys.Common.Menu.Group.GetItem(Of T)(System.String)
+  nameWithType: Group.GetItem<T>(String)
+  nameWithType.vb: Group.GetItem(Of T)(String)
+- uid: Oasys.Common.Menu.Group.TabName
+  name: TabName
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_TabName
+  commentId: P:Oasys.Common.Menu.Group.TabName
+  fullName: Oasys.Common.Menu.Group.TabName
+  nameWithType: Group.TabName
+- uid: Oasys.Common.Menu.Group.TabName*
+  name: TabName
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_TabName_
+  commentId: Overload:Oasys.Common.Menu.Group.TabName
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Group.TabName
+  nameWithType: Group.TabName
+- uid: Oasys.Common.Menu.Group.Title
+  name: Title
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_Title
+  commentId: P:Oasys.Common.Menu.Group.Title
+  fullName: Oasys.Common.Menu.Group.Title
+  nameWithType: Group.Title
+- uid: Oasys.Common.Menu.Group.Title*
+  name: Title
+  href: api/Oasys.Common.Menu.Group.html#Oasys_Common_Menu_Group_Title_
+  commentId: Overload:Oasys.Common.Menu.Group.Title
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Group.Title
+  nameWithType: Group.Title
 - uid: Oasys.Common.Menu.ItemComponents
   name: Oasys.Common.Menu.ItemComponents
   href: api/Oasys.Common.Menu.ItemComponents.html
@@ -13632,6 +14056,19 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.Tab.Tab
   nameWithType: Tab.Tab
+- uid: Oasys.Common.Menu.Tab.AddGroup(Oasys.Common.Menu.Group)
+  name: AddGroup(Group)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_AddGroup_Oasys_Common_Menu_Group_
+  commentId: M:Oasys.Common.Menu.Tab.AddGroup(Oasys.Common.Menu.Group)
+  fullName: Oasys.Common.Menu.Tab.AddGroup(Oasys.Common.Menu.Group)
+  nameWithType: Tab.AddGroup(Group)
+- uid: Oasys.Common.Menu.Tab.AddGroup*
+  name: AddGroup
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_AddGroup_
+  commentId: Overload:Oasys.Common.Menu.Tab.AddGroup
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Tab.AddGroup
+  nameWithType: Tab.AddGroup
 - uid: Oasys.Common.Menu.Tab.AddItem(Oasys.Common.Menu.TabItem)
   name: AddItem(TabItem)
   href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_AddItem_Oasys_Common_Menu_TabItem_
@@ -13645,6 +14082,34 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.Tab.AddItem
   nameWithType: Tab.AddItem
+- uid: Oasys.Common.Menu.Tab.GetGroup(System.Func{Oasys.Common.Menu.Group,System.Boolean})
+  name: GetGroup(Func<Group, Boolean>)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetGroup_System_Func_Oasys_Common_Menu_Group_System_Boolean__
+  commentId: M:Oasys.Common.Menu.Tab.GetGroup(System.Func{Oasys.Common.Menu.Group,System.Boolean})
+  name.vb: GetGroup(Func(Of Group, Boolean))
+  fullName: Oasys.Common.Menu.Tab.GetGroup(System.Func<Oasys.Common.Menu.Group, System.Boolean>)
+  fullName.vb: Oasys.Common.Menu.Tab.GetGroup(System.Func(Of Oasys.Common.Menu.Group, System.Boolean))
+  nameWithType: Tab.GetGroup(Func<Group, Boolean>)
+  nameWithType.vb: Tab.GetGroup(Func(Of Group, Boolean))
+- uid: Oasys.Common.Menu.Tab.GetGroup(System.Int32)
+  name: GetGroup(Int32)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetGroup_System_Int32_
+  commentId: M:Oasys.Common.Menu.Tab.GetGroup(System.Int32)
+  fullName: Oasys.Common.Menu.Tab.GetGroup(System.Int32)
+  nameWithType: Tab.GetGroup(Int32)
+- uid: Oasys.Common.Menu.Tab.GetGroup(System.String)
+  name: GetGroup(String)
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetGroup_System_String_
+  commentId: M:Oasys.Common.Menu.Tab.GetGroup(System.String)
+  fullName: Oasys.Common.Menu.Tab.GetGroup(System.String)
+  nameWithType: Tab.GetGroup(String)
+- uid: Oasys.Common.Menu.Tab.GetGroup*
+  name: GetGroup
+  href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetGroup_
+  commentId: Overload:Oasys.Common.Menu.Tab.GetGroup
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.Tab.GetGroup
+  nameWithType: Tab.GetGroup
 - uid: Oasys.Common.Menu.Tab.GetItem*
   name: GetItem
   href: api/Oasys.Common.Menu.Tab.html#Oasys_Common_Menu_Tab_GetItem_
@@ -13711,6 +14176,31 @@ references:
   isSpec: "True"
   fullName: Oasys.Common.Menu.TabItem.TabItem
   nameWithType: TabItem.TabItem
+- uid: Oasys.Common.Menu.TabItem.GroupName
+  name: GroupName
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_GroupName
+  commentId: P:Oasys.Common.Menu.TabItem.GroupName
+  fullName: Oasys.Common.Menu.TabItem.GroupName
+  nameWithType: TabItem.GroupName
+- uid: Oasys.Common.Menu.TabItem.GroupName*
+  name: GroupName
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_GroupName_
+  commentId: Overload:Oasys.Common.Menu.TabItem.GroupName
+  isSpec: "True"
+  fullName: Oasys.Common.Menu.TabItem.GroupName
+  nameWithType: TabItem.GroupName
+- uid: Oasys.Common.Menu.TabItem.MenuItemChanged
+  name: TabItem.MenuItemChanged
+  href: api/Oasys.Common.Menu.TabItem.MenuItemChanged.html
+  commentId: T:Oasys.Common.Menu.TabItem.MenuItemChanged
+  fullName: Oasys.Common.Menu.TabItem.MenuItemChanged
+  nameWithType: TabItem.MenuItemChanged
+- uid: Oasys.Common.Menu.TabItem.OnMenuItemChanged
+  name: OnMenuItemChanged
+  href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_OnMenuItemChanged
+  commentId: E:Oasys.Common.Menu.TabItem.OnMenuItemChanged
+  fullName: Oasys.Common.Menu.TabItem.OnMenuItemChanged
+  nameWithType: TabItem.OnMenuItemChanged
 - uid: Oasys.Common.Menu.TabItem.OnTabItemChange
   name: OnTabItemChange
   href: api/Oasys.Common.Menu.TabItem.html#Oasys_Common_Menu_TabItem_OnTabItemChange

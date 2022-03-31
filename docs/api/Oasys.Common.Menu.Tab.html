@@ -173,6 +173,52 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  <a id="Oasys_Common_Menu_Tab_AddGroup_" data-uid="Oasys.Common.Menu.Tab.AddGroup*"></a>
+  <h4 id="Oasys_Common_Menu_Tab_AddGroup_Oasys_Common_Menu_Group_" data-uid="Oasys.Common.Menu.Tab.AddGroup(Oasys.Common.Menu.Group)">AddGroup(Group)</h4>
+  <div class="markdown level1 summary"><p>Adds the group in the tab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AddGroup(Group group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Menu.Group.html">Group</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Index of added group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Oasys_Common_Menu_Tab_AddGroup_Oasys_Common_Menu_Group__examples">Examples</h5>
+  <pre><code>       var tab1 = MenuManager.GetTab(&quot;Tab1&quot;);
+       tab1.AddGroup(new Group() {Title = &quot;Group1&quot;});</code></pre>
+
   <a id="Oasys_Common_Menu_Tab_AddItem_" data-uid="Oasys.Common.Menu.Tab.AddItem*"></a>
   <h4 id="Oasys_Common_Menu_Tab_AddItem_Oasys_Common_Menu_TabItem_" data-uid="Oasys.Common.Menu.Tab.AddItem(Oasys.Common.Menu.TabItem)">AddItem(TabItem)</h4>
   <div class="markdown level1 summary"><p>Adds the item in the tab.</p>
@@ -218,6 +264,144 @@
   <h5 id="Oasys_Common_Menu_Tab_AddItem_Oasys_Common_Menu_TabItem__examples">Examples</h5>
   <pre><code>       var tab1 = MenuManager.GetTab(&quot;Tab1&quot;);
        tab1.AddItem(new Switch() {Title = &quot;Item1&quot;});</code></pre>
+
+  <a id="Oasys_Common_Menu_Tab_GetGroup_" data-uid="Oasys.Common.Menu.Tab.GetGroup*"></a>
+  <h4 id="Oasys_Common_Menu_Tab_GetGroup_System_Func_Oasys_Common_Menu_Group_System_Boolean__" data-uid="Oasys.Common.Menu.Tab.GetGroup(System.Func{Oasys.Common.Menu.Group,System.Boolean})">GetGroup(Func&lt;Group, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets an item by a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Group GetGroup(Func&lt;Group, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.Menu.Group.html">Group</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Menu.Group.html">Group</a></td>
+        <td><p>Requested group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Oasys_Common_Menu_Tab_GetGroup_System_Func_Oasys_Common_Menu_Group_System_Boolean___examples">Examples</h5>
+  <pre><code>        var tab1 = MenuManager.GetTab(&quot;Tab1&quot;);
+        tab1.GetGroup(x => x.Title == &quot;Group1&quot;);</code></pre>
+
+  <a id="Oasys_Common_Menu_Tab_GetGroup_" data-uid="Oasys.Common.Menu.Tab.GetGroup*"></a>
+  <h4 id="Oasys_Common_Menu_Tab_GetGroup_System_Int32_" data-uid="Oasys.Common.Menu.Tab.GetGroup(System.Int32)">GetGroup(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets a group by its index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Group GetGroup(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Menu.Group.html">Group</a></td>
+        <td><p>Requested group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Oasys_Common_Menu_Tab_GetGroup_System_Int32__examples">Examples</h5>
+  <pre><code>        var tab1 = MenuManager.GetTab(1);
+        tab1.GetGroup(1);</code></pre>
+
+  <a id="Oasys_Common_Menu_Tab_GetGroup_" data-uid="Oasys.Common.Menu.Tab.GetGroup*"></a>
+  <h4 id="Oasys_Common_Menu_Tab_GetGroup_System_String_" data-uid="Oasys.Common.Menu.Tab.GetGroup(System.String)">GetGroup(String)</h4>
+  <div class="markdown level1 summary"><p>Gets a group by the name in the tab.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Group GetGroup(string groupName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">groupName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Menu.Group.html">Group</a></td>
+        <td><p>Requested group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Oasys_Common_Menu_Tab_GetGroup_System_String__examples">Examples</h5>
+  <pre><code>        var tab1 = MenuManager.GetTab(&quot;Tab1&quot;);
+        tab1.GetGroup(&quot;Group1&quot;);</code></pre>
 
   <a id="Oasys_Common_Menu_Tab_GetItem_" data-uid="Oasys.Common.Menu.Tab.GetItem*"></a>
   <h4 id="Oasys_Common_Menu_Tab_GetItem__1_System_Func___0_System_Boolean__" data-uid="Oasys.Common.Menu.Tab.GetItem``1(System.Func{``0,System.Boolean})">GetItem&lt;T&gt;(Func&lt;T, Boolean&gt;)</h4>

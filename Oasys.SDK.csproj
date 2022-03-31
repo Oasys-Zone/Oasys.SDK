@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0-windows7.0</TargetFramework>
     <Configurations>Debug;Release;Stage</Configurations>
-    <AssemblyVersion>2.0.8.2</AssemblyVersion>
-    <FileVersion>2.0.8.2</FileVersion>
-    <ProductVersion>2.0.8.2</ProductVersion>
+    <AssemblyVersion>2.0.8.3</AssemblyVersion>
+    <FileVersion>2.0.8.3</FileVersion>
+    <ProductVersion>2.0.8.3</ProductVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

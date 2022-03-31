@@ -160,7 +160,7 @@ namespace Oasys.SDK
                     PredictionType.Cone => Common.Logic.EB.Prediction.Position.PredictionData.PredictionType.Cone,
                     _ => Common.Logic.EB.Prediction.Position.PredictionData.PredictionType.Linear,
                 };
-                var predictionData = new Common.Logic.EB.Prediction.Position.PredictionData(ebPredictionType, (int)input.Range, (int)input.Radius, (int)input.Radius, (int)(input.Delay * 1000f), (int)input.Speed, 0, input.SourcePosition);
+                var predictionData = new Common.Logic.EB.Prediction.Position.PredictionData(ebPredictionType, (int)input.Range, (int)input.Radius, (int)input.Radius, (int)(input.Delay * 1000f), (int)input.Speed, 10000, input.SourcePosition);
                 var predictionOutput = EB.GetPrediction(input.Target, predictionData);
                 var hitChance = predictionOutput.HitChance switch
                 {

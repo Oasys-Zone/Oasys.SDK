@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIBaseClient.html",
-          "hash": "25NlxTBEX8hhz3I5ts45tdbdrpD8cMr0QAPkcEn0ul0="
+          "hash": "M/aa1L4eB0fLsQMr4zK4ggXPnsrqpo10n/gB5TKgECY="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.html",
-          "hash": "wprjs1dXh9a2sCquEQopW+HqT+AEtB8TCddKcbJt76w="
+          "hash": "gfgnr5TTUgPMbJfl7H/Bs8j+c6qRBHXUU1p//MT9OF0="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMinionClient.html",
-          "hash": "YU3xqsHfm1my3YFLhqYUokVrhfLbI2vhpXijDFy2U9o="
+          "hash": "s4fdmbT14nVuAn0aDfJ7hiBBL0aVgQ2Cqeq1yPgTfZs="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIMissileClient.html",
-          "hash": "7J3gMGwPb4GgjPZVZv16rw/+15L0YMtcj+tdzXL8FkI="
+          "hash": "PDukBdrJ7eP0CdGaz2trtiOxzj1DmbPffbATtJS0j+8="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIPlacementClient.html",
-          "hash": "vova7gCNozbIvQmTClQGxvxJlMMW0Ic70RbucgXoKu4="
+          "hash": "EgWqxLcMiWIfDvLvaHE7rIBhcNo/VS+kZmHgceiEuYQ="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.html",
-          "hash": "Ldqj7PcSCKAL1u2UB61uMRCIEFSoV/+sGPB3ARxOx6Q="
+          "hash": "y1gV458+/3nKEg+zHFJbby8Lovek1Qj5doGwKE/AEYM="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html",
-          "hash": "IBopqZ4Dz4mgkxLniKuCQkeIyINm0xNEYJA+fl6s3co="
+          "hash": "FBF2B/7CuyxcsEstEe5qAT0iG1rK0FkAy9NQpkPgssI="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClassData.html",
-          "hash": "o5rtZBuZELP5eIF6ztRacJH5eP8MNtePeSW/LCupA98="
+          "hash": "cadmaKHJwCzwf6bEmlkDsQiPQ2y4YiWrnJACQX0EIyQ="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.GameObjectBase.html",
-          "hash": "RyxMSmR8E19bZq4p1PvvqHQa6267/NhXk+Gv84r/pYQ="
+          "hash": "G+6bIR15bCTGkpvz7Pe1QOqGhxGHIkVSFIwN4AR4jYQ="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.html",
-          "hash": "O9MlWb+hKtE34mgXH3YHnPGQiC6PhftNe7PnSeQrRjw="
+          "hash": "5D48A+V8QVLhqn/mVkDeWZXSJ1q4qfosd8WUWzTDhlc="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Inhibitor.html",
-          "hash": "FuEfTwRSqQPv8heToBOgCz0o/26pQrzfg6FSq9DyXaE="
+          "hash": "5HTahrnHoV+b6npfMuJnrfGuxeorBReN6zL/4IWQ470="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.JungleMob.html",
-          "hash": "g/PxD91RH2wihEVPvUH1qc2+gE8EpAY7YeUunM76qvo="
+          "hash": "aGlg/YC2VnSW6YLrFbjN7y4eTegbhJV6D2PRlA8DjsU="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.html",
-          "hash": "vmZOj+8kTcNPlcn6k0Aa8PakLp9tP81Vu9hk4TWXEWU="
+          "hash": "UgM4ZiHn+EeRGKLquWFuMiNi7ygAsO+0inqqRjXrupk="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.MissileClient.html",
-          "hash": "HvLB/vVPwaq1ffodJP8kUBH7e+xmdVwAi1gAD0GsCPA="
+          "hash": "j8p/IoDrROoA6sVATxzjV6gtn8S7gsNWyR9zyHPduh0="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Nexus.html",
-          "hash": "OND/wOn9FWf4/HIvaBJEKxMa20zAoFnbhdfIRBjfrXA="
+          "hash": "jvvEnT130jEd24LZmldg5UoZ+1m0s5GG89162+K0e4A="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Trap.html",
-          "hash": "1EyHVadF0mPetS0nDqFo1QWQHZS71Fl/jNlDcYDtVAM="
+          "hash": "Uavf0AteIYNoS3fej2SZy1sVWANRXL4P87ZN7hX0aIc="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.html",
-          "hash": "4B4qjzv2+vTIyVW1rzPjDvqwBBCH+JKLa8EtR/mEkFA="
+          "hash": "ydD21/fMkpF8vWMitSlrWCkJHF/u4lim6xprBOKeXh0="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Ward.html",
-          "hash": "WrHCeLGPkhHc0v9MfXB7cJ0l2z88jmWqPQ9UjI4KU4g="
+          "hash": "5nFFcsdzsyPAO9zLB20tVhSXQZIq+2vxIMQFCekaPWk="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Arc.html",
-          "hash": "aWMWrljvuE/wL4xHaK9k887SdhhTfWqx3Qy9YMSLzhw="
+          "hash": "JKD3XQUYbOksQG04uKPv8rFjOAW1OxAmxZtZfOXXg+g="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Circle.html",
-          "hash": "2DdtiIO2wn9mXlN3bW9OQtJ2OJTuUoq5NQgtJeadJSk="
+          "hash": "ai+NvRX6DB5osQy5oO+5TsoxB5JpFTwiQqUdJAC2fRE="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Line.html",
-          "hash": "yk6fHNM8HGJUlk+MmPDSrNLuiSaZHtXT8h8hc0akRXg="
+          "hash": "c4YX2avaYrPIo+fJmlZ1Ni6ECh4Adjpzksdak0AwTcs="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Rectangle.html",
-          "hash": "YBdCEGnZyfEflAOW8vEX72l0LkgnAUyz168JY/rNWs4="
+          "hash": "9FAADB6UayDAY25wnKtd6gS0zDNC/O9dooeow0myp84="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Ring.html",
-          "hash": "Co4kG1M2/+rQfOFCj4ZdkhEEtTbqMfM5N7oAWsTmWwY="
+          "hash": "mO4xkMRGCn7Ip7owp48s+1ea+ktQMlXl36bxzweaIRw="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.Sector.html",
-          "hash": "NJCSIP4ltY933QljHbXF+OPOdwUabSkQxwfe6AL73j0="
+          "hash": "iWNSA33euN8bb6VuXSG1FuR/Dc0BzJSs5DpFStuKFoM="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Geometry.Polygon.html",
-          "hash": "XPFbiTPSLAXJEGwa7hnV278WEKLNYgSflRGaMUZ0Vyg="
+          "hash": "XI3p4hHNqD9hstoSwcyxKoLrgwSb9BI6gaC5LNJ2tHE="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Orbwalker.OrbSettings.html",
-          "hash": "gxC2VQ8OEATGKFfbCOcxA5yxLTZlWkkV8viBZE7myo0="
+          "hash": "1wuHVSe3/Lg5C5Ddni1SSMhldlF7imYZ6dMXJ6aMioE="
         }
       },
       "is_incremental": false,
@@ -1790,11 +1790,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.Group.html",
+          "hash": "1//AN/Ja6VfBMeUP5qqyGSkNQb6wVu+qFOe3B91PqFU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.html",
-          "hash": "YJJRTOvfMVd/e0U/gxV7OZtDwdXbJygkuai6BlYw5GI="
+          "hash": "tXtZgjEn6Sox7pEppm/aEqWlkpZCy089CfQ9Waodw6E="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.InfoDisplay.html",
-          "hash": "icjrdHZq+KMkHVYIQnlGt6mOeNyopWE4T42DTzPrF94="
+          "hash": "ZU8I9uXheDJeUYLBPuXBr9ZxtkYjD57iahJLPFCiEnc="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.KeyBinding.html",
-          "hash": "nsh9EETH9i2quG+2WHK5LcMlzRHhXlv1V30RMD42sto="
+          "hash": "Ekhcw/ytDayXNk5buc1YBDA+kmfhfOfJf7Tdqj3Iio4="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.html",
-          "hash": "d1siRY99AXFy5dbj4l8pCpOkCQnQxk+yslh119Gs7YI="
+          "hash": "hmv6VybpTn5RMmKbuyBr7OH11+WBfeJq7HEqTVwu0B8="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Switch.html",
-          "hash": "aKWYvIYeBE67xDjSjKTpzeyfOUeF2HB1JqpbcRAF/BQ="
+          "hash": "0VGvL6afKki1AjucV33wyYyA/w5xZfo3L/SYoDdE5aU="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1890,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.Tab.html",
-          "hash": "vcFxBUpN3tI4EDHSflGIijMGq9cZXjBA7v1oIrTXyzY="
+          "hash": "8GPkOOr0lqhXutqXoEu700mAcpy9Qr50AtzGJSoDegY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Menu.TabItem.MenuItemChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Menu.TabItem.MenuItemChanged.html",
+          "hash": "DlCQ1//TzLVADrwhbG4VI6eyorwKryQqI5vm7VTho44="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.TabItem.html",
-          "hash": "zUogk2uAlsaWWIXXrm9plIfaZRtq8ZODehd8rNJsMmk="
+          "hash": "anMmdVCMYZ2VOi0f8g95DnKTv0TsWgoJUR5exccqsUc="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.html",
-          "hash": "1/IKUcvSSVNjHYd1JTZFqn2PjRqqQ2yjp+iVis2ENkk="
+          "hash": "4661o7fsMPDytdhHgjobn7N0FX50PuN+JkyvhToCA5U="
         }
       },
       "is_incremental": false,
@@ -2862,7 +2886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "rG+txts37p1GI/zvNdfhEm8Dc6AVYtFe7eFQeZ/BEK0="
+          "hash": "5FzoNeoksNihNEtA3pMd7vTCwz3A0jmYiLh6ygq7YCw="
         }
       },
       "is_incremental": false,
@@ -2941,8 +2965,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 236,
-          "skipped_file_count": 219
+          "total_file_count": 238,
+          "skipped_file_count": 176
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

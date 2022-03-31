@@ -147,8 +147,222 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_ActiveBuffs_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_ActiveBuffs" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.ActiveBuffs">ActiveBuffs</h4>
+  <div class="markdown level1 summary"><p>Current active buffs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;BuffEntry&gt; ActiveBuffs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_Buffs_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_Buffs" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.Buffs">Buffs</h4>
+  <div class="markdown level1 summary"><p>Current buffs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;BuffEntry&gt; Buffs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_FirstOrDefault_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_FirstOrDefault_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.FirstOrDefault(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})">FirstOrDefault(Func&lt;BuffEntry, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Get the first or default buff entry based on the predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuffEntry FirstOrDefault(Func&lt;BuffEntry, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})">GetActiveBuff(Func&lt;BuffEntry, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first active buff or null that matches the predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuffEntry GetActiveBuff(Func&lt;BuffEntry, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetActiveBuff_System_String_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetActiveBuff(System.String)">GetActiveBuff(String)</h4>
+  <div class="markdown level1 summary"><p>Gets a buff by the name given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuffEntry GetActiveBuff(string buffName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">buffName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})">GetBuff(Func&lt;BuffEntry, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the first buff or null that matches the predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BuffEntry GetBuff(Func&lt;BuffEntry, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuffByName_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuffByName*"></a>
   <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_GetBuffByName_System_String_System_Boolean_System_Boolean_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.GetBuffByName(System.String,System.Boolean,System.Boolean)">GetBuffByName(String, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Gets a buff by the name given.</p>
@@ -220,6 +434,129 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})">HasActiveBuff(Func&lt;BuffEntry, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it has an active buff with the true predicate given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActiveBuff(Func&lt;BuffEntry, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasActiveBuff_System_String_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasActiveBuff(System.String)">HasActiveBuff(String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it has an active buff by the name given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasActiveBuff(string buffName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">buffName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_ExtendedInstances_BuffManager_HasBuff_System_Func_Oasys_Common_GameObject_Clients_ExtendedInstances_BuffEntry_System_Boolean__" data-uid="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffManager.HasBuff(System.Func{Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry,System.Boolean})">HasBuff(Func&lt;BuffEntry, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Checks whether if it has buff with the true predicate given.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuff(Func&lt;BuffEntry, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.BuffEntry.html">BuffEntry</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
