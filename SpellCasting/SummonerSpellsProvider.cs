@@ -17,6 +17,15 @@ namespace Oasys.SDK.SpellCasting
             Slot1_D = UnitManager.MyChampion.GetSpellBook().GetSpellClass(Common.Enums.GameEnums.SpellSlot.Summoner1).SpellData.SpellName;
             Slot2_F = UnitManager.MyChampion.GetSpellBook().GetSpellClass(Common.Enums.GameEnums.SpellSlot.Summoner2).SpellData.SpellName;
 
+            if (Slot1_D.Contains("smite", System.StringComparison.OrdinalIgnoreCase))
+            {
+                Slot1_D = "SummonerSmite";
+            }
+            if (Slot2_F.Contains("smite", System.StringComparison.OrdinalIgnoreCase))
+            {
+                Slot2_F = "SummonerSmite";
+            }
+
             SummonerSpellsNameMappedDictionary = new Dictionary<SummonerSpellsEnum, string>()
             {
                 { SummonerSpellsEnum.Barrier, "SummonerBarrier" },

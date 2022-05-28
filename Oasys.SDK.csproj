@@ -1,36 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0-windows7.0</TargetFramework>
-    <Configurations>Debug;Release;Stage</Configurations>
-    <AssemblyVersion>2.0.8.3</AssemblyVersion>
-    <FileVersion>2.0.8.3</FileVersion>
-    <ProductVersion>2.0.8.3</ProductVersion>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows7.0</TargetFramework>
+		<Configurations>Debug;Release;Stage</Configurations>
+		<AssemblyVersion>2.0.9.12</AssemblyVersion>
+		<FileVersion>2.0.9.12</FileVersion>
+		<ProductVersion>2.0.9.12</ProductVersion>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>..\OasysDebug_Build\</OutputPath>
-    <DocumentationFile>..\OasysDebug_Build\Oasys.SDK.xml</DocumentationFile>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\OasysDebug_Build\</OutputPath>
+		<DocumentationFile>..\OasysDebug_Build\Oasys.SDK.xml</DocumentationFile>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\OasysRelease_Build\</OutputPath>
-    <DocumentationFile>..\OasysRelease_Build\Oasys.SDK.xml</DocumentationFile>
-    <Optimize>false</Optimize>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\OasysRelease_Build\</OutputPath>
+		<DocumentationFile>..\OasysRelease_Build\Oasys.SDK.xml</DocumentationFile>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Stage|AnyCPU'">
-    <OutputPath>..\OasysStage_Build\</OutputPath>
-    <DocumentationFile>..\OasysStage_Build\Oasys.SDK.xml</DocumentationFile>
-    <Optimize>false</Optimize>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Stage|AnyCPU'">
+		<OutputPath>..\OasysStage_Build\</OutputPath>
+		<DocumentationFile>..\OasysStage_Build\Oasys.SDK.xml</DocumentationFile>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Oasys.Common\Oasys.Common.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Oasys.Common\Oasys.Common.csproj" />
+	</ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if $(ConfigurationName) == Release copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)&#xD;&#xA;&#xD;&#xA;if $(ConfigurationName) == Stage copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)" />
-  </Target>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="if $(ConfigurationName) == Release copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)&#xD;&#xA;&#xD;&#xA;if $(ConfigurationName) == Stage copy /y $(OutDir)\$(TargetName)$(TargetExt) $(OutDir)\publish\$(TargetName)$(TargetExt)" />
+	</Target>
 
 </Project>

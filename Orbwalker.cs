@@ -141,6 +141,15 @@ namespace Oasys.SDK
         }
 
         /// <summary>
+        /// This event is raised when orbwalker is about to process a basicattack.
+        /// </summary>
+        public static event Common.Logic.Orbwalker.BasicAttackCommand OnOrbwalkerBeforeBasicAttack
+        {
+            add => Common.Logic.Orbwalker.OnOrbwalkerBeforeBasicAttack += value;
+            remove => Common.Logic.Orbwalker.OnOrbwalkerBeforeBasicAttack -= value;
+        }
+
+        /// <summary>
         /// This event is raised when orbwalker is processing a basicattack.
         /// </summary>
         public static event Common.Logic.Orbwalker.BasicAttackCommand OnOrbwalkerBasicAttack

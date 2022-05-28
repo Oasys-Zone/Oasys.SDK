@@ -252,6 +252,9 @@
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsMe">GameObjectBase.IsMe</a>
     </div>
     <div>
+      <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_IsAlly">GameObjectBase.IsAlly</a>
+    </div>
+    <div>
       <a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html#Oasys_Common_GameObject_GameObjectBase_OnMyTeam">GameObjectBase.OnMyTeam</a>
     </div>
     <div>
@@ -332,6 +335,29 @@
   </table>
   <h3 id="properties">Properties
   </h3>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_CachedIsVisible_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.CachedIsVisible*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_CachedIsVisible" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.CachedIsVisible">CachedIsVisible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CachedIsVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_GameObject_Clients_AIHeroClient_ExperiencePoints_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.ExperiencePoints*"></a>
   <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_ExperiencePoints" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.ExperiencePoints">ExperiencePoints</h4>
   <div class="markdown level1 summary"><p>Gets the curremt XP amount.</p>
@@ -356,6 +382,29 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_GetChannelingSpell_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.GetChannelingSpell*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_GetChannelingSpell" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.GetChannelingSpell">GetChannelingSpell</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpellActiveEntry GetChannelingSpell { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html">SpellActiveEntry</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_Common_GameObject_Clients_AIHeroClient_Inventory_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.Inventory*"></a>
   <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_Inventory" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.Inventory">Inventory</h4>
   <div class="markdown level1 summary"><p>Gets the item inventory.</p>
@@ -376,6 +425,29 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.html">HeroInventory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_IsChanneling_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.IsChanneling*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_IsChanneling" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.IsChanneling">IsChanneling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChanneling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -424,6 +496,75 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_LastPosition_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastPosition*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_LastPosition" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastPosition">LastPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 LastPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_LastRecall_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastRecall*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_LastRecall" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastRecall">LastRecall</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LastRecall { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_GameObject_Clients_AIHeroClient_LastSeen_" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastSeen*"></a>
+  <h4 id="Oasys_Common_GameObject_Clients_AIHeroClient_LastSeen" data-uid="Oasys.Common.GameObject.Clients.AIHeroClient.LastSeen">LastSeen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LastSeen { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>

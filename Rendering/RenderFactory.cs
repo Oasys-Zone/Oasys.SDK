@@ -1,6 +1,9 @@
-﻿using SharpDX;
+﻿using Oasys.Common;
+using Oasys.Common.Tools;
+using SharpDX;
 using SharpDX.Direct3D9;
 using SharpDX.Mathematics.Interop;
+using System;
 
 namespace Oasys.SDK.Rendering
 {
@@ -67,12 +70,18 @@ namespace Oasys.SDK.Rendering
         /// <param name="centered"></param>
         public static void DrawText(string text, int FontSize, Vector2 position, Color color, bool centered = true)
         {
-            var _font = D3D9Font;
-            var FontDescription = _font.Description;
-            FontDescription.Height = FontSize;
+            try
+            {
+                var _font = D3D9Font;
+                var FontDescription = _font.Description;
+                FontDescription.Height = FontSize;
 
-            var fontDimension = _font.MeasureText(null, text, new Rectangle((int)position.X, (int)position.Y, 0, 0), centered ? (FontDrawFlags.Center | FontDrawFlags.VerticalCenter) : FontDrawFlags.Left);
-            _font.DrawText(null, text, fontDimension, FontDrawFlags.Center | FontDrawFlags.VerticalCenter, color);
+                var fontDimension = _font.MeasureText(null, text, new Rectangle((int)position.X, (int)position.Y, 0, 0), centered ? (FontDrawFlags.Center | FontDrawFlags.VerticalCenter) : FontDrawFlags.Left);
+                _font.DrawText(null, text, fontDimension, FontDrawFlags.Center | FontDrawFlags.VerticalCenter, color);
+            }
+            catch (Exception)
+            {
+            }
         }
 
         /// <summary>
@@ -115,6 +124,8 @@ namespace Oasys.SDK.Rendering
             D3D9Line.Draw(vertices, new RawColorBGRA(Color.B, Color.G, Color.R, Color.A));
             D3D9Line.End();
         }
+
+
 
         /// <summary>
         /// Draws a straight hollowed boxed line.
@@ -191,6 +202,79 @@ namespace Oasys.SDK.Rendering
         public static void DrawNativeCircle(Vector3 position, float radius, Color color, float thickness, bool filled = false)
         {
             Common.RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
+        }
+
+        /// <summary>
+        /// Draw circle on screen position
+        /// </summary>
+        public static void DrawCircle(Vector2 mapPos, float radius, Color color, float thickness)
+        {
+            var line = new Vector2[360];
+
+            for (var i = 0; i < 360; i++)
+            {
+                var rad = i * Math.PI / 180;
+                var radCos = Math.Cos(rad);
+                var radSin = Math.Sin(rad);
+                line[i].X = mapPos.X + (float)radCos * radius;
+                line[i].Y = mapPos.Y + (float)radSin * radius;
+            }
+
+            D3D9Line.Width = thickness;
+            D3D9Line.Begin();
+            D3D9Line.Draw(line, new RawColorBGRA(color.B, color.G, color.R, color.A));
+            D3D9Line.End();
+        }
+
+        /// <summary>
+        /// Draw circle with boundaries that will be drawn if the circle hits the boundary.
+        /// StartingPos is top-left pos of the box.
+        /// MaxSize is the box size down-right from StartingPos.
+        /// </summary>
+        public static void DrawCircle(Vector2 mapPos, float radius, Color color, float thickness, Vector2 startingPos, Vector2 maxSize)
+        {
+            var line = new Vector2[360];
+
+            var minimumPos = new Vector2(startingPos.X + maxSize.X, startingPos.Y + maxSize.Y);
+            for (var i = 0; i < 360; i++)
+            {
+                var rad = i * Math.PI / 180;
+                var radCos = Math.Cos(rad);
+                var radSin = Math.Sin(rad);
+                line[i].X = mapPos.X + (float)radCos * radius;
+                line[i].Y = mapPos.Y + (float)radSin * radius;
+                if (startingPos.X > line[i].X)
+                {
+                    line[i].X = startingPos.X;
+                }
+                if (minimumPos.X < line[i].X)
+                {
+                    line[i].X = minimumPos.X;
+                }
+                if (startingPos.Y > line[i].Y)
+                {
+                    line[i].Y = startingPos.Y;
+                }
+                if (minimumPos.Y < line[i].Y)
+                {
+                    line[i].Y = minimumPos.Y;
+                }
+            }
+
+            D3D9Line.Width = thickness;
+            D3D9Line.Begin();
+            D3D9Line.Draw(line, new RawColorBGRA(color.B, color.G, color.R, color.A));
+            D3D9Line.End();
+        }
+
+        /// <summary>
+        /// Draw image
+        /// </summary>
+        public static void DrawImage(Image image)
+        {
+            image.Sprite.Begin();
+            RenderFactoryProvider.DrawTransformSprite(image.Sprite, image.Texture, image.Color, image.Position, image.Scale);
+            image.Sprite.End();
         }
     }
 }

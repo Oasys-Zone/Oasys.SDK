@@ -1,5 +1,4 @@
-﻿using Oasys.Common.Extensions;
-using SharpDX;
+﻿using SharpDX;
 using System;
 
 namespace Oasys.SDK

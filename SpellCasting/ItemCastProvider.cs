@@ -3,7 +3,6 @@ using Oasys.Common.GameObject;
 using Oasys.Common.Tools;
 using Oasys.SDK.InputProviders;
 using SharpDX;
-using System.Threading;
 
 namespace Oasys.SDK.SpellCasting
 {

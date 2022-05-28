@@ -47,7 +47,7 @@ namespace Oasys.SDK
 
         public static float GetCombatArmor(GameObjectBase attacker, GameObjectBase target)
         {
-            var armor = target?.Armor ?? 1 * attacker.UnitStats.PercentBonusArmorPenetration;
+            var armor = target?.Armor ?? 1 * attacker.UnitStats.ArmorPercentPentration;
             armor -= attacker.UnitStats.PhysicalLethality;
             return armor;
         }

@@ -25,12 +25,30 @@
         }
 
         /// <summary>
-        /// This event is raised whenever enemy champion casts a spell.
+        /// This event is raised whenever a champion casts a spell.
         /// </summary>
         public static event Common.EventsProvider.GameEvents.SpellEventTemplate OnProcessSpell
         {
             add => Common.EventsProvider.GameEvents.OnGameProcessSpell += value;
             remove => Common.EventsProvider.GameEvents.OnGameProcessSpell -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever a champion casts a channeling spell.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.SpellEventTemplate OnGameSpellChanneling
+        {
+            add => Common.EventsProvider.GameEvents.OnGameSpellChanneling += value;
+            remove => Common.EventsProvider.GameEvents.OnGameSpellChanneling -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever enemy champion recalls is finished.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.RecallEventTemplate OnProcessRecallFinished
+        {
+            add => Common.EventsProvider.GameEvents.OnGameProcessRecallFinished += value;
+            remove => Common.EventsProvider.GameEvents.OnGameProcessRecallFinished -= value;
         }
 
         /// <summary>
@@ -58,6 +76,15 @@
         {
             add => Common.EventsProvider.GameEvents.OnGameDash += value;
             remove => Common.EventsProvider.GameEvents.OnGameDash -= value;
+        }
+
+        /// <summary>
+        /// This event is raised whenever an object has a buff change.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.BuffEventTemplate OnBuffChange
+        {
+            add => Common.EventsProvider.GameEvents.OnBuffChange += value;
+            remove => Common.EventsProvider.GameEvents.OnBuffChange -= value;
         }
 
         /// <summary>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MenuManagerProvider
+    <title>Class TargetSelector
    | Oasys SDK </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MenuManagerProvider
+    <meta name="title" content="Class TargetSelector
    | Oasys SDK ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -77,17 +77,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oasys.Common.Menu.MenuManagerProvider">
+            <article class="content wrap" id="_content" data-uid="Oasys.Common.Settings.TargetSelector">
   
   
-  <h1 id="Oasys_Common_Menu_MenuManagerProvider" data-uid="Oasys.Common.Menu.MenuManagerProvider" class="text-break">Class MenuManagerProvider
+  <h1 id="Oasys_Common_Settings_TargetSelector" data-uid="Oasys.Common.Settings.TargetSelector" class="text-break">Class TargetSelector
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MenuManagerProvider</span></div>
+    <div class="level1"><span class="xref">TargetSelector</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,40 +113,115 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Menu.html">Oasys.Common.Menu</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oasys.Common.Settings.html">Oasys.Common.Settings</a></h6>
   <h6><strong>Assembly</strong>: Oasys.Common.dll</h6>
-  <h5 id="Oasys_Common_Menu_MenuManagerProvider_syntax">Syntax</h5>
+  <h5 id="Oasys_Common_Settings_TargetSelector_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class MenuManagerProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public static class TargetSelector</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_AddTab_" data-uid="Oasys.Common.Menu.MenuManagerProvider.AddTab*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_AddTab_Oasys_Common_Menu_Tab_" data-uid="Oasys.Common.Menu.MenuManagerProvider.AddTab(Oasys.Common.Menu.Tab)">AddTab(Tab)</h4>
+  <a id="Oasys_Common_Settings_TargetSelector_GetTargetRangeColor_" data-uid="Oasys.Common.Settings.TargetSelector.GetTargetRangeColor*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_GetTargetRangeColor" data-uid="Oasys.Common.Settings.TargetSelector.GetTargetRangeColor">GetTargetRangeColor</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int AddTab(Tab tb)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color GetTargetRangeColor { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Menu.Tab.html">Tab</a></td>
-        <td><span class="parametername">tb</span></td>
+        <td><span class="xref">SharpDX.Color</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <a id="Oasys_Common_Settings_TargetSelector_Mode_" data-uid="Oasys.Common.Settings.TargetSelector.Mode*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_Mode" data-uid="Oasys.Common.Settings.TargetSelector.Mode">Mode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TargetSelector.TargetSelectorMode Mode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Settings.TargetSelector.TargetSelectorMode.html">TargetSelector.TargetSelectorMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Settings_TargetSelector_Override_" data-uid="Oasys.Common.Settings.TargetSelector.Override*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_Override" data-uid="Oasys.Common.Settings.TargetSelector.Override">Override</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TargetSelector.SelectionOverride Override { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.Settings.TargetSelector.SelectionOverride.html">TargetSelector.SelectionOverride</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Settings_TargetSelector_OverrideColor_" data-uid="Oasys.Common.Settings.TargetSelector.OverrideColor*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_OverrideColor" data-uid="Oasys.Common.Settings.TargetSelector.OverrideColor">OverrideColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color OverrideColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SharpDX.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Settings_TargetSelector_RangeOffset_" data-uid="Oasys.Common.Settings.TargetSelector.RangeOffset*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_RangeOffset" data-uid="Oasys.Common.Settings.TargetSelector.RangeOffset">RangeOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RangeOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -161,32 +236,15 @@
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_GetTab_" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_GetTab_System_Func_Oasys_Common_Menu_Tab_System_Boolean__" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Func{Oasys.Common.Menu.Tab,System.Boolean})">GetTab(Func&lt;Tab, Boolean&gt;)</h4>
+  <a id="Oasys_Common_Settings_TargetSelector_ShowTargetRange_" data-uid="Oasys.Common.Settings.TargetSelector.ShowTargetRange*"></a>
+  <h4 id="Oasys_Common_Settings_TargetSelector_ShowTargetRange" data-uid="Oasys.Common.Settings.TargetSelector.ShowTargetRange">ShowTargetRange</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Tab GetTab(Func&lt;Tab, bool&gt; predicate)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool ShowTargetRange { get; set; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.Menu.Tab.html">Tab</a>, <span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">predicate</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -196,107 +254,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.Menu.Tab.html">Tab</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_GetTab_" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_GetTab_System_Int32_" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab(System.Int32)">GetTab(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Tab GetTab(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Menu.Tab.html">Tab</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_GetTab_" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_GetTab_System_String_" data-uid="Oasys.Common.Menu.MenuManagerProvider.GetTab(System.String)">GetTab(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Tab GetTab(string itemName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">itemName</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oasys.Common.Menu.Tab.html">Tab</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_LoadMenu_" data-uid="Oasys.Common.Menu.MenuManagerProvider.LoadMenu*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_LoadMenu" data-uid="Oasys.Common.Menu.MenuManagerProvider.LoadMenu">LoadMenu()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LoadMenu()</code></pre>
-  </div>
-  <a id="Oasys_Common_Menu_MenuManagerProvider_SaveMenu_" data-uid="Oasys.Common.Menu.MenuManagerProvider.SaveMenu*"></a>
-  <h4 id="Oasys_Common_Menu_MenuManagerProvider_SaveMenu" data-uid="Oasys.Common.Menu.MenuManagerProvider.SaveMenu">SaveMenu()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveMenu()</code></pre>
-  </div>
 </article>
           </div>
           

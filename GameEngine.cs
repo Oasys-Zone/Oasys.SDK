@@ -57,6 +57,11 @@ namespace Oasys.SDK
         public static MinimapInfo Minimap => EngineManager.MinimapInfo;
 
         /// <summary>
+        /// Gets information about the frame rate (FPS).
+        /// </summary>
+        public static FrameClockFacade FrameInformation => EngineManager.FrameInformation;
+
+        /// <summary>
         /// Checks whether the given vector3 position is a wall.
         /// </summary>
         /// <param name="vec3Pos"></param>

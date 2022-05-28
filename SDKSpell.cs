@@ -1,14 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Oasys.Common;
 using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.Extensions;
 using Oasys.Common.GameObject;
 using Oasys.Common.GameObject.Clients.ExtendedInstances.Spells;
 using Oasys.Common.Logic;
+using Oasys.Common.Tools.Devices;
 using Oasys.SDK.SpellCasting;
+using Oasys.SDK.Tools;
 using SharpDX;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using static Oasys.SDK.Prediction.MenuSelected;
 
 namespace Oasys.SDK
@@ -85,6 +88,11 @@ namespace Oasys.SDK
         public Func<bool> AllowCastOnMap { get; set; } = () => false;
 
         /// <summary>
+        /// Allow to cancel basicattack. Standard value = false.
+        /// </summary>
+        public Func<bool> AllowCancelBasicAttack { get; set; } = () => false;
+
+        /// <summary>
         /// Is a targetted spell. Standard value = false.
         /// </summary>
         public Func<bool> IsTargetted { get; set; } = () => false;
@@ -93,6 +101,11 @@ namespace Oasys.SDK
         /// Is a charge spell. Standard value = false.
         /// </summary>
         public Func<bool> IsCharge { get; set; } = () => false;
+
+        /// <summary>
+        /// Is a channel spell. Standard value = false.
+        /// </summary>
+        public Func<bool> IsChannel { get; set; } = () => false;
 
         /// <summary>
         /// The spell range. Standard value = 0.
@@ -182,7 +195,26 @@ namespace Oasys.SDK
             var enemies = new List<GameObjectBase>();
             if (mode == Orbwalker.OrbWalkingModeType.Combo)
             {
-                enemies.AddRange(UnitManager.EnemyChampions);
+                var result = UnitManager.EnemyChampions.Where(x => x.IsAlive && x.DistanceTo(From()) <= Range() && IsTargetable(x) && (IsTargetted() || IsPossibleToHit(x)))
+                                    .Where(predicate ?? basePredicate);
+                var isInRange = (GameObjectBase x) => x.Distance <= Range();
+
+                return Common.Settings.TargetSelector.Mode switch
+                {
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestHealth => result.OrderBy(x => x.Health),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestArmor => result.OrderBy(x => x.UnitStats.Armor),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestMagicResist => result.OrderBy(x => x.UnitStats.MagicResist),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveArmorHealth => result.OrderBy(x => x.EffectiveArmorHealth),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveMagicResistHealth => result.OrderBy(x => x.EffectiveMagicHealth),
+                    Common.Settings.TargetSelector.TargetSelectorMode.MostAttackDamage => result.OrderByDescending(x => x.UnitStats.TotalAttackDamage),
+                    Common.Settings.TargetSelector.TargetSelectorMode.MostAbilityPower => result.OrderByDescending(x => x.UnitStats.TotalAbilityPower),
+                    Common.Settings.TargetSelector.TargetSelectorMode.Prioritization => new[] { Common.Logic.TargetSelector.GetPrioritizationTarget(isInRange) },
+                    Common.Settings.TargetSelector.TargetSelectorMode.Auto => new[] { Common.Logic.TargetSelector.GetAutoTargetSelect(isInRange) },
+                    Common.Settings.TargetSelector.TargetSelectorMode.Mixed => new[] { Common.Logic.TargetSelector.GetMixedTargetSelect(isInRange) },
+                    Common.Settings.TargetSelector.TargetSelectorMode.Closest => result.OrderBy(x => x.Distance),
+                    Common.Settings.TargetSelector.TargetSelectorMode.NearestToMouse => result.OrderBy(x => x.DistanceTo(GameEngine.WorldMousePosition)),
+                    _ => result,
+                };
             }
             else if (mode == Orbwalker.OrbWalkingModeType.LaneClear || mode == Orbwalker.OrbWalkingModeType.Mixed)
             {
@@ -242,9 +274,13 @@ namespace Oasys.SDK
         {
             try
             {
-                if (UnitManager.MyChampion.IsAlive && (IsCharge() || !UnitManager.MyChampion.IsCastingSpell))
+                if (UnitManager.MyChampion.IsAlive && (IsCharge() || IsChannel() || UnitManager.MyChampion.GetCurrentCastingSpell()?.SpellSlot != SpellSlot.BasicAttack) || Orbwalker.CanMove)
                 {
                     if (!IsSpellReady(SpellClass, MinimumMana(), MinimumCharges()))
+                    {
+                        return false;
+                    }
+                    if (!IsCharge() && !IsChannel() && !AllowCancelBasicAttack() && !Orbwalker.CanMove)
                     {
                         return false;
                     }
@@ -274,7 +310,7 @@ namespace Oasys.SDK
                     }
                     else if (target != null)
                     {
-                        if (IsTargetted())
+                        if (IsTargetted() || target.IsObject(ObjectTypeFlag.AITurretClient) || target.IsObject(ObjectTypeFlag.BuildingProps))
                         {
                             var w2s = target.W2S;
                             var castPos = w2s.IsValid()
@@ -301,7 +337,7 @@ namespace Oasys.SDK
                                     : AllowCastInDirection()
                                         ? From().Extend(From() + (predictResult.CastPosition - From()).Normalized(), 50).ToW2S()
                                         : Vector2.Zero;
-                            if (UnitManager.MyChampion.Position.Distance(predictResult.CastPosition) <= Range() &&
+                            if (From().ToW2S().Distance(castPos) <= Range() &&
                                 IsPossibleToHit(target, predictResult) &&
                                 castPos.IsValid() &&
                                 (IsCharge()
