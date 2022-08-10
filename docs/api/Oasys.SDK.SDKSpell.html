@@ -253,6 +253,31 @@
       </tr>
     </tbody>
   </table>
+  <a id="Oasys_SDK_SDKSpell_CastPosition_" data-uid="Oasys.SDK.SDKSpell.CastPosition*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_CastPosition" data-uid="Oasys.SDK.SDKSpell.CastPosition">CastPosition</h4>
+  <div class="markdown level1 summary"><p>The castposition on screen. Standard value = predicted position or targets own position on screen.
+Override this to change cast position based on the predicted position. Ex Thresh E backwards.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;Vector2, Vector2&gt; CastPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">SharpDX.Vector2</span>, <span class="xref">SharpDX.Vector2</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <a id="Oasys_SDK_SDKSpell_CastSlot_" data-uid="Oasys.SDK.SDKSpell.CastSlot*"></a>
   <h4 id="Oasys_SDK_SDKSpell_CastSlot" data-uid="Oasys.SDK.SDKSpell.CastSlot">CastSlot</h4>
   <div class="markdown level1 summary"><p>The castslot.</p>
@@ -924,13 +949,56 @@
     </tbody>
   </table>
   <a id="Oasys_SDK_SDKSpell_GetTargets_" data-uid="Oasys.SDK.SDKSpell.GetTargets*"></a>
+  <h4 id="Oasys_SDK_SDKSpell_GetTargets_Oasys_SDK_Orbwalker_OrbWalkingModeType_" data-uid="Oasys.SDK.SDKSpell.GetTargets(Oasys.SDK.Orbwalker.OrbWalkingModeType)">GetTargets(Orbwalker.OrbWalkingModeType)</h4>
+  <div class="markdown level1 summary"><p>Get available targets that is possible to hit based on spell data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;GameObjectBase&gt; GetTargets(Orbwalker.OrbWalkingModeType mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.SDK.Orbwalker.OrbWalkingModeType.html">Orbwalker.OrbWalkingModeType</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Input mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>&gt;</td>
+        <td><p>Available targets.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_SDK_SDKSpell_GetTargets_" data-uid="Oasys.SDK.SDKSpell.GetTargets*"></a>
   <h4 id="Oasys_SDK_SDKSpell_GetTargets_Oasys_SDK_Orbwalker_OrbWalkingModeType_System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__" data-uid="Oasys.SDK.SDKSpell.GetTargets(Oasys.SDK.Orbwalker.OrbWalkingModeType,System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})">GetTargets(Orbwalker.OrbWalkingModeType, Func&lt;GameObjectBase, Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Get available targets that is possible to hit based on spell data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;GameObjectBase&gt; GetTargets(Orbwalker.OrbWalkingModeType mode, Func&lt;GameObjectBase, bool&gt; predicate = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;GameObjectBase&gt; GetTargets(Orbwalker.OrbWalkingModeType mode, Func&lt;GameObjectBase, bool&gt; predicate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.EngineManager.html",
-          "hash": "n/APV09qwujPf/4/Q4vSVJ2Wvh0jJS9tBRKkVhRdaek="
+          "hash": "ACiMRScdrRu7NBiIa9eFmoz9bAWrUYNQBxGtOPYCIuE="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Enums.GameEnums.SpellCastSlot.html",
-          "hash": "PajI5M3Q1jtoOKZl7O9P6qFV/kPRK8qqBrj5pqbYqxk="
+          "hash": "TID+OKN8xqmvX6LT8YP5zhdSRFkeX/PnYvIupVn0OSw="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.AIHeroClient.html",
-          "hash": "lqgufdNLML6Q0/Q3YcMYcplaIzIoJZnOpEonrVCR5/M="
+          "hash": "2EKTR//8fX/AKSjANVKjPPtlSPWZK+kmBkRX+37qFMA="
         }
       },
       "is_incremental": false,
@@ -870,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.Item.html",
-          "hash": "Sje8fjHpZfKGIJe9QLesY+ffr8oMpSNhsu7nsgJUmfk="
+          "hash": "7lMfCyuKpq5NBn8yGTLvZXjBAAQAqOymxcmeAmDIx7k="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.HeroInventory.html",
-          "hash": "OYOvaYrk+0zspj1IvBUu4g0v3MPjUvxRRFbRIY3ECoo="
+          "hash": "Z6EKHVqakaozDRSLJBxHFGwS6u1/9ksbWqLosMH5RMU="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellActiveEntry.html",
-          "hash": "CO8wngoiclkt7FYFU7v5EYviulSOzXwLDhzrxsqvIgM="
+          "hash": "NtlHNTwEK3yEcXsPje40BfXX2/hg+pNs3hn9cj8Mqb0="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.Clients.ExtendedInstances.Spells.SpellClass.html",
-          "hash": "siWgIfm+9wAlrUdP9WcE1jts/y+WI6grdLzMZPvRSyg="
+          "hash": "9x1LeLYEubRv5B8VNzb5p8JYJQxOUR5crLVJXRQIleI="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Hero.html",
-          "hash": "hL0MSUIfUFM2q44KDCVrdTlKu5ZMzYd0YcuoVKuDGs8="
+          "hash": "ZCfdVkJGVSIWr8NIfhAtdBOFLt/tjiIfB2VmCDROMnQ="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Minion.html",
-          "hash": "3TSqfA4v+f3TlQSlx6ZiYNhnCTIZShqUq4aBIFllpO0="
+          "hash": "wxMh4WmQNY6K2i6cc4AYCtMlsnsBHiafz0MVmho62d8="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.MissileClient.html",
-          "hash": "1etjuwWeUNNWFq1k5gF+OwZm/hrbq1vowtBa+DozsPA="
+          "hash": "ZH/R6HbHgfjPXeYze8mgfM3jBQfix2y5MWnoJZznnZI="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.GameObject.ObjectClass.Turret.html",
-          "hash": "OdWuEfmYH4ipNPogvcyhOj2G88k2fAoRV6ubxHWiVjY="
+          "hash": "u/SK/0adBWQ9FvznJBdv94GytH3hkziVuWAiqFt+YSE="
         }
       },
       "is_incremental": false,
@@ -1214,11 +1214,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Alerts.InhibTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Alerts.InhibTimer.html",
+          "hash": "Z2QuKFOr3Fmdke5WXJyz9oU6ky6F8/hD36OeFjQJVx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Alerts.JungleTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Alerts.JungleTimer.html",
+          "hash": "qabKNNhAY9bOHF4Wt3QNoOX99svAB2uIHBN3AQwW9nQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Logic.Alerts.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Alerts.html",
-          "hash": "EK2R0Jm7xadEim3PgYO3FxmGVchTFHmk/5JkEZZaLEY="
+          "hash": "Q6LLBcxN4CH113y1IYCigsaLYk/NJGazTHmKDzv8M0o="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.DamageType.html",
-          "hash": "5dlMzeTnWEKN7FerGPbwkWPR/HeOXJ7SLriolMn0X+4="
+          "hash": "KlF3wO4IPZLqmfBuD50cPwOGqRK2vEazNtvXmgx3S9w="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.EvadeCommon.SpellDangerInformation.html",
-          "hash": "LHK/SUijUrHDyAskELlrH6RSDpYsSNx6QGxdeZfITwA="
+          "hash": "e/tdQz+xpgjjiaoQv5G8D5G3Z9MQ94f0Jm4AfvedcI4="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.EvadeCommon.SpellType.html",
-          "hash": "So72n3FwWPXYIvCM5swW2R4cGk3HTpZDdcvv4flyKGU="
+          "hash": "wY1JJPRMhUa1+i5+hx9Js7WGwoy2JYaacU3DwsC0XjU="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.EvadeCommon.html",
-          "hash": "MHyIxkqsfJOP2VPZ81aGLhywLQVK8eZGr+wvaXvkICA="
+          "hash": "KPHORmCZZ+fpSVoF+m5l+diJrrCvIfqoh6JW2QH1LeQ="
         }
       },
       "is_incremental": false,
@@ -1598,11 +1622,143 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Abilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Abilities.html",
+          "hash": "q8v+I2PHis9Ka92kkFt8QkB0ZCAI21VtvJRTO+sJulo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer.html",
+          "hash": "o3WqgHzPc+ZBb9komj2va2omNjp9HV3/hJvsj2AIjsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.ChampionStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.ChampionStats.html",
+          "hash": "kUfbNyLOdxIf+eDOAttLJlh39e3Y8yidXwQOvP5RuFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.FullRunes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.FullRunes.html",
+          "hash": "oExk90d74BBxKz5hctjtJEpVmSIKNkb4Dn9gEr9riM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.GeneralRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.GeneralRune.html",
+          "hash": "NNM5nnGAywBdJGHgetizxM/ebDPgWEGWE6vLTLDe4H0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Keystone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Keystone.html",
+          "hash": "Nvertv+pCOhv8vxdd1096dk+H4naBc20n/22hMWjQkg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.PrimaryRuneTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.PrimaryRuneTree.html",
+          "hash": "XtZovs9PGZBvknkgR4v6cc3n/XIhMWUV/1j4IzWEqD4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.SecondaryRuneTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.SecondaryRuneTree.html",
+          "hash": "YFfH9qlx/flKnu6IF7ZS4ZzwGTPgps43BRJdtwexY2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Spell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.Spell.html",
+          "hash": "pC6DC5vMcYew3FO3KYZ0kTURQrPF8Zme06tN5FJdcCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.StatRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.StatRune.html",
+          "hash": "jUfjgzw4+rINvAEhlfG0dcDD8GdRYiibPYKG1jwx/mI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.ActivePlayerData.html",
+          "hash": "5AevtIFXjPo+4GUpeRBifk7iKj39t0P8WkxDPAyINSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.PlayerData.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Helpers.AllPlayerData.PlayerData.html",
-          "hash": "+trFTjBWBfJTmm+127fl6tfoh6tE1+0l31KKcK/EcFE="
+          "hash": "S8vbQJheXc2NreEB2FgkTr1RW7FvM1CXHJW3vUjkkJo="
         }
       },
       "is_incremental": false,
@@ -1627,6 +1783,282 @@
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.Helpers.AttackSpeedAPIHelper.html",
           "hash": "vsesgw6BUCWN27XC3isC9uWFRSr/YM54lYWT5cYdSuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Abilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Abilities.html",
+          "hash": "fdGRYyI02FFvfsbLaakZKUDkPyWFX10I2qaOHwIy3dY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.ActivePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.ActivePlayer.html",
+          "hash": "EaJdSQ+XD0mBOBlgTJI88qZUZ45p/2KkZReFpAxn9YY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.AllGameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.AllGameData.html",
+          "hash": "KBZsR8Ug60WxNhslHAPsIz2BCn+u3fNmSLjO85saqKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.AllPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.AllPlayer.html",
+          "hash": "wntVNsf1PZdozLz+65SBKSadj2lUFnM8elvCmyLBadI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.ChampionStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.ChampionStats.html",
+          "hash": "2jch54+s0uIsUfJsPm7RQzKlOWSQJTZBJgdh6CRxq1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Event.html",
+          "hash": "KccQRnFvR02P8v02BMjVqxwXC2iUKtuJgnotvwqdMRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.EventCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.EventCollection.html",
+          "hash": "KoH4rMK2ZOmA2YsHrYDgGNOQ1oqgkXpbbYyX25pPTN4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.FullRunes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.FullRunes.html",
+          "hash": "Z7WLZX3xAbdUkME/9oPcdT9511f+IxE2Y7LkKyjYmWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.GameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.GameData.html",
+          "hash": "ETGcjXmssb1qgt1lrbQiA1C64tgZKFGfHwSfpPucN1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.GeneralRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.GeneralRune.html",
+          "hash": "w61OjqbVtqgsfuQxKmrAZTZCzCYwIRvON4Wyp1OystA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Item.html",
+          "hash": "6fA0v6AikazZ89m6ORoaAokgpJ6ihZLiAFLZkm3uH9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Keystone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Keystone.html",
+          "hash": "+/yLHmVHRIxkBR6fjKqt9Q2mhrHko8iCgHS9EBiJdFM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Passive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Passive.html",
+          "hash": "oIH45cWW+mry7RIdqU1mbH8kB8WvwlbLgRW6Jz4dIl8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.PrimaryRuneTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.PrimaryRuneTree.html",
+          "hash": "xL9A5sfcHYyeYHjK4gEmJn/2P1CGDwWCLh9568qoKo4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Runes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Runes.html",
+          "hash": "+gONUa9/Kj5LI3Nje9WC+UJkzrPQ8qC+kn2fG+IGg/g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Scores.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Scores.html",
+          "hash": "BBvuR34Py94TzKft/z3vq8WVA26KJ5ZXDA1Uyz1aLDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SecondaryRuneTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SecondaryRuneTree.html",
+          "hash": "CduRsfcizJRD8ifQ7nHFqORKDGoLVggE7QexNB9U4XA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Spell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.Spell.html",
+          "hash": "8IW3WAHQ4tgXuiigMVOrllXmEPuqMDr6nyIFoIYiA7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.StatRune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.StatRune.html",
+          "hash": "dj31ZlzT/XNkTJMpBHrdhU3WRTvUqyHhYubmveawnTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpellOne.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpellOne.html",
+          "hash": "3ukPqeJMDRR2hw26EksNNyeoWcKxye7w6jU4WuCnDsU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpellTwo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpellTwo.html",
+          "hash": "fYdunJ9E9RqW6Zrt1raD/L/QT3BXxfViFyOOmTwNNuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpells.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.SummonerSpells.html",
+          "hash": "+EkHxpgxbOXKptiL2Bdp4EIxe5oDFIj8//Dla+GO0tY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.Common.Logic.Helpers.GameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.Common.Logic.Helpers.GameData.html",
+          "hash": "MmQGT0OzPYWqPRywzE2XQbuD/WMyIuwnsEXOAIbD4ec="
         }
       },
       "is_incremental": false,
@@ -1806,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.OrbwalkingMode.html",
-          "hash": "bueqbiUntYPGR7K2QGFYcZe3qUB5fo1z/CZrrq/Nopw="
+          "hash": "sF2N4bu+xiYVjJXtVBnxFtyfw5QNHDczAG73hG7ba9Y="
         }
       },
       "is_incremental": false,
@@ -1818,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Logic.TargetSelector.html",
-          "hash": "TwNtC9vBfmAZ3IWHFjNodtHf5X7LuMEAs/D7C4813t0="
+          "hash": "mShwciRndJYsGkBP5nvRXuxQx7VwvcT5YZ+DKF6LYtY="
         }
       },
       "is_incremental": false,
@@ -1890,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Counter.html",
-          "hash": "tXtZgjEn6Sox7pEppm/aEqWlkpZCy089CfQ9Waodw6E="
+          "hash": "SLza2FWKCX9Aqw7sGG5DCUrg89usLDO0ttEjvPAVOik="
         }
       },
       "is_incremental": false,
@@ -1902,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.FloatCounter.html",
-          "hash": "Deg9m1HEQ/scMQlBEZhJ7YcbWQHicGsP164IV3vN9eY="
+          "hash": "bBBdGPpX91ECcW0FTiyTYa1O7VrRUh+NSl/66y522rY="
         }
       },
       "is_incremental": false,
@@ -1914,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.InfoDisplay.html",
-          "hash": "ZU8I9uXheDJeUYLBPuXBr9ZxtkYjD57iahJLPFCiEnc="
+          "hash": "62dv4YtNqcJVMzil1eSRmJ8fVe3uzx5fvYhfJ1XEwis="
         }
       },
       "is_incremental": false,
@@ -1938,7 +2370,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.ModeDisplay.html",
-          "hash": "hmv6VybpTn5RMmKbuyBr7OH11+WBfeJq7HEqTVwu0B8="
+          "hash": "WWSHL6U6Mms1CZO/8QUKICPRja7rY2gtVmOHiH5cSJM="
         }
       },
       "is_incremental": false,
@@ -1950,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Menu.ItemComponents.Switch.html",
-          "hash": "0VGvL6afKki1AjucV33wyYyA/w5xZfo3L/SYoDdE5aU="
+          "hash": "Hxnqxn+J1B6xqhv0dqfKAALNhfDMfGX3Xbc9sGIlI+8="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2490,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.ObjectManagerExport.html",
-          "hash": "RmRFxklYrJHWlIi5HjPu6tYJQTMWEdFdDE1GU5Mzw0w="
+          "hash": "M+W0Th78ZbmPkllT6fwX0PGlbHLp+ysdjUxXu8aJkIA="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Awareness.html",
-          "hash": "eKM1KHu/rwAXzlC6ouRZv/P/CZo9cpwtax0jYatQJzE="
+          "hash": "PMlpgPktXeonjI+CMGBlUqwCIXqYuEbGB+qjEXXmlIE="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Core.html",
-          "hash": "h3rhQC1C+xpxaJ3QIgul4Njx3XlJat5Ap68gwT6P52s="
+          "hash": "jbcTRd+01Oqj14c82P2lLi2QpQMSJpBIe6FN1FYcfsc="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Drawings.html",
-          "hash": "beOsRf1Mpg41Klj06HUlRMEcI8rixxf+B/Eyn6QrOao="
+          "hash": "4sstYPiC85YKTB+RNGH4h4QmKXKw+IXy5oyXV+cFM3g="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.Orbwalker.html",
-          "hash": "NBdVcBUGNtyjCrJLj9WQRfh5REGyI8R5snBTwVLrwmc="
+          "hash": "sQE7VaQEQVMiWd4WUFqm/GENjfbm2yw801VeEaqGJnU="
         }
       },
       "is_incremental": false,
@@ -2202,7 +2634,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Settings.TargetSelector.html",
-          "hash": "lVEOV8Nd7jp4ZpmTFWll/OUvyQl6LNedirwAmUQext8="
+          "hash": "MTH66q4PcxUROrsTJdYXzi49pU0waz8h4yOHVd1zonk="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2670,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Devices.Keyboard.KeyBoardScanCodes.html",
-          "hash": "91TAMAkKGUE3JXfp9RuFkc5bTg1MVzjNlV/bj3pkM5M="
+          "hash": "DgP8qKbAV5SBBlXCHH6qYcU9LsrXEqxC9UKWCJQJ5eg="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2730,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Devices.Mouse.html",
-          "hash": "JRO6DCN8LPD06A8yJMlfdK2ULC05y3fxd95N9it4tuk="
+          "hash": "qCBMUcuWsIxgyusCeC+5wrlLj1j1r+l7v9Nw3tmydG4="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2742,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Devices.html",
-          "hash": "lqiviuUnioLWTQsZ6jt+Tv1EsxJHGKVlC+PJUoS+OXs="
+          "hash": "dk1Ns485/so4uI4y/QJx5Iue0SdIzIuuL6B6AsA8qGk="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2754,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Image.html",
-          "hash": "d1ZUPqQq1hwJEsfq6CkBO4lI2KFDP+75/Vifg1fODpQ="
+          "hash": "0yzYkt0GCO/GlYDrzHdfX6EdlZDuGXWQLVntiaXlYwE="
         }
       },
       "is_incremental": false,
@@ -2430,7 +2862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.Common.Tools.Util.html",
-          "hash": "Mnum27igMnjGQnStpO8SzTivdA7WBUtBtmaMMd0JT4o="
+          "hash": "qm+SBe8QJuFFhnq3hMsASiAnR0D7AqWAr29y2SFV88Y="
         }
       },
       "is_incremental": false,
@@ -2610,7 +3042,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.GameEngine.html",
-          "hash": "sooCwDiQOyLXmiQD8pwrWE/VDYQmPIoT+iS1Ji+bz1o="
+          "hash": "URslZX0GwpehjuvlTdhGNt5Ksq6WfyVXSqYGLgvNv0U="
         }
       },
       "is_incremental": false,
@@ -2718,7 +3150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.Orbwalker.OrbWalkingModeType.html",
-          "hash": "JfbeP4BFslCF9kb2QSHCw+ErumNmOo8ITtwK1jynvd8="
+          "hash": "DU5cnMVpZet0gQvPNh32aB6OTNu1ltGHQjEpXRKHjpY="
         }
       },
       "is_incremental": false,
@@ -2850,7 +3282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.Rendering.RenderFactory.html",
-          "hash": "G66OOyoekm8cQU1sjodGx+7qdJvgVMqiIJZeF2IGg4A="
+          "hash": "rvlpnQ7d24FZ2AEoa07sfdHmuhswfLMLpvd3KeRaoQU="
         }
       },
       "is_incremental": false,
@@ -2886,7 +3318,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.SDKSpell.html",
-          "hash": "1uNu4W8BS2mI8y25gtk0Oy8atzBMAonmjHYsSUt1q3w="
+          "hash": "9a8AmyImDKIS+FNOpYef2NQyJ7LZ/29S70GNqAuIniE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Oasys.SDK.ShopProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oasys.SDK.ShopProvider.html",
+          "hash": "5LKcFNGf1wT5VZz9mySHWDNy7oCAw9hI6jvU29eOl/Y="
         }
       },
       "is_incremental": false,
@@ -2898,7 +3342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.SpellCasting.CastSlot.html",
-          "hash": "B8Hjpq7gQjQQhJuGOSPL8scGEgcsVsYSfI7YE6LxtKg="
+          "hash": "FCdgbyFaevAQcvaTZUMNXgE02QnnH5qysgTY5E7Y++w="
         }
       },
       "is_incremental": false,
@@ -3042,7 +3486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oasys.SDK.html",
-          "hash": "kHNx9/JN77Xt9L9AvWbMLKyaaRNPjWfCBP75GBl2eaY="
+          "hash": "azbPW0cqzhS+jyBlgShIN+ecVYnqX6QFM/9Gz6lv3f4="
         }
       },
       "is_incremental": false,
@@ -3066,7 +3510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "8PhChIfJK54EbhyGZaGzLnxnr3g43kiZeltoMH242MQ="
+          "hash": "/RGkt5HEyy8qhdazjMIXwmdD1ZpvlQ50G/zkIXJQAZA="
         }
       },
       "is_incremental": false,
@@ -3145,8 +3589,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 253,
-          "skipped_file_count": 157
+          "total_file_count": 290,
+          "skipped_file_count": 185
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

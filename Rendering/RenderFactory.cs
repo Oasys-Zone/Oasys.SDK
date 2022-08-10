@@ -1,9 +1,12 @@
 ﻿using Oasys.Common;
+using Oasys.Common.Extensions;
+using Oasys.Common.GameObject;
 using Oasys.Common.Tools;
 using SharpDX;
 using SharpDX.Direct3D9;
 using SharpDX.Mathematics.Interop;
 using System;
+using System.Windows.Forms;
 
 namespace Oasys.SDK.Rendering
 {
@@ -136,18 +139,18 @@ namespace Oasys.SDK.Rendering
         /// <param name="cl"></param>
         public static void DrawSpellBoxedLine(Vector2 sPos, Vector2 ePos, float sWidth, Color cl)
         {
-            var posDir = new float[2] { (sPos.X - ePos.X), (sPos.Y - ePos.Y) };
+            var posDir = new float[2] { sPos.X - ePos.X, sPos.Y - ePos.Y };
 
             var dist = System.Math.Sqrt(posDir[0] * posDir[0] + posDir[1] * posDir[1]);
 
             posDir[0] /= (float)dist; //dirX /=
             posDir[1] /= (float)dist; //dirY /=
 
-            var sLeft = new Vector2(sPos.X + (sWidth / 2) * posDir[1], sPos.Y - (sWidth / 2) * posDir[0]);
-            var sRight = new Vector2(sPos.X - (sWidth / 2) * posDir[1], sPos.Y + (sWidth / 2) * posDir[0]);
+            var sLeft = new Vector2(sPos.X + sWidth / 2 * posDir[1], sPos.Y - sWidth / 2 * posDir[0]);
+            var sRight = new Vector2(sPos.X - sWidth / 2 * posDir[1], sPos.Y + sWidth / 2 * posDir[0]);
 
-            var eLeft = new Vector2(ePos.X + (sWidth / 2) * posDir[1], ePos.Y - (sWidth / 2) * posDir[0]);
-            var eRight = new Vector2(ePos.X - (sWidth / 2) * posDir[1], ePos.Y + (sWidth / 2) * posDir[0]);
+            var eLeft = new Vector2(ePos.X + sWidth / 2 * posDir[1], ePos.Y - sWidth / 2 * posDir[0]);
+            var eRight = new Vector2(ePos.X - sWidth / 2 * posDir[1], ePos.Y + sWidth / 2 * posDir[0]);
 
             DrawLine(sLeft.X, sLeft.Y, sRight.X, sRight.Y, 3, cl); //Base start
             DrawLine(eLeft.X, eLeft.Y, eRight.X, eRight.Y, 3, cl); //Base end
@@ -275,6 +278,171 @@ namespace Oasys.SDK.Rendering
             image.Sprite.Begin();
             RenderFactoryProvider.DrawTransformSprite(image.Sprite, image.Texture, image.Color, image.Position, image.Scale);
             image.Sprite.End();
+        }
+
+        /// <summary>
+        /// Draw HP bar damage.
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="damage"></param>
+        public static void DrawHPBarDamage(GameObjectBase target, float damage)
+        {
+            var col = new Color
+            {
+                A = 155,
+                R = 255,
+                G = 165,
+                B = 0
+            };
+
+            DrawHPBarDamage(target, damage, col);
+        }
+
+        /// <summary>
+        /// Draw HP bar damage.
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="damage"></param>
+        public static void DrawHPBarDamage(GameObjectBase target, float damage, Color color)
+        {
+            if (target is null || !target.W2S.IsValid() || !target.IsVisible || damage <= 1)
+            {
+                return;
+            }
+
+            var resolution = Screen.PrimaryScreen.Bounds;
+            var isHero = target.IsObject(Common.Enums.GameEnums.ObjectTypeFlag.AIHeroClient);
+            var isJungle = false;
+            var isJungleBuff = false;
+            var isCrab = false;
+            var isDragon = false;
+            var isBaron = false;
+            var isHerald = false;
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_Krug", StringComparison.OrdinalIgnoreCase) ||
+                target.UnitComponentInfo.SkinName.Contains("SRU_Gromp", StringComparison.OrdinalIgnoreCase) ||
+                target.UnitComponentInfo.SkinName.Equals("SRU_Murkwolf", StringComparison.OrdinalIgnoreCase) ||
+                target.UnitComponentInfo.SkinName.Contains("Super", StringComparison.OrdinalIgnoreCase) ||
+                target.UnitComponentInfo.SkinName.Equals("SRU_Razorbeak", StringComparison.OrdinalIgnoreCase))
+            {
+                isJungle = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_Red", StringComparison.OrdinalIgnoreCase) ||
+                target.UnitComponentInfo.SkinName.Contains("SRU_Blue", StringComparison.OrdinalIgnoreCase))
+            {
+                isJungleBuff = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_Crab", StringComparison.OrdinalIgnoreCase))
+            {
+                isCrab = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_Baron", StringComparison.OrdinalIgnoreCase))
+            {
+                isBaron = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_Dragon", StringComparison.OrdinalIgnoreCase))
+            {
+                isDragon = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("SRU_RiftHerald", StringComparison.OrdinalIgnoreCase))
+            {
+                isHerald = true;
+            }
+
+            var barWidth = resolution.Width switch
+            {
+                >= 2560 => isHero ? 125 :
+                           isBaron ? 200 :
+                           isDragon ? 170 :
+                           isHerald ? 170 :
+                           isCrab ? 170 :
+                           isJungleBuff ? 170 :
+                           isJungle ? 110 :
+                           75,
+                >= 1920 => isHero ? 105 :
+                           isBaron ? 175 :
+                           isDragon ? 150 :
+                           isHerald ? 150 :
+                           isCrab ? 150 :
+                           isJungleBuff ? 145 :
+                           isJungle ? 95 :
+                           60,
+                _ =>       isHero ? 105 :
+                           isBaron ? 175 :
+                           isDragon ? 150 :
+                           isHerald ? 150 :
+                           isCrab ? 150 :
+                           isJungleBuff ? 145 :
+                           isJungle ? 95 :
+                           60,
+            };
+            var barHeight = resolution.Height switch
+            {
+                >= 1440 => isHero ? 13 :
+                           isBaron ? 13 :
+                           isDragon ? 13 :
+                           isHerald ? 13 :
+                           isCrab ? 13 :
+                           isJungleBuff ? 13 :
+                           isJungle ? 4 :
+                           4,
+                >= 1080 => isHero ? 10 :
+                           isBaron ? 10 :
+                           isDragon ? 10 :
+                           isHerald ? 10 :
+                           isCrab ? 10 :
+                           isJungleBuff ? 10 :
+                           isJungle ? 3 :
+                           3,
+                _ =>       isHero ? 10 :
+                           isBaron ? 10 :
+                           isDragon ? 10 :
+                           isHerald ? 10 :
+                           isCrab ? 10 :
+                           isJungleBuff ? 10 :
+                           isJungle ? 3 :
+                           3,
+            };
+            var healthBarOffset = resolution.Width switch
+            {
+                >= 2560 => isHero ? new Vector2(-14, -22) :
+                           isBaron ? new Vector2(-60, -28) :
+                           isDragon ? new Vector2(-32, -70) :
+                           isHerald ? new Vector2(-45, -22) :
+                           isCrab ? new Vector2(-45, -22) :
+                           isJungleBuff ? new Vector2(-45, -22) :
+                           isJungle ? new Vector2(-14, -4) :
+                           new Vector2(3, -4),
+                >= 1920 => isHero ? new Vector2(-6, -18) :
+                           isBaron ? new Vector2(-50, -22) :
+                           isDragon ? new Vector2(-32, -55) :
+                           isHerald ? new Vector2(-35, -18) :
+                           isCrab ? new Vector2(-35, -18) :
+                           isJungleBuff ? new Vector2(-35, -18) :
+                           isJungle ? new Vector2(-6, -4) :
+                           new Vector2(8, -4),
+                _ =>       isHero ? new Vector2(-6, -18) :
+                           isBaron ? new Vector2(-50, -22) :
+                           isDragon ? new Vector2(-32, -55) :
+                           isHerald ? new Vector2(-35, -18) :
+                           isCrab ? new Vector2(-35, -18) :
+                           isJungleBuff ? new Vector2(-35, -18) :
+                           isJungle ? new Vector2(-6, -4) :
+                           new Vector2(8, -4),
+            };
+
+            var pos = target.HealthBarScreenPosition;
+            pos += healthBarOffset;
+
+            var end = pos;
+            end.X += barWidth * Math.Max(float.Epsilon, target.Health / target.MaxHealth);
+
+            var start = pos;
+            var dmgPercent = Math.Max(float.Epsilon, target.Health - damage) / target.MaxHealth;
+            start.X += barWidth * dmgPercent;
+
+            //var length = pos.Extend(end, barWidth);
+            //DrawLine(pos.X, pos.Y, length.X, length.Y, barHeight, color);
+            DrawLine(start.X, start.Y, end.X, end.Y, barHeight, color);
         }
     }
 }

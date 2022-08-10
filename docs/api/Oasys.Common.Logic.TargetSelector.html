@@ -291,13 +291,13 @@
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Logic_TargetSelector_GetMixedTargetSelect_" data-uid="Oasys.Common.Logic.TargetSelector.GetMixedTargetSelect*"></a>
-  <h4 id="Oasys_Common_Logic_TargetSelector_GetMixedTargetSelect_System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__" data-uid="Oasys.Common.Logic.TargetSelector.GetMixedTargetSelect(System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})">GetMixedTargetSelect(Func&lt;GameObjectBase, Boolean&gt;)</h4>
+  <a id="Oasys_Common_Logic_TargetSelector_GetMixedTargets_" data-uid="Oasys.Common.Logic.TargetSelector.GetMixedTargets*"></a>
+  <h4 id="Oasys_Common_Logic_TargetSelector_GetMixedTargets_System_Collections_Generic_IEnumerable_Oasys_Common_GameObject_GameObjectBase__System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__" data-uid="Oasys.Common.Logic.TargetSelector.GetMixedTargets(System.Collections.Generic.IEnumerable{Oasys.Common.GameObject.GameObjectBase},System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})">GetMixedTargets(IEnumerable&lt;GameObjectBase&gt;, Func&lt;GameObjectBase, Boolean&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetMixedTargetSelect(Func&lt;GameObjectBase, bool&gt; isInRange)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;GameObjectBase&gt; GetMixedTargets(IEnumerable&lt;GameObjectBase&gt; heroes, Func&lt;GameObjectBase, bool&gt; isInRange)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -309,6 +309,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>&gt;</td>
+        <td><span class="parametername">heroes</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">isInRange</span></td>
@@ -326,18 +331,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <a id="Oasys_Common_Logic_TargetSelector_GetPrioritizationTarget_" data-uid="Oasys.Common.Logic.TargetSelector.GetPrioritizationTarget*"></a>
-  <h4 id="Oasys_Common_Logic_TargetSelector_GetPrioritizationTarget_System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__" data-uid="Oasys.Common.Logic.TargetSelector.GetPrioritizationTarget(System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})">GetPrioritizationTarget(Func&lt;GameObjectBase, Boolean&gt;)</h4>
+  <a id="Oasys_Common_Logic_TargetSelector_GetPrioritizationTargets_" data-uid="Oasys.Common.Logic.TargetSelector.GetPrioritizationTargets*"></a>
+  <h4 id="Oasys_Common_Logic_TargetSelector_GetPrioritizationTargets_System_Collections_Generic_IEnumerable_Oasys_Common_GameObject_GameObjectBase__System_Func_Oasys_Common_GameObject_GameObjectBase_System_Boolean__" data-uid="Oasys.Common.Logic.TargetSelector.GetPrioritizationTargets(System.Collections.Generic.IEnumerable{Oasys.Common.GameObject.GameObjectBase},System.Func{Oasys.Common.GameObject.GameObjectBase,System.Boolean})">GetPrioritizationTargets(IEnumerable&lt;GameObjectBase&gt;, Func&lt;GameObjectBase, Boolean&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObjectBase GetPrioritizationTarget(Func&lt;GameObjectBase, bool&gt; isInRange)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;GameObjectBase&gt; GetPrioritizationTargets(IEnumerable&lt;GameObjectBase&gt; heroes, Func&lt;GameObjectBase, bool&gt; isInRange)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,6 +354,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>&gt;</td>
+        <td><span class="parametername">heroes</span></td>
+        <td></td>
+      </tr>
       <tr>
         <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">isInRange</span></td>
@@ -366,7 +376,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -380,12 +390,52 @@
     <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
   </div>
   <a id="Oasys_Common_Logic_TargetSelector_IsAttackable_" data-uid="Oasys.Common.Logic.TargetSelector.IsAttackable*"></a>
-  <h4 id="Oasys_Common_Logic_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_System_Boolean_" data-uid="Oasys.Common.Logic.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean)">IsAttackable(GameObjectBase, Boolean)</h4>
+  <h4 id="Oasys_Common_Logic_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_" data-uid="Oasys.Common.Logic.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase)">IsAttackable(GameObjectBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsAttackable(GameObjectBase target, bool teamCheck = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsAttackable(GameObjectBase target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oasys.Common.GameObject.GameObjectBase.html">GameObjectBase</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Oasys_Common_Logic_TargetSelector_IsAttackable_" data-uid="Oasys.Common.Logic.TargetSelector.IsAttackable*"></a>
+  <h4 id="Oasys_Common_Logic_TargetSelector_IsAttackable_Oasys_Common_GameObject_GameObjectBase_System_Boolean_System_Boolean_" data-uid="Oasys.Common.Logic.TargetSelector.IsAttackable(Oasys.Common.GameObject.GameObjectBase,System.Boolean,System.Boolean)">IsAttackable(GameObjectBase, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAttackable(GameObjectBase target, bool teamCheck = true, bool checkOnScreen = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,6 +455,11 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">teamCheck</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkOnScreen</span></td>
         <td></td>
       </tr>
     </tbody>

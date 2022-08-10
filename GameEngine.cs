@@ -2,6 +2,8 @@
 using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.GameInstances;
 using Oasys.Common.GameObject.Clients;
+using Oasys.Common.Logic.Helpers;
+using System.Collections.Generic;
 
 namespace Oasys.SDK
 {
@@ -19,6 +21,11 @@ namespace Oasys.SDK
         /// Gets the current game tick. This is equal to gametime * 1000
         /// </summary>
         public static int GameTick => EngineManager.GameTick;
+
+        /// <summary>
+        /// Gets a boolean value presenting if the game is in focus by windows.
+        /// </summary>
+        public static bool IsGameWindowFocused => EngineManager.IsGameWindowFocused;
 
         /// <summary>
         /// The local ping to server.
@@ -117,5 +124,11 @@ namespace Oasys.SDK
             MoveTo = EngineManager.OrderType.MoveTo,
             Recall = EngineManager.OrderType.Recall,
         }
+
+        public static Oasys.Common.Logic.Helpers.GameData.AllGameData AllGameData => Oasys.Common.Logic.Helpers.GameData.AllGameData.Instance;
+
+        public static Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer ActivePlayer => Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer.Instance;
+
+        public static IEnumerable<AllPlayerData.PlayerData> AllPlayerData => Oasys.Common.Logic.Helpers.AllPlayerData.AllPlayers;
     }
 }

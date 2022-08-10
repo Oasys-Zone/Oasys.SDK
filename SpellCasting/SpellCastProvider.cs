@@ -212,6 +212,13 @@ namespace Oasys.SDK.SpellCasting
         E = SpellCastSlot.E,
         R = SpellCastSlot.R,
         Summoner1 = SpellCastSlot.Summoner1,
-        Summoner2 = SpellCastSlot.Summoner2
+        Summoner2 = SpellCastSlot.Summoner2,
+        Item1 = SpellCastSlot.Item1,
+        Item2 = SpellCastSlot.Item2,
+        Item3 = SpellCastSlot.Item3,
+        Item4 = SpellCastSlot.Item4,
+        Item5 = SpellCastSlot.Item5,
+        Item6 = SpellCastSlot.Item6,
+        Item7 = SpellCastSlot.Item7
     }
 }

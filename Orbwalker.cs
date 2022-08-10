@@ -30,6 +30,7 @@ namespace Oasys.SDK
                 OrbWalkingModeType.Move => Common.Logic.OrbwalkingMode.Move,
                 OrbWalkingModeType.None => Common.Logic.OrbwalkingMode.None,
                 OrbWalkingModeType.Evade => Common.Logic.OrbwalkingMode.Evade,
+                OrbWalkingModeType.Support => Common.Logic.OrbwalkingMode.Support,
                 _ => throw new NotImplementedException()
             };
 
@@ -216,7 +217,12 @@ namespace Oasys.SDK
             /// <summary>
             ///     The orbwalker will not attack while evading.
             /// </summary>
-            Evade = Common.Logic.OrbwalkingMode.Evade
+            Evade = Common.Logic.OrbwalkingMode.Evade,
+
+            /// <summary>
+            ///     The orbwalker will clear the lane of minions as fast as possible while attempting to not get the last hit. But also targetting champions, monsters, turrrets, etc...
+            /// </summary>
+            Support = Common.Logic.OrbwalkingMode.Support,
         }
     }
 }

@@ -90,7 +90,7 @@ namespace Oasys.SDK.SpellCasting
             MouseProvider.SetCursor((int)w2sPos.X, (int)w2sPos.Y);
             CastItem(iID);
 
-            Util.Sleep(2);
+            Util.Wait(2);
             MouseProvider.SetCursor(currMousePos);
         }
 
@@ -106,7 +106,7 @@ namespace Oasys.SDK.SpellCasting
             MouseProvider.SetCursor((int)screenPosition.X, (int)screenPosition.Y);
             CastItem(iID);
 
-            Util.Sleep(2);
+            Util.Wait(2);
             MouseProvider.SetCursor(currMousePos);
         }
 

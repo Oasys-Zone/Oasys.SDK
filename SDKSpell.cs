@@ -3,6 +3,7 @@ using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.Extensions;
 using Oasys.Common.GameObject;
 using Oasys.Common.GameObject.Clients.ExtendedInstances.Spells;
+using Oasys.Common.GameObject.ObjectClass;
 using Oasys.Common.Logic;
 using Oasys.Common.Tools.Devices;
 using Oasys.SDK.SpellCasting;
@@ -143,6 +144,12 @@ namespace Oasys.SDK
         public Func<PredictionType> PredictionMode { get; set; } = () => PredictionType.Line;
 
         /// <summary>
+        /// The castposition on screen. Standard value = predicted position or targets own position on screen.
+        /// Override this to change cast position based on the predicted position. Ex Thresh E backwards.
+        /// </summary>
+        public Func<Vector2, Vector2> CastPosition { get; set; } = (castPosition) => castPosition;
+
+        /// <summary>
         /// Should allow collision or not. Standard value = true.
         /// </summary>
         public Func<GameObjectBase, IEnumerable<GameObjectBase>, bool> AllowCollision { get; set; } = (target, collisions) => true;
@@ -188,32 +195,39 @@ namespace Oasys.SDK
         /// Get available targets that is possible to hit based on spell data.
         /// </summary>
         /// <param name="mode">Input mode.</param>
+        /// <returns>Available targets.</returns>
+        public virtual IEnumerable<GameObjectBase> GetTargets(Orbwalker.OrbWalkingModeType mode) => GetTargets(mode, basePredicate);
+
+        /// <summary>
+        /// Get available targets that is possible to hit based on spell data.
+        /// </summary>
+        /// <param name="mode">Input mode.</param>
         /// <param name="predicate">Predicate to check for each target.</param>
         /// <returns>Available targets.</returns>
-        public virtual IEnumerable<GameObjectBase> GetTargets(Orbwalker.OrbWalkingModeType mode, Func<GameObjectBase, bool> predicate = null)
+        public virtual IEnumerable<GameObjectBase> GetTargets(Orbwalker.OrbWalkingModeType mode, Func<GameObjectBase, bool> predicate)
         {
             var enemies = new List<GameObjectBase>();
             if (mode == Orbwalker.OrbWalkingModeType.Combo)
             {
-                var result = UnitManager.EnemyChampions.Where(x => x.IsAlive && x.DistanceTo(From()) <= Range() && IsTargetable(x) && (IsTargetted() || IsPossibleToHit(x)))
-                                    .Where(predicate ?? basePredicate);
                 var isInRange = (GameObjectBase x) => x.Distance <= Range();
+                var targets = UnitManager.EnemyChampions.Where(x => x is not null && x.IsAlive && x.Position.Distance(From()) <= Range() && IsTargetable(x) && (IsTargetted() || IsPossibleToHit(x)))
+                                                        .Where(predicate)
+                                                        .ToList();
 
                 return Common.Settings.TargetSelector.Mode switch
                 {
-                    Common.Settings.TargetSelector.TargetSelectorMode.LowestHealth => result.OrderBy(x => x.Health),
-                    Common.Settings.TargetSelector.TargetSelectorMode.LowestArmor => result.OrderBy(x => x.UnitStats.Armor),
-                    Common.Settings.TargetSelector.TargetSelectorMode.LowestMagicResist => result.OrderBy(x => x.UnitStats.MagicResist),
-                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveArmorHealth => result.OrderBy(x => x.EffectiveArmorHealth),
-                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveMagicResistHealth => result.OrderBy(x => x.EffectiveMagicHealth),
-                    Common.Settings.TargetSelector.TargetSelectorMode.MostAttackDamage => result.OrderByDescending(x => x.UnitStats.TotalAttackDamage),
-                    Common.Settings.TargetSelector.TargetSelectorMode.MostAbilityPower => result.OrderByDescending(x => x.UnitStats.TotalAbilityPower),
-                    Common.Settings.TargetSelector.TargetSelectorMode.Prioritization => new[] { Common.Logic.TargetSelector.GetPrioritizationTarget(isInRange) },
-                    Common.Settings.TargetSelector.TargetSelectorMode.Auto => new[] { Common.Logic.TargetSelector.GetAutoTargetSelect(isInRange) },
-                    Common.Settings.TargetSelector.TargetSelectorMode.Mixed => new[] { Common.Logic.TargetSelector.GetMixedTargetSelect(isInRange) },
-                    Common.Settings.TargetSelector.TargetSelectorMode.Closest => result.OrderBy(x => x.Distance),
-                    Common.Settings.TargetSelector.TargetSelectorMode.NearestToMouse => result.OrderBy(x => x.DistanceTo(GameEngine.WorldMousePosition)),
-                    _ => result,
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestHealth => targets.OrderBy(x => x.Health).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestArmor => targets.OrderBy(x => x.UnitStats.Armor).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestMagicResist => targets.OrderBy(x => x.UnitStats.MagicResist).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveArmorHealth => targets.OrderBy(x => x.EffectiveArmorHealth).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.LowestEffectiveMagicResistHealth => targets.OrderBy(x => x.EffectiveMagicHealth).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.MostAttackDamage => targets.OrderByDescending(x => x.UnitStats.TotalAttackDamage).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.MostAbilityPower => targets.OrderByDescending(x => x.UnitStats.TotalAbilityPower).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.Prioritization => Common.Logic.TargetSelector.GetPrioritizationTargets(targets, isInRange),
+                    Common.Settings.TargetSelector.TargetSelectorMode.Mixed => Common.Logic.TargetSelector.GetMixedTargets(targets, isInRange),
+                    Common.Settings.TargetSelector.TargetSelectorMode.Closest => targets.OrderBy(x => x.Distance).ToList(),
+                    Common.Settings.TargetSelector.TargetSelectorMode.NearestToMouse => targets.OrderBy(x => x.DistanceTo(GameEngine.WorldMousePosition)).ToList(),
+                    _ => targets,
                 };
             }
             else if (mode == Orbwalker.OrbWalkingModeType.LaneClear || mode == Orbwalker.OrbWalkingModeType.Mixed)
@@ -228,7 +242,7 @@ namespace Oasys.SDK
             }
 
             return enemies.Where(x => x.IsAlive && x.DistanceTo(From()) <= Range() && IsTargetable(x) && (IsTargetted() || IsPossibleToHit(x)))
-                          .Where(predicate ?? basePredicate);
+                          .Where(predicate);
         }
 
         /// <summary>
@@ -274,7 +288,7 @@ namespace Oasys.SDK
         {
             try
             {
-                if (UnitManager.MyChampion.IsAlive && (IsCharge() || IsChannel() || UnitManager.MyChampion.GetCurrentCastingSpell()?.SpellSlot != SpellSlot.BasicAttack) || Orbwalker.CanMove)
+                if (UnitManager.MyChampion.IsAlive && (IsCharge() || IsChannel() || AllowCancelBasicAttack() || UnitManager.MyChampion.GetCurrentCastingSpell()?.SpellSlot != SpellSlot.BasicAttack) || Orbwalker.CanMove)
                 {
                     if (!IsSpellReady(SpellClass, MinimumMana(), MinimumCharges()))
                     {
@@ -318,6 +332,8 @@ namespace Oasys.SDK
                                             : AllowCastOnMap()
                                                 ? target.WorldToMap
                                                 : Vector2.Zero;
+
+                            castPos = CastPosition(castPos);
                             if (castPos.IsValid() && (IsCharge()
                                 ? ChargeSpellAtPos(CastSlot, castPos, Delay())
                                 : SpellCastProvider.CastSpell(CastSlot, castPos, Delay())))
@@ -329,6 +345,10 @@ namespace Oasys.SDK
                         else
                         {
                             var predictResult = GetPrediction(target);
+                            if (From().Distance(predictResult.CastPosition) > Range())
+                            {
+                                return false;
+                            }
                             var w2s = predictResult.CastPosition.ToW2S();
                             var castPos = w2s.IsValid()
                                 ? w2s
@@ -337,8 +357,8 @@ namespace Oasys.SDK
                                     : AllowCastInDirection()
                                         ? From().Extend(From() + (predictResult.CastPosition - From()).Normalized(), 50).ToW2S()
                                         : Vector2.Zero;
-                            if (From().ToW2S().Distance(castPos) <= Range() &&
-                                IsPossibleToHit(target, predictResult) &&
+                            castPos = CastPosition(castPos);
+                            if (IsPossibleToHit(target, predictResult) &&
                                 castPos.IsValid() &&
                                 (IsCharge()
                                 ? ChargeSpellAtPos(CastSlot, castPos, Delay())
@@ -354,6 +374,7 @@ namespace Oasys.SDK
             catch (Exception)
             {
             }
+
             return false;
         }
 
