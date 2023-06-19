@@ -17,6 +17,7 @@ namespace Oasys.SDK
         /// Get a orbwalking target with custom range, usecase fx: Zeri Q
         /// </summary>
         /// <param name="orbwalkingMode"></param>
+        /// <param name="range"></param>
         /// <returns></returns>
         public static GameObjectBase GetTarget(OrbWalkingModeType orbwalkingMode, float range = 0f)
         {

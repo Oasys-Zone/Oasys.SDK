@@ -1,4 +1,5 @@
 ﻿using Oasys.Common.Tools.Devices;
+using System.Windows.Forms;
 
 namespace Oasys.SDK.InputProviders
 {
@@ -12,7 +13,7 @@ namespace Oasys.SDK.InputProviders
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public static bool IsKeyPressed(System.Windows.Forms.Keys key)
+        public static bool IsKeyPressed(Keys key)
         {
             return Keyboard.IsKeyPressed(key);
         }
@@ -50,7 +51,7 @@ namespace Oasys.SDK.InputProviders
         /// <param name="keyBoardScanCode"></param>
         public static void PressKeyDown(KeyBoardScanCodes keyBoardScanCode)
         {
-            PressKeyDown((short)keyBoardScanCode);
+            Keyboard.SendKeyDown((short)keyBoardScanCode);
         }
 
         /// <summary>
@@ -68,7 +69,25 @@ namespace Oasys.SDK.InputProviders
         /// <param name="keyBoardScanCode"></param>
         public static void PressKeyUp(KeyBoardScanCodes keyBoardScanCode)
         {
-            PressKeyUp((short)keyBoardScanCode);
+            Keyboard.SendKeyUp((short)keyBoardScanCode);
+        }
+
+        /// <summary>
+        /// Presses a key up.
+        /// </summary>
+        /// <param name="key"></param>
+        public static void PressKeyUp(Keys key)
+        {
+            Keyboard.SendKeyUp(key);
+        }
+
+        /// <summary>
+        /// Presses a key up.
+        /// </summary>
+        /// <param name="key"></param>
+        public static void PressKeyDown(Keys key)
+        {
+            Keyboard.SendKeyDown(key);
         }
 
         /// <summary>
@@ -86,7 +105,16 @@ namespace Oasys.SDK.InputProviders
         /// <param name="keyboardScanCode"></param>
         public static void PressKey(KeyBoardScanCodes keyboardScanCode)
         {
-            PressKey((short)keyboardScanCode);
+            Keyboard.SendKey((short)keyboardScanCode);
+        }
+
+        /// <summary>
+        /// Simulates a key press.
+        /// </summary>
+        /// <param name="key"></param>
+        public static void PressKey(Keys key)
+        {
+            Keyboard.SendKey(key);
         }
 
         /// <summary>

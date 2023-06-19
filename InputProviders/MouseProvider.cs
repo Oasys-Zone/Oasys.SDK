@@ -119,5 +119,53 @@ namespace Oasys.SDK.InputProviders
         {
             return ClickAndBounce(p.X, p.Y, delay, left, callback);
         }
+
+        /// <summary>
+        /// Left click mouse down
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        public static void LeftDown(int x, int y)
+        {
+            Mouse.LeftDown(x, y);
+        }
+
+        /// <summary>
+        /// Left click mouse up
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        public static void LeftUp(int x, int y)
+        {
+            Mouse.LeftUp(x, y);
+        }
+
+        /// <summary>
+        /// Right click mouse down
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        public static void RightDown(int x, int y)
+        {
+            Mouse.RightDown(x, y);
+        }
+
+        /// <summary>
+        /// Right click mouse up
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        public static void RightUp(int x, int y)
+        {
+            Mouse.RightUp(x, y);
+        }
+
+        public static bool InUse => Mouse.InUse;
+
+        public static Pos RestorePosition
+        {
+            get => Mouse.Restore;
+            set => Mouse.Restore = value;
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace Oasys.SDK
     /// <summary>
     /// Standard target selector.
     /// </summary>
-    public class TargetSelector
+    public class TargetSelector : Common.Logic.TargetSelector
     {
         /// <summary>
         /// Gets the best considered champion to target.
@@ -15,7 +15,7 @@ namespace Oasys.SDK
         /// <returns></returns>
         public static GameObjectBase GetBestChampionTarget(GameObjectBase selectedChampion = null)
         {
-            return Common.Logic.TargetSelector.GetBestHeroTarget(selectedChampion);
+            return GetBestHeroTarget(selectedChampion);
         }
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace Oasys.SDK
         /// <returns></returns>
         public static float AttacksLeftToKill(GameObjectBase target)
         {
-            return Common.Logic.TargetSelector.AttacksToKill(target);
+            return AttacksToKill(target);
         }
 
         /// <summary>
@@ -35,7 +35,7 @@ namespace Oasys.SDK
         /// <returns></returns>
         public static bool IsKillable(GameObjectBase target)
         {
-            return Common.Logic.TargetSelector.IsKillable(target, IsInRange);
+            return IsKillable(target, IsInRange);
         }
 
         /// <summary>

@@ -37,5 +37,16 @@ namespace Oasys.SDK.Tools
 
             Console.WriteLine($"[{DateTime.Now.ToString("h:mm:ss tt")} - {Assembly.GetCallingAssembly().GetName().Name}]: {dataToLog}");
         }
+
+        internal static void LogException(string preExceptionInfo, Exception exceptionObject)
+        {
+            Log($"[Exception Info]" +
+                preExceptionInfo +
+                $"\n[{DateTime.Now.ToString("h:mm:ss tt")}]: Message: {exceptionObject.Message}" +
+                $"\n[{DateTime.Now.ToString("h:mm:ss tt")}]: Source: {exceptionObject.Source}" +
+                $"\n[{DateTime.Now.ToString("h:mm:ss tt")}]: InnerException: {(exceptionObject.InnerException != null ? exceptionObject.InnerException.Message : "N/A")}" +
+                $"\n[{DateTime.Now.ToString("h:mm:ss tt")}]: Stack Trace: " +
+                $"\n{exceptionObject.StackTrace}", LogSeverity.Danger);
+        }
     }
 }

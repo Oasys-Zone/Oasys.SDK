@@ -142,5 +142,14 @@
             add => Common.EventsProvider.GameEvents.OnItemSlotChanged += value;
             remove => Common.EventsProvider.GameEvents.OnItemSlotChanged -= value;
         }
+
+        /// <summary>
+        /// This event is raised whenever a game event happens. Such as champion kills, dragon take down, etc.
+        /// </summary>
+        public static event Common.EventsProvider.GameEvents.APIGameEventTemplate OnGameEvent
+        {
+            add => Common.EventsProvider.GameEvents.OnGameEvent += value;
+            remove => Common.EventsProvider.GameEvents.OnGameEvent -= value;
+        }
     }
 }

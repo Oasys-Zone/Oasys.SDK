@@ -41,8 +41,10 @@ namespace Oasys.SDK.Menu
         /// <returns>Requested item</returns>
         /// <example>
         ///    <code>
+        ///            <![CDATA[ 
         ///            var tab1 = MenuManager.GetTab("Tab1");
         ///            tab1.GetItem<Counter>(x => x.Title == "sometitle");
+        ///            ]]>
         ///    </code>
         /// </example>
         public static Common.Menu.Tab GetTab(Func<Common.Menu.Tab, bool> predicate)

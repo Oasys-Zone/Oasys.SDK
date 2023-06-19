@@ -35,6 +35,15 @@ namespace Oasys.SDK.Events
         }
 
         /// <summary>
+        /// This event is raised whenever the main input(space key for default) is pressed before trying to basic attack.
+        /// </summary>
+        public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreMainInputBeforeBasicAttackAsync
+        {
+            add => Common.EventsProvider.CoreEvents.OnCoreMainInputBeforeBasicAttackAsync += value;
+            remove => Common.EventsProvider.CoreEvents.OnCoreMainInputBeforeBasicAttackAsync -= value;
+        }
+
+        /// <summary>
         /// This event is raised whenever the harass input(x key for default) is pressed.
         /// </summary>
         public static event Common.EventsProvider.CoreEvents.AsyncEventHandler OnCoreHarassInputAsync

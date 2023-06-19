@@ -18,7 +18,7 @@ namespace Oasys.SDK.Rendering
         /// <summary>
         /// Gets the render device.
         /// </summary>
-        public static Device RenderDevice => Common.RenderFactoryProvider.RenderDevice;
+        public static Device RenderDevice => RenderFactoryProvider.RenderDevice;
 
         /// <summary>
         /// Gets the D3D9 Font to draw.
@@ -67,25 +67,20 @@ namespace Oasys.SDK.Rendering
         /// Draws a text on the screen.
         /// </summary>
         /// <param name="text"></param>
-        /// <param name="FontSize"></param>
+        /// <param name="fontSize"></param>
         /// <param name="position"></param>
         /// <param name="color"></param>
         /// <param name="centered"></param>
-        public static void DrawText(string text, int FontSize, Vector2 position, Color color, bool centered = true)
-        {
-            try
-            {
-                var _font = D3D9Font;
-                var FontDescription = _font.Description;
-                FontDescription.Height = FontSize;
+        public static void DrawText(string text, int fontSize, Vector2 position, Color color, bool centered = true) => RenderFactoryProvider.DrawText(text, fontSize, position, color, centered);
 
-                var fontDimension = _font.MeasureText(null, text, new Rectangle((int)position.X, (int)position.Y, 0, 0), centered ? (FontDrawFlags.Center | FontDrawFlags.VerticalCenter) : FontDrawFlags.Left);
-                _font.DrawText(null, text, fontDimension, FontDrawFlags.Center | FontDrawFlags.VerticalCenter, color);
-            }
-            catch (Exception)
-            {
-            }
-        }
+        /// <summary>
+        /// Draws a text on the screen.
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="position"></param>
+        /// <param name="color"></param>
+        /// <param name="centered"></param>
+        public static void DrawText(string text, Vector2 position, Color color, bool centered = true) => RenderFactoryProvider.DrawText(text, position, color, centered);
 
         /// <summary>
         /// Draws a text on the screen.
@@ -141,7 +136,7 @@ namespace Oasys.SDK.Rendering
         {
             var posDir = new float[2] { sPos.X - ePos.X, sPos.Y - ePos.Y };
 
-            var dist = System.Math.Sqrt(posDir[0] * posDir[0] + posDir[1] * posDir[1]);
+            var dist = Math.Sqrt(posDir[0] * posDir[0] + posDir[1] * posDir[1]);
 
             posDir[0] /= (float)dist; //dirX /=
             posDir[1] /= (float)dist; //dirY /=
@@ -204,7 +199,7 @@ namespace Oasys.SDK.Rendering
         /// <param name="filled"></param>
         public static void DrawNativeCircle(Vector3 position, float radius, Color color, float thickness, bool filled = false)
         {
-            Common.RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
+            RenderFactoryProvider.DrawCircle(position, radius, color, thickness, filled);
         }
 
         /// <summary>
@@ -281,6 +276,34 @@ namespace Oasys.SDK.Rendering
         }
 
         /// <summary>
+        /// Draw HP bar healing.
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="healing"></param>
+        public static void DrawHPBarHeal(GameObjectBase target, float healing)
+        {
+            var col = new Color
+            {
+                A = 155,
+                R = 255,
+                G = 165,
+                B = 0
+            };
+            DrawHPBarDamage(target, -healing, col);
+        }
+
+        /// <summary>
+        /// Draw HP bar healing.
+        /// </summary>
+        /// <param name="target"></param>
+        /// <param name="healing"></param>
+        /// <param name="color"></param>
+        public static void DrawHPBarHeal(GameObjectBase target, float healing, Color color)
+        {
+            DrawHPBarDamage(target, -healing, color);
+        }
+
+        /// <summary>
         /// Draw HP bar damage.
         /// </summary>
         /// <param name="target"></param>
@@ -303,33 +326,37 @@ namespace Oasys.SDK.Rendering
         /// </summary>
         /// <param name="target"></param>
         /// <param name="damage"></param>
+        /// <param name="color"></param>
         public static void DrawHPBarDamage(GameObjectBase target, float damage, Color color)
         {
-            if (target is null || !target.W2S.IsValid() || !target.IsVisible || damage <= 1)
+            if (target is null || !target.W2S.IsValid() || !target.IsVisible)
             {
                 return;
             }
 
             var resolution = Screen.PrimaryScreen.Bounds;
             var isHero = target.IsObject(Common.Enums.GameEnums.ObjectTypeFlag.AIHeroClient);
-            var isJungle = false;
-            var isJungleBuff = false;
+            var isSmall = false;
+            var isBig = false;
             var isCrab = false;
             var isDragon = false;
             var isBaron = false;
             var isHerald = false;
-            if (target.UnitComponentInfo.SkinName.Contains("SRU_Krug", StringComparison.OrdinalIgnoreCase) ||
+            if (target.UnitComponentInfo.SkinName.Equals("SRU_Krug", StringComparison.OrdinalIgnoreCase) ||
                 target.UnitComponentInfo.SkinName.Contains("SRU_Gromp", StringComparison.OrdinalIgnoreCase) ||
                 target.UnitComponentInfo.SkinName.Equals("SRU_Murkwolf", StringComparison.OrdinalIgnoreCase) ||
-                target.UnitComponentInfo.SkinName.Contains("Super", StringComparison.OrdinalIgnoreCase) ||
                 target.UnitComponentInfo.SkinName.Equals("SRU_Razorbeak", StringComparison.OrdinalIgnoreCase))
             {
-                isJungle = true;
+                isBig = true;
+            }
+            if (target.UnitComponentInfo.SkinName.Contains("Super", StringComparison.OrdinalIgnoreCase))
+            {
+                isSmall = true;
             }
             if (target.UnitComponentInfo.SkinName.Contains("SRU_Red", StringComparison.OrdinalIgnoreCase) ||
                 target.UnitComponentInfo.SkinName.Contains("SRU_Blue", StringComparison.OrdinalIgnoreCase))
             {
-                isJungleBuff = true;
+                isBig = true;
             }
             if (target.UnitComponentInfo.SkinName.Contains("SRU_Crab", StringComparison.OrdinalIgnoreCase))
             {
@@ -355,24 +382,24 @@ namespace Oasys.SDK.Rendering
                            isDragon ? 170 :
                            isHerald ? 170 :
                            isCrab ? 170 :
-                           isJungleBuff ? 170 :
-                           isJungle ? 110 :
+                           isBig ? 170 :
+                           isSmall ? 110 :
                            75,
                 >= 1920 => isHero ? 105 :
                            isBaron ? 175 :
                            isDragon ? 150 :
                            isHerald ? 150 :
                            isCrab ? 150 :
-                           isJungleBuff ? 145 :
-                           isJungle ? 95 :
+                           isBig ? 145 :
+                           isSmall ? 95 :
                            60,
-                _ =>       isHero ? 105 :
+                _ => isHero ? 105 :
                            isBaron ? 175 :
                            isDragon ? 150 :
                            isHerald ? 150 :
                            isCrab ? 150 :
-                           isJungleBuff ? 145 :
-                           isJungle ? 95 :
+                           isBig ? 145 :
+                           isSmall ? 95 :
                            60,
             };
             var barHeight = resolution.Height switch
@@ -382,24 +409,24 @@ namespace Oasys.SDK.Rendering
                            isDragon ? 13 :
                            isHerald ? 13 :
                            isCrab ? 13 :
-                           isJungleBuff ? 13 :
-                           isJungle ? 4 :
+                           isBig ? 13 :
+                           isSmall ? 4 :
                            4,
                 >= 1080 => isHero ? 10 :
                            isBaron ? 10 :
                            isDragon ? 10 :
                            isHerald ? 10 :
                            isCrab ? 10 :
-                           isJungleBuff ? 10 :
-                           isJungle ? 3 :
+                           isBig ? 10 :
+                           isSmall ? 3 :
                            3,
-                _ =>       isHero ? 10 :
+                _ => isHero ? 10 :
                            isBaron ? 10 :
                            isDragon ? 10 :
                            isHerald ? 10 :
                            isCrab ? 10 :
-                           isJungleBuff ? 10 :
-                           isJungle ? 3 :
+                           isBig ? 10 :
+                           isSmall ? 3 :
                            3,
             };
             var healthBarOffset = resolution.Width switch
@@ -409,29 +436,31 @@ namespace Oasys.SDK.Rendering
                            isDragon ? new Vector2(-32, -70) :
                            isHerald ? new Vector2(-45, -22) :
                            isCrab ? new Vector2(-45, -22) :
-                           isJungleBuff ? new Vector2(-45, -22) :
-                           isJungle ? new Vector2(-14, -4) :
+                           isBig ? new Vector2(-45, -22) :
+                           isSmall ? new Vector2(-14, -4) :
                            new Vector2(3, -4),
                 >= 1920 => isHero ? new Vector2(-6, -18) :
                            isBaron ? new Vector2(-50, -22) :
                            isDragon ? new Vector2(-32, -55) :
                            isHerald ? new Vector2(-35, -18) :
                            isCrab ? new Vector2(-35, -18) :
-                           isJungleBuff ? new Vector2(-35, -18) :
-                           isJungle ? new Vector2(-6, -4) :
+                           isBig ? new Vector2(-35, -18) :
+                           isSmall ? new Vector2(-6, -4) :
                            new Vector2(8, -4),
-                _ =>       isHero ? new Vector2(-6, -18) :
+                _ => isHero ? new Vector2(-6, -18) :
                            isBaron ? new Vector2(-50, -22) :
                            isDragon ? new Vector2(-32, -55) :
                            isHerald ? new Vector2(-35, -18) :
                            isCrab ? new Vector2(-35, -18) :
-                           isJungleBuff ? new Vector2(-35, -18) :
-                           isJungle ? new Vector2(-6, -4) :
+                           isBig ? new Vector2(-35, -18) :
+                           isSmall ? new Vector2(-6, -4) :
                            new Vector2(8, -4),
             };
 
             var pos = target.HealthBarScreenPosition;
             pos += healthBarOffset;
+            var posXMin = pos.X;
+            var posXMax = pos.X + barWidth;
 
             var end = pos;
             end.X += barWidth * Math.Max(float.Epsilon, target.Health / target.MaxHealth);
@@ -440,8 +469,11 @@ namespace Oasys.SDK.Rendering
             var dmgPercent = Math.Max(float.Epsilon, target.Health - damage) / target.MaxHealth;
             start.X += barWidth * dmgPercent;
 
+            start.X = Math.Max(posXMin, Math.Min(posXMax, start.X));
+            end.X = Math.Max(posXMin, Math.Min(posXMax, end.X));
+
             //var length = pos.Extend(end, barWidth);
-            //DrawLine(pos.X, pos.Y, length.X, length.Y, barHeight, color);
+            //DrawLine(pos.X, pos.Y, length.X, length.Y, barHeight, Color.Purple);
             DrawLine(start.X, start.Y, end.X, end.Y, barHeight, color);
         }
     }

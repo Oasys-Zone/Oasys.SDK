@@ -125,10 +125,10 @@ namespace Oasys.SDK
             Recall = EngineManager.OrderType.Recall,
         }
 
-        public static Oasys.Common.Logic.Helpers.GameData.AllGameData AllGameData => Oasys.Common.Logic.Helpers.GameData.AllGameData.Instance;
+        public static Common.Logic.Helpers.GameData.AllGameData AllGameData => Common.Logic.Helpers.GameData.AllGameData.Instance;
 
-        public static Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer ActivePlayer => Oasys.Common.Logic.Helpers.ActivePlayerData.ActivePlayer.Instance;
+        public static Common.Logic.Helpers.ActivePlayerData.ActivePlayer ActivePlayer => Common.Logic.Helpers.ActivePlayerData.ActivePlayer.Instance;
 
-        public static IEnumerable<AllPlayerData.PlayerData> AllPlayerData => Oasys.Common.Logic.Helpers.AllPlayerData.AllPlayers;
+        public static IEnumerable<AllPlayerData.PlayerData> AllPlayerData => Common.Logic.Helpers.AllPlayerData.AllPlayers;
     }
 }

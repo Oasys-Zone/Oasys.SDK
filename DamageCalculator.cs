@@ -5,7 +5,7 @@ namespace Oasys.SDK
     /// <summary>
     /// Standard damage calculator
     /// </summary>
-    public class DamageCalculator
+    public class DamageCalculator : Common.Logic.DamageCalculator
     {
         /// <summary>
         /// Gets the target's health after player's basic attack.
@@ -79,32 +79,32 @@ namespace Oasys.SDK
         public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)
             where TObject : GameObjectBase
         {
-            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+            return CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
                                          GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
                                          physicalDamage, magicDamage,
                                          trueDamage, GetGeneralDamageReductionModifier(target),
-                                         target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
+                                         target.BuffManager.HasActiveBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
         }
 
         public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage)
             where TObject : GameObjectBase
         {
-            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+            return CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
                                          GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
                                          physicalDamage, 0,
                                          0, GetGeneralDamageReductionModifier(target),
-                                         target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
+                                         target.BuffManager.HasActiveBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), attacker.Level);
         }
 
         public static float CalculateActualDamage<TDamageInfo, TObject>(TDamageInfo damageInfo)
             where TDamageInfo : DamageInfo<TObject>
             where TObject : GameObjectBase
         {
-            return Common.Logic.DamageCalculator.CalculateActualDamage(GetArmorMod(damageInfo.attacker, damageInfo.target), GetPhysicalDamageReductionModifier(damageInfo.target),
+            return CalculateActualDamage(GetArmorMod(damageInfo.attacker, damageInfo.target), GetPhysicalDamageReductionModifier(damageInfo.target),
                                          GetMagicResistMod(damageInfo.attacker, damageInfo.target), GetMagicDamageReductionModifier(damageInfo.target),
                                          damageInfo.physicalDamage, damageInfo.magicDamage,
                                          damageInfo.trueDamage, GetGeneralDamageReductionModifier(damageInfo.target),
-                                         damageInfo.target.BuffManager.HasBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), damageInfo.attacker.Level);
+                                         damageInfo.target.BuffManager.HasActiveBuff("PressTheAttack/PressTheAttackDamageAmp.lua"), damageInfo.attacker.Level);
         }
 
         public record DamageInfo<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)

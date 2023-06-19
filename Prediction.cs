@@ -102,7 +102,15 @@ namespace Oasys.SDK
             /// <param name="collisionCheck">The CollisionCheck.</param>
             /// <returns>The prediction output.</returns>
             public static PredictionOutput GetPrediction(PredictionType type, GameObjectBase target, float range, float radius, float delay, float speed, Vector3 sourcePosition, bool collisionCheck = true)
-                => GetPrediction(new PredictionInput(type, target, range, radius, delay, speed, sourcePosition, collisionCheck));
+            {
+                return type switch
+                {
+                    PredictionType.Line => GetPrediction(new PredictionInput(type, target, range, radius, delay, speed, sourcePosition, collisionCheck)),
+                    PredictionType.Cone => GetPrediction(new PredictionInput(type, target, range, radius, delay, speed, sourcePosition, collisionCheck)),
+                    PredictionType.Circle => GetPrediction(new PredictionInput(type, target, range, radius, delay, speed, sourcePosition, collisionCheck)),
+                    _ => throw new NotImplementedException(),
+                };
+            }
 
             /// <summary>
             /// Get a prediction result based on prediction input and the menu selected SDK prediction mode.
