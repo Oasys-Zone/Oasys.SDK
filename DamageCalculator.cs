@@ -79,7 +79,7 @@ namespace Oasys.SDK
         public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage, float magicDamage, float trueDamage)
             where TObject : GameObjectBase
         {
-            return CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+            return CalculateActualDamage(attacker, target, GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
                                          GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
                                          physicalDamage, magicDamage,
                                          trueDamage, GetGeneralDamageReductionModifier(target),
@@ -89,7 +89,7 @@ namespace Oasys.SDK
         public static float CalculateActualDamage<TObject>(TObject attacker, TObject target, float physicalDamage)
             where TObject : GameObjectBase
         {
-            return CalculateActualDamage(GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
+            return CalculateActualDamage(attacker, target, GetArmorMod(attacker, target), GetPhysicalDamageReductionModifier(target),
                                          GetMagicResistMod(attacker, target), GetMagicDamageReductionModifier(target),
                                          physicalDamage, 0,
                                          0, GetGeneralDamageReductionModifier(target),
@@ -100,7 +100,7 @@ namespace Oasys.SDK
             where TDamageInfo : DamageInfo<TObject>
             where TObject : GameObjectBase
         {
-            return CalculateActualDamage(GetArmorMod(damageInfo.attacker, damageInfo.target), GetPhysicalDamageReductionModifier(damageInfo.target),
+            return CalculateActualDamage(damageInfo.attacker, damageInfo.target, GetArmorMod(damageInfo.attacker, damageInfo.target), GetPhysicalDamageReductionModifier(damageInfo.target),
                                          GetMagicResistMod(damageInfo.attacker, damageInfo.target), GetMagicDamageReductionModifier(damageInfo.target),
                                          damageInfo.physicalDamage, damageInfo.magicDamage,
                                          damageInfo.trueDamage, GetGeneralDamageReductionModifier(damageInfo.target),

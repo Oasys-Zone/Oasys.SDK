@@ -1,4 +1,5 @@
-﻿using Oasys.Common.Enums.GameEnums;
+﻿using Oasys.Common;
+using Oasys.Common.Enums.GameEnums;
 using Oasys.Common.Evade;
 using Oasys.Common.Extensions;
 using Oasys.Common.GameObject;
@@ -244,7 +245,11 @@ namespace Oasys.SDK
                 enemies.AddRange(UnitManager.EnemyMinions);
             }
 
-            return enemies.Where(x => x.IsAlive && x.DistanceTo(From()) <= Range() && IsTargetable(x) && (IsTargetted() || IsPossibleToHit(x)))
+            return enemies.Where(x => x.IsAlive &&
+                                      (EngineManager.MissionInfo.GameType != GameTypes.SoulFighterArena || x.Distance <= 1200) &&
+                                      x.DistanceTo(From()) <= Range() &&
+                                      IsTargetable(x) &&
+                                      (IsTargetted() || IsPossibleToHit(x)))
                           .Where(predicate);
         }
 
@@ -281,8 +286,6 @@ namespace Oasys.SDK
         /// <param name="predictionOutput">Prediction output to validate.</param>
         /// <returns>True if possible to hit, false if not.</returns>
         public virtual bool IsPossibleToHit(GameObjectBase target, PredictionOutput predictionOutput) =>
-            predictionOutput.UnitPosition.Distance(target.Position) <= Range() &&
-            predictionOutput.CastPosition.Distance(target.Position) <= Range() &&
             predictionOutput.HitChance >= MinimumHitChance() &&
             (!predictionOutput.Collision || AllowCollision(target, predictionOutput.CollisionObjects));
 
@@ -322,7 +325,11 @@ namespace Oasys.SDK
                     if (!Config.Menu.GetItem<Tab>("Misc").GetItem<Switch>("Can cast spells if not safe").IsOn &&
                         !Evade.IsSafe(UnitManager.MyChampion.AIManager.ServerPosition.To2D()).IsSafe)
                     {
-                        if (Config.Debug) Logger.Log("can not cast spell in skillshot!!!");
+                        if (Config.Debug)
+                        {
+                            Logger.Log("can not cast spell in skillshot!!!");
+                        }
+
                         return false;
                     }
                     if (target == default && Delay() == default)
@@ -353,20 +360,16 @@ namespace Oasys.SDK
                         else
                         {
                             var predictResult = GetPrediction(target);
-                            if (From().Distance(predictResult.CastPosition) > Range())
-                            {
-                                return false;
-                            }
                             var w2s = predictResult.CastPosition.ToW2S();
                             var castPos = w2s.IsValid()
                                 ? w2s
-                                : AllowCastOnMap()
+                                : AllowCastOnMap() && EngineManager.MissionInfo.GameType != GameTypes.SoulFighterArena
                                     ? predictResult.CastPosition.ToWorldToMap() + NativeImport.GetWindowPosition()
                                     : AllowCastInDirection()
                                         ? From().Extend(From() + (predictResult.CastPosition - From()).Normalized(), 50).ToW2S()
                                         : Vector2.Zero;
                             castPos = CastPosition(castPos);
-                            if (IsPossibleToHit(target, predictResult) && castPos.IsValid())
+                            if (castPos.IsValid())
                             {
                                 return true;
                             }
@@ -419,7 +422,11 @@ namespace Oasys.SDK
                     if (!Config.Menu.GetItem<Tab>("Misc").GetItem<Switch>("Can cast spells if not safe").IsOn &&
                         !Evade.IsSafe(UnitManager.MyChampion.AIManager.ServerPosition.To2D()).IsSafe)
                     {
-                        if (Config.Debug) Logger.Log("can not cast spell in skillshot!!!");
+                        if (Config.Debug)
+                        {
+                            Logger.Log("can not cast spell in skillshot!!!");
+                        }
+
                         return false;
                     }
                     if (target == default && Delay() == default && SpellCastProvider.CastSpell(CastSlot))
@@ -468,25 +475,20 @@ namespace Oasys.SDK
                         else
                         {
                             var predictResult = GetPrediction(target);
-                            if (From().Distance(predictResult.CastPosition) > Range())
-                            {
-                                return false;
-                            }
                             var w2s = predictResult.CastPosition.ToW2S();
                             var castPos = w2s.IsValid()
                                 ? w2s
-                                : AllowCastOnMap()
+                                : AllowCastOnMap() && EngineManager.MissionInfo.GameType != GameTypes.SoulFighterArena
                                     ? predictResult.CastPosition.ToWorldToMap() + NativeImport.GetWindowPosition()
                                     : AllowCastInDirection()
                                         ? From().Extend(From() + (predictResult.CastPosition - From()).Normalized(), 50).ToW2S()
                                         : Vector2.Zero;
                             castPos = CastPosition(castPos);
-                            if (IsPossibleToHit(target, predictResult) &&
-                                castPos.IsValid() &&
+                            if (castPos.IsValid() &&
                                 (IsCharge()
                                 ? ChargeSpellAtPos(CastSlot, castPos, Delay())
                                 : SpellCastProvider.CastSpell(CastSlot, castPos, Delay())))
-                            {                                
+                            {
                                 OnSpellCast?.Invoke(this, target);
                                 return true;
                             }
